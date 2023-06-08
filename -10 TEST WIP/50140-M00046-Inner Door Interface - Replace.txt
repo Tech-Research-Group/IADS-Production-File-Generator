@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00046-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TENT LINER, INNER DOOR INTERFACE <brk/> REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Tent Liner, Inner Door Interface</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_INNER_DOOR_INTERFACE"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<replace>
+			<proc>
+				<title/>
+				<step1>
+					<para>Separate vestibule <callout assocfig="M00046-10-5419-218-F0045" label="1"/> from inner door interface <callout assocfig="M00046-10-5419-218-F0045" label="2"/> by pulling apart hook and loop tape <callout assocfig="M00046-10-5419-218-F0045" label="3"/>.</para>
+				</step1>
+				<figure id="M00046-10-5419-218-F0045">
+					<title>Detach Vestibule Adapter</title>
+					<graphic boardno="G06021800716"/>
+				</figure>
+				<step1>
+					<para>Untie vestibule tie straps <callout assocfig="M00046-10-5419-218-F0055" label="1"/> from vestibule frame <callout assocfig="M00046-10-5419-218-F0055" label="3"/>.</para>
+				</step1>
+				<figure id="M00046-10-5419-218-F0055">
+					<title>Remove Inner Door Interface</title>
+					<graphic boardno="G06021801375"/>
+				</figure>
+				<step1>
+					<para>Remove and discard defective inner door interface <callout assocfig="M00046-10-5419-218-F0055" label="2"/> by detaching hook and loop tape from connector <callout assocfig="M00046-10-5419-218-F0055" label="4"/> or main panel and door material hook and loop tape.</para>
+				</step1>
+				<step1>
+					<para>Install replacement inner door interface as follows:</para>
+					<step2>
+						<para>Position inner door interface with single hook and loop tape <callout assocfig="M00046-10-5419-218-F0065" label="1"/> facing up and notches <callout assocfig="M00046-10-5419-218-F0065" label="2"/> facing out.</para>
+					</step2>
+					<figure id="M00046-10-5419-218-F0065">
+						<title>Inner Door Interface</title>
+						<graphic boardno="G06021800724"/>
+					</figure>
+					<step2>
+						<specpara>
+							<note>
+								<trim.para>Inner door interface must be installed over TEMPER shelter lighting and convenience outlet power cables.</trim.para>
+							</note>
+							<para>Stand inside TEMPER shelter facing out of vestibule. Secure center notch <callout assocfig="M00046-10-5419-218-F0057" label="3"/> around center pin of vestibule arch <callout assocfig="M00046-10-5419-218-F0057" label="1"/>, then around left pin <callout assocfig="M00046-10-5419-218-F0057" label="2"/> and right pin of vestibule arch.</para>
+						</specpara>
+					</step2>
+					<figure id="M00046-10-5419-218-F0057">
+						<title>Secure Inner Door Interface to Vestibule Arch Pins</title>
+						<graphic boardno="G06021800723"/>
+					</figure>
+					<step2>
+						<specpara>
+							<note>
+								<trim.para>In Expeditionary Platoon Life Support Module configuration, TEMPER shelter distribution box location may prevent tying of middle tie strap to vestibule frame. Tying middle tie strap at TEMPER shelter distribution box is recommended, but not necessary.</trim.para>
+							</note>
+							<para>Pass all vestibule tie straps through corresponding slots <callout assocfig="M00046-10-5419-218-F0058" label="1"/> of inner door interface, and tie to vestibule frame <callout assocfig="M00046-10-5419-218-F0058" label="2"/>.</para>
+						</specpara>
+					</step2>
+					<figure id="M00046-10-5419-218-F0058">
+						<title>Tie Strap to Vestibule Frame</title>
+						<graphic boardno="G06021800722"/>
+					</figure>
+					<step2>
+						<para>Stand inside vestibule facing in. Secure OUTER SIDE of door material <callout assocfig="M00046-10-5419-218-F0059" label="2"/> to underside and outside of inner door interface hook and loop tape <callout assocfig="M00046-10-5419-218-F0059" label="1"/>.</para>
+					</step2>
+					<figure id="M00046-10-5419-218-F0059">
+						<title>Secure Door Material to Inner Door Interface</title>
+						<graphic boardno="G06021800721"/>
+					</figure>
+					<step2>
+						<para>Secure vestibule liner <callout assocfig="M00046-10-5419-218-F0060" label="1"/> to top and outside hook and loop tape <callout assocfig="M00046-10-5419-218-F0060" label="3"/> of inner door interface <callout assocfig="M00046-10-5419-218-F0060" label="2"/>.</para>
+					</step2>
+					<figure id="M00046-10-5419-218-F0060">
+						<title>Secure Vestibule Liner to Inner Door Interface</title>
+						<graphic boardno="G06021800716"/>
+					</figure>
+					<step2>
+						<specpara>
+							<note>
+								<trim.para>Liner is behind vestibule frame when installation is complete, and vestibule frame will be visible from inside TEMPER shelter at this location.</trim.para>
+							</note>
+							<para>Secure connector <callout assocfig="M00046-10-5419-218-F0066" label="1"/> to underside and inside hook and loop tape of inner door interface <callout assocfig="M00046-10-5419-218-F0066" label="2"/>.</para>
+						</specpara>
+					</step2>
+				</step1>
+				<figure id="M00046-10-5419-218-F0066">
+					<title>Secure Connector to Inner Door Interface</title>
+					<graphic boardno="G06021801376"/>
+				</figure>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tswp chngno="0" wpno="T00022-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING PROCEDURES <brk/> TEMPER SHELTER - TEMPER SHELTER CONVENIENCE OUTLETS INOPERABLE</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-4120-453-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00020-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<intro>
+		<para0>
+			<title>Introduction</title>
+			<para>Each fault condition will be listed in this work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed.</para>
+			<para>Operation of affected component should be attempted after each corrective action is performed before moving on to next corrective action. This will help determine if fault has been corrected or if more corrective action is required.</para>
+		</para0>
+	</intro>
+	<tsproc>
+		<faultproc>
+			<title/>
+			<symptom>TEMPER shelter convenience outlets inoperable.</symptom>
+			<malfunc label="malfunction">No power at TEMPER shelter.</malfunc>
+			<action>
+				<note>
+					<trim.para>This corrective action will determine if fault is local to convenience outlets or part of a larger issue. If larger issue is found, user will be directed to appropriate troubleshooting procedure.</trim.para>
+				</note>
+				<step1>
+					<para>Operate environmental control unit IAW <extref docno="TM 10-4120-453-13&amp;P"/> or operate TEMPER shelter lights IAW <extref docno="TM 10-8340-244-13&amp;P"/> and check for proper operation.</para>
+					<step2>
+						<para>PASS (any check): Proceed to malfunction "Faulty TEMPER shelter electrical system."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Troubleshoot symptom "No power at TEMPER shelter" IAW <xref wpid="T00020-10-5419-218"/>.</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Faulty TEMPER shelter electrical system.</malfunc>
+			<action>
+				<para>Troubleshoot TEMPER shelter faults IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+			</action>
+		</faultproc>
+	</tsproc>
+</tswp>

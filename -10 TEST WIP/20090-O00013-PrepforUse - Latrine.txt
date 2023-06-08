@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00013-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> ASSEMBLY AND PREPARATION FOR USE - LATRINE SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Tape, Measuring</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_MEASURING"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Flag, Stake, Marking</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_MARKING_FLAGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+				<mos/>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Personnel</name>
+				<mos/>
+				<qty>5</qty>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00002-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00005-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00019-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Power Generation and Fuel Distribution Subsystem assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00006-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepforuse>
+			<proc>
+				<title>Position and Set Up Expeditionary Latrine System (ELS)</title>
+				<step1 id="O00013-10-5419-218-S0001">
+					<specpara>
+						<note>
+							<trim.para>In low light conditions, floodlights from TRICON 50C can be assembled and used IAW <xref wpid="O00019-10-5419-218"/>.</trim.para>
+						</note>
+						<para>Measure 202 ft (61.6 m) from site reference point marked in <xref wpid="O00002-10-5419-218"/>, along long edge of site and 52 ft (15.9 m) along short edge of site. Mark point with a flag as Latrine Subsystem deployment starting point. This will be location for placing ELS (TRICON 53A) (<xref figid="O00013-10-5419-218-F0001"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00013-10-5419-218-F0001">
+					<title>Mark ELS Location</title>
+					<graphic boardno="G06021800160"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-hand"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>ELS weighs 6,420 lb (2,918 kg) and must be moved using material handling equipment (MHE) or other suitable lifting device. Personnel must not stand between MHE and ELS or below ELS while it is being moved. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Personnel must wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Hearing loss occurs gradually but becomes permanent over time. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Position ELS (<xref figid="O00013-10-5419-218-F0003"/>) at flag placed in <xref stepstart="O00013-10-5419-218-S0001"/> with front end of ELS (with data plate and document storage box) facing away from site reference point. Place front right corner touching marking flag. ELS power distribution panel assembly should be facing long edge of site closest to site reference point.</para>
+					</specpara>
+				</step1>
+				<figure id="O00013-10-5419-218-F0003">
+					<title>Deploy ELS</title>
+					<graphic boardno="G06021801353"/>
+				</figure>
+				<step1 id="O00013-10-5419-218-S0099">
+					<para>Perform ASSEMBLY AND PREPARATION FOR USE procedures IAW <extref docno="TM 10-5419-209-13&amp;P"/> until ESTABLISH ELECTRICAL POWER CONNECTION to open, unpack, and set up ELS exterior and interior. Do not apply power to ELS at this time.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<trim.para>Some Latrine Subsystem components are heavy. Each 60-A, 50-ft power cable weighs 50 lb (22.7 kg) and 60-A, 100-ft power cable weighs 100 lb (45.4 kg) requiring two personnel to lift. All safety precautions must be followed, and proper lifting technique must be used. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+						</note>
+						<para>Unpack TRICONs 50C, N51A-2, N51A-3, and N51A-4 IAW <xref wpid="O00005-10-5419-218"/> to locate and retrieve components listed in <xref tableid="O00013-10-5419-218-T0001"/>.</para>
+					</specpara>
+				</step1>
+				<table id="O00013-10-5419-218-T0001">
+					<title>Latrine Subsystem Component List</title>
+					<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (GARDEN)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_GARDEN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>NOZZLE, GARDEN HOSE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_NOZZLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-2</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-3</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-4</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+			<proc>
+				<title>Apply Power to ELS</title>
+				<step1 id="O00013-10-5419-218-S0034">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of ELS may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 3 (<xref figid="O00013-10-5419-218-F0008"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00013-10-5419-218-F0008">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Locate one unused 60-A output power receptacle (circuit (CKT) 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00013-10-5419-218-F0114"/>) at PDB 3 (<xref figid="O00013-10-5419-218-F0008"/>). Ensure associated circuit breaker (CB) is set to OFF position (<xref tableid="O00013-10-5419-218-T0002"/>).</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0114">
+					<title>60-A Power Receptacle And CBs</title>
+					<graphic boardno="G06021800045"/>
+				</figure>
+				<table id="O00013-10-5419-218-T0002">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1 id="O00013-10-5419-218-PDBReceptacle1">
+					<para>Unscrew and remove dust cover from one 60-A receptacle <callout assocfig="O00013-10-5419-218-F0010" label="1"/>.</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0010">
+					<title>Receptacle Dust Covers</title>
+					<graphic boardno="G06021800046"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00013-10-5419-218-F0011" label="1"/> from male end of a 100-ft (30.5-m), 60-A power cable <callout assocfig="O00013-10-5419-218-F0011" label="2"/>.</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0011">
+					<title>Power Cable Plug Dust Covers</title>
+					<graphic boardno="G06021800047"/>
+				</figure>
+				<step1>
+					<para>Connect 100-ft (30.5-m), 60-A power cable <callout assocfig="O00013-10-5419-218-F0012" label="1"/> to 60-A receptacle. Do not set 60-A CB to ON position at this time.</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0012">
+					<title>Connect Power Cable to Receptacle</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Connect receptacle and power cable dust covers <callout assocfig="O00013-10-5419-218-F0012" label="2"/> together.</para>
+				</step1>
+				<?Pub _newpage?>
+				<step1 id="O00013-10-5419-218-S0035">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of ELS may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Route 100-ft (30.5-m), 60-A power cable <callout assocfig="O00013-10-5419-218-F0013" label="2"/> from PDB <callout assocfig="O00013-10-5419-218-F0013" label="3"/> toward ELS <callout assocfig="O00013-10-5419-218-F0013" label="1"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00013-10-5419-218-F0013">
+					<title>ELS Power Cable Routing</title>
+					<graphic boardno="G06021800172"/>
+				</figure>
+				<step1 id="O00013-10-5419-218-Dustcaps9001">
+					<para>Remove dust covers from female end of connected cable and male end of 50-ft (15.2-m), 60-A power cable.</para>
+				</step1>
+				<step1>
+					<para>Connect cables together.</para>
+				</step1>
+				<step1 id="O00013-10-5419-218-Dustcaps9002">
+					<para>Connect dust covers of each cable together.</para>
+				</step1>
+				<step1 id="O00013-10-5419-218-S0040">
+					<para>Route 60-A power cable assembly toward ELS power distribution panel assembly, but do not connect power cable at this time.</para>
+				</step1>
+				<step1 id="O00013-10-5419-218-S0036">
+					<para>Perform ESTABLISH ELECTRICAL POWER CONNECTION IAW ELS <extref docno="TM 10-5419-209-13&amp;P"/> using cable placed in <xref stepstart="O00013-10-5419-218-S0040"/> as source to establish ground and connect power cables, then stop. Do not set any CB to ON position at this time.</para>
+				</step1>
+				<step1 id="O00013-10-5419-218-S0037">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of ELS may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Verify ELS MAIN input power CB is set to OFF position IAW <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Verify that output power is available at PDB by observing three red phase indicator lights (A, B, and C) <callout assocfig="O00013-10-5419-218-F0014" label="1"/> are illuminated.</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0014">
+					<title>PDB Phase Indicators</title>
+					<graphic boardno="G06021800053"/>
+				</figure>
+				<step1 id="O00013-10-5419-218-S0038">
+					<para>Set designated ELS power 60-A CB to ON position (<xref figid="O00013-10-5419-218-F0015"/>) at PDB.</para>
+				</step1>
+				<figure id="O00013-10-5419-218-F0015">
+					<title>60-A CBs</title>
+					<graphic boardno="G06021800054"/>
+				</figure>
+				<step1 id="O00013-10-5419-218-S0039">
+					<para>Perform INITIAL ADJUSTMENTS, BEFORE USE AND SELF TEST IAW ELS <extref docno="TM 10-5419-209-13&amp;P"/> at ELS.</para>
+				</step1>
+			</proc>
+		</prepforuse>
+	</opertsk>
+</opusualwp>

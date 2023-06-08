@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00003-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> ASSEMBLY AND PREPARATION FOR USE - EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM)</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Tape, Measuring</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_MEASURING"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Tool Kit, General Mechanic's</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Flag, Stake, Marking</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_MARKING_FLAGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Men's and Women's</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_WORK"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Person</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00004-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00005-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00006-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00014-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00017-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00013-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00011-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00012-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00008-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/> 
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>EPLSM siting requirements completed</condition>
+				<itemref>
+					<xref wpid="O00002-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepforuse>
+			<proc>
+				<title>Introduction</title>
+				<para>Assembly and preparation for use of each subsystem in the Expeditionary Platoon Life Support Module (EPLSM) is performed in one or more work packages. This work package serves as a reference guide for setting up the EPLSM. Order listed in this WP maximizes ability of material handling equipment (MHE) to move heavy items, and minimizes MHE interaction with personnel assembling each subsystem. Setup order can be modified based on mission requirement and multiple subsystems may be set up at the same time if enough personnel are available. Refer to <xref figid="O00003-10-5419-218-F001"/> for guidance on laying out site.
+					<figure id="O00003-10-5419-218-F001">
+						<title>Site Reference Point</title>
+						<graphic boardno="G06021801151"/>
+					</figure>
+				</para>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<para>Transportation/Storage Subsystem should be set up first in all configurations to allow for setup and support items to be obtained as they are required during assembly of each subsystem. Once storage TRICONs are in position, the priority of each subsystem is left to discretion of unit commander. When modifying setup order, ensure all safety measures are followed.</para>
+			</proc>
+			<proc>
+				<title>Set Up Camp</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Containers weigh more than 6,000 lb (2,720 kg). Use MHE and follow safety precautions when moving any containers. These items should not be attempted to be moved by hand. Personnel must not stand between MHE and item or below item while it is being moved. Serious injury or death to personnel may result in safety precautions are not observed. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Set up Transportation/Storage Subsystem IAW <xref wpid="O00004-10-5419-218"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Marking flags, measuring tape, and first aid kit were removed during siting and do not need to be unpacked if they are already available.</trim.para>
+							<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+						</note>
+						<para>Unpack TRICONs 50C, N55C, and 57D IAW <xref wpid="O00005-10-5419-218"/> to retrieve setup items in <xref tableid="O00003-10-5419-218-T0001"/> as needed.</para>
+					</specpara>
+				</step1>
+				<table id="O00003-10-5419-218-T0001">
+					<title>Setup Items</title>
+					<tgroup cols="4">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<colspec colname="col3"/>
+						<colspec colname="col4"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>Nomenclature</entry>
+								<entry>QTY</entry>
+								<entry>COEI Reference</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50C</entry>
+								<entry>ADAPTER, GROUND ROD (TE-Y 5/8-INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TEY_58IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BAG, SAND</entry>
+								<entry>8 (Bundles of 100)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAND_BAG"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, 8-12 TEETH/INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_MULTI"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, METAL, 18 TEETH/INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_METAL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, WOOD, 10 TEETH/INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_WOOD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>CHUCK, AIR, INFLATING</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_AIR_CHUCK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COMPRESSOR, RECIPROCATING</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COMPRESSOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING HALF, QUICK DISCONNECT (3/8-IN QD X 3/8-IN NPT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_38QD_NPT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING HALF, QUICK DISCONNECT (AIR ADAPTER, 1-1/2-INCH QD TO 3/8-INCH HOSE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_AIR_ADAPTER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING, ROD, ROCK DRILL (TE-S 1-INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING, ROD, ROCK DRILL (TE-S 2-INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_2IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING, ROD, ROCK DRILL (TE-S 5/8-INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_58IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING, ROD, ROCK DRILL (TE-Y 1-INCH)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TEY_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>DRILL, MASONRY, POWER HAMMER (1-1/4-IN X 36-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DRILL_114X36"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>DRILL, MASONRY, POWER HAMMER (5/8-IN X 22-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DRILL_58X22"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>FLAG, STAKE, MARKING</entry>
+								<entry>1 (Bundle of 100)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MARKING_FLAGS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GAGE, TIRE PRESSURE, SELF-CONTAINED (PENCIL STYLE, 10 - 75 PSI)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TIRE_GAGE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GLOVE INSERTS, RADIOACTIVE CONTAMINANTS PROTECTIVE</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GLOVES_RADIOACTIVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GUN, AIR BLOW</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_AIR_GUN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HAMMER, ELECTRIC, PORTABLE (TE 1000)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TE1000"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HAMMER, ELECTRIC, PORTABLE (TE 70)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TE70"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (AIR, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (AIR, TEE, 15-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_TEE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>JACK, SCISSORS, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILIFT_JACK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>RAKE, GARDEN</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RAKE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REDUCER, QUICK DISCONNECT (AIR COMPRESSOR)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_AIR_COMPRESSOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REMOVER, STAKE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STAKE_REMOVER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>SAW, RECIPROCATING, PORTABLE, ELECTRIC</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RECIPROCATING_SAW"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>SHOVEL, HAND</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SHOVEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>STEPLADDER (6-FT, FIBERGLASS, 250 POUND HEAVY DUTY RATING)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, ANTISEIZING</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_ANTISEIZING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, FLAGGING (FLUORESCENT PINK, 50-YARD ROLL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_FLAGGING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, MEASURING (300-FT, OPEN REEL, FIBERGLASS)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_MEASURING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TOOL KIT, GENERAL MECHANIC'S</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (1-1/2-IN JAW, 10-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_10IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (2-1/2-IN JAW, 18-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_18IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (3-IN JAW, 24-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_24IN"/>
+								</entry>
+							</row>
+							
+							<row>
+								<entry>N51A-1</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-2</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-3</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-4</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55C</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SLIDE HAMMER, GROUND ROD</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLIDE_HAMMER"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Install handles to air compressor as follows:</para>
+					<step2>
+						<para>Remove screw <callout assocfig="O00003-10-5419-218-F002" label="1"/> and lockwasher from mounting provisions on each side of air compressor.</para>
+					</step2>
+					<figure id="O00003-10-5419-218-F002">
+						<title>Compressor Handle Installation</title>
+						<graphic boardno="G06021800223"/>
+					</figure>
+					<step2>
+						<para>Install handles <callout assocfig="O00003-10-5419-218-F002" label="3"/> in mounting tubes <callout assocfig="O00003-10-5419-218-F002" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>Secure handles <callout assocfig="O00003-10-5419-218-F001" label="3"/> with lockwasher and screw <callout assocfig="O00003-10-5419-218-F001" label="1"/> on each side of compressor.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Perform initial adjustments and/or break in for compressor IAW manufacturer's instructions.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para><xref figid="O00003-10-5419-218-F003"/> shows power connections for each EPLSM subsystem. Power distribution boxes (PDBs) called out are referenced in <xref tableid="O00003-10-5419-218-T0002"/>.</trim.para>
+						</note>
+						<para>Perform assembly and preparation for use of remaining subsystems listed in order of <xref tableid="O00003-10-5419-218-T0002"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00003-10-5419-218-F003">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<table id="O00003-10-5419-218-T0002">
+					<title>Assembly and Preparation of Subsystems</title>
+					<tgroup cols="3">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<colspec colname="col3"/>
+						<thead>
+							<row>
+								<entry>Subsystem</entry>
+								<entry>WP Reference</entry>
+								<entry>PDB(s) Used</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Power Generation and Fuel Distribution Subsystem</entry>
+								<entry>
+									<xref wpid="O00006-10-5419-218"/>
+								</entry>
+								<entry>-</entry>
+							</row>
+							<row>
+								<entry>Laundry Subsystem</entry>
+								<entry>
+									<xref wpid="O00014-10-5419-218"/>
+								</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>Shower Subsystem</entry>
+								<entry>
+									<xref wpid="O00017-10-5419-218"/>
+								</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>Latrine Subsystem</entry>
+								<entry>
+									<xref wpid="O00013-10-5419-218"/>
+								</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>Administration Subsystem</entry>
+								<entry>
+									<xref wpid="O00011-10-5419-218"/>
+								</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>Billeting Subsystem</entry>
+								<entry>
+									<xref wpid="O00012-10-5419-218"/>
+								</entry>
+								<entry>1, 2</entry>
+							</row>
+							<row>
+								<entry>Kitchen/Dining Subsystem</entry>
+								<entry>
+									<xref wpid="O00008-10-5419-218"/>
+								</entry>
+								<entry>1, 2</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Store any remaining items in TRICONs or trunk lockers located in administration TEMPER shelter, clear any trash, and retain all usable packaging material.</para>
+				</step1>
+			</proc>
+		</prepforuse>
+	</opertsk>
+</opusualwp>

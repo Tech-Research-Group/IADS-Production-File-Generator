@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmcsintrowp chngno="0" wpno="M00001-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>PREVENTIVE MAINTENANCE CHECKS AND SERVICES (PMCS) <brk/> INTRODUCTION</title>
+	</wpidinfo>
+	<intro>
+		<para0>
+			<title>GENERAL</title>
+			<para>The following information describes PMCS procedures for the operator maintenance class. The PMCS table has been provided to ensure the Expeditionary Platoon Life Support Module (EPLSM) is in proper operating condition and ready for use.</para>
+		</para0>
+	</intro>
+	<para0>
+		<title>INTRODUCTION</title>
+		<para>PMCS are performed to keep the EPLSM in good operating condition and ready for its primary mission. The checks are used to find, correct, and report problems. PMCS is performed every day the EPLSM is in operation and is done according to the PMCS tables provided. Pay attention to WARNING, CAUTION, and NOTE statements. A WARNING indicates that someone could be hurt or killed. A CAUTION indicates that equipment could be damaged. A NOTE may make a maintenance or repair task easier.</para>
+		<para>Be sure to perform scheduled PMCS. Always perform PMCS in the same order so it becomes habit. Problems with the equipment will be quickly recognized with practice.</para>
+		<para>Use <extref docno="DA Form 2404/DA Form 5988-E" posttext=", Equipment Inspection and Maintenance Worksheet"/>, to record any discovered faults. Do not record faults that are fixed.</para>
+	</para0>
+	<para0>
+		<title>PMCS PROCEDURES</title>
+		<para><xref wpid="M00002-10-5419-218"/>-<xref wpid="M00007-10-5419-218"/> list inspections and care required to be performed by the operator to keep equipment in good operating condition. It is arranged so operational checks can be performed while walking around the equipment.</para>
+	</para0>
+	<para0>
+		<title>Explanation of PMCS Table columns</title>
+		<para/>
+		<subpara1>
+			<title>Item No.</title>
+			<para>Indicates the reference number. When completing <extref docno="DA Form 2404/DA Form 5988-E"/>, Equipment Inspection and Maintenance Worksheet, include the item number for the item to check/service indicating a fault. Item numbers appear in the order the checks/services must be performed.</para>
+		</subpara1>
+		<subpara1>
+			<title>Interval</title>
+			<para>Indicates when the procedure must be performed.</para>
+			<para>
+				<randlist>
+					<item>Before - perform before equipment operation</item>
+					<item>During - perform during equipment operation</item>
+					<item>After - perform after equipment operation</item>
+					<item>Daily - perform every day</item>
+					<item>Weekly - perform every week </item>
+					<item>Monthly - perform every month</item>
+				</randlist>
+			</para>
+		</subpara1>
+		<subpara1>
+			<title>Item to be Checked or Serviced</title>
+			<para>Indicates the item to be checked or serviced.</para>
+		</subpara1>
+		<subpara1>
+			<title>Procedure</title>
+			<para>Indicates the procedure to be performed on the item listed in Item to Check/Service column.</para>
+		</subpara1>
+		<subpara1>
+			<title>Equipment Not Ready/Available If:</title>
+			<para>Indicates faults which will prevent equipment from being fully able to perform its primary mission. Continued operation under degraded condition may be authorized by unit commander. Follow standard procedures for maintaining equipment or reporting equipment failure.</para>
+		</subpara1>
+		<subpara1>
+			<title>Other Special Entries</title>
+			<para>Observe all special information and notes that appear in <xref wpid="M00002-10-5419-218"/>-<xref wpid="M00007-10-5419-218"/>.</para>
+			<para>When a check/service procedure is required for both weekly and during intervals, it is not necessary to perform the procedure twice if the equipment is operated during the weekly period.</para>
+		</subpara1>
+		<subpara1>
+			<title>Lubrication Instructions</title>
+			<para>There are no crew-serviceable lubrication requirements.</para>
+		</subpara1>
+		<subpara1>
+			<title>CORROSION PREVENTION AND CONTROL (CPC)</title>
+			<para>CPC of Army materiel is a continuing concern. It is important that any corrosion problems with this item be reported so that the problem can be corrected and improvements can be made to prevent the problem in future items. Refer to <xref wpid="G00001-10-5419-218"/> for definitions of each type of corrosion.</para>
+			<para>Where an item is not ready/available due to one of these forms of corrosion, it shall be recorded as a corrosion failure in the inspection record and the appropriate code (170) for corrosion shall be used when requesting/performing maintenance.</para>
+		</subpara1>
+	</para0>
+	<fluid.leakage>
+		<title>Fluid Leakage</title>
+		<para>It is necessary for you to know how fluid leakage affects the status of the EPLSM. Following are types/classes of leakage you need to know to be able to determine the status of the EPLSM. Learn these leakage definitions and remember-when in doubt, notify your supervisor. Equipment operation is allowed with minor leakage (Class I or II). Consideration must be given to fluid capacity in the item/system being checked/inspected. When in doubt, notify your supervisor.</para>
+		<para>When operating with Class I or II leaks, check fluid levels more frequently than required in the PMCS.</para>
+		<para>Class III leaks should be reported immediately to your supervisor.
+			<randlist bullet="no">
+				<item>(1) Class I. Seepage of fluid (as indicated by wetness or discoloration) but not great enough to form drops.</item>
+				<item>(2) Class II. Leakage of fluid great enough to form drops, but not enough to cause drops to drip from the item being checked/inspected.</item>
+				<item>(3) Class III. Leakage of fluid great enough to form drops that fall from item being checked/inspected.</item>
+			</randlist>
+		</para>
+	</fluid.leakage>
+</pmcsintrowp>

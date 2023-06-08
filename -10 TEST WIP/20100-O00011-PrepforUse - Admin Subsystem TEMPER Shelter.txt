@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00011-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> ASSEMBLY AND PREPARATION FOR USE - ADMINISTRATION SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Compressor, Reciprocating</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COMPRESSOR"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Hammer, Hand</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Hose Assembly, Nonmetallic (Air, 50-ft)</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_50FT"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Hose Assembly, Nonmetallic (Air, Tee, 15-ft)</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_TEE"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Tape, Measuring</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_MEASURING"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Flag, Stake, Marking</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_MARKING_FLAGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Men's and Women's</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_WORK"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+				<mos/>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Personnel</name>
+				<mos/>
+				<qty>3</qty>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4120-453-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00002-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00005-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00010-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00018-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00019-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00021-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00057-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00016-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Power Generation and Fuel Distribution Subsystem assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00006-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepforuse>
+			<proc>
+				<title>Position and Set Up Administration TEMPER Shelter</title>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>In low light conditions, floodlights from TRICON 50C can be assembled and used IAW <xref wpid="O00019-10-5419-218"/>.</trim.para>
+						</note>
+						<para>Measure 240 ft (73.1 m) along long edge of site from site reference point marked in <xref wpid="O00002-10-5419-218"/> and 70 ft (21.3 m) along short edge of site. Mark that point with a flag as starting point for deploying Administration Subsystem (<xref figid="O00011-10-5419-218-F0001"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0001">
+					<title>Mark Location for Administration Subsystem</title>
+					<graphic boardno="G06021800214"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Some Administration Subsystem components are heavy. Solar shade bag weighs in excess of 50 lb (23 kg) and require two personnel to lift. Each 60-A, 50-ft power cable weighs 50 lb (22.7 kg) and 60-A, 100-ft power cable weighs 100 lb (45.4 kg) requiring two personnel to lift. TEMPER shelter and environmental control unit (ECU) must be moved using MHE. ECU should not be attempted to move by hand. Personnel must not stand between MHE and item or below item while it is being moved. All safety precautions must be followed, and proper lifting technique must be used. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 decibels (dB) or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Ground rod kits, compressors, first aid kits, marking flags, air gun, air compressor reducers and couplings, air lines, sledgehammers, jack, rake, drum repair kit, reciprocating saw and blades, sand bags, shovel, slide hammer, stepladder, antiseizing tape, flagging tape, measuring tape, and tool kit are setup items and do not need to be unpacked if they are already available.</trim.para>
+							<trim.para>All hoses and pipe fittings; 2 brooms; 3 dustpans; 1 environmental control unit (ECU); 9 60-A, 100-ft power cables; 2 60-A, 50-ft power cables;  4 removable floor sections; interior and exterior ISO end liners; 12 tie down straps, and all parts kits are supplied as spares and may remain in TRICONs indefinitely or be stored in trunk lockers once administration TEMPER shelter is set up.</trim.para>
+							<trim.para>Morale, welfare, and recreation items such as dice, frisbees, playing cards, and board games may remain in TRICON until administration TEMPER shelter is set up. These items will be stored in trunk lockers.</trim.para>
+							<trim.para>Insulated liner and 14-fixture light set are installed in rolled up TEMPER shelter.</trim.para>
+							<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+						</note>
+						<para>Unpack TRICONs 50C, N51A-1, N51A-2, N51A-3, N51A-4, N51B, N55B, N55C, and 57D IAW <xref wpid="O00005-10-5419-218"/> to locate and retrieve components listed in <xref tableid="O00011-10-5419-218-T0001"/>.</para>
+					</specpara>
+				</step1>
+				<table id="O00011-10-5419-218-T0001">
+					<title>Administration Subsystem Component List</title>
+					<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50C</entry>
+								<entry>BAG, SAND</entry>
+								<entry>8 (Bundles of 100)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAND_BAG"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BARBER KIT</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BARBER_KIT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, 8-12 TEETH/IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_MULTI"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, METAL, 18 TEETH/IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_METAL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>BLADE, RECIPROCATING SAW (1/2-IN SHANK, WOOD, 10 TEETH/IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SAWBLADE_WOOD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL, BRANCHED (POWER TEE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_POWERTEE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (15-A EXTENSION, 100-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_15A100FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (15-A EXTENSION, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_15A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>CHUCK, AIR, INFLATING</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_AIR_CHUCK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COMPRESSOR, RECIPROCATING</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COMPRESSOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING ASSEMBLY, QUICK DISCONNECT (1-1/2-IN, F X F, BRASS)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_15IN_FXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING ASSEMBLY, QUICK DISCONNECT (1-1/2-IN, M X M, BRASS)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_15IN_MXM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING ASSEMBLY, QUICK DISCONNECT (2-IN, F X F, BRASS)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_2IN_FXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING ASSEMBLY, QUICK DISCONNECT (2-IN, M X M, BRASS)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_2IN_MXM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING HALF, QUICK DISCONNECT (3/8-IN QD X 3/8-IN NPT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_38QD_NPT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING HALF, QUICK DISCONNECT (AIR ADAPTER, 1-1/2-IN QD TO 3/8-IN HOSE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_AIR_ADAPTER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>FIRST AID KIT, UTILITY</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FIRST_AID_KIT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>FLAG, STAKE, MARKING</entry>
+								<entry>1 (Bundle of 100)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MARKING_FLAGS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>FLOODLIGHT ASSEMBLY (TRIPOD MOUNTED, 1000-W)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FLOODLIGHT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>FLOOR, TENT (REMOVABLE, 32-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TENTFLOOR_32FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GAGE, TIRE PRESSURE, SELF-CONTAINED (PENCIL STYLE, 10 - 75 PSI)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TIRE_GAGE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GLOVE INSERTS, RADIOACTIVE CONTAMINANTS PROTECTIVE</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GLOVES_RADIOACTIVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>GUN, AIR BLOW</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_AIR_GUN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (AIR, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (AIR, TEE, 15-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_TEE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (GARDEN)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_GARDEN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (SOURCE WATER, 1-1/2-IN X 25-FT, M X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_112IN_25FT_MXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (WASTEWATER, 2-IN X 25-FT, F X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_2IN_25FT_FXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (WASTEWATER, 2-IN X 25-FT, M X F)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_2IN_25FT_MXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (WASTEWATER, 2-IN X 5-FT, M X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_2IN_5FT_MXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>JACK, SCISSORS, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILIFT_JACK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>NOZZLE, GARDEN HOSE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_NOZZLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (BUNK BED CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_BUNKBED"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. BED RAIL, STRAIGHT</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_STRAIGHT_RAIL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. BRACKET, MOUNTING (BED RAIL, TAPERED)</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_TAPERED_RAIL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. BRACKET, MOUNTING (STACK ADAPTER)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_STACKADAPTER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. GLIDE, FURNITURE</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_FOOT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. LOCK BAR</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_LOCKBAR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MAT, SLEEPING</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_MAT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SPACER, RING</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_SPACER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, WEBBING</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_STRAP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (FLOODLIGHT CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_FLOODLIGHT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. LAMP, INCANDESCENT</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_FLOODLIGHT_LAMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. LIGHTHEAD</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_FLOODLIGHT_LIGHTHEAD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (GROUND ROD, TE 1000) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry/>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. COUPLING, ROD, ROCK DRILL (TE-S 1-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. COUPLING, ROD, ROCK DRILL (TE-S 2-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_2IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. COUPLING, ROD, ROCK DRILL (TE-S 5/8-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TES_58IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HAMMER, ELECTRIC, PORTABLE (TE 1000)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TE1000"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (GROUND ROD, TE 70) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. ADAPTER, GROUND ROD (TE-Y 5/8-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TEY_58IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. COUPLING, ROD, ROCK DRILL (TE-Y 1-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TEY_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. DRILL, MASONRY, POWER HAMMER (1-1/4-IN X 36-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DRILL_114X36"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. DRILL, MASONRY, POWER HAMMER (5/8-IN X 22-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DRILL_58X22"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HAMMER, ELECTRIC, PORTABLE (TE 70)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HILTI_TE70"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (RIGID DOOR CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_RIGIDDOOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. DOOR, TENT (DOOR SKIN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_RDOOR_DOORSKIN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. LATCH ASSEMBLY, DOOR</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_RDOOR_LATCH"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. PANEL, TENT (FRAME SKIN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_RDOOR_FRAMESKIN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT (SOLAR SHADE CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_SOLARSHADE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FLY, TENT (END NET)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_ENDNET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FLY, TENT (WING)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_WING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. POLE, TENT (FIVE-POLE SUPPORT SYSTEM) CONSISTING OF:</entry>
+								<entry>2</entry>
+								<entry>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . BAG, SUPPORT, CAMOUFLAGE NET</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_BAG"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . BRACKET, MOUNTING</entry>
+								<entry>10</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_BRACKET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . LINE, TENT (ROPE ASSEMBLY, LARGE)</entry>
+								<entry>10</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_ROPE_LG"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . LINE, TENT (ROPE ASSEMBLY, SMALL)</entry>
+								<entry>10</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_ROPE_SM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . POLE, TENT</entry>
+								<entry>5</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_TENTPOLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . POLE, TENT (SECTION WITH FERRULE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_POLESECT_FERRULE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . POLE, TENT (SECTION WITHOUT FERRULE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_POLESECT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. . STRAP, WEBBING</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_STRAP_INSTALLAION"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. POLE, TENT )POLE SLEEVE)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_POLESLEEVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, AIR CONDITIONER (ECU CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_AIRCON"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, ELECTRIC GENERATOR (GENERATOR CONTINGENCY SPARES)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_GENERATOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CIRCUIT CARD ASSEMBLY</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_CIRCUITCARD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CONTACTOR, MAGNETIC (K4, HEATERS)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_CONTACTOR_K4"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CONTACTOR, MAGNETIC</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_CONTACTOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HEATING ELEMENT, ELECTRICAL, NONIMMERSION TYPE</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_HEATING_ELEMENT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. POWER SUPPLY (220 PRIMARY TO 24 VDC)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_POWER_SUPPLY"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. RELAY, ELECTROMAGNETIC (COMPRESSOR ENABLE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_RELAY_COMPEN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, ELECTRONIC</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SWITCH_ELECTRONIC"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PRESSURE (S11, LOW PRESSURE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SWITCH_S11"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PRESSURE (S5, HIGH PRESSURE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SWITCH_S5"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PRESSURE (S6, LOW PRESSURE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SWITCH_S6"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PRESSURE (S7, FAN CYCLE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SWITCH_S7"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, ROTARY (MAIN MODULE)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_ROTARY_SWITCH"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, THERMOSTATIC (72C, HEATER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_THERMOSTAT_72C"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, THERMOSTATIC (82C, HEATER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_THERMOSTAT_82C"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. THERMOSTAT, SLAVE (A350)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_THERMOSTAT_SLAVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TRANSFORMER, POWER</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_TRANSFORMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, EXPANSION</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_TXV"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, PURGE (DISCHARGE)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_DISCHARGE_VALVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, PURGE (SUCTION)</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_ECU_SUCTION_VALVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, ELECTRICAL GENERATOR (GENERATOR CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. ABSORBENT MATERIAL, OIL AND WATER (DRIP PAN)</entry>
+								<entry>1 Box</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_DRIP_PAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. ABSORBENT MATERIAL, OIL AND WATER (SHEETS)</entry>
+								<entry>1 Box</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_ABSORBENT_SHEETS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. BELT, V</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_BELT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FILTER ELEMENT, FLUID (FUEL/WATER SEPARATOR)</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_FILTER_FUELWATER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FILTER ELEMENT, FLUID (OIL)</entry>
+								<entry>12</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_FILTER_OIL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FILTER, FLUID (FUEL)</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_FILTER_FUEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FILTERING PAD, AIR COOLER</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_FILTER_PAD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MANIFOLD, INTAKE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_MANIFOLD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TOWEL, PAPER</entry>
+								<entry>1 Box</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_GENERATOR_PAPERTOWEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, LAVATORY (ETS LATRINE CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_LATRINE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HOSE ASSEMBLY, NONMETALLIC (RINSE RING)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LATRINE_RINSERING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PUSH</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LATRINE_SWITCH_PUSH"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TIMER, INTERVAL (12-VDC)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LATRINE_TIMER_12V"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TIMER, INTERVAL (24-VDC)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LATRINE_TIMER_24V"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, SOLENOID (24-VDC)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LATRINE_SOLENOID"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, PORTABLE SHELTER (EXPEDITIONARY TRICON SYSTEM CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_ETS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CLAMP, HOSE (SAE #10)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_CLAMP_SAE10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CLAMP, HOSE (SAE #28)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_CLAMP_SAE28"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. CLAMP, HOSE (SAE #8)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_CLAMP_SAE8"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HEATER, WATER, ELECTRIC</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_WATER_HEATER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. LAMP, FLUORESCENT (T5, 4-FT)</entry>
+								<entry>5</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_LAMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MENDER, HOSE (1/2-IN, BARBED, BRASS)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_MENDER_12IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MENDER, HOSE (1-IN, BARBED, ALUMINUM)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_MENDER_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MENDER, HOSE (3/4-IN, BARBED, BRASS)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_MENDER_34IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TUBING, NONMETALLIC (1/2-IN ID)</entry>
+								<entry>1 (5-ft section)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_TUBING_12IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TUBING, NONMETALLIC (1-IN ID)</entry>
+								<entry>1 (5-ft section)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_TUBING_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. TUBING, NONMETALLIC (3/4-IN ID)</entry>
+								<entry>1 (5-ft section)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TRICON_TUBING_34IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, PORTABLE SHELTER (TEMPER AS CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_TEMPER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. ANCHOR, GUY (LIGHTS, 32-FT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_LIGHTSTRAP_32FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. FRAME SECTION, TENT (AIRBEAM)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_AIRBEAM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. GAGE, PRESSURE, DIAL INDICATING</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_PRESSURE_GAGE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. MANIFOLD, AIR LINE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_MANIFOLD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. REPAIR KIT, TENTAGE (AS COVER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_REPAIRKIT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STAKE, GUY (5/8 IN X 18 IN, RED)</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STAKE_18IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STAKE, HOLD-DOWN TENT (1 IN X 36 IN, BLACK)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STAKE_36IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, LINE SUPPORTING (BOTTOM RATCHET ASSEMBLY)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STRAP_BOTTOMRATCHET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, LINE SUPPORTING (PEAK STRAP)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STRAP_PEAK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, LINE SUPPORTING (TOP RATCHET ASSEMBLY)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STRAP_TOPRATCHET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, RETAINING (FIXED ASSEMBLY)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_STRAP_FIXED"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, TIE DOWN, ELECTRICAL COMPONENTS</entry>
+								<entry>1 (Package of 100)</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_ZIPTIES"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAP, WEBBING (LIGHTS, 21-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_LIGHTSTRAP_21FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, REGULATING, FLUID PRESSURE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_TEMPER_PRESSURE_VALVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, TRAILER MOUNTED BATH UNIT (ETS SHOWER CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_SHOWER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. RESTRICTOR, FLUID FLOW</entry>
+								<entry>12</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SHOWER_RESTRICTOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SHOWER HEAD</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SHOWER_SWRHEAD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. VALVE, WATER MIXING</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SHOWER_VALVE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, TRAILER MOUNTED FIELD KITCHEN (ETS KITCHEN CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_KITCHEN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. HEATER, FLUID, ELECTRIC</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_KITCHEN_HEATING_ELEMENT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. PUMP UNIT, CENTRIFUGAL (WASTEWATER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_KITCHEN_WASTE_PUMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. PUMP, RECIPROCATING (POTABLE WATER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_KITCHEN_SOURCE_PUMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>PARTS KIT, TRAILER MOUNTED LAUNDRY UNIT (ETS SELF SERVE LAUNDRY CONTINGENCY SPARES) CONSISTING OF:</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PK_LAUNDRY"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. STRAINER ELEMENT, SEDIMENT (1-IN, 120 MESH)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LAUNDRY_STRAINER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>. SWITCH, PRESSURE (LOW WATER CUT OUT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_LAUNDRY_PRESSURE_SWITCH"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>RAKE, GARDEN</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RAKE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REDUCER, QUICK DISCONNECT (2-IN F X 1-1/2-IN M, BRASS, SOURCE WATER)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_2F_112M"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REDUCER, QUICK DISCONNECT (2-IN M X 1-1/2-IN F, BRASS, SOURCE WATER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_2M_112F"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REDUCER, QUICK DISCONNECT (AIR COMPRESSOR)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_AIR_COMPRESSOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REMOVER, STAKE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STAKE_REMOVER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>REPAIR KIT, COLLAPSIBLE DRUM</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DRUM_REPAIR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>SAW, RECIPROCATING, PORTABLE, ELECTRIC</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RECIPROCATING_SAW"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>SHIPPING AND STORAGE CONTAINER, MISCELLANEOUS EQUIPMENT (14 IN X 33 IN X 17 IN)</entry>
+								<entry>6</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRUNKLOCKER_PELICAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>SHOVEL, HAND</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SHOVEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>STEPLADDER (6-FT, FIBERGLASS, 250 POUND HEAVY DUTY RATING)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, ANTISEIZING</entry>
+								<entry>2 Rolls</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_ANTISEIZING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, FLAGGING (FLUORESCENT PINK, 50-YARD ROLL)</entry>
+								<entry>1 Roll</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_FLAGGING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TAPE, MEASURING (300-FT, OPEN REEL, FIBERGLASS)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TAPE_MEASURING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TENT COMPONENT KIT (VESTIBULE COMPLEXING)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_VESTIBULE_COMPLEXING"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TIE DOWN, CARGO, VEHICLE</entry>
+								<entry>12</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STRAP_PACKOUT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TOOL KIT, GENERAL MECHANIC'S</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TRUNK, LOCKER (TYPE-1, 24-1/2 IN X 20-1/2 IN X 12-3/4 IN)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRUNKLOCKER_T1"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TRUNK, LOCKER (TYPE-2, 36-1/2 IN X 18-1/2 IN X 20-1/2 IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRUNKLOCKER_T2"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>VALVE, BALL (1-1/2-IN, M X F, SOURCE WATER)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_VALVE_BALL_112IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>VALVE, BALL (1-IN, M X F, SOURCE WATER)</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_VALVE_BALL_1IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>VALVE, BALL (2-IN, M X F, WASTEWATER)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_VALVE_BALL_2IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>VALVE, CHECK (1-1/2-IN, M X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_VALVE_CHECK_112IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (1-1/2-IN JAW, 10-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_10IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (2-1/2-IN JAW, 18-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_18IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WRENCH, PIPE (3-IN JAW, 24-IN LENGTH, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PIPE_WRENCH_24IN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-1</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-2</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-3</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-4</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>BENCH, UTILITY</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BENCH"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>BROOM, UPRIGHT</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BROOM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>BUNK, BED W LOCKER</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BUNK_BED"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 100-FT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A100FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>CHAIR, FOLDING</entry>
+								<entry>12</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FOLDING_CHAIR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>DISTRIBUTING SYSTEM, ELECTRICAL (TEMPER CONVENIENCE OUTLET ASSEMBLY, 3 DROP)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_CONV_OUTLET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>DISTRIBUTION BOX (TEMPER, TYPE-3, 120-VAC)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_PDB"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>DUSTPAN</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DUSTPAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>ENVIRONMENTAL CONTROL SYSTEM (F-100, 60K-BTU)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_ECU"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>FRAME, TENT (RIGID DOOR)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RIGID_DOOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>LIGHT SET, GENERAL ILLUMINATION (14-FIXTURE) (INSTALLED IN ADMINISTRATION TEMPER SHELTER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_LIGHTSET_14FIX"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>MATTING, FLOOR (TYPE-1, 32-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FLOORMAT_32FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>SHADE ASSEMBLY, SOLAR (TYPE-31, ADMINISTRATION/BILLETING)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SSHADE_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>SUPPORT POLE ASSY</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PDB_SUPPORT_POLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>TABLE, FOLDING LEGS</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FOLDING_TABLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>TENT (TEMPER AIR-SUPPORTED, TYPE-31, 32-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>TENT LINER (INNER DOOR INTERFACE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_INNER_DOOR_INTERFACE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>TENT LINER (INSULATED, TYPE-31) (INSTALLED IN ADMINISTRATION TEMPER SHELTER)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_INSULATED_LINER_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>TENT LINER (PARTITION)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PARTITION_LINER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>DICE, GAMING</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DICE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>DISCUS CIRCLE</entry>
+								<entry>5</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FRISBEE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, CHANCE (CRIBBAGE)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_CRIBBAGE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, CHANCE (DOMINOES)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_DOMINOES"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, CHANCE (MONOPOLY)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_MONOPOLY"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, CHANCE (RISK)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_RISK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, KNOWLEDGE (TRIVIAL PURSUIT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_TRIVIA"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, SCRABBLE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_SCRABBLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, STRATEGY (BACKGAMMON/CHESS/CHECKERS)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_CHECKERS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, UNO, DELUXE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_UNO"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>GAME, WORD SKILL (YAHTZEE)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GAME_YAHTZEE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>PLAYING CARDS, PINOCHLE</entry>
+								<entry>12</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CARDS_PINOCHLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>PLAYING CARDS, STANDARD</entry>
+								<entry>24</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CARDS_STANDARD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>POKER CHIPS</entry>
+								<entry>10</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_POKER_CHIPS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55B</entry>
+								<entry>TRUNK, LOCKER (TYPE-2, 36-1/2 IN X 18-1/2 IN X 20-1/2 IN)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRUNKLOCKER_T2"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55C</entry>
+								<entry>ENVIRONMENTAL CONTROL SYSTEM (F-100, 60K-BTU) (SPARE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_ECU"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55C</entry>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SLIDE HAMMER, GROUND ROD</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLIDE_HAMMER"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-hand"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Administration TEMPER shelter rolled in its transportation cover weighs 600 lb (272 kg) and must be moved using MHE or other suitable lifting device. Administration TEMPER shelter should not be attempted to move by hand. Personnel must not stand between MHE and administration TEMPER shelter or below administration TEMPER shelter while it is being moved. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Initial positioning of administration TEMPER shelter is easiest while still rolled up in transportation cover.</trim.para>
+							<trim.para>Do not remove or disturb flag marking administration TEMPER shelter setup location, as it is used as a reference marker for setting up billeting TEMPER shelters in <xref wpid="O00019-10-5419-218"/>.</trim.para>
+						</note>
+						<para>Position rolled administration TEMPER shelter <callout assocfig="O00011-10-5419-218-F0002" label="1"/> next to flag <callout assocfig="O00011-10-5419-218-F0002" label="2"/> so it unrolls away and unfolds away from site reference point.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0002">
+					<title>Position Rolled Administration TEMPER Shelter</title>
+					<graphic boardno="G06021800215"/>
+				</figure>
+				<step1>
+					<para>Untie transportation cover fasteners <callout assocfig="O00011-10-5419-218-F0003" label="1"/>, move administration TEMPER shelter <callout assocfig="O00011-10-5419-218-F0003" label="2"/> off cover, and remove cover. Store cover in a secure location.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0003">
+					<title>Untie and Lay Out Transportation Cover</title>
+					<graphic boardno="G06021800058"/>
+				</figure>
+				<step1>
+					<para>Reposition administration TEMPER shelter next to marking flag so it unrolls toward short edge of site and unfolds away from site reference point (<xref figid="O00011-10-5419-218-F0002"/>), if necessary.</para>
+				</step1>
+				<step1>
+					<para>Unroll and unfold administration TEMPER shelter.</para>
+				</step1>
+				<step1>
+					<para>Verify vestibule opening <callout assocfig="O00011-10-5419-218-F0004" label="1"/> is facing site reference point. Rotate administration TEMPER shelter as needed.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0004">
+					<title>Administration TEMPER Shelter Vestibule</title>
+					<graphic boardno="G06021800217"/>
+				</figure>
+				<step1>
+					<para>Perform ATTACH EXTERNAL BRACING and ATTACH SNOW STRAPS procedures IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate diesel air compressor IAW <xref wpid="O00021-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Wind lines snap into place quickly and can pose a trip hazard. Wind lines can become loose and injure nearby personnel. Personnel must stay away from dining TEMPER shelter wind lines during inflation. Failure to comply may result in serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Use diesel air compressor to perform CONNECT AIR COMPRESSOR, PRE-INFLATION REVIEW and INFLATE TEMPER, AIR-SUPPORTED procedures IAW <extref docno="TM 10-8340-244-13&amp;P"/> to inflate administration TEMPER shelter to 60 psi (414 kPa).</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Compressor can be heard to cycle down when administration TEMPER shelter has reached 60 psi (414 kPa).</trim.para>
+						</note>
+						<para>Turn off diesel air compressor when administration TEMPER shelter has reached 60 psi (414 kPa) IAW <xref wpid="O00021-10-5419-218"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Perform DISCONNECT AIR-COMPRESSOR and TENSION OUTER SKIN procedures IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Assemble vestibule and install interior and exterior administration TEMPER shelter rigid doors <callout assocfig="O00011-10-5419-218-F0008" label="1"/> at administration TEMPER shelter vestibule IAW <xref wpid="O00010-10-5419-218"/>.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0008">
+					<title>Administration TEMPER Shelter Rigid Doors</title>
+					<graphic boardno="G06021800063"/>
+				</figure>
+				<step1>
+					<para>Perform STAKE SIDE ROPES, STAKE MUD FLAPS, and CONFIGURE WINDOW PANELS procedures IAW <extref docno="TM 10-8340-244-13&amp;P"/>. Do not install administration TEMPER shelter distribution box or light set at this time.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Install Environmental Control Unit (ECU)</title>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Ensure plenum is positioned with input/output vents connected to vestibule end of administration TEMPER shelter.</trim.para>
+						</note>
+						<para>Loosen administration TEMPER shelter wind lines, snow straps, and vestibule guy lines <callout assocfig="O00011-10-5419-218-F0010" label="1"/> to allow for ECU placement. Refer to <extref docno="TM 10-8340-244-13&amp;P"/> as needed.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0010">
+					<title>Position ECU</title>
+					<graphic boardno="G06021800071"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-hand"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>ECU weighs 555 lb (252 kg) and must be moved using MHE or other suitable lifting device. ECU should not be attempted to be moved by hand. Personnel must not stand between MHE and ECU or below ECU while it is being moved. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time.</trim.para>
+						</warning>
+						<para>Use MHE to position ECU <callout assocfig="O00011-10-5419-218-F0010" label="2"/> at vestibule end of administration TEMPER shelter 2 ft (0.6 m) from end wall ECU ducts <callout assocfig="O00011-10-5419-218-F0010" label="3"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Perform ASSEMBLY AND PREPARATION FOR USE for ECU IAW <extref docno="TM 10-4120-453-13&amp;P"/> and stop before connecting supply and return ducts to administration TEMPER shelter.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Components of ECU are contained within ECU and should have been unpacked IAW <extref docno="TM 10-4120-453-13&amp;P"/>.</trim.para>
+						</note>
+						<para>Feed RETURN air duct <callout assocfig="O00011-10-5419-218-F0011" label="6"/> on ECU, from outside administration TEMPER shelter, through right administration TEMPER shelter duct <callout assocfig="O00011-10-5419-218-F0011" label="5"/> and secure with straps <callout assocfig="O00011-10-5419-218-F0011" label="4"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0011">
+					<title>Install ECU Ducts</title>
+					<graphic boardno="G06021800072"/>
+				</figure>
+				<step1>
+					<para>Feed SUPPLY air duct <callout assocfig="O00011-10-5419-218-F0011" label="1"/> on ECU, from outside administration TEMPER shelter, through left administration TEMPER shelter duct <callout assocfig="O00011-10-5419-218-F0011" label="2"/> and secure with straps <callout assocfig="O00011-10-5419-218-F0011" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Complete ASSEMBLY AND PREPARATION FOR USE for ECU IAW <extref docno="TM 10-4120-453-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Lighting fixtures are permanently installed in administration TEMPER shelter. Lighting fixtures must be connected to administration TEMPER shelter distribution box in TEMPER TM.</trim.para>
+						</note>
+						<para>Perform POWER DISTRIBUTION AND LIGHTING KIT INSTALLATION procedure IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Route ECU power cable to administration TEMPER shelter distribution box and disconnect dust covers <callout assocfig="O00011-10-5419-218-F0012" label="3"/> from power cable <callout assocfig="O00011-10-5419-218-F0012" label="2"/> and POWER OUT J2 receptacle <callout assocfig="O00011-10-5419-218-F0012" label="1"/>.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0012">
+					<title>ECU Power Cable to Administration TEMPER Shelter Distribution Box</title>
+					<graphic boardno="G06021800073"/>
+				</figure>
+				<step1>
+					<para>Connect power cable <callout assocfig="O00011-10-5419-218-F0012" label="2"/> to POWER OUT J2 receptacle <callout assocfig="O00011-10-5419-218-F0012" label="1"/>, and connect dust covers <callout assocfig="O00011-10-5419-218-F0012" label="3"/>. ECU will be ready for operation as soon as power is applied to administration TEMPER shelter in this WP. Refer to <extref docno="TM 10-4120-453-13&amp;P"/> for ECU operating procedures.</para>
+				</step1>
+				<step1>
+					<para>Secure any administration TEMPER shelter vestibule guy lines, wind lines, or snow straps as needed.</para>
+				</step1>
+				<step1>
+					<para>Install Type-31 solar shade IAW <xref wpid="M00057-10-5419-218"/> to reduce power consumption of ECU when in climates of extreme heat and humidity.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Apply Power to Administration TEMPER Shelter</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 3 (<xref figid="O00011-10-5419-218-F0013"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0013">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Locate one unused 60-A output power receptacle (circuit (CKT) 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00011-10-5419-218-F0086"/>) at PDB 2 (<xref figid="O00011-10-5419-218-F0013"/>). Ensure associated circuit breaker (CB) (<xref tableid="O00011-10-5419-218-T0007"/>) is set to OFF position.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0086">
+					<title>60-A Receptacles and CBs</title>
+					<graphic boardno="G06021800045"/>
+				</figure>
+				<table id="O00011-10-5419-218-T0007">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Unscrew and remove dust cover from one 60-A receptacle <callout assocfig="O00011-10-5419-218-F0015" label="1"/>.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0015">
+					<title>Receptacle Dust Covers</title>
+					<graphic boardno="G06021800046"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00011-10-5419-218-F0016" label="1"/> from male end of a 100-ft 60-A power cable <callout assocfig="O00011-10-5419-218-F0016" label="2"/>.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0016">
+					<title>Power Cable Dust Covers</title>
+					<graphic boardno="G06021800047"/>
+				</figure>
+				<step1>
+					<para>Connect 100-ft (30.5-m), 60-A power cable <callout assocfig="O00011-10-5419-218-F0017" label="1"/> to 60-A receptacle. Do not set 60-A CB to ON position at this time.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0017">
+					<title>Connect Power Cable to Receptacle</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Connect receptacle and power cable dust covers <callout assocfig="O00011-10-5419-218-F0017" label="2"/> together.</para>
+				</step1>
+				<step1>
+					<para>Route 100-ft 60-A power cable <callout assocfig="O00011-10-5419-218-F0018" label="2"/> from PDB <callout assocfig="O00011-10-5419-218-F0018" label="3"/> toward administration TEMPER shelter <callout assocfig="O00011-10-5419-218-F0018" label="1"/>.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0018">
+					<title>Administration Subsystem Power Cable Routing</title>
+					<graphic boardno="G06021800216"/>
+				</figure>
+				<step1 id="O00011-10-5419-218-Dustcaps9001">
+					<para>Remove dust covers from female end of connected cable and male end of another 100-ft 60-A power cable.</para>
+				</step1>
+				<step1>
+					<para>Connect cables together.</para>
+				</step1>
+				<step1 id="O00011-10-5419-218-Dustcaps9002">
+					<para>Connect dust covers of each cable together, and route cable assembly toward administration TEMPER shelter <callout assocfig="O00011-10-5419-218-F0018" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Perform <xref stepstart="O00011-10-5419-218-Dustcaps9001" stepend="O00011-10-5419-218-Dustcaps9002"/> to connect one 50-ft (15.2-m), 60-A power cable. Place cable near administration TEMPER shelter distribution box, but do not connect power cable at this time.</para>
+				</step1>
+				<step1>
+					<para>Verify all administration TEMPER shelter distribution box CBs <callout assocfig="O00011-10-5419-218-F0019" label="1"/> are set to OFF position.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0019">
+					<title>Administration TEMPER Shelter Distribution Box CBs</title>
+					<graphic boardno="G06021800142"/>
+				</figure>
+				<step1>
+					<para>Use 60-A power cable assembly to perform CONNECT PRIMARY POWER procedure IAW <extref docno="TM 10-8340-244-13&amp;P"/>. Do not apply power at this time.</para>
+				</step1>
+				<step1>
+					<para>Verify output power is available at PDB by observing three red phase indicator lights (A, B, and C) <callout assocfig="O00011-10-5419-218-F0020" label="1"/> are illuminated.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0020">
+					<title>PDB Phase Indicators</title>
+					<graphic boardno="G06021800053"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<para>Set administration TEMPER shelter 60-A CB (<xref figid="O00011-10-5419-218-F0021"/>) to ON position.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0021">
+					<title>60-A CBs</title>
+					<graphic boardno="G06021800054"/>
+				</figure>
+				<step1>
+					<para>Perform APPLY POWER procedure IAW <extref docno="TM 10-8340-244-13&amp;P"/> and connect any dust covers. Administration TEMPER shelter is ready for use.</para>
+				</step1>
+			</proc>
+		
+			<proc>
+				<title>Set Up Administration Subsystem Ancillary Equipment</title>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Four spare removable floors (two 21-ft and two 32-ft) are provided with camp to install over a damaged administration TEMPER shelter floor. Repair damaged administration TEMPER shelter IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</trim.para>
+						</note>
+						<para>Inspect administration TEMPER shelter flooring for damage. If damage is found, install a 32-ft removable floor IAW <xref wpid="M00016-10-5419-218"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Move or remove any administration TEMPER shelter distribution box or lighting components that interfere with desired partition location IAW <extref docno="TM 10-8340-244-13&amp;P"/> if necessary.</para>
+				</step1>
+				<?Pub _newpage?>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Work on ladder can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder while climbing. Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>A stepladder will be required to install partition in administration TEMPER shelter.</trim.para>
+							<trim.para>Partition is used to separate back third of administration TEMPER shelter (at airbeam, between windows) for administration personnel sleeping quarters.</trim.para>
+						</note>
+						<para>Spread partition <callout assocfig="O00011-10-5419-218-F0022" label="1"/> across administration TEMPER shelter floor from side to side at third airbeam from vestibule (between insulated liner windows).</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0022">
+					<title>Spread Partition</title>
+					<graphic boardno="G06021800218"/>
+				</figure>
+				<step1>
+					<para>Attach partition <callout assocfig="O00011-10-5419-218-F0023" label="2"/> to liner with hook and fastening tapes <callout assocfig="O00011-10-5419-218-F0023" label="1"/> starting at side of insulated liner.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0023">
+					<title>Attach Partition</title>
+					<graphic boardno="G06021801316"/>
+				</figure>
+				<step1>
+					<para>Attach any lighting or administration TEMPER shelter distribution box components removed during installation IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<trim.para>Floor matting weighs 50 lb (22.7 kg) and requires two personnel to lift. Use proper lifting technique when moving heavy items. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Unroll and position floor matting down center of administration TEMPER shelter (<xref figid="O00011-10-5419-218-F0024"/>) with grooves facing up.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0024">
+					<title>Administration Area Layout</title>
+					<graphic boardno="G06021800220"/>
+				</figure>
+				<step1>
+					<para>Set up three bunk beds IAW <xref wpid="O00018-10-5419-218"/> and position as shown in administration TEMPER shelter layout (<xref figid="O00011-10-5419-218-F0024"/>).</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-foot"/>
+							<trim.para>Folding tables and benches collapse if legs are not locked. Ensure leg locking collars are over folding table leg joints to lock them in place. Failure to comply can result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Unfold folding table legs <callout assocfig="O00011-10-5419-218-F0025" label="1"/> and slide locking collars <callout assocfig="O00011-10-5419-218-F0025" label="2"/> over legs. Repeat for remaining tables.</para>
+					</specpara>
+				</step1>
+				<figure id="O00011-10-5419-218-F0025">
+					<title>Unfold Work Tables</title>
+					<graphic boardno="G06021801307"/>
+				</figure>
+				<step1>
+					<para>Unfold a work chair <callout assocfig="O00011-10-5419-218-F0026" label="1"/> ensuring seat is fully unfolded and secure. Repeat for remaining chairs.</para>
+				</step1>
+				<figure id="O00011-10-5419-218-F0026">
+					<title>Work Chair</title>
+					<graphic boardno="G06021800222"/>
+				</figure>
+				<step1>
+					<para>Position folding tables and chairs as shown in administration TEMPER shelter layout (<xref figid="O00011-10-5419-218-F0024"/>).</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Contingency spares storage lockers should be placed in positions that will allow lids to be directly opened with locker contents accessible.</trim.para>
+						</note>
+						<para>Position all contingency spares trunk lockers with ancillary equipment as shown in administration TEMPER shelter layout (<xref figid="O00011-10-5419-218-F0024"/>).</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Position all cleaning equipment (mop with mophead, bucket with wringer, broom, and dustpan) in main work area of administration TEMPER shelter as shown in administration TEMPER shelter layout (<xref figid="O00011-10-5419-218-F0024"/>).</para>
+				</step1>
+				<step1>
+					<para>Store all packaging material (bags, straps, etc.) in a secure location for packout.</para>
+				</step1>
+			</proc>
+		</prepforuse>
+	</opertsk>
+</opusualwp>

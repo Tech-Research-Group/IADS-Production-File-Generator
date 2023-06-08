@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctrlindwp chngno="0" wpno="O00001-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>DESCRIPTION AND USE OF OPERATOR CONTROLS AND INDICATORS</title>
+	</wpidinfo>
+	<intro>
+		<para0-alt>
+			<para0>
+				<title>Introduction</title>
+				<para>This work package provides the descriptions and locations of the Expeditionary Platoon Life Support Module (EPLSM) controls and indicators. Personnel operating and maintaining the EPLSM should know the location and correct use of every control and indicator.</para>
+			</para0>
+			<para0>
+				<title>EPLSM MAJOR COMPONENT CONTROLS AND INDICATORS</title>
+				<para>Controls and indicators for some EPLSM components can be found in their respective technical manuals (TMs). Refer to <xref tableid="O00001-10-5419-218-T0001"/> for a list of end items that are subcomponents of EPLSM and their TM numbers.
+					<table id="O00001-10-5419-218-T0001">
+						<title>Controls and Indicators Referenced in Other Technical Manuals</title>
+						<tgroup cols="2">
+							<colspec colname="col1"/>
+							<colspec colname="col2"/>
+							<thead>
+								<row>
+									<entry>Item</entry>
+									<entry>Reference TM</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>1,000-gal (3,785-L) Fuel Tank with Spill Containment System</entry>
+									<entry>
+										<extref docno="TM 10-5430-225-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>3,000-gal (11,356-L) Collapsible Fabric Tank (SOURCE Water Bag, WASTE Water Bag)</entry>
+									<entry>
+										<extref docno="TM 10-5430-237-12&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Advanced Medium Mobile Power Sources</entry>
+									<entry>
+										<extref docno="TM 9-6115-753-10"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Cold Weather Equipment</entry>
+									<entry>
+										<extref docno="TM 10-5419-213-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Environmental Control Unit</entry>
+									<entry>
+										<extref docno="TM 10-4120-453-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Expeditionary Latrine System</entry>
+									<entry>
+										<extref docno="TM 10-5419-209-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Expeditionary Shower System</entry>
+									<entry>
+										<extref docno="TM 10-5419-210-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Expeditionary TRICON Kitchen System</entry>
+									<entry>
+										<extref docno="TM 10-5419-207-10"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Expeditionary TRICON Self Serve Laundry System</entry>
+									<entry>
+										<extref docno="TM 10-5419-215-10"/>
+									</entry>
+								</row>
+								<row>
+									<entry>Fuel Distribution System</entry>
+									<entry>
+										<extref docno="TM 10-4930-369-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>TEMPER Shelter</entry>
+									<entry>
+										<extref docno="TM 10-8340-244-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>TRICON Refrigerated Container System</entry>
+									<entry>
+										<extref docno="TM 10-8145-224-13&amp;P"/>
+									</entry>
+								</row>
+								<row>
+									<entry>TRICON Storage Containers</entry>
+									<entry>
+										<extref docno="TM 55-8145-236-13&amp;P"/>
+									</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</para>
+			</para0>
+		</para0-alt>
+	</intro>
+	<?Pub _newpage?>
+	<ctrlindtab>
+		<title>Power Distribution Box (PDB)</title>
+		<figure id="O00001-10-5419-218-F0001">
+			<title>PDB</title>
+			<graphic boardno="G06021801328"/>
+		</figure>
+		<ctrlindrow>
+			<key>MAIN</key>
+			<ctrlind>Circuit Breaker (CB), 200-A, 3-PH</ctrlind>
+			<function>(Rear Panel) Controls input power and protects entire PDB. Circuit is closed (energized) when lever is pointing right (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>PH A</key>
+			<ctrlind>Phase A Light (Red)</ctrlind>
+			<function>(Front Panel) Indicates main power Phase A available.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>PH B</key>
+			<ctrlind>Phase B Light (Red)</ctrlind>
+			<function>(Front Panel) Indicates main power Phase B available.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>PH C</key>
+			<ctrlind>Phase C Light (Red)</ctrlind>
+			<function>(Front Panel) Indicates main power Phase C available.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 1</key>
+			<ctrlind>Circuit Breaker, 20-A, 1-PH</ctrlind>
+			<function>(Front Panel) Controls power and protects 20-A ground-fault circuit interrupter receptacle 1. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 2</key>
+			<ctrlind>Circuit Breaker, 60-A, 3-PH</ctrlind>
+			<function>(Right Panel) Controls power and protects 60-A circuit 2. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 3</key>
+			<ctrlind>Circuit Breaker, 60-A, 3-PH</ctrlind>
+			<function>(Right Panel) Controls power and protects 60-A circuit 3. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 4</key>
+			<ctrlind>Circuit Breaker, 100-A, 3-PH</ctrlind>
+			<function>(Right Panel) Controls power and protects 100-A circuit 4. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 5</key>
+			<ctrlind>Circuit Breaker, 60-A, 3-PH</ctrlind>
+			<function>(Left Panel) Controls power and protects 60-A circuit 5. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 6</key>
+			<ctrlind>Circuit Breaker, 60-A, 3-PH</ctrlind>
+			<function>(Left Panel) Controls power and protects 60-A circuit 6. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>CB 7</key>
+			<ctrlind>Circuit Breaker, 100-A, 3-PH</ctrlind>
+			<function>(Left Panel) Controls power and protects 100-A circuit 7. Circuit is closed (energized) when lever is pointing up (ON).</function>
+		</ctrlindrow>
+	</ctrlindtab>
+	<?Pub _newpage?>
+	<ctrlindtab>
+		<title>Floodlight Assembly</title>
+		<figure id="O00001-10-5419-218-F0002">
+			<title>Floodlight Assembly</title>
+			<graphic boardno="G06021801082"/>
+		</figure>
+		<ctrlindrow>
+			<key>1</key>
+			<ctrlind>Power, Pushbutton</ctrlind>
+			<function>Turns lighthead ON or OFF.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key> </key>
+			<ctrlind> </ctrlind>
+			<function> </function>
+		</ctrlindrow>
+	</ctrlindtab>
+	<?Pub _newpage?>
+	<ctrlindtab>
+		<title>Air Compressor</title>
+		<figure id="O00001-10-5419-218-F0003">
+			<title>Air Compressor</title>
+			<graphic boardno="G06021800936"/>
+		</figure>
+		<ctrlindrow>
+			<key>1</key>
+			<ctrlind>Fuel Shut-off Valve</ctrlind>
+			<function>Used to stop diesel engine.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>2</key>
+			<ctrlind>Engine Throttle Control</ctrlind>
+			<function>Controls function of throttle.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>3</key>
+			<ctrlind>Pull Start Handle</ctrlind>
+			<function>Used to start diesel engine when ignition switch is not used.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>4</key>
+			<ctrlind>Pressure Regulator</ctrlind>
+			<function>Pressure can be increased or decreased by turning knob on regulator. Clockwise increases outlet pressure and counterclockwise decreases outlet pressure.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>5</key>
+			<ctrlind>Pressure Regulator Gauge</ctrlind>
+			<function>Indicates outlet or line pressure in psi. Pressure regulator gauge is located on pressure regulator.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>6</key>
+			<ctrlind>Ignition Switch</ctrlind>
+			<function>Used to start diesel engine or disconnect battery from engine.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key>7</key>
+			<ctrlind>Compression Relief Lever</ctrlind>
+			<function>Decompresses engine after pull start rope is pulled.</function>
+		</ctrlindrow>
+	</ctrlindtab>
+	<?Pub _newpage?>
+	<ctrlindtab>
+		<title>Ice Maker</title>
+		<figure id="O00001-10-5419-218-F0004">
+			<title>Ice Maker</title>
+			<graphic boardno="G06021800935"/>
+		</figure>
+		<ctrlindrow>
+			<key>1</key>
+			<ctrlind>Control Switch</ctrlind>
+			<function>Controls power flow to ice maker as follows:
+				<randlist bullet="yes">
+					<item>ICE: Power flow to all ice maker components. Ice production occurs.</item>
+					<item>OFF: No power flow to ice maker.</item>
+					<item>SERVICE: Disables power to refrigeration circuit; provides power to service switch.</item>
+				</randlist>
+			</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key/>
+			<ctrlind/>
+			<function/>
+		</ctrlindrow>
+	</ctrlindtab>
+	<ctrlindtab>
+		<title>Light Set, General Illumination</title>
+		<figure id="O00001-10-5419-218-F0005">
+			<title>Light Set, General Illumination</title>
+			<graphic boardno="G06021801099"/>
+		</figure>
+		<ctrlindrow>
+			<key>1</key>
+			<ctrlind>Light Switch</ctrlind>
+			<function>Controls light setting. Center position is off. Forward position is normal lighting. Rear position is blackout lighting.</function>
+		</ctrlindrow>
+		<ctrlindrow>
+			<key/>
+			<ctrlind/>
+			<function/>
+		</ctrlindrow>
+	</ctrlindtab>
+</ctrlindwp>

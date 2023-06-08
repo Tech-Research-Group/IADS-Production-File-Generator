@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00011-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM) <brk/> PREPARATION FOR SHIPMENT</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 55-8145-236-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Preparation for movement</condition>
+				<itemref>
+					<xref wpid="O00023-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<prepship>
+			<proc>
+				<title/>
+				<note>
+					<trim.para>Expeditionary Platoon Life Support Module is shipped only in its fully packed out configuration.</trim.para>
+				</note>
+				<para>Prepare each TRICON for shipment IAW <extref docno="TM 55-8145-236-13&amp;P"/>.</para>
+			</proc>
+		</prepship>
+	</maintsk>
+</maintwp>

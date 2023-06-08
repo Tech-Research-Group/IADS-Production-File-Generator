@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00039-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - BILLETING TENT KIT - TRICON N51A</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Tape, Pressure Sensitive Adhesive</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_TAPE_PACKING"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Personnel</name>
+				<qty>2</qty>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="DD Form 1750"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Billeting Subsystem preparation for movement</condition>
+				<itemref>
+					<xref wpid="O00029-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Administration Subsystem preparation for movement</condition>
+				<itemref>
+					<xref wpid="O00028-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Latrine Subsystem preparation for movement</condition>
+				<itemref>
+					<xref wpid="O00030-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Prepare Container N51A</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-hand"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Environmental control unit (ECU) weighs 555 lb (252 kg) and must be moved using material handling equipment (MHE) or other suitable lifting device. This item should not be attempted to be moved by hand.  Personnel must not stand between MHE and generator or below generator while it is being moved. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Personnel must wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Hearing loss occurs gradually but becomes permanent over time. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Four TRICON containers N51A (N51A-1, N51A-2, N51A-3, and N51A-4), are utilized in Expeditionary Platoon Life Support Module (EPLSM). Packout is identical between each of four N51A containers.</trim.para>
+							<trim.para>If fiberboard material or other dunnage was retained from operation, utilize IAW unit SOP to protect contents of container during transit.</trim.para>
+							<trim.para>Items such as brooms and mop heads are non-accountable, expendable items and may have been consumed during EPLSM operation. They are listed for completion only and may be omitted from this pack if unavailable.</trim.para>
+							<trim.para>Items listed with a period (EXAMPLE: ".   TENT PIN, 18-IN") are indentured items of the item above them. They are included in pack plans of other systems within EPLSM. </trim.para>
+						</note>
+						<para>Locate all components to be packed, listed in <xref tableid="O00039-10-5419-218-T0002"/>.</para>
+					</specpara>
+				</step1>
+				<table id="O00039-10-5419-218-T0002">
+					<title>TRICON N51A Components</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="1.5*"/>
+						<colspec colname="col2" colwidth="0.35*"/>
+						<colspec colname="col3" colwidth="0.9*"/>
+						<thead>
+							<row>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>BEAM, DECKING, SHORING</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SHORING_BEAM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>BROOM, UPRIGHT</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BROOM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>BUNK, BED W LOCKER</entry>
+								<entry>11</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BUNK_BED"/>
+								</entry>
+							</row>
+							<row>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 100-FT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A100FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>CHAIR, FOLDING</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FOLDING_CHAIR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>CONTAINER, FREIGHT, UTILITY</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRICON"/>
+								</entry>
+							</row>
+							<row>
+								<entry>DISTRIBUTING SYSTEM, ELECTRICAL (TEMPER CONVENIENCE OUTLET ASSEMBLY, 3 DROP)</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_CONV_OUTLET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>DISTRIBUTION BOX (TEMPER, TYPE-3, 120-VAC)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_PDB"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (LIGHTING, 103-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (LIGHTING, 173-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (OUTLET, 156-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (OUTLET, 254-IN)</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>DUSTPAN</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DUSTPAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>ENVIRONMENTAL CONTROL SYSTEM</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_ECU"/>
+								</entry>
+							</row>
+							<row>
+								<entry>FRAME, TENT (RIGID DOOR)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_RIGID_DOOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>HAMMER, HAND</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>HANDLE, MOP</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_HANDLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>LIGHT SET, GENERAL ILLUMINATION (14-FIXTURE) (INSTALLED IN TENT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_LIGHTSET_14FIX"/>
+								</entry>
+							</row>
+							<row>
+								<entry>LUMBER, SOFTWOOD, BOARD</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BRACE_LUMBER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>MATTING, FLOOR (TYPE-1, 32-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FLOORMAT_32FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>MOPHEAD, WET</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOPHEAD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>MOPPING OUTFIT, FLOOR</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_BUCKET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>SHADE ASSEMBLY, SOLAR (TYPE-31, ADMINISTRATION/BILLETING)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SSHADE_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>SKID, PLATFORM (PACKOUT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PALLET_PACKOUT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>SUPPORT POLE ASSY</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_PDB_SUPPORT_POLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>TENT (TEMPER AIR-SUPPORTED, TYPE-31, 32-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEMPER_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   TECHNICAL MANUAL (TEMPER TENT <extref docno="TM 10-8340-244-13&amp;P"/>)</entry>
+								<entry>1</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   TENT PIN, 18-IN</entry>
+								<entry>32</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp; P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   TENT PIN, 36-IN</entry>
+								<entry>8</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp; P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   VACUUM, WET/DRY, 2.5-GAL, STINGER</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp; P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>.   VESTIBULE FRAME ASSEMBLY</entry>
+								<entry>2</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp; P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>TENT LINER (INNER DOOR INTERFACE)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_INNER_DOOR_INTERFACE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>TENT LINER (INSULATED, TYPE-31) (INSTALLED IN TENT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_INSULATED_LINER_T31"/>
+								</entry>
+							</row>
+							<row>
+								<entry>TIE DOWN, CARGO, VEHICLE</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STRAP_PACKOUT"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Ensure that container is clean and dry.</para>
+				</step1>
+				<step1 id="O00039-10-5419-218-TieDownStrap1">
+					<para>Connect two ratchet straps <callout assocfig="O00039-10-5419-218-F0001" label="1"/> to second from top corner tie down brackets <callout assocfig="O00039-10-5419-218-F0001" label="2"/>. Cross strap ends and place loose ends up and out of way when loading container.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0001">
+					<title>Install Ratchet Straps</title>
+					<graphic boardno="G06021801130"/>
+				</figure>
+				<step1 id="O00039-10-5419-218-TieDownStrap2">
+					<para>Connect two ratchet straps <callout assocfig="O00039-10-5419-218-F0001" label="4"/> to second from bottom corner tie down bracket <callout assocfig="O00039-10-5419-218-F0001" label="3"/>. Cross strap ends and place loose ends up and out of the way when loading container.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Pack Container N51A</title>
+				<step1 id="O00039-10-5419-218-RunStraps1">
+					<specpara>
+						<caution>
+							<trim.para>Verify straps are not twisted inside fork pockets to ensure there is no obstruction impeding fork truck operation. Failure to comply may result in damage to pallet or equipment.</trim.para>
+						</caution>
+						<para>Run one ratchet strap <callout assocfig="O00039-10-5419-218-F0011" label="1"/> through first fork pocket, and another ratchet strap <callout assocfig="O00039-10-5419-218-F0011" label="2"/> through last fork pocket of pallet.</para>
+					</specpara>
+				</step1>
+				<figure id="O00039-10-5419-218-F0011">
+					<title>Ratchet Straps</title>
+					<graphic boardno="G06021801317"/>
+				</figure>
+				<step1>
+					<para>Place ECU <callout assocfig="O00039-10-5419-218-F0002" label="5"/> on rear left corner of pallet. Ensure grills <callout assocfig="O00039-10-5419-218-F0002" label="1"/> are positioned facing in on pallet. Rear edge and left edge of ECU should be flush with edges of pallet. Ensure edges do not overhang pallet edges.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0002">
+					<title>Place ECU</title>
+					<graphic boardno="G06021801131"/>
+				</figure>
+				<step1>
+					<para>Place hammer <callout assocfig="O00039-10-5419-218-F0002" label="4"/> in front of ECU.</para>
+				</step1>
+				<step1>
+					<para>Place two pin sets, one 18-in bag <callout assocfig="O00039-10-5419-218-F0002" label="2"/> and one 36-in bag <callout assocfig="O00039-10-5419-218-F0002" label="3"/> on and around hammer and in front of ECU.</para>
+				</step1>
+				<step1>
+					<para>Place billeting TEMPER shelter bundle <callout assocfig="O00039-10-5419-218-F0005" label="1"/> on front right side of pallet. Align billeting TEMPER shelter bundle with front edge and right edge of pallet ensuring edges do not overhang pallet.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0005">
+					<title>Place Billeting TEMPER Shelter Bundle</title>
+					<graphic boardno="G06021801133"/>
+				</figure>
+				<step1>
+					<para>Place technical manual under billeting TEMPER shelter bundle.</para>
+				</step1>
+				<step1>
+					<para>Place floor mat <callout assocfig="O00039-10-5419-218-F0005" label="4"/> on left side of billeting TEMPER shelter bundle on floor.</para>
+				</step1>
+				<step1 id="O00039-10-5419-218-PowerCables1">
+					<para>Place two 60-A 100-ft cable assemblies <callout assocfig="O00039-10-5419-218-F0005" label="3"/> in space on rear right corner of pallet behind billeting TEMPER shelter bundle and right of ECU.</para>
+				</step1>
+				<step1>
+					<para>Place one 60-A 50-ft cable assembly <callout assocfig="O00039-10-5419-218-F0005" label="2"/> on top of cable assemblies placed in <xref stepstart="O00039-10-5419-218-PowerCables1"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Special purpose cable assemblies are subcomponents of billeting TEMPER shelter convenience outlets, and are placed with them.</trim.para>
+						</note>
+						<para>Place billeting TEMPER shelter convenience outlets <callout assocfig="O00039-10-5419-218-F0009" label="2"/> and billeting TEMPER shelter distribution box <callout assocfig="O00039-10-5419-218-F0009" label="1"/> on top of cables.</para>
+					</specpara>
+				</step1>
+				<figure id="O00039-10-5419-218-F0009">
+					<title>Box of billeting TEMPER Shelter Components</title>
+					<graphic boardno="G06021801140"/>
+				</figure>
+				<step1>
+					<para>Place billeting TEMPER shelter vestibule bundle <callout assocfig="O00039-10-5419-218-F0010" label="1"/> on top of billeting TEMPER shelter convenience outlets and billeting TEMPER shelter distribution box.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0010">
+					<title>Place Vestibule</title>
+					<graphic boardno="G06021801141"/>
+				</figure>
+				<step1>
+					<para>Secure left ratchet strap placed in <xref stepstart="O00039-10-5419-218-RunStraps1"/> around left side of billeting TEMPER shelter bundle and over top middle of ECU.</para>
+				</step1>
+				<step1>
+					<para>Secure right ratchet strap placed in <xref stepstart="O00039-10-5419-218-RunStraps1"/> over right side of billeting TEMPER shelter bundle and over middle of vestibule bundle stack.</para>
+				</step1>
+				<step1>
+					<para>Use MHE and move billeting TEMPER shelter bundle pallet into container (<xref figid="O00039-10-5419-218-F0012"/>).</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0012">
+					<title>First Pallet in Container</title>
+					<graphic boardno="G06021801143"/>
+				</figure>
+				<step1>
+					<para>Cross and connect buckle end of ratchet straps <callout assocfig="O00039-10-5419-218-F0012" label="2"/> installed in <xref stepstart="O00039-10-5419-218-TieDownStrap2"/> to front corner tie down brackets first from bottom <callout assocfig="O00039-10-5419-218-F0012" label="3"/>, securing pallet in place with straps.</para>
+				</step1>
+				<step1>
+					<para>Lock 4 shoring beams <callout assocfig="O00039-10-5419-218-F0012" label="1"/> into 11th locking position from floor.</para>
+				</step1>
+				<step1>
+					<para>Place one brace <callout assocfig="O00039-10-5419-218-F0012" label="4"/> in bottom notch, in front of tent.</para>
+				</step1>
+				<step1 id="O00039-10-5419-218-TieDownStrap3">
+					<specpara>
+						<caution>
+							<trim.para>Verify container straps are not twisted inside fork pockets to ensure forks go in without obstruction. Twisted straps can cause damage to equipment.</trim.para>
+						</caution>
+						<para>Run one ratchet strap through first side pocket and other strap through second to last side pocket in pallet.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<trim.para>Bunk beds weigh 99 lb (45 kg) and require two personnel to lift. Follow safety precautions when moving heavy items. Failure to comply can result in serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Stack nine bunk bed systems on left side of pallet. Place in three stacks of two beds <callout assocfig="O00039-10-5419-218-F0017" label="3"/> and one stack of three beds <callout assocfig="O00039-10-5419-218-F0017" label="1"/>. Stack of three beds should be at rear of pallet.</para>
+					</specpara>
+				</step1>
+				<figure id="O00039-10-5419-218-F0017">
+					<title>Place Bunk Beds on Pallet</title>
+					<graphic boardno="G06021800520"/>
+				</figure>
+				<step1>
+					<para>Place two bunk beds <callout assocfig="O00039-10-5419-218-F0017" label="2"/> on right side of pallet parallel to right edge of pallet.</para>
+				</step1>
+				<step1>
+					<para>Place rigid doors <callout assocfig="O00039-10-5419-218-F0018" label="1"/> in between stacks of bunk beds down length of pallet. Solid edge of door frame should be resting on pallet.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0018">
+					<title>Place Doors on Pallet</title>
+					<graphic boardno="G06021801318"/>
+				</figure>
+				<step1>
+					<para>Locate one solar shade. Place fabric bundle <callout assocfig="O00039-10-5419-218-F0019" label="2"/> on top of two bunk beds on right side of pallet. Align edge of bundle with front and right corner of pallet.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0019">
+					<title>Packout Pallet</title>
+					<graphic boardno="G06021801145"/>
+				</figure>
+				<step1>
+					<para>Place pole bundle <callout assocfig="O00039-10-5419-218-F0019" label="3"/> on top of bunk beds on left side of pallet, against rigid doors. Align edge of bundle with front edge of pallet.</para>
+				</step1>
+				<step1>
+					<para>Place two stake bags on top of pole bundle <callout assocfig="O00039-10-5419-218-F0019" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Place four chairs <callout assocfig="O00039-10-5419-218-F0019" label="4"/> on left hand side of pallet next to solar shade pole bundle.</para>
+				</step1>
+				<step1>
+					<para>Place mop bucket <callout assocfig="O00039-10-5419-218-F0019" label="1"/> on right rear corner on top of bunk bed, next to solar shade bundle.</para>
+				</step1>
+				<step1>
+					<para>Place vestibule frame bag <callout assocfig="O00039-10-5419-218-F0021" label="2"/> on top of two stake bags.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0021">
+					<title>Vestibule Frame Bag</title>
+					<graphic boardno="G06021801319"/>
+				</figure>
+				<step1>
+					<para>Place broom and mop handle <callout assocfig="O00039-10-5419-218-F0021" label="1"/> on center of pallet.</para>
+				</step1>
+				<step1>
+					<para>Secure ratchet straps placed in <xref stepstart="O00039-10-5419-218-TieDownStrap3"/>.</para>
+				</step1>
+				<step1>
+					<para>Use MHE and move billeting TEMPER shelter bundle pallet into container on top of shoring beams (<xref figid="O00039-10-5419-218-F0024"/>).</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0024">
+					<title>Top Pallet in Container</title>
+					<graphic boardno="G06021801320"/>
+				</figure>
+				<step1>
+					<para>Place vacuum <callout assocfig="O00039-10-5419-218-F1024" label="1"/> and dustpan on bottom pallet on top of floor mat.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F1024">
+					<title>Bottom Pallet in Container with Vacuum</title>
+					<graphic boardno="G06021801321"/>
+				</figure>
+				<step1>
+					<para>Cross and connect buckle end of top two ratchet straps <callout assocfig="O00039-10-5419-218-F0025" label="1"/> installed in <xref stepstart="O00039-10-5419-218-TieDownStrap2"/> to bottom tie down brackets <callout assocfig="O00039-10-5419-218-F1024" label="2"/>, second from bottom.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0025">
+					<title>Secure Pallet in Container</title>
+					<graphic boardno="G06021801322"/>
+				</figure>
+				<step1>
+					<para>Place brace <callout assocfig="O00039-10-5419-218-F0026" label="1"/> in top notch, in front of bunk beds.</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0026">
+					<title>Place Brace in Container</title>
+					<graphic boardno="G06021801323"/>
+				</figure>
+				<step1>
+					<para>Ensure three TRICON connectors are located in holder on lower corner inside of right-hand container door (<xref figid="O00039-10-5419-218-F0027"/>).</para>
+				</step1>
+				<figure id="O00039-10-5419-218-F0027">
+					<title>Container Connectors in Bracket</title>
+					<graphic boardno="G06021801299"/>
+				</figure>
+				<step1>
+					<para>Place an updated copy of <extref docno="DD Form 1750"/> in document holder inside left-hand door.</para>
+				</step1>
+				<step1>
+					<para>Close and secure container doors.</para>
+				</step1>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

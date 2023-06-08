@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00033-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>SHADE ASSEMBLY, SOLAR, TYPE-31 AND TYPE-37 - POLE, TENT, SECTION <brk/> REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Pole, Tent, Section with Ferrule</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_POLESECT_FERRULE"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Pole, Tent, Section without Ferrule</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_SSHADE_POLESECT"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Type-31 solar shade installed</condition>
+				<itemref>
+					<xref wpid="M00057-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Type-37 solar shade installed</condition>
+				<itemref>
+					<xref wpid="M00047-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<replace>
+			<proc>
+				<title/>
+				<step1>
+					<para>Loosen small rope assembly by twisting rope lock <callout assocfig="M00033-10-5419-218-F0014" label="1"/>.</para>
+				</step1>
+				<figure id="M00033-10-5419-218-F0014">
+					<title>Remove Rope Assembly</title>
+					<graphic boardno="G06021800806"/>
+				</figure>
+				<step1>
+					<para>Detach small rope assembly carabiner clip <callout assocfig="M00033-10-5419-218-F0014" label="2"/> from solar shade wing panel to remove rope assembly.</para>
+				</step1>
+				<step1>
+					<para>Remove pole <callout assocfig="M00033-10-5419-218-F0015" label="1"/> from mounting bracket <callout assocfig="M00033-10-5419-218-F0015" label="2"/> on both sides of TEMPER shelter.</para>
+				</step1>
+				<figure id="M00033-10-5419-218-F0015">
+					<title>Tent Pole and Mounting Bracket</title>
+					<graphic boardno="G06021800808"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Pole does not need to be removed from sleeve if replacing tent pole section without ferrule. Proceed to <xref stepstart="M00033-10-5419-218-S0001"/>.</trim.para>
+							<trim.para>Pole may be folded during removal as required by space constraints.</trim.para>
+						</note>
+						<para>Push pole <callout assocfig="M00033-10-5419-218-F0015" label="1"/> through sleeve from one end while pulling on opposite end of pole to remove defective pole.</para>
+					</specpara>
+				</step1>
+				<step1 id="M00033-10-5419-218-S0001">
+					<para>Pull out end cap <callout assocfig="M00033-10-5419-218-F0016" label="2"/> on female end of pole to expose rope <callout assocfig="M00033-10-5419-218-F0016" label="1"/>.</para>
+				</step1>
+				<figure id="M00033-10-5419-218-F0016">
+					<title>End Cap and Rope</title>
+					<graphic boardno="G06021800990"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Rope is under tension and must be held securely to prevent rope from retracting inside of tent poles.</trim.para>
+						</note>
+						<para>Untie rope <callout assocfig="M00033-10-5419-218-F0016" label="1"/> and remove end cap <callout assocfig="M00033-10-5419-218-F0016" label="2"/>. Retain end cap.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Remove and retain tent pole sections <callout assocfig="M00033-10-5419-218-F0017" label="1"/> to access defective tent pole section as required.</para>
+				</step1>
+				<figure id="M00033-10-5419-218-F0017">
+					<title>Replace Tent Pole Section</title>
+					<graphic boardno="G06021800805"/>
+				</figure>
+				<step1>
+					<para>Remove and discard defective tent pole section.</para>
+				</step1>
+				<step1>
+					<para>Install replacement tent pole section and any retained pole sections <callout assocfig="M00033-10-5419-218-F0017" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Install retained end cap <callout assocfig="M00033-10-5419-218-F0016" label="2"/> to rope <callout assocfig="M00033-10-5419-218-F0016" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Tie excess rope <callout assocfig="M00033-10-5419-218-F0016" label="1"/> to secure end cap <callout assocfig="M00033-10-5419-218-F0016" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Tuck end cap and rope into female end of pole.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Pole assembly may remain installed if pole section without ferrule was replaced.</trim.para>
+						</note>
+						<para>Install pole assembly as follows:</para>
+					</specpara>
+					<step2>
+						<para>Align pole <callout assocfig="M00033-10-5419-218-F0018" label="1"/> to sleeve.</para>
+					</step2>
+					<figure id="M00033-10-5419-218-F0018">
+						<title>Install Tent Pole</title>
+						<graphic boardno="G06021800809"/>
+					</figure>
+					<step2>
+						<para>Push pole <callout assocfig="M00033-10-5419-218-F0018" label="1"/> through sleeve and unfold until pole reaches opposite side of TEMPER shelter.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Install tent pole <callout assocfig="M00033-10-5419-218-F0018" label="1"/> to mounting bracket <callout assocfig="M00033-10-5419-218-F0018" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Attach small rope assembly carabiner clip <callout assocfig="M00033-10-5419-218-F0019" label="1"/> to solar shade wing panel.</para>
+				</step1>
+				<figure id="M00033-10-5419-218-F0019">
+					<title>Install Rope Assembly</title>
+					<graphic boardno="G06021800807"/>
+				</figure>
+				<step1>
+					<para>Pull small rope assembly tight and twist rope lock <callout assocfig="M00033-10-5419-218-F0019" label="2"/>.</para>
+				</step1>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

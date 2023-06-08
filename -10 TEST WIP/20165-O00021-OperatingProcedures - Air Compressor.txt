@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00021-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> OPERATING PROCEDURES - AIR COMPRESSOR</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Compressor, Reciprocating</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COMPRESSOR"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Hose Assembly, Nonmetallic (Air, 50-ft)</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_50FT"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Hose Assembly, Nonmetallic (Air, Tee, 15-ft)</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_AIR_TEE"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Transportation/Storage Subsystem assembly and preparation for use complete</condition>
+				<itemref>
+					<xref wpid="O00004-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<oper>
+			<proc>
+				<title>Operate Diesel Air Compressor</title>
+				<warning>
+					<icon-set boardno="Heavy_Parts-hand"/>
+					<icon-set boardno="Heavy_Parts-wall"/>
+					<icon-set boardno="Heavy_Parts-above"/>
+					<icon-set boardno="Ear_Protection_Symbol"/>
+					<trim.para>Diesel air compressor weighs 315 lb (143 kg). Observe safety precautions when moving heavy items. Failure to comply can result in death or serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+					<trim.para>Compressor creates a loud noise hazard when operating. Ear protection must be worn within 15 ft (4.6 m) of operation. Failure to comply can result serious injury to personnel. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+					<trim.para>Air hose should not be connected or disconnected with pressure in air tank. Failure to comply may result in serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<caution>
+					<trim.para>If this is the first use of the diesel air compressor, ensure that any unpacking, assembly, initial adjustments and/or break in has been performed IAW manufacturers recommendations. Failure to comply can result in equipment damage.</trim.para>
+				</caution>
+				<step1>
+					<para>Ensure fuel shut-off valve <callout assocfig="O00021-10-5419-218-F0009" label="1"/> is in OPEN (vertical) position.</para>
+				</step1>
+				<figure id="O00021-10-5419-218-F0009">
+					<title>Start Diesel Air Compressor</title>
+					<graphic boardno="G06021801160"/>
+				</figure>
+				<step1>
+					<para>Turn and hold engine key in ignition switch <callout assocfig="O00021-10-5419-218-F0009" label="2"/> to START position, and let engine turn over several times to start then move key to ON position.</para>
+					<step2>
+						<para>Pressure is building in compressor and will be ready for operation once engine cuts out at preset air pressure if engine starts.</para>
+					</step2>
+					<step2>
+						<para>Continue to <xref stepstart="O00021-10-5419-218-S00005"/> to attempt pull start method if engine does not start after several attempts.</para>
+					</step2>
+				</step1>
+				<step1 id="O00021-10-5419-218-S00005">
+					<para>Turn engine key in ignition switch <callout assocfig="O00021-10-5419-218-F0009" label="2"/> to RUN position.</para>
+				</step1>
+				<step1>
+					<para>Pull handle <callout assocfig="O00021-10-5419-218-F0010" label="2"/> slowly until it resists. Slowly let rope rewind.</para>
+				</step1>
+				<figure id="O00021-10-5419-218-F0010">
+					<title>Pull Start Diesel Air Compressor</title>
+					<graphic boardno="G06021801161"/>
+				</figure>
+				<step1>
+					<para>Rotate compression relief lever <callout assocfig="O00021-10-5419-218-F0010" label="1"/> on top of diesel engine clockwise to open exhaust valve and release engine compression for easier starting each time handle is pulled.</para>
+				</step1>
+				<step1>
+					<para>Pull handle <callout assocfig="O00021-10-5419-218-F0010" label="2"/> hard and fast. Repeat until diesel engine starts.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Shut Down Air Compressor</title>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Throttle control knob is spring loaded and will return to START (down) position when released.</trim.para>
+						</note>
+						<para>Move and hold engine throttle control knob <callout assocfig="O00021-10-5419-218-F0011" label="1"/> to STOP (up) position until diesel engine completely shuts down.</para>
+					</specpara>
+				</step1>
+				<figure id="O00021-10-5419-218-F0011">
+					<title>Shut Down Diesel Air Compressor</title>
+					<graphic boardno="G06021801162"/>
+				</figure>
+				<step1>
+					<para>Turn engine key in ignition switch <callout assocfig="O00021-10-5419-218-F0011" label="2"/> to OFF position.</para>
+				</step1>
+				<step1>
+					<para>Close fuel shut-off valve <callout assocfig="O00021-10-5419-218-F0009" label="1"/>.</para>
+				</step1>
+			</proc>
+		</oper>
+	</opertsk>
+</opusualwp>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00017-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>FRAME, TENT, RIGID DOOR &amp; FLOOR, TENT <brk/> REPAIR</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Repair Kit, Tentage</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_TEMPER_REPAIRKIT"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<repair>
+			<proc>
+				<title/>
+				<para>Repair rips or tears in rigid door skins or TEMPER shelter floor with a temporary or a permanent patch IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+			</proc>
+		</repair>
+	</maintsk>
+</maintwp>

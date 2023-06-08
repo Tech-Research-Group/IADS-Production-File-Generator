@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00005-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> ASSEMBLY AND PREPARATION FOR USE - UNPACKING TRICONS</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Gloves, Men's and Women's</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_WORK"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+				<mos/>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Person</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00039-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00040-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00043-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00044-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00045-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00047-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00048-10-5419-218"/> 
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/> 
+			</ref-setup-item>
+		</ref>
+	</initial_setup>
+	<opertsk>
+		<prepforuse>
+			<proc>
+				<title>Introduction</title>
+				<warning>
+					<icon-set boardno="Heavy_Object"/>
+					<icon-set boardno="Heavy_Parts-above"/>
+					<icon-set boardno="Heavy_Parts-wall"/>
+					<icon-set boardno="Ear_Protection_Symbol"/>
+					<trim.para>Each pallet weighs over 500 lb (226 kg) and must be moved using marterial handling equipment (MHE) or other suitable lifting device. Pallet should not be attempted to be moved by hand. Personnel must not stand between MHE and pallet or below pallet while it is being moved. Serious injury or death to personnel may result in safety precautions are not observed. Seek immediate medical attention if injury occurs.</trim.para>
+					<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<para>This work package describes general methods recommended for unpacking storage TRICONs. When performing assembly and preparation for use procedures for each Expeditionary Platoon Life Support Module (EPLSM) subsystem, each work package will list appropriate TRICON(s) containing required equipment.</para>
+			</proc>
+			<proc>
+				<para>Refrigerated TRICON designated N55B is a different TRICON configuration than all other transportation/storage containers. General method of locating items and unpacking will remain the same as all other TRICONs, but N55B does not contain any pallets, shelves, or lumber bracing.</para>
+			</proc>
+			<proc>
+				<para>Pack plans are located inside of left-hand door of TRICONs. Refer to notes on drawings and packing list, as some items are packed inside others. Component illustrations in Components of End Item List (<xref wpid="S00002-10-5419-218"/>) should be used to help identify parts as needed.</para>
+			</proc>
+			<proc>
+				<para>All TRICONs are labeled with a container identification number. TRICONs with the same series of numbers, for example N51A-1, N51A-2, and N51A-3, indicate identical contents and packing configuration. Refer to <xref tableid="O00005-10-5419-218-T0001"/> for a list of TRICONs. Refer to <xref figid="O00005-10-5419-218-F0001"/> for location of stenciled identification. If EPLSM was moved within theater, refer to field pack (<xref wpid="O00039-10-5419-218"/> - <xref wpid="O00048-10-5419-218"/>) to locate and remove items required.
+					<figure id="O00005-10-5419-218-F0001">
+						<title>TRICON Stenciling</title>
+						<graphic boardno="G06021800196"/>
+					</figure>
+					<?Pub _newline?>
+					<table id="O00005-10-5419-218-T0001">
+						<title>Transportation/Storage TRICON and Refrigerated TRICON Designations</title>
+						<tgroup cols="3">
+							<colspec colname="col1" colwidth="0.4*"/>
+							<colspec colname="col2" colwidth="1.5*"/>
+							<colspec colname="col3" colwidth="0.32*"/>
+							<thead>
+								<row>
+									<entry>Designation</entry>
+									<entry>Description</entry>
+									<entry>QTY</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>50C</entry>
+									<entry>Site Support Kit</entry>
+									<entry>1</entry>
+								</row>
+								<row>
+									<entry>N51A</entry>
+									<entry>Billeting Tent Kit</entry>
+									<entry>4</entry>
+								</row>
+								<row>
+									<entry>N51B</entry>
+									<entry>Administration Tent Kit</entry>
+									<entry>1</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>Refrigerated Container/Kitchen Kit</entry>
+									<entry>1</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>Kitchen Tent Kit</entry>
+									<entry>1</entry>
+								</row>
+								<row>
+									<entry>N57A</entry>
+									<entry>Generator Equipment Kit, Type-A</entry>
+									<entry>1</entry>
+								</row>
+								<row>
+									<entry>57D</entry>
+									<entry>Generator Equipment Kit, Type-B</entry>
+									<entry>1</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</para>
+			</proc>
+			<proc>
+				<title>Unpack TRICON</title>
+				<step1>
+					<para>Open TRICON doors as follows:</para>
+					<step2>
+						<para>Remove lock or seal from catch <callout assocfig="O00005-10-5419-218-F0202" label="5"/> on right-hand door <callout assocfig="O00005-10-5419-218-F0202" label="4"/>.</para>
+					</step2>
+					<figure id="O00005-10-5419-218-F0202">
+						<title>Open TRICON Doors</title>
+						<graphic boardno="G06021800975"/>
+					</figure>
+					<step2>
+						<para>Pivot door catch <callout assocfig="O00005-10-5419-218-F0202" label="5"/> on right-hand door <callout assocfig="O00005-10-5419-218-F0202" label="4"/> toward center of container.</para>
+					</step2>
+					<step2>
+						<para>Lift up handle <callout assocfig="O00005-10-5419-218-F0202" label="6"/> and pull away from door <callout assocfig="O00005-10-5419-218-F0202" label="4"/> until cams <callout assocfig="O00005-10-5419-218-F0202" label="3"/> are free of container.</para>
+					</step2>
+					<step2>
+						<para>Swing right-hand door <callout assocfig="O00005-10-5419-218-F0202" label="4"/> out to open.</para>
+					</step2>
+					<step2>
+						<para>Pivot door catch <callout assocfig="O00005-10-5419-218-F0202" label="8"/> on left-hand door <callout assocfig="O00005-10-5419-218-F0202" label="1"/> toward center of container.</para>
+					</step2>
+					<step2>
+						<para>Lift up handle <callout assocfig="O00005-10-5419-218-F0202" label="7"/> and pull away from door <callout assocfig="O00005-10-5419-218-F0202" label="1"/> until cams <callout assocfig="O00005-10-5419-218-F0202" label="2"/> are free of container.</para>
+					</step2>
+					<step2>
+						<para>Swing left-hand door <callout assocfig="O00005-10-5419-218-F0202" label="1"/> out to open.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Remove any shipping braces <callout assocfig="O00005-10-5419-218-F0003" label="1"/> from TRICON.</para>
+				</step1>
+				<figure id="O00005-10-5419-218-F0003">
+					<title>Remove Top Pallet</title>
+					<graphic boardno="G06021801163"/>
+				</figure>
+				<step1>
+					<para>Unstrap and place retaining straps <callout assocfig="O00005-10-5419-218-F0003" label="4"/> on top of TRICON to allow access for MHE.</para>
+				</step1>
+				<step1>
+					<para>Remove any items that may have been stored in forklift pockets of top pallet, such as vestibule frames, along with any other loose item that could fall during removal.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Each pallet weighs over 500 lb (226 kg) and must be moved using MHE or other suitable lifting device. Pallet should not be attempted to be moved by hand. Personnel must not stand between MHE and pallet or below pallet while it is being moved. Serious injury or death to personnel may result in safety precautions are not observed. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Personnel must wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Hearing loss occurs gradually but becomes permanent over time. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>.</trim.para>
+						</warning>
+						<para>Use MHE <callout assocfig="O00005-10-5419-218-F0003" label="2"/> to remove top pallet <callout assocfig="O00005-10-5419-218-F0003" label="3"/> and lower safely to ground. Place pallet aside TRICON and out of way of further unpacking.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Remove any shelving <callout assocfig="O00005-10-5419-218-F0004" label="1"/> and brackets <callout assocfig="O00005-10-5419-218-F0004" label="2"/>, if present, to allow access to items stored on container floor or removal of bottom pallet.</para>
+				</step1>
+				<figure id="O00005-10-5419-218-F0004">
+					<title>Container Shelf and Brackets</title>
+					<graphic boardno="G06021800199"/>
+				</figure>
+				<step1>
+					<para>Identify item needed on packing list <callout assocfig="O00005-10-5419-218-F0004" label="3"/> and note find number (FN). Locate FN on 3-dimensional drawing of packing configuration.</para>
+				</step1>
+				<step1>
+					<para>Remove any items that may have been stored in forklift pockets of bottom pallet, such as vestibule frames, along with any other loose item that could fall during removal.</para>
+				</step1>
+				<step1>
+					<para>Use MHE to remove bottom pallet and set in front of TRICON.</para>
+				</step1>
+				<step1>
+					<para>Place any used packaging material (pallets, shoring beams, shelving, ratchet straps, etc.) in an available TRICON.</para>
+				</step1>
+				<step1>
+					<para>Close and secure TRICON doors after removing items as follows:</para>
+					<step2>
+						<para>Ensure handle <callout assocfig="O00005-10-5419-218-F0202" label="7"/> is rotated 90 degrees from left-hand door <callout assocfig="O00005-10-5419-218-F0202" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>Fully close left-hand door <callout assocfig="O00005-10-5419-218-F0202" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>Turn handle <callout assocfig="O00005-10-5419-218-F0202" label="7"/> inward until cams <callout assocfig="O00005-10-5419-218-F0202" label="2"/> engage container.</para>
+					</step2>
+					<step2>
+						<para>Place handle <callout assocfig="O00005-10-5419-218-F0202" label="7"/> into hasp and secure with catch <callout assocfig="O00005-10-5419-218-F0202" label="8"/>.</para>
+					</step2>
+					<step2>
+						<para>Ensure handle <callout assocfig="O00005-10-5419-218-F0202" label="6"/> is rotated 90 degrees from right-hand door <callout assocfig="O00005-10-5419-218-F0202" label="4"/>.</para>
+					</step2>
+					<step2>
+						<para>Fully close right-hand door <callout assocfig="O00005-10-5419-218-F0202" label="4"/>.</para>
+					</step2>
+					<step2>
+						<para>Turn handle <callout assocfig="O00005-10-5419-218-F0202" label="6"/> inward until cams <callout assocfig="O00005-10-5419-218-F0202" label="3"/> engage container.</para>
+					</step2>
+					<step2>
+						<para>Place handle <callout assocfig="O00005-10-5419-218-F0202" label="6"/> into hasp and secure with catch <callout assocfig="O00005-10-5419-218-F0202" label="5"/>.</para>
+					</step2>
+				</step1>
+			</proc>
+		</prepforuse>
+	</opertsk>
+</opusualwp>

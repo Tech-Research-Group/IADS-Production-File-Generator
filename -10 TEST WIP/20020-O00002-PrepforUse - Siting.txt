@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00002-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> SITING REQUIREMENTS</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Gloves, Men's and Women's</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_WORK"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="ATP 4-45 (FM 4-20.07)"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00005-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+	</initial_setup>
+	<opertsk>
+		<site>
+			<proc>
+				<title>Siting Considerations</title>
+				<para>This section outlines the technical considerations applicable to deployment of the Expeditionary Platoon Life Support Module (EPLSM) into a designated region. Refer to <extref docno="ATP 4-45 (FM 4-20.07)" posttext=": Force Provider Operations"/> for additional planning guidance. Although each deployment will involve a particular set of tasks reflecting unique tactical, climatic, and other considerations, the following preparatory tasks are typical in identifying and preparing a site to accommodate an EPLSM:
+					<randlist bullet="yes">
+						<item>Site Selection. Within area of possible locations, determine sites of suitable size and characteristics to accommodate an EPLSM. Initially identified sites are then more closely evaluated, and best choices are ranked in order for final selection.</item>
+						<item>Site Planning. Customize EPLSM layout that minimizes effort and maximizes use of existing conditions and facilities at proposed site. Specific requirements for EPLSM mission must be considered. Estimate required site work, and devise transport and deployment schedules. If site planning problems are encountered, or unanticipated site preparation tasks become necessary, a site may be dropped and the next-best site selected. The planning phase will culminate in a comprehensive site plan and task list.</item>
+						<item>Site Preparation. Execute site preparation activities as determined during planning phase. These may include land clearing, road construction, grading and emplacement of culverts, berms, drainage improvement, and construction of concrete slabs.</item>
+						<item>Staking and Staging. Using diagrams provided in this work package, modified to suit local conditions, designate locations of components, shelters, equipment, and support containers with stakes on prepared site. Completed site layout (<xref figid="O00002-10-5419-218-F0001"/>) proposed in this WP is a recommended setup based on anticipated requirements. Deviations or alterations are permitted.</item>
+					</randlist>
+					<figure id="O00002-10-5419-218-F0001">
+						<title>Complete Site Layout</title>
+						<graphic boardno="G06021801103"/>
+					</figure>
+				</para>
+			</proc>
+			<proc>
+				<title>Siting Requirements</title>
+				<para>The area required for one EPLSM takes up 49,715 ft&sup2; (305 ft x 163 ft) (4,618.7 m&sup2; (93 m x 49.7 m)); additional space may be needed depending on supply/storage considerations and sewage disposal methods. Look for the following characteristics when selecting a potential EPLSM site:
+					<randlist bullet="yes">
+						<item>Select a relatively level area. Ground does not have to be flat, but level ground will make setup easier. Maximum recommended slope is four degrees. This means there should be no more than a 7-ft (2.1-m) rise or drop in grade over 100 ft (30.5 m).</item>
+						<item>Only minimal grading, brush, rock, or tree removal should be required. Blasting or large rock removal should be avoided if possible.</item>
+						<item>Avoid low points in valleys or other depressed areas, as they are susceptible to water collection.</item>
+						<item>Avoid areas of high water tables.</item>
+						<item>Ensure there is sufficient space 49,715 ft&sup2; (305 ft x 163 ft) (4,618.7 m&sup2; (93 m x 49.7 m)) to deploy EPLSM.</item>
+						<item>Consider latitude and longitude and orientation of EPLSM components to minimize effects of shadows, solar radiation, and prevailing winds. Area should be sheltered from high winds if possible.</item>
+						<item>Dig a drainage ditch around area to provide adequate drainage if necessary.</item>
+						<item>Proximity to potential water sources, fuel supply, and waste disposal facilities.</item>
+						<item>Proximity to supported units, lines of communication, and supply facilities.</item>
+						<item>Access to an external supply road. Additional space requirements for internal roads to facilitate frequent delivery of fuel, water, and rations, or removal of trash and wastewater may be required. Vehicular access will also be required for emergency response vehicles. In addition, consider the need for sufficient space for snow removal equipment.</item>
+					</randlist>
+				</para>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Siting Instructions</title>
+				<step1 id="O00002-Siting">
+					<para>Unpack TRICON 50C IAW <xref wpid="O00005-10-5419-218"/> until marking flags, measuring tape, and a first aid kit are accessible.</para>
+				</step1>
+				<step1>
+					<para>Retrieve items listed in <xref stepstart="O00002-Siting"/>, then close and secure TRICON 50C for placement during Transportation/Storage Subsystem assembly and preparation for use.</para>
+				</step1>
+				<step1>
+					<para>Select a site that is 305 ft x 163 ft (93 m x 49.7 m) (<xref figid="O00002-10-5419-218-F0002"/>).</para>
+				</step1>
+				<figure id="O00002-10-5419-218-F0002">
+					<title>Site Reference Point</title>
+					<graphic boardno="G06021801056"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>When a road or intersection of roads is part of the site, the site reference point should be positioned to allow for resupply of rations and supplies, and arrival/departure of supported units.</trim.para>
+						</note>
+						<para>Mark lower left-hand corner as site reference point (<xref figid="O00002-10-5419-218-F0002"/>).</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Mark three remaining corners of EPLSM site as shown in <xref figid="O00002-10-5419-218-F0001"/>, and note site reference point for reference in later procedures.</para>
+				</step1>
+			</proc>
+		</site>
+	</opertsk>
+</opusualwp>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thrywp wpno="G00003-10-5419-218" chngno="0">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>THEORY OF OPERATION</title>
+	</wpidinfo>
+	<systhry>
+		<title>General</title>
+		<para>The Expeditionary Platoon Life Support Module (EPLSM) (<xref figid="G00003-10-5419-218-F0001"/>) consists of 8 subsystems that provide latrine, laundry, shower, dining, fuel, power, billeting, administration, storage facilities, and supplies for up to 75 personnel. The EPLSM theory of operation by subsystem is described in the following paragraphs.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0001">
+				<title>EPLSM Deployed</title>
+				<graphic boardno="G06021800468"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Latrine Subsystem</title>
+		<para>The Latrine Subsystem (<xref figid="G00003-10-5419-218-F0002"/>) consists of one Expeditionary Latrine System (ELS) that provides latrine facilities for male and female personnel. The ELS consists of four toilets, two urinals, and two sinks. For specific theory of operation related to the ELS, refer to <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+		<para>The ELS contains a source water pump, wastewater pump, two water bags, and hoses to connect them.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0002">
+				<title>Latrine Subsystem Water Connections</title>
+				<graphic boardno="G06021800480"/>
+			</figure>
+		</para>
+		<?Pub _newpage?>
+		<para>Latrine Subsystem power connections (<xref figid="G00003-10-5419-218-F0003"/>) are available at the Power Generation and Fuel Distribution Subsystem. Additional power cables are provided to connect the ELS to the power distribution box (PDB).</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0003">
+				<title>Latrine Subsystem Power Connections</title>
+				<graphic boardno="G06021800481"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Laundry Subsystem</title>
+		<para>The Laundry Subsystem (<xref figid="G00003-10-5419-218-F0004"/>) consists of one Expeditionary TRICON Self Serve Laundry System (ETSSLS) that is used to launder clothing and other material for the EPLSM. For specific theory of operation related to the ETSSLS, refer to <extref docno="TM 10-5419-215-10"/>.</para>
+		<para>The ETSSLS is equipped with all water bags and hoses required to supply cold water for washing and to collect wastewater.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0004">
+				<title>Laundry Subsystem Water Connections</title>
+				<graphic boardno="G06021800482"/>
+			</figure>
+		</para>
+		<?Pub _newpage?>
+		<para>Laundry Subsystem power connections (<xref figid="G00003-10-5419-218-F0005"/>) are available at the Power Generation and Fuel Distribution Subsystem. Additional power cables are provided to connect the ETSSLS to PDB.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0005">
+				<title>Laundry Subsystem Power Connections</title>
+				<graphic boardno="G06021800483"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Shower Subsystem</title>
+		<para>The Shower Subsystem (<xref figid="G00003-10-5419-218-F00061"/>) consists of one Expeditionary Shower System (ESS), with two 3,000-gal (11,356-L) water bags, all hoses, and connecting hardware. The ESS has four shower stalls with two stalls on each side of the container. The ESS is connected to a water heater to provide personal sanitation for male and female personnel.</para>
+		<para>For specific theory of operation related to the various components of the Shower Subsystem, refer to the following TMs:<randlist>
+				<item>ESS - <extref docno="TM 10-5419-210-13&amp;P"/>
+				</item>
+				<item>Water Heater - <extref docno="TM 10-4520-266-13&amp;P"/>
+				</item>
+			</randlist>
+		</para>
+		<para>
+			<figure id="G00003-10-5419-218-F00061">
+				<title>Shower Subsystem Water Connections</title>
+				<graphic boardno="G06021800918"/>
+			</figure>
+		</para>
+		<para>Shower Subsystem power connections (<xref figid="G00003-10-5419-218-F0006"/>) are available at the Power Generation and Fuel Distribution Subsystem. Additional power cables are provided to connect the ESS to the PDBs.
+			<figure id="G00003-10-5419-218-F0006">
+				<title>Shower Subsystem Power Connections</title>
+				<graphic boardno="G06021800486"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Kitchen/Dining Subsystem</title>
+		<para>The Kitchen/Dining Subsystem (<xref figid="G00003-10-5419-218-F0007"/>) consists of one Expeditionary TRICON Kitchen System (ETKS) complexed to a Type-37 TEMPER shelter with an environmental control unit (ECU) that functions as a climate-controlled dining facility (DFAC). The DFAC has 8 tables, 16 benches, a beverage station, and an ice maker (not shown). A TRICON Refrigerated Container System (TRCS) is located with the ETKS for refrigeration of food supplies. Two 3,000-gal (11,356-L) collapsible fabric water bags supply ETKS source water and hold wastewater (SOURCE water bag and WASTE water bag).</para>
+		<para>For specific theory of operation related to the various components of the Kitchen/Dining Subsystem, refer to the following TMs:
+			<randlist>
+				<item>ECU - <extref docno="TM 10-4120-453-13&amp;P"/>
+				</item>
+				<item>ETKS - <extref docno="TM 10-5419-207-10"/>
+				</item>
+				<item>TEMPER shelter - <extref docno="TM 10-8340-244-13&amp;P"/>
+				</item>
+				<item>TRCS - <extref docno="TM 10-8145-224-13&amp;P"/>
+				</item>
+			</randlist>
+			<figure id="G00003-10-5419-218-F0007">
+				<title>Kitchen/Dining Subsystem</title>
+				<graphic boardno="G06021801287"/>
+			</figure>
+		</para>
+		<?Pub _newpage?>
+		<para>Kitchen/Dining Subsystem power connections (<xref figid="G00003-10-5419-218-F0008"/>) are available at the Power Generation and Fuel Distribution Subsystem. Additional power cables are provided to connect the ETKS, TRCS, and dining TEMPER shelter to PDBs.
+			<figure id="G00003-10-5419-218-F0008">
+				<title>Kitchen/Dining Subsystem Power Connections</title>
+				<graphic boardno="G06021801288"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Power Generation and Fuel Distribution Subsystem</title>
+		<para>The Power Generation and Fuel Distribution Subsystem consists of three 60-kW generators, three PDBs, two 1,000-gal (3,785-L) fuel tanks with a spill containment system, a Fuel Distribution System (FDS), nozzle stand, fuel hoses, and hose connection fittings. The FDS and nozzle stand are used as a retail fuel point. The potential for any fuel spillage is mitigated by the use of spill containment systems on the generators, fuel tank, and FDS. The FDS is powered by an extension cord connected to one generator.</para>
+		<para>For specific theory of operation related to the various components of the Power Generation and Fuel Distribution Subsystem, refer to the following TMs:<randlist bullet="no">
+				<item>FDS - <extref docno="TM 10-4930-369-13&amp;P"/>
+				</item>
+				<item>Fuel Tank - <extref docno="TM 10-5430-225-13&amp;P"/>
+				</item>
+				<item>Generator - <extref docno="TM 9-6115-753-10"/>
+				</item>
+			</randlist>
+			<figure id="G00003-10-5419-218-F0011">
+				<title>Power Generation and Fuel Distribution Subsystem</title>
+				<graphic boardno="G06021800490"/>
+			</figure>
+		</para>
+		<?Pub _newpage?>
+		<para>Power Generation and Fuel Distribution Subsystem power connections to all other subsystems are illustrated in <xref figid="G00003-10-5419-218-F0012"/>.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0012">
+				<title>Power Generation and Fuel Distribution Subsystem Power Connections</title>
+				<graphic boardno="G06021800235"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Billeting Subsystem</title>
+		<para>The Billeting Subsystem consists of four Type-31 TEMPER shelters. Each billeting TEMPER shelter is equipped with an ECU, 11 bunk beds, storage lockers, chairs, and cleaning equipment.</para>
+		<para>For specific theory of operation related to the various components of the Billeting Subsystem, refer to the following TMs:
+			<randlist>
+				<item>ECU - <extref docno="TM 10-4120-453-13&amp;P"/>
+				</item>
+				<item>TEMPER shelter - <extref docno="TM 10-8340-244-13&amp;P"/>
+				</item>
+			</randlist>
+		</para>
+		<para>Billeting Subsystem power connections (<xref figid="G00003-10-5419-218-F0014"/>) are available at the Power Generation and Fuel Distribution Subsystem. Power cables are provided to connect the billeting TEMPER shelters to the PDBs.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0014">
+				<title>Billeting Subsystem Power Connections</title>
+				<graphic boardno="G06021800492"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Administration Subsystem</title>
+		<para>The Administration Subsystem consists of one Type-31 TEMPER shelter. The administration TEMPER shelter is equipped with an ECU, bunk beds, work tables, chairs, storage lockers, and cleaning equipment. The Administration Subsystem is designed to be the management hub of the EPLSM.</para>
+		<para>For specific theory of operation related to the various components of the Administration Subsystem, refer to the following TMs:<randlist>
+				<item>ECU - <extref docno="TM 10-4120-453-13&amp;P"/></item>
+				<item>TEMPER shelter - <extref docno="TM 10-8340-244-13&amp;P"/></item>
+			</randlist>
+		</para>
+		<para>Administration Subsystem power connections (<xref figid="G00003-10-5419-218-F0016"/>) are available at the Power Generation and Fuel Distribution Subsystem. Power cables are provided to connect the administration TEMPER shelter to PDB.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0016">
+				<title>Administration Subsystem Power Connections</title>
+				<graphic boardno="G06021800495"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Transportation/Storage Subsystem</title>
+		<para>The Transportation/Storage Subsystem (<xref figid="G00003-10-5419-218-F0017"/>) consists of nine storage and shipping TRICONs. Each TRICON container may contain an internal shipping and storage shelf, shoring beams, wooden braces, and packout pallets depending on container designation. Ratchet straps are included with each container in order to secure contents during transport. The Transportation/Storage Subsystem is used to pack out the contents of the EPLSM in preparation for movement to a new location. For specific theory of operation related to the storage TRICONs, refer to <extref docno="TM 55-8145-236-13&amp;P"/>.</para>
+		<para>
+			<figure id="G00003-10-5419-218-F0017">
+				<title>Transportation/Storage Subsystem</title>
+				<graphic boardno="G06021800474"/>
+			</figure>
+		</para>
+	</systhry>
+	<?Pub _newpage?>
+	<systhry>
+		<title>Electrical Power Connections Layout</title>
+		<para>The electrical power connections layout (<xref figid="G00003-10-5419-218-F0050"/>) is designed to aid the user setting up the electrical layout of the EPLSM. There are many options for how to place the cables. Without correct placement of the cables, harm may come to cables or personnel in the camp. Always place power cables over water hoses. Cables may be routed differently if the camp requires an alternative layout.
+			<figure id="G00003-10-5419-218-F0050">
+				<title>Electrical Power Connections Layout</title>
+				<graphic boardno="G06021801080"/>
+			</figure>
+		</para>
+	</systhry>
+</thrywp>

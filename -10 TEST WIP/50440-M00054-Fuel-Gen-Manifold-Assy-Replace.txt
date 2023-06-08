@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00054-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>MANIFOLD, INTAKE <brk/> REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Manifold, Intake</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_MANIFOLD"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Absorbent Material, Oil and Water</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_ABSORBENT_SHEETS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Chemical Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_CHEMICAL"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 9-6115-753-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<replace>
+			<proc>
+				<title/>
+				<note>
+					<trim.para>There are two manifolds used in Power Generation and Fuel Distribution Subsystem. One manifold supplies fuel to two generators and the other supplies fuel to one generator. All generators supplied by manifold will need to be taken offline during replacement procedure.</trim.para>
+				</note>
+				<step1>
+					<para>Locate affected generator set(s) (<xref figid="M00054-Generators"/>).</para>
+				</step1>
+				<figure id="M00054-Generators">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Turn off power to all Expeditionary Platoon Life Support Module (EPLSM) components connected to power distribution boxes (PDBs) 1 and 2 or PDB 3 IAW applicable TM (<xref tableid="M00054-PDB_to_EPLSM"/>).</para>
+				</step1>
+				<table id="M00054-PDB_to_EPLSM">
+					<title>EPLSM Component Technical Manuals</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.3*"/>
+						<colspec colname="col2" colwidth="1.8*"/>
+						<colspec colname="col3" colwidth="0.75*"/>
+						<thead>
+							<row>
+								<entry>PDBs</entry>
+								<entry>EPLSM Component</entry>
+								<entry>Technical Manual</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>1</entry>
+								<entry>Expeditionary TRICON Kitchen System (ETKS)</entry>
+								<entry>
+									<extref docno="TM 10-5419-207-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>1</entry>
+								<entry>Billeting TEMPER Shelters 1, 2, and 3</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>ETKS</entry>
+								<entry>
+									<extref docno="TM 10-5419-207-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>TRICON Refrigerated Container System (TRCS)</entry>
+								<entry>
+									<extref docno="TM 10-8145-224-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>Billeting TEMPER Shelter 4</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>Dining TEMPER Shelter</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>Fuel Distribution System (FDS)</entry>
+								<entry>
+									<extref docno="TM 10-4930-369-13&amp;P"/>
+								</entry>
+							</row>
+						
+							<row>
+								<entry>3</entry>
+								<entry>Expeditionary Latrine System (ELS)</entry>
+								<entry>
+									<extref docno="TM 10-5419-209-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>Expeditionary Shower System (ESS)</entry>
+								<entry>
+									<extref docno="TM 10-5419-210-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>Expeditionary TRICON Self Serve Laundry System (ETSSLS)</entry>
+								<entry>
+									<extref docno="TM 10-5419-215-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>Administration TEMPER Shelter</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+						
+						</tbody>
+					</tgroup>
+				</table>
+				<step1 id="M00054-10-5419-218-S0001">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects such as rings or tools can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of EPLSM may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+
+						</warning>
+						<para>Lift cover <callout assocfig="M00054-20-Amp_CB" label="1"/> and set 20-A ground-fault circuit interrupter (GFCI) circuit breaker (CB) 1 <callout assocfig="M00054-20-Amp_CB" label="2"/> to OFF position.</para>
+					</specpara>
+				</step1>
+				<figure id="M00054-20-Amp_CB">
+					<title>20-A GFCI CB</title>
+					<graphic boardno="G06021800832"/>
+				</figure>
+				<step1>
+					<para>Set all 60-A CBs (CB 2, CB 3, CB 5, and CB 6) to OFF position. Refer to <xref tableid="M00054-60-Amp_CBtab"/> and <xref figid="M00054-60-Amp_CBfig"/> for CB location and corresponding receptacle.</para>
+				</step1>
+				<table id="M00054-60-Amp_CBtab">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<figure id="M00054-60-Amp_CBfig">
+					<title>PDB 60-A CBs and Output Receptacles</title>
+					<graphic boardno="G06021800831"/>
+				</figure>
+				<step1>
+					<para>Set all 100-A CBs (CB 4 and CB 7) to OFF position. Refer to <xref tableid="M00054-100-Amp_CBtab"/> and <xref figid="M00054-100-Amp_CBfig"/> for CB location and corresponding receptacle.</para>
+				</step1>
+				<table id="M00054-100-Amp_CBtab">
+					<title>PDB 100-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 4 (3&oslash; 4 100-A)</entry>
+								<entry>CB 4</entry>
+							</row>
+							<row>
+								<entry>Circuit 7 (3&oslash; 7 100-A)</entry>
+								<entry>CB 7</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<figure id="M00054-100-Amp_CBfig">
+					<title>PDB 100-A CBs and Output Receptacles</title>
+					<graphic boardno="G06021800602"/>
+				</figure>
+				<step1 id="M00054-10-5419-218-S0002">
+					<para>Lift cover <callout assocfig="M00054-200-Amp_CBfig" label="1"/> and set 200-A MAIN CB <callout assocfig="M00054-200-Amp_CBfig" label="2"/> to OFF position.</para>
+				</step1>
+				<figure id="M00054-200-Amp_CBfig">
+					<title>200-A MAIN CB</title>
+					<graphic boardno="G06021800608"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepend="M00054-10-5419-218-S0002" stepstart="M00054-10-5419-218-S0001"/> for remaining PDBs.</para>
+				</step1>
+				<step1>
+					<para>Shut down affected generators IAW <extref docno="TM 9-6115-753-10"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+						<icon-set boardno="Electrical_Symbols"/>
+						<icon-set boardno="Poison"/>
+						<icon-set boardno="Vapor"/>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Explosion"/>
+							<icon-set boardno="Eye_Protection"/>
+							<icon-set boardno="Fire"/>
+						
+						<trim.para>Fuel is toxic and highly flammable. Fuel leaks and spills are a fire hazard. Do not allow smoking within 50 ft (15.24 m) of area. Avoid contact with skin, eyes, and clothes and do not breathe vapors. Wear personal protective equipment: impermeable gloves, apron, and goggles. Promptly correct any fuel leak. If it cannot be corrected safely while in operation, shut down and make corrections to stop leak. Failure to comply can result in death or serious injury to personnel. If injury or direct exposure to fuel occurs, seek immediate medical attention.</trim.para>
+						<trim.para>Gloves must always be worn when cleaning up a fuel spill to prevent fuel from getting on exposed skin. Goggles must be worn when cleaning up a fuel spill to prevent spilled fuel from getting into eyes. Failure to comply may result in injury to personnel. Flush eyes with water or rinse and clean affected area thoroughly, then seek immediate medical attention if exposed to fuel.</trim.para>
+						<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Ball valve must be closed prior to disconnecting fuel hose. Otherwise, fuel may leak.</trim.para>
+						</note>
+						<para>Lift fuel hose <callout assocfig="M00054-10-5419-218-F0005" label="2"/> to drain fuel into tank <callout assocfig="M00054-10-5419-218-F0005" label="1"/> and close ball valve <callout assocfig="M00054-10-5419-218-F0005" label="6"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="M00054-10-5419-218-F0005">
+					<title>Replace Fuel Manifold</title>
+					<graphic boardno="G06021800733"/>
+				</figure>
+				<step1>
+					<para>Disconnect auxiliary fuel hoses <callout assocfig="M00054-10-5419-218-F0005" label="4"/> from fuel manifold <callout assocfig="M00054-10-5419-218-F0005" label="5"/>.</para>
+				</step1>
+				<step1>
+					<para>Disconnect and discard defective fuel manifold <callout assocfig="M00054-10-5419-218-F0005" label="5"/> from reducer <callout assocfig="M00054-10-5419-218-F0005" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Connect replacement fuel manifold <callout assocfig="M00054-10-5419-218-F0005" label="5"/> to reducer <callout assocfig="M00054-10-5419-218-F0005" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Connect auxiliary fuel hoses <callout assocfig="M00054-10-5419-218-F0005" label="4"/> to fuel manifold <callout assocfig="M00054-10-5419-218-F0005" label="5"/>.</para>
+				</step1>
+				<step1>
+					<para>Open ball valve <callout assocfig="M00054-10-5419-218-F0005" label="6"/>.</para>
+				</step1>
+				<step1>
+					<para>Turn on generators IAW <extref docno="TM 9-6115-753-10"/>.</para>
+				</step1>
+				<step1 id="M00054_Turn_Circuit_Breakers_on">
+					<para>Lift cover <callout assocfig="M00054-200-Amp_CBfig" label="1"/> and set 200-A MAIN CB <callout assocfig="M00054-200-Amp_CBfig" label="2"/> to ON position.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>Power setup of EPLSM may vary from site to site. Correct CB can be identified by following power cables from component back to PDB. Failure to observe this warning may result in energizing incorrect component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Interior and exterior areas of EPLSM may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+
+						</warning>
+						<para>Set all 100-A CBs (CB 4 and CB 7) to ON position as needed. Refer to <xref figid="M00054-100-Amp_CBfig"/> for CB location and corresponding receptacle.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Set 60-A CBs (CB 2, CB 3, CB 5, and CB 6) to ON position as needed. Refer to <xref figid="M00054-60-Amp_CBfig"/> for CB location and corresponding receptacle.</para>
+				</step1>
+				<step1 id="M00054_End_Turn_Circuit_Breakers_on">
+					<para>Lift cover <callout assocfig="M00054-10-5419-218-F0301" label="1"/> and set 20-A GFCI CB 1 <callout assocfig="M00054-10-5419-218-F0301" label="2"/> to ON position.</para>
+				</step1>
+				<figure id="M00054-10-5419-218-F0301">
+					<title>20-A GFCI CB</title>
+					<graphic boardno="G06021800832"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepstart="M00054_Turn_Circuit_Breakers_on" stepend="M00054_End_Turn_Circuit_Breakers_on"/> for remaining PDB if necessary.</para>
+				</step1>
+				<step1>
+					<para>Turn on power to all EPLSM components connected to PDBs 1 and 2 or PDB 3 IAW applicable TM (<xref tableid="M00054-Component_List_ON"/>).</para>
+				</step1>
+				<table id="M00054-Component_List_ON">
+					<title>EPLSM Component Technical Manuals</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.3*"/>
+						<colspec colname="col2" colwidth="1.8*"/>
+						<colspec colname="col3" colwidth="0.75*"/>
+						<thead>
+							<row>
+								<entry>PDB</entry>
+								<entry>EPLSM Component</entry>
+								<entry>Technical Manual</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>1</entry>
+								<entry>ETKS</entry>
+								<entry>
+									<extref docno="TM 10-5419-207-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>1</entry>
+								<entry>Billeting TEMPER Shelters 1, 2, and 3</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>ETKS</entry>
+								<entry>
+									<extref docno="TM 10-5419-207-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>Billeting TEMPER Shelter 4</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>Dining TEMPER Shelter</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>2</entry>
+								<entry>TRCS</entry>
+								<entry>
+									<extref docno="TM 10-8145-224-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>ELS</entry>
+								<entry>
+									<extref docno="TM 10-5419-209-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>Administration TEMPER Shelter</entry>
+								<entry>
+									<extref docno="TM 10-8340-244-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>ESS</entry>
+								<entry>
+									<extref docno="TM 10-5419-210-13&amp;P"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>ETSSLS</entry>
+								<entry>
+									<extref docno="TM 10-5419-215-10"/>
+								</entry>
+							</row>
+							<row>
+								<entry>3</entry>
+								<entry>FDS</entry>
+								<entry>
+									<extref docno="TM 10-4930-369-13&amp;P"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

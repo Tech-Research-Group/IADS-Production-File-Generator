@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00057-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>SHADE ASSEMBLY, SOLAR, TYPE-31 <brk/> REMOVE, INSTALL, REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Hammer, Hand </name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SLEDGEHAMMER"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Shade Assembly, Solar, Type-31</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SSHADE_T31"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>4 People</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Administration TEMPER shelter assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00011-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Billeting TEMPER shelter assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00012-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<remove>
+			<proc>
+				<title/>
+				<step1 id="M00057-10-5419-218-S0001">
+					<specpara>
+						<warning>
+							<icon-set boardno="Moving_Parts-fingers"/>
+							<trim.para>Ratchet straps under tension can release with great force, and pose a pinch hazard when loosened at tensioning ratchets. Keep fingers and clothing clear of tensioning ratchets when loosening ratchet straps. Failure to do so could result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Loosening wind lines and lowering administration or billeting TEMPER shelter vestibules will allow for easier solar shade removal. Procedures to loosen wind lines and lower vestibule can be found in <extref docno="TM 10-8340-244-13&amp;P"/>.</trim.para>
+							<trim.para>When removing solar shade to perform maintenance, only perform steps required to access components being maintained. If removing for long-term storage or preparation for movement, set aside parts for inventory and packout as they are available.</trim.para>
+						</note>
+						<para>Loosen four ratchet straps <callout assocfig="M00057-10-5419-218-F0001" label="1"/> at solar shade corners.</para>
+					</specpara>
+				</step1>
+				<figure id="M00057-10-5419-218-F0001">
+					<title>Solar Shade Ratchet Strap</title>
+					<graphic boardno="G06021800992"/>
+				</figure>
+				<step1 id="M00057-10-5419-218-S0002">
+					<para>Remove and retain stake <callout assocfig="M00057-10-5419-218-F0001" label="2"/> from ground.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="M00057-10-5419-218-S0002" stepstart="M00057-10-5419-218-S0001"/> for three remaining corner ratchet straps.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0003">
+					<para>Loosen rope locks <callout assocfig="M00057-10-5419-218-F0003" label="1"/> on all small and large rope assemblies.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0003">
+					<title>Remove Large and Small Rope Assemblies</title>
+					<graphic boardno="G06021800993"/>
+				</figure>
+				<step1>
+					<para>Disconnect all large rope assembly carabiners from wing grommets <callout assocfig="M00057-10-5419-218-F0003" label="4"/> and all small rope assembly carabiners from solar shade grommets <callout assocfig="M00057-10-5419-218-F0003" label="3"/>.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0004">
+					<para>Disconnect small rope assembly carabiners from mounting brackets <callout assocfig="M00057-10-5419-218-F0003" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="M00057-10-5419-218-S0004" stepstart="M00057-10-5419-218-S0003"/> for all large and small rope assemblies.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0005">
+					<para>Remove pole <callout assocfig="M00057-10-5419-218-F0004" label="1"/> from mounting bracket <callout assocfig="M00057-10-5419-218-F0004" label="2"/> on both sides of tent.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0004">
+					<title>Remove Tent Pole</title>
+					<graphic boardno="G06021800757"/>
+				</figure>
+				<step1>
+					<para>Remove two stakes <callout assocfig="M00057-10-5419-218-F0004" label="3"/> from mounting bracket <callout assocfig="M00057-10-5419-218-F0004" label="2"/>. Retain bracket and stakes.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0006">
+					<specpara>
+						<note>
+							<trim.para>Pole may be folded during removal as required by space constraints.</trim.para>
+						</note>
+						<para>Remove and retain pole <callout assocfig="M00057-10-5419-218-F0004" label="1"/> from sleeve.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="M00057-10-5419-218-S0006" stepstart="M00057-10-5419-218-S0005"/> to remove all remaining poles.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Work on ladder or on top of shelter can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder or shelter while climbing.  Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<caution>
+							<trim.para>Care is required when removing solar shade from tent to avoid getting fabric caught on equipment. Failure to comply may result in tears or other damage to equipment.</trim.para>
+						</caution>
+						<para>Slide solar shade off of shelter.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Stand up vestibule, if lowered, and tighten wind lines IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Inventory Type-31 solar shade against <xref tableid="M00057-10-5419-218-T0008"/>.</para>
+				</step1>
+				<table id="M00057-10-5419-218-T0008">
+					<title>Solar Shade Component List</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>INSTALLATION STRAPS (40-FT)</entry>
+								<entry>2</entry>
+							</row>
+							<row>
+								<entry>POLE SECTION</entry>
+								<entry>1</entry>
+							</row>
+							<row>
+								<entry>POLE SECTION WITHOUT FERRULE</entry>
+								<entry>1</entry>
+							</row>
+							<row>
+								<entry>SHADE FLY CASE</entry>
+								<entry>1</entry>
+							</row>
+							<row>
+								<entry>SOLAR SHADE REPAIR KIT</entry>
+								<entry>1</entry>
+							</row>
+							<row>
+								<entry>TENT FLY (DOUBLE NET PANEL)</entry>
+								<entry>2</entry>
+							</row>
+							<row>
+								<entry>TENT FLY (SHADE FLY END NET)</entry>
+								<entry>2</entry>
+							</row>
+							<row>
+								<entry>TENT FLY (SHADE FLY WING)</entry>
+								<entry>6</entry>
+							</row>
+							<row>
+								<entry>TENT LINE (LARGE ROPE ASSEMBLY)</entry>
+								<entry>10</entry>
+							</row>
+							<row>
+								<entry>TENT LINE (SMALL ROPE ASSEMBLY)</entry>
+								<entry>10</entry>
+							</row>
+							<row>
+								<entry>TENT PIN (STEEL, 18-IN)</entry>
+								<entry>34</entry>
+							</row>
+							<row>
+								<entry>TENT POLE (SHADE FLY POCKET)</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>TENT POLE (10-POLE SUPPORT ASSEMBLY)</entry>
+								<entry>5</entry>
+							</row>
+							<row>
+								<entry>TEXTILE BAG (17-STAKE BAG)</entry>
+								<entry>2</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Fold and store in a secure location if removing solar shade for transport or long term storage.</para>
+				</step1>
+			</proc>
+		</remove>
+	</maintsk>
+	<maintsk>
+		<install>
+			<proc>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<trim.para>Do not deploy solar shade in snow or if threat of snow is imminent. Snow build up on solar shade can cause solar shade and administration or billeting TEMPER shelter to collapse. Failure to comply can result in serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Loosening wind lines and lowering administration or billeting TEMPER shelter vestibules will allow for easier solar shade installation. Refer to <extref docno="TM 10-8340-244-13&amp;P"/> to lower vestibules if desired.</trim.para>
+						</note>
+						<para>Inventory Type-31 solar shade against <xref tableid="M00057-10-5419-218-T0008"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Position solar shade <callout assocfig="M00057-10-5419-218-F0005" label="1"/> next to administration or billeting TEMPER shelter.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0005">
+					<title>Solar Shade</title>
+					<graphic boardno="G06021800765"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>40-ft (12.2-m) installation straps will be temporarily tied to solar shade to aid in pulling solar shade over tent.</trim.para>
+						</note>
+						<para>Tie a installation strap <callout assocfig="M00057-10-5419-218-F0005" label="2"/> to second and fourth side grommets.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling_Parts"/>
+							<trim.para>Caution is required when throwing straps over shelter. Area where straps will land must be clear of personnel to avoid injury. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Roll up straps <callout assocfig="M00057-10-5419-218-F0005" label="2"/> then throw ends of both installation straps over administration or billeting TEMPER shelter.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<caution>
+							<trim.para>Administration or billeting TEMPER shelter vestibules have metal poles and hitch clip pins that can damage solar shade material. Exercise care when pulling solar shade over shelter. If necessary, use a stepladder. Failure to comply can result in equipment damage.</trim.para>
+						</caution>
+						<para>Pull solar shade over administration or billeting TEMPER shelter using installation straps.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Adjust solar shade to evenly cover shelter.</para>
+				</step1>
+				<step1>
+					<para>Remove installation straps and store in a secure location.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0019">
+					<para>Align pole <callout assocfig="M00057-10-5419-218-F0012" label="2"/> to sleeve <callout assocfig="M00057-10-5419-218-F0012" label="1"/>.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0012">
+					<title>Install Tent Poles</title>
+					<graphic boardno="G06021800751"/>
+				</figure>
+				<step1 id="M00057-10-5419-218-S0020">
+					<para>Push pole <callout assocfig="M00057-10-5419-218-F0012" label="2"/> through sleeve <callout assocfig="M00057-10-5419-218-F0012" label="1"/> and unfold until pole reaches opposite side of tent.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="M00057-10-5419-218-S0020" stepstart="M00057-10-5419-218-S0019"/> for remaining poles.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Moving_Parts-fingers"/>
+							<trim.para>Ratchet straps under tension can release with great force, and pose a pinch hazard when loosened at tensioning ratchets. Keep fingers and clothing clear of tensioning ratchets when loosening ratchet straps. Failure to do so could result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Stand up side vestibules, if lowered, and tighten wind lines IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0113">
+					<para>Place mounting brackets <callout assocfig="M00057-10-5419-218-F0012" label="3"/> on ground 1 ft (30.5 cm) from base of administration or billeting TEMPER shelter and in line with support poles <callout assocfig="M00057-10-5419-218-F0012" label="2"/>. Note orientation of carabiner clip hole (<xref figid="M00057-10-5419-218-F0013"/>).</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0013">
+					<title>Stake Mounting Brackets</title>
+					<graphic boardno="G06021800827"/>
+				</figure>
+				<step1 id="M00057-10-5419-218-S0114">
+					<para>Drive two stakes <callout assocfig="M00057-10-5419-218-F0025" label="2"/> to secure mounting bracket <callout assocfig="M00057-10-5419-218-F0025" label="3"/> in corresponding support pole location at base of Type-31 TEMPER shelter.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0025">
+					<title>Insert Pole into Bracket</title>
+					<graphic boardno="G06021800790"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepstart="M00057-10-5419-218-S0113" stepend="M00057-10-5419-218-S0114"/> to place and secure all solar shade mounting brackets.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0011">
+					<para>Install tent pole <callout assocfig="M00057-10-5419-218-F0025" label="1"/> to mounting bracket <callout assocfig="M00057-10-5419-218-F0025" label="3"/> on both sides of tent.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="M00057-10-5419-218-S0011"/> for remaining tent poles.</para>
+				</step1>
+				<step1>
+					<para>Stand up front vestibule, if lowered, and tighten wind lines IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0012">
+					<specpara>
+						<note>
+							<trim.para>Carabiner will be attached through two grommets when connected at adjacent solar shade panels. </trim.para>
+						</note>
+						<para>Attach a small rope assembly carabiner <callout assocfig="M00057-10-5419-218-F0014" label="2"/> to solar shade grommet(s) <callout assocfig="M00057-10-5419-218-F0014" label="1"/> closest to support pole sleeve.</para>
+					</specpara>
+				</step1>
+				<figure id="M00057-10-5419-218-F0014">
+					<title>Install Small Rope Assemblies</title>
+					<graphic boardno="G06021800750"/>
+				</figure>
+				<step1 id="M00057-10-5419-218-S0120">
+					<para>Attach rope's opposite end carabiner <callout assocfig="M00057-10-5419-218-F0015" label="2"/> to carabiner hole on mounting bracket <callout assocfig="M00057-10-5419-218-F0015" label="1"/>.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0015">
+					<title>Attach Opposite End Carabiner</title>
+					<graphic boardno="G06021800714"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepstart="M00057-10-5419-218-S0012" stepend="M00057-10-5419-218-S0120"/> for remaining small rope assemblies.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0013">
+					<para>Loosen rope assembly, then attach a large rope assembly carabiner <callout assocfig="M00057-10-5419-218-F0016" label="1"/> to a wing panel grommet <callout assocfig="M00057-10-5419-218-F0016" label="3"/> on solar shade.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0016">
+					<title>Attach Large Rope Assembly</title>
+					<graphic boardno="G06021800712"/>
+				</figure>
+				<step1 id="M00057-10-5419-218-S0022">
+					<para>Stake other end of large rope assembly <callout assocfig="M00057-10-5419-218-F0016" label="2"/> to ground in front of bracket.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="M00057-10-5419-218-S0013" stepend="M00057-10-5419-218-S0022"/> for remaining large rope assemblies.</para>
+				</step1>
+				<step1 id="M00057-10-5419-218-S0014">
+					<para>Pull slack from rope, then rotate rope lock <callout assocfig="M00057-10-5419-218-F0017" label="1"/> upward to engage rope and hold rope tension.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0017">
+					<title>Rope Lock</title>
+					<graphic boardno="G06021800749"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepstart="M00057-10-5419-218-S0014"/> for all rope assemblies.</para>
+				</step1>
+				<step1>
+					<para>Secure solar shade with stakes at ends of four ratchet straps <callout assocfig="M00057-10-5419-218-F0018" label="1"/> and tighten straps.</para>
+				</step1>
+				<figure id="M00057-10-5419-218-F0018">
+					<title>Ratchet Straps</title>
+					<graphic boardno="G06021800760"/>
+				</figure>
+				<step1>
+					<para>Assess, remove, align, and reinstall brackets and rope locks, as needed.</para>
+				</step1>
+			</proc>
+		</install>
+	</maintsk>
+	<maintsk>
+		<replace>
+			<proc>
+				<title>Replace Solar Shade Assembly</title>
+				<step1>
+					<para>Remove and discard defective solar shade IAW this WP.</para>
+				</step1>
+				<step1>
+					<para>Install replacement solar shade IAW this WP.</para>
+				</step1>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

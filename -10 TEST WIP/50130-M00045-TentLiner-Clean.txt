@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00045-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TENT LINER, INSULATED, TYPE-31 AND TYPE-37 &amp; TENT LINER, PARTITION <brk/> CLEAN</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Cleaning Compound, Solvent-Detergent</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_SIMPLE_GREEN"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Disposable</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_DISP_SM"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping </name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<clean>
+			<proc>
+				<title/>
+				<warning>
+					<icon-set boardno="Eye_Protection"/>
+					<icon-set boardno="Chemical"/>
+					<icon-set boardno="Falling"/>
+					<trim.para>Personnel may be exposed to chemicals or other hazardous materials during cleaning operations. Personnel must wear gloves and goggles for protection while performing this procedure. Failure to follow this warning may result in serious illness or death to personnel. Flush eyes with water or rinse and clean affected area thoroughly, then seek immediate medical attention if illness occurs.</trim.para>
+					<trim.para>Work on ladder can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder while climbing. Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<step1>
+					<para>Clean insulated liner material with a soft cloth, soap, and water.</para>
+				</step1>
+				<step1>
+					<para>Dry liner material thoroughly.</para>
+				</step1>
+			</proc>
+		</clean>
+	</maintsk>
+</maintwp>

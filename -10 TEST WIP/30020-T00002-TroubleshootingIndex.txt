@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsindxwp chngno="0" wpno="T00002-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING INDEX</title>
+	</wpidinfo>
+	<geninfo>
+		<title/>
+		<para>The troubleshooting index lists symptoms from malfunctions that may occur during Expeditionary Platoon Life Support Module (EPLSM) operation. Find the symptom that most closely matches the observed indications, and go to the referenced work package that follows. The index does not list all the possible symptoms that may occur, or all actions required to find or correct every fault. If the symptom is not listed, or the malfunction cannot be corrected, notify supervisor.</para>
+	</geninfo>
+	<tsindx.symptom>
+		<title/>
+		<tsindx.symptom-category>
+			<title>FLOODLIGHTS</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">Both lamps inoperable</malfunc>
+				<xref wpid="T00007-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">One lamp inoperable</malfunc>
+				<xref wpid="T00008-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">Tripod cannot be deployed</malfunc>
+				<xref wpid="T00009-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>KITCHEN/DINING SUBSYSTEM</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">Ice maker does not start</malfunc>
+				<xref wpid="T00011-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at Expeditionary TRICON Kitchen System (ETKS)</malfunc>
+				<xref wpid="T00012-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at TRICON Refrigerated Container System (TRCS)</malfunc>
+				<xref wpid="T00013-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>LATRINE SUBSYSTEM</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at Expeditionary Latrine System (ELS)</malfunc>
+				<xref wpid="T00014-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>LAUNDRY SUBSYSTEM</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at Expeditionary TRICON Self Serve Laundry System (ETSSLS)</malfunc>
+				<xref wpid="T00015-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>POWER GENERATION AND FUEL DISTRIBUTION SUBSYSTEM</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No fuel from Fuel Distribution System (FDS)</malfunc>
+				<xref wpid="T00010-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power to all systems at one power distribution box (PDB)</malfunc>
+				<xref wpid="T00017-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>SHOWER SUBSYSTEM</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at Expeditionary Shower System (ESS)</malfunc>
+				<xref wpid="T00018-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+		<tsindx.symptom-category>
+			<title>TEMPER SHELTER</title>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">All TEMPER shelter lights inoperable</malfunc>
+				<xref wpid="T00019-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">No power at TEMPER shelter</malfunc>
+				<xref wpid="T00020-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">One or more TEMPER shelter lights inoperable but some lights operate</malfunc>
+				<xref wpid="T00021-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">TEMPER shelter convenience outlets inoperable</malfunc>
+				<xref wpid="T00022-10-5419-218"/>
+			</tsindx.symptom-entry>
+			<tsindx.symptom-entry>
+				<malfunc label="symptom">TEMPER shelter rigid door fails to latch</malfunc>
+				<xref wpid="T00023-10-5419-218"/>
+			</tsindx.symptom-entry>
+		</tsindx.symptom-category>
+	</tsindx.symptom>
+</tsindxwp>

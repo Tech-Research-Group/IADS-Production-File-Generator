@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00034-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - BUNK BED WITH LOCKER</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos></mos>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Bunk bed with locker assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00018-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title></title>
+				<step1>
+					<para>Remove any contents from trunk lockers <callout assocfig="O00034-10-5419-218-F0001" label="6"/> and side organizers <callout assocfig="O00034-10-5419-218-F0001" label="7"/>.</para>
+				</step1>
+				<figure id="O00034-10-5419-218-F0001">
+					<title>Remove Top Bunk</title>
+					<graphic boardno="G06021800677"/>
+				</figure>
+				<step1>
+					<para>Remove two trunk lockers <callout assocfig="O00034-10-5419-218-F0001" label="6"/> from under bunk bed.</para>
+				</step1>
+				<step1>
+					<para>Remove two side organizers <callout assocfig="O00034-10-5419-218-F0001" label="7"/> from sleeping mats and fold in half for packout.</para>
+				</step1>
+				<step1>
+					<para>Remove two hook and loop straps <callout assocfig="O00034-10-5419-218-F0001" label="1"/> securing top bunk <callout assocfig="O00034-10-5419-218-F0001" label="2"/> to bottom bunk <callout assocfig="O00034-10-5419-218-F0001" label="5"/>.</para>
+				</step1>
+				<step1>
+					<para>Remove top bunk <callout assocfig="O00034-10-5419-218-F0001" label="2"/> from bottom bunk <callout assocfig="O00034-10-5419-218-F0001" label="5"/>.</para>
+				</step1>
+				<step1>
+					<para>Remove four stack adapters <callout assocfig="O00034-10-5419-218-F0001" label="4"/> from top bunk frame legs <callout assocfig="O00034-10-5419-218-F0001" label="3"/>.</para>
+				</step1>			
+				<step1 id="O00034-10-5419-218-S0001">
+					<para>Unhook lock bar <callout assocfig="O00034-10-5419-218-F0002" label="4"/> from frame rivet <callout assocfig="O00034-10-5419-218-F0002" label="3"/> and rail rivet <callout assocfig="O00034-10-5419-218-F0002" label="5"/> on one bunk. Repeat for remaining lock bar securing rail.</para>
+				</step1>
+				<figure id="O00034-10-5419-218-F0002">
+					<title>Sleeping Mat Assembly on Frame</title>
+					<graphic boardno="G06021800894"/>
+				</figure>
+				<step1>
+					<para>Remove ring spacers <callout assocfig="O00034-10-5419-218-F0002" label="1"/> from frame ends <callout assocfig="O00034-10-5419-218-F0002" label="2"/>.</para>
+				</step1>				
+				<step1>
+					<para>Press and hold thumb button <callout assocfig="O00034-10-5419-218-F0003" label="5"/> to remove ring spacer <callout assocfig="O00034-10-5419-218-F0003" label="1"/> from tapered rail <callout assocfig="O00034-10-5419-218-F0003" label="3"/>.</para>
+				</step1>
+				<figure id="O00034-10-5419-218-F0003">
+					<title>Remove Rails</title>
+					<graphic boardno="G06021800009"/>
+				</figure>
+				<step1>
+					<para>Pull rails out of sleeping mat sleeve <callout assocfig="O00034-10-5419-218-F0003" label="2"/>.</para>
+				</step1>
+				<step1 id="O00034-10-5419-218-S0002">
+					<para>Remove straight rail <callout assocfig="O00034-10-5419-218-F0003" label="4"/> from both tapered rails <callout assocfig="O00034-10-5419-218-F0003" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart= "O00034-10-5419-218-S0001" stepend="O00034-10-5419-218-S0002"/> to disassemble remaining bunk.</para>
+				</step1>
+				<step1>
+					<para>Fold two sleeping mats as follows:</para>
+					<step2>
+						<para>Lay sleeping mat (<xref figid="O00034-10-5419-218-F0004"/>) on a flat surface with hook and loop tapes facing up.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0004">
+						<title>Fold Sleeping Mat</title>
+						<graphic boardno="G06021800672"/>
+					</figure>
+					<step2>
+						<para>Fold sleeping mat ends in towards the center.</para>
+					</step2>
+					<step2>
+						<para>Fold one half over the other half.</para>
+					</step2>
+					<step2>
+						<para>Fold sleeve ends in towards the center.</para>
+					</step2>					
+				</step1>
+				<step1>
+					<para>Fold two trunk lockers as follows:</para>
+					<step2>
+						<para>Lift cover <callout assocfig="O00034-10-5419-218-F0005" label="1"/> from trunk locker.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0005">
+						<title>Trunk Locker Dividers</title>
+						<graphic boardno="G06021800673"/>
+					</figure>
+					<step2>
+						<para>Disconnect hook and loop tapes <callout assocfig="O00034-10-5419-218-F0005" label="4"/> securing side dividers <callout assocfig="O00034-10-5419-218-F0005" label="5"/> and fold side dividers to main divider <callout assocfig="O00034-10-5419-218-F0005" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>Disconnect hook and loop tapes <callout assocfig="O00034-10-5419-218-F0005" label="3"/> securing main divider <callout assocfig="O00034-10-5419-218-F0005" label="2"/>.</para>
+					</step2>					
+					<step2>
+						<para>Fold main divider <callout assocfig="O00034-10-5419-218-F0006" label="3"/> against trunk locker side wall.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0006">
+						<title>Collapse Trunk Locker</title>
+						<graphic boardno="G06021800674"/>
+					</figure>
+					<step2>
+						<para>Lift up from center <callout assocfig="O00034-10-5419-218-F0006" label="1"/> and push in sides <callout assocfig="O00034-10-5419-218-F0006" label="2"/> to collapse trunk locker.</para>
+					</step2>					
+					<step2>
+						<para>Lay trunk locker <callout assocfig="O00034-10-5419-218-F0007" label="2"/> on its side with the flap <callout assocfig="O00034-10-5419-218-F0007" label="1"/> on the bottom.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0007">
+						<title>Fold Trunk Locker</title>
+						<graphic boardno="G06021800675"/>
+					</figure>
+					<step2>
+						<para>Roll the trunk locker <callout assocfig="O00034-10-5419-218-F0007" label="2"/> once towards the flap <callout assocfig="O00034-10-5419-218-F0007" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>Fold flap <callout assocfig="O00034-10-5419-218-F0007" label="1"/> and connect hook and loop tapes <callout assocfig="O00034-10-5419-218-F0007" label="3"/> to secure trunk locker.</para>
+					</step2>					
+				</step1>
+				<step1>
+					<para>Locate bottom bunk bed carry bag, top bunk bed carry bag, and outer carry bag.</para>
+				</step1>
+				<step1>
+					<para>Pack bottom bunk components into bottom bunk carry bag and secure carry bag as follows:</para>
+					<step2>
+						<para>Open carry bag and lay out on a flat surface.</para>
+					</step2>
+					<step2>
+						<para>Position two straight bed rails <callout assocfig="O00034-10-5419-218-F0008" label="3"/>, four tapered bed rails <callout assocfig="O00034-10-5419-218-F0008" label="1"/>, and two stack adapters <callout assocfig="O00034-10-5419-218-F0008" label="2"/> in carry bag and secure with elastics.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0008">
+						<title>Pack Bed Rails and Stack Adapters</title>
+						<graphic boardno="G06021800678"/>
+					</figure>
+					<step2>
+						<para>Install two ring spacers <callout assocfig="O00034-10-5419-218-F0009" label="1"/> to each round end frame <callout assocfig="O00034-10-5419-218-F0009" label="2"/>.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0009">
+						<title>Pack Round End Frames</title>
+						<graphic boardno="G06021800682"/>
+					</figure>
+					<step2>
+						<para>Position two round end frames with attached lock bars in carry bag and secure with hook and loop tapes <callout assocfig="O00034-10-5419-218-F0009" label="3"/>.</para>
+					</step2>
+					
+					<step2>
+						<para>Pack one hook and loop locking strap inside the bottom bunk carry bag.</para>
+					</step2>
+					<step2>
+						<para>Position one sleeping mat <callout assocfig="O00034-10-5419-218-F0010" label="5"/>, one side organizer <callout assocfig="O00034-10-5419-218-F0010" label="1"/>, and one trunk locker <callout assocfig="O00034-10-5419-218-F0010" label="4"/> in carry bag.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0010">
+						<title>Secure Bottom Bunk Carry Bag</title>
+						<graphic boardno="G06021800684"/>
+					</figure>
+					<step2>
+						<para>Fold carry bag and use zipper <callout assocfig="O00034-10-5419-218-F0010" label="2"/> to secure carry bag.</para>
+					</step2>
+					<step2>
+						<para>Connect carry handles and secure with hook and loop tapes <callout assocfig="O00034-10-5419-218-F0010" label="3"/>.</para>
+					</step2>					
+				</step1>
+				<step1>
+					<para>Pack top bunk components into top bunk carry bag and secure carry bag as follows:</para>
+					<step2>
+						<para>Open carry bag and lay out on a flat surface.</para>
+					</step2>
+					<step2>
+						<para>Store four rubber feet in pouches <callout assocfig="O00034-10-5419-218-F0011" label="2"/>, two per pouch.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0011">
+						<title>Pack Bed Rails and Stack Adapters</title>
+						<graphic boardno="G06021801300"/>
+					</figure>
+					<step2>
+						<para>Position two straight bed rails <callout assocfig="O00034-10-5419-218-F0011" label="5"/>, four tapered bed rails <callout assocfig="O00034-10-5419-218-F0011" label="4"/>, and two stack adapters <callout assocfig="O00034-10-5419-218-F0011" label="3"/> in carry bag and secure with elastics.</para>
+					</step2>
+					<step2>
+						<para>Pack one hook and loop locking strap inside top bunk carry bag.</para>
+					</step2>					
+					<step2>
+						<para>Install two ring spacers <callout assocfig="O00034-10-5419-218-F0011" label="1"/> to each straight end frame <callout assocfig="O00034-10-5419-218-F0011" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>Position two straight end frames with attached lock bars in carry bag and secure with hook and loop tapes <callout assocfig="O00034-10-5419-218-F0011" label="3"/>.</para>
+					</step2>
+					<step2>
+						<para>Position one sleeping mat <callout assocfig="O00034-10-5419-218-F0013" label="2"/>, one side organizer <callout assocfig="O00034-10-5419-218-F0013" label="3"/>, and one trunk locker <callout assocfig="O00034-10-5419-218-F0013" label="1"/> in carry bag.</para>
+					</step2>
+					<figure id="O00034-10-5419-218-F0013">
+						<title>Secure Top Bunk Carry Bag</title>
+						<graphic boardno="G06021800897"/>
+					</figure>
+					<step2>
+						<para>Fold carry bag and use zipper <callout assocfig="O00034-10-5419-218-F0013" label="4"/> to secure.</para>
+					</step2>
+					<step2>
+						<para>Connect carry handles and secure with hook and loop tapes <callout assocfig="O00034-10-5419-218-F0013" label="5"/>.</para>
+					</step2>				
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<trim.para>Bunk bed weighs 99 lb (45 kg) and requires two personnel to lift. All safety precautions must be followed and proper lifting technique must be used. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Position top bunk carry bag <callout assocfig="O00034-10-5419-218-F0014" label="2"/> and bottom bunk carry bag <callout assocfig="O00034-10-5419-218-F0014" label="1"/> in outer carry bag.</para>
+					</specpara>
+				</step1>
+				<figure id="O00034-10-5419-218-F0014">
+					<title>Outer Carry Bag</title>
+					<graphic boardno="G06021800898"/>
+				</figure>
+				<step1>
+					<para>Close outer carry bag and secure with zipper <callout assocfig="O00034-10-5419-218-F0014" label="4"/> and two straps <callout assocfig="O00034-10-5419-218-F0014" label="3"/>.</para>
+				</step1>				
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

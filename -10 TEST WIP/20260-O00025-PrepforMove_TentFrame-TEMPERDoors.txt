@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00025-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - TEMPER SHELTER VESTIBULE AND TENT FRAMES (DOOR ASSEMBLIES)</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Remover, Stake</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STAKE_REMOVER"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Administration Subsystem assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00011-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Billeting Subsystem assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00012-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Kitchen/Dining Subsystem assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00008-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Remove Insulated Vestibule Liner</title>
+				<step1 id="O00010-Insul_Liner-S0005">
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Work on ladder can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder while climbing. Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Procedure to remove insulated vestibule liner only applies to Kitchen/Dining Subsystem.</trim.para>
+						</note>
+						<para>Separate vestibule <callout assocfig="O00010-Insul_Liner-F0002" label="1"/> from inner door interface <callout assocfig="O00010-Insul_Liner-F0002" label="2"/> by pulling apart hook and loop straps <callout assocfig="O00010-Insul_Liner-F0002" label="3"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00010-Insul_Liner-F0002">
+					<title>Separate Inner Door Interface from Vestibule</title>
+					<graphic boardno="G06021800716"/>
+				</figure>
+				<step1>
+					<para>Detach 16 vestibule liner hook and loop straps <callout assocfig="O00010-Insul_Liner-F0003" label="2"/> from TEMPER shelter vestibule frames <callout assocfig="O00010-Insul_Liner-F0003" label="1"/>. Fold up insulated liner vestibule section and set aside for packout.</para>
+				</step1>
+				<figure id="O00010-Insul_Liner-F0003">
+					<title>Remove Insulated Liner Vestibule Section</title>
+					<graphic boardno="G06021800730"/>
+				</figure>
+				<step1>
+					<para>Remove inner door interface by detaching hook and loop straps from vestibule adapter and door material hook and loop straps. Fold and set aside for packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Remove Vestibule Stakes</title>
+				<step1>
+					<para>Remove six stakes <callout assocfig="O00025-10-5419-218-F0001" label="1"/> securing vestibule to ground outside of vestibule.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0001">
+					<title>Remove Stakes</title>
+					<graphic boardno="G06021800643"/>
+				</figure>
+				<step1>
+					<para>Remove left and right side door stake <callout assocfig="O00025-10-5419-218-F0002" label="1"/> securing door feet <callout assocfig="O00025-10-5419-218-F0002" label="2"/> and frame legs for interior and exterior door assemblies.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0002">
+					<title>Door Stake</title>
+					<graphic boardno="G06021800669"/>
+				</figure>
+				<step1>
+					<para>Set aside parts for packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Disassemble Vestibule Door Frame</title>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Procedures to remove interior and exterior doors are identical and may be taken down in any order.</trim.para>
+						</note>
+						<para>Remove door skin <callout assocfig="O00025-10-5419-218-F0004" label="1"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00025-10-5419-218-F0004">
+					<title>Door Skin</title>
+					<graphic boardno="G06021801098"/>
+				</figure>
+				<step1>
+					<para>Push door frame lock buttons <callout assocfig="O00025-10-5419-218-F0005" label="3"/> and lower door hangers <callout assocfig="O00025-10-5419-218-F0005" label="2"/> from vestibule frame <callout assocfig="O00025-10-5419-218-F0005" label="1"/>.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0005">
+					<title>Lower Door Hangers</title>
+					<graphic boardno="G06021801355"/>
+				</figure>
+				<step1>
+					<para>Remove door frame <callout assocfig="O00025-10-5419-218-F0006" label="1"/> from frame skin <callout assocfig="O00025-10-5419-218-F0006" label="2"/>.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0006">
+					<title>Remove Door Frame from Frame Skin</title>
+					<graphic boardno="G06021800811"/>
+				</figure>
+				<step1>
+					<para>Remove door frame <callout assocfig="O00025-10-5419-218-F0020" label="1"/> from vestibule.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0020">
+					<title>Remove Door Frame</title>
+					<graphic boardno="G06021800687"/>
+				</figure>
+				<step1>
+					<para>Rotate key <callout assocfig="O00025-10-5419-218-F0020" label="4"/> to open draw latch. Disengage draw latch hasp <callout assocfig="O00025-10-5419-218-F0020" label="2"/> from catch <callout assocfig="O00025-10-5419-218-F0020" label="3"/>. Repeat for remaining draw latches.</para>
+				</step1>
+				<step1>
+					<para>Fold up door feet and fold up door.</para>
+				</step1>
+				<step1>
+					<para>Set aside parts for packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Remove Vestibule Guy Lines</title>
+				<step1>
+					<para>Rotate plastic rope lock <callout assocfig="O00025-10-5419-218-F0030" label="1"/> to remove tension on guy lines.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0030">
+					<title>Rope Lock</title>
+					<graphic boardno="G06021800816"/>
+				</figure>
+				<step1>
+					<para>Remove stakes <callout assocfig="O00025-10-5419-218-F0008" label="4"/> securing vestibule guy lines <callout assocfig="O00025-10-5419-218-F0008" label="1"/> to ground.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0008">
+					<title>Vestribule Frame Spindle</title>
+					<graphic boardno="G06021801298"/>
+				</figure>
+				<step1>
+					<para>Remove three cotter pins <callout assocfig="O00025-10-5419-218-F0008" label="3"/> from outer door frame.</para>
+				</step1>
+				<step1>
+					<para>Remove vestibule guy lines <callout assocfig="O00025-10-5419-218-F0008" label="1"/> from vestibule frame spindle <callout assocfig="O00025-10-5419-218-F0008" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Set aside parts for packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Remove Exterior Door Frame Assembly</title>
+				<step1>
+					<para>Untie eight straps <callout assocfig="O00025-10-5419-218-F0009" label="1"/> securing frame skin to vestibule frame <callout assocfig="O00025-10-5419-218-F0009" label="2"/>.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0009">
+					<title>Untie Straps</title>
+					<graphic boardno="G06021800785"/>
+				</figure>
+				<step1 id="O00025-10-5419-218-S0001">
+					<specpara>
+						<caution>
+							<trim.para>Cotter pin ends may be burred or sharp. Failure to use caution when removing pins may result in tears to vestibule fabric.</trim.para>
+						</caution>
+						<para>Remove cotter pins <callout assocfig="O00025-10-5419-218-F0010" label="2"/> from frame header <callout assocfig="O00025-10-5419-218-F0010" label="1"/> in interior of vestibule.</para>
+					</specpara>
+				</step1>
+				<figure id="O00025-10-5419-218-F0010">
+					<title>Vestibule Frame</title>
+					<graphic boardno="G06021801296"/>
+				</figure>
+				<step1>
+					<para>Remove frame legs <callout assocfig="O00025-10-5419-218-F0010" label="3"/> from frame header <callout assocfig="O00025-10-5419-218-F0010" label="1"/>. Set legs and header aside.</para>
+				</step1>
+				<step1>
+					<para>Detach frame skin <callout assocfig="O00025-10-5419-218-F0120" label="1"/> from hook and loop tape <callout assocfig="O00025-10-5419-218-F0120" label="2"/>.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0120">
+					<title>Remove Frame Skin</title>
+					<graphic boardno="G06021800713"/>
+				</figure>
+				<step1>
+					<para>Untie becket lacing <callout assocfig="O00025-10-5419-218-F0120" label="3"/> securing frame skin to TEMPER shelter vestibule.</para>
+				</step1>
+				<step1>
+					<para>Remove frame skin and fold. Set aside for packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Remove Center Frame Assembly</title>
+				<step1>
+					<para>Remove cotter pins <callout assocfig="O00025-10-5419-218-F0010" label="2"/> from center frame header <callout assocfig="O00025-10-5419-218-F0010" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Remove frame legs <callout assocfig="O00025-10-5419-218-F0010" label="3"/> from frame header and set aside.</para>
+				</step1>
+				<step1>
+					<para>Remove three cotter pins <callout assocfig="O00025-10-5419-218-F0013" label="3"/> securing frame header on exterior of vestibule.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0013">
+					<title>Frame Header</title>
+					<graphic boardno="G06021800635"/>
+				</figure>
+				<step1>
+					<para>Remove frame header <callout assocfig="O00025-10-5419-218-F0013" label="2"/> from grommets <callout assocfig="O00025-10-5419-218-F0013" label="1"/> and set aside.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Remove Interior Door Assembly</title>
+				<step1>
+					<para>Untie eight straps <callout assocfig="O00025-10-5419-218-F0025" label="1"/> securing frame skin to vestibule frame <callout assocfig="O00025-10-5419-218-F0025" label="2"/>.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0025">
+					<title>Untie Straps from Vestibule Frame</title>
+					<graphic boardno="G06021800785"/>
+				</figure>
+				<step1>
+					<specpara>
+						<caution>
+							<trim.para>Cotter pin ends may be burred or sharp. Failure to use caution when removing pins may result in tears to vestibule fabric.</trim.para>
+						</caution>
+						<para>Remove cotter pins <callout assocfig="O00025-10-5419-218-F0015" label="2"/> from frame header <callout assocfig="O00025-10-5419-218-F0015" label="1"/> inside vestibule.</para>
+					</specpara>
+				</step1>
+				<figure id="O00025-10-5419-218-F0015">
+					<title>Vestibule Frame</title>
+					<graphic boardno="G06021800814"/>
+				</figure>
+				<step1>
+					<para>Remove legs <callout assocfig="O00025-10-5419-218-F0015" label="3"/> from frame header <callout assocfig="O00025-10-5419-218-F0015" label="1"/> and set aside.</para>
+				</step1>
+				<step1>
+					<para>Remove three cotter pins <callout assocfig="O00025-10-5419-218-F0016" label="2"/> securing frame header <callout assocfig="O00025-10-5419-218-F0016" label="3"/> on exterior of vestibule.</para>
+				</step1>
+				<figure id="O00025-10-5419-218-F0016">
+					<title>Frame Header and Skin</title>
+					<graphic boardno="G06021800634"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Undoing becket lacing connecting vestibule from TEMPER shelter may aid in door frame removal.</trim.para>
+						</note>
+						<para>Remove frame header <callout assocfig="O00025-10-5419-218-F0016" label="3"/> from grommets <callout assocfig="O00025-10-5419-218-F0016" label="1"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Fold frame skin and set aside parts for packout.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Inventory Components for Packout</title>
+				<step1 id="O00025-10-5419-218-S0002">
+					<para>Locate and gather all parts listed for one TEMPER shelter door assembly.</para>
+					<step2>
+						<para>One door skin <callout assocfig="O00025-10-5419-218-F0017" label="1"/>.</para>
+					</step2>
+					<figure id="O00025-10-5419-218-F0017">
+						<title>TEMPER Shelter Door Kit</title>
+						<graphic boardno="G06021800710"/>
+					</figure>
+					<step2>
+						<para>One frame skin <callout assocfig="O00025-10-5419-218-F0017" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>One rigid door frame <callout assocfig="O00025-10-5419-218-F0017" label="3"/> with door hangers <callout assocfig="O00025-10-5419-218-F0017" label="4"/> installed.</para>
+					</step2>
+					<step2>
+						<para>Storage bag <callout assocfig="O00025-10-5419-218-F0017" label="5"/>.</para>
+					</step2>
+				</step1>
+				<step1 id="O00025-10-5419-218-S0003">
+					<specpara>
+						<note>
+							<trim.para>Placing frame in bag first may aid in packing.</trim.para>
+						</note>
+						<para>Pack all components into rigid door storage bag <callout assocfig="O00025-10-5419-218-F0017" label="5"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="O00025-10-5419-218-S0002" stepend="O00025-10-5419-218-S0003"/> for other door assemblies, if necessary.</para>
+				</step1>
+				<step1 id="O00025-10-5419-218-S0004">
+					<para>Locate and gather all parts listed for vestibule kit.</para>
+					<step2>
+						<para>Six vestibule frame section legs with attached hitch clip pins <callout assocfig="O00025-10-5419-218-F0018" label="2"/>.</para>
+					</step2>
+					<figure id="O00025-10-5419-218-F0018">
+						<title>Vestibule Kit</title>
+						<graphic boardno="G06021800632"/>
+					</figure>
+					<step2>
+						<para>Three vestibule headers <callout assocfig="O00025-10-5419-218-F0018" label="3"/>.</para>
+					</step2>
+					<step2>
+						<para>One vestibule door panel <callout assocfig="O00025-10-5419-218-F0018" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>One vestibule floor section <callout assocfig="O00025-10-5419-218-F0018" label="4"/>.</para>
+					</step2>
+					<step2>
+						<para>Two 16-ft (4.9-m) vestibule guy lines <callout assocfig="O00025-10-5419-218-F0018" label="6"/>.</para>
+					</step2>
+					<step2>
+						<para>Two small stake bags each containing eight hooked tent pins <callout assocfig="O00025-10-5419-218-F0018" label="5"/>.</para>
+					</step2>
+				</step1>
+				<step1 id="O00025-10-5419-218-S0005">
+					<para>Pack all components into vestibule storage bag.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="O00025-10-5419-218-S0004" stepend="O00025-10-5419-218-S0005"/> for remaining vestibules and door frames.</para>
+				</step1>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

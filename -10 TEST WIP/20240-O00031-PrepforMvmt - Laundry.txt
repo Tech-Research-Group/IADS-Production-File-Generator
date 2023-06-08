@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00031-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - LAUNDRY SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Toxicological Agents Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_TOXIC"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Laundry Subsystem temporary shutdown complete</condition>
+				<itemref>
+					<xref wpid="O00022-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Shut Down Expeditionary TRICON Self Serve Laundry System (ETSSLS) and Retrieve Loose Items</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Biological_Symbol"/>
+							<trim.para>ETSSLS operations generate biohazardous materials. Personnel must wear proper personal protective equipment (apron, goggles, impermeable gloves) when handling waste from ETSSLS. Failure to comply may result in serious illness or death to personnel. Seek immediate medical attention if contact with waste occurs.</trim.para>
+							<trim.para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</trim.para>
+						</warning>
+						<para>Perform LONG TERM SHUTDOWN for ETSSLS IAW <extref docno="TM 10-5419-215-10"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Retrieve and set aside garbage can, broom, and dustpan from ETSSLS.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Disconnect Power Connection for ETSSLS</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Expeditionary Platoon Life Support Module (EPLSM) may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Power setup of EPLSM may vary from site to site. Correct circuit breaker (CB) can be identified by following power cables from component back to power distribution box (PDB). Failure to comply may result in power remaining at component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 3 (<xref figid="O00031-10-5419-218-F0001"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00031-10-5419-218-F0001">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Set associated ETSSLS 100-A CB (<xref tableid="O00031-10-5419-218-T0001"/>) (circuit (CKT) 4 or CKT 7) (<xref figid="O00031-10-5419-218-F0002"/>) to OFF position.</para>
+				</step1>
+				<figure id="O00031-10-5419-218-F0002">
+					<title>Turn Off 100-A CB</title>
+					<graphic boardno="G06021800050"/>
+				</figure>
+				<table id="O00031-10-5419-218-T0001">
+					<title>PDB 100-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 4 (3&oslash; 4 100-A)</entry>
+								<entry>CB 4</entry>
+							</row>
+							<row>
+								<entry>Circuit 7 (3&oslash; 7 60-A)</entry>
+								<entry>CB 7</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>ETSSLS 100-A power cable assembly is made up of multiple lengths of 100-A power cables connected together.</trim.para>
+						</note>
+						<para>Disconnect ETSSLS 100-A power cable <callout assocfig="O00031-10-5419-218-F0003" label="3"/> from 100-A output power receptacle <callout assocfig="O00031-10-5419-218-F0003" label="1"/> at PDB.</para>
+					</specpara>
+				</step1>
+				<figure id="O00031-10-5419-218-F0003">
+					<title>100-A Power Cable Assembly</title>
+					<graphic boardno="G06021800315"/>
+				</figure>
+				<step1>
+					<para>Disconnect receptacle and power cable plug dust covers <callout assocfig="O00031-10-5419-218-F0003" label="2"/> from each other, and install dust covers on receptacle and power cable.</para>
+				</step1>
+				<step1>
+					<para>Carry capped end of 100-A power cable <callout assocfig="O00031-10-5419-218-F0003" label="3"/> back to next power cable connection.</para>
+				</step1>
+				<step1>
+					<para>Disconnect power cables from each other.</para>
+				</step1>
+				<step1>
+					<para>Install dust covers to power cables.</para>
+				</step1>
+				<step1>
+					<para>Coil first 100-A power cable and set aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Walk second power cable back to ETSSLS power distribution panel assembly. Do not disconnect power cable from ETSSLS power distribution panel at this time.</para>
+				</step1>
+				<step1>
+					<para>Prepare ETSSLS for movement IAW <extref docno="TM 10-5419-215-10"/>.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Stage Laundry Subsystem Items for Packout</title>
+				<warning>
+					<icon-set boardno="Heavy_Object"/>
+					<trim.para>Some Laundry Subsystem components are heavy. Each 50-ft (7.6-m), 100-A power cable weighs 100 lb (45.4 kg) requiring two personnel to lift. All safety precautions must be followed, and proper lifting technique must be used. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<note>
+					<trim.para>Some Laundry Subsystem components may be stored in TRICONs during periods of disuse or may not be present as they have been consumed during camp operation.</trim.para>
+					<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+				</note>
+				<para>Locate items listed in <xref tableid="O00031-10-5419-218-T0003"/> in quantities specified, and stage at appropriate transportation TRICON for packout.
+				<table id="O00031-10-5419-218-T0003">
+						<title>Laundry Subsystem Component List</title>
+						<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+							<thead>
+								<row>
+									<entry>TRICON</entry>
+									<entry>NAME</entry>
+									<entry>QTY</entry>
+									<entry>COEI REFERENCE</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>50C</entry>
+									<entry>BROOM, UPRIGHT</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BROOM"/>
+									</entry>
+								</row>
+								<row>
+									<entry>50C</entry>
+									<entry>COVER, CAN, TRASH AND GARBAGE</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASHCAN_COVER"/>
+									</entry>
+								</row>
+								<row>
+									<entry>50C</entry>
+									<entry>DUSTPAN</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DUSTPAN"/>
+									</entry>
+								</row>
+								<row>
+									<entry>50C</entry>
+									<entry>WASTE RECEPTACLE (32-GAL)</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASH_CAN"/>
+									</entry>
+								</row>
+								<row>
+									<entry>57D</entry>
+									<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (100-A, 50-FT)</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_100A50FT"/>
+									</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</para>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

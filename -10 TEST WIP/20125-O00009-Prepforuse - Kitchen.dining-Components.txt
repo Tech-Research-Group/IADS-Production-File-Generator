@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00009-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> ASSEMBLY AND PREPARATION FOR USE - KITCHEN/DINING SUBSYSTEM COMPONENTS SETUP</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Tool Kit, General Mechanic's</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Gloves, Men's and Women's </name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_WORK"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00005-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00019-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>ETKS, TRCS, dining TEMPER shelter placement and complexing completed</condition>
+				<itemref>
+					<xref wpid="O00008-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepforuse>
+			<proc>
+				<title>Retrieve Kitchen/Dining Subsystem Components</title>
+				<warning>
+					<icon-set boardno="Heavy_Object"/>
+					<trim.para>Some Kitchen/Dining Subsystem components are heavy. Power cables weigh 50-100 lb (22.7-45.3 kg) and require two personnel to lift. All safety precautions must be followed, and proper lifting technique must be used. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<note>
+					<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+				</note>
+				<para>Unpack TRICONs 50C, N55B, and N55C IAW <xref wpid="O00005-10-5419-218"/> to locate and retrieve components listed in <xref tableid="O00009-10-5419-218-T0005"/>.
+					<table id="O00009-10-5419-218-T0005">
+						<title>Kitchen/Dining Subsystem Component List</title>
+						<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+							<thead>
+								<row>
+									<entry>TRICON</entry>
+									<entry>NAME</entry>
+									<entry>QTY</entry>
+									<entry>COEI REFERENCE</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>50C</entry>
+									<entry>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (15-A EXTENSION, 100-FT)</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_15A100FT"/>
+									</entry>
+								</row>
+								<row>
+									<entry>50C</entry>
+									<entry>FLOODLIGHT ASSEMBLY (TRIPOD MOUNTED, 1,000-W)</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FLOODLIGHT"/>
+									</entry>
+								</row>
+								<row>
+									<entry>50C</entry>
+									<entry>HOSE ASSEMBLY, NONMETALLIC (SOURCE WATER, 1-1/2-IN X 25-FT, M X F)</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_112IN_25FT_MXF"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>BENCH, UTILITY</entry>
+									<entry>16</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BENCH"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (100-A, 50-FT)</entry>
+									<entry>4</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_100A50FT"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 100-FT)</entry>
+									<entry>2</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A100FT"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>COVER, CAN, TRASH AND GARBAGE</entry>
+									<entry>4</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASHCAN_COVER"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>TABLE, FOLDING LEGS</entry>
+									<entry>8</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FOLDING_TABLE"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55B</entry>
+									<entry>WASTE RECEPTACLE (32-GAL)</entry>
+									<entry>4</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASH_CAN"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>BROOM, UPRIGHT</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BROOM"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>DUSTPAN</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DUSTPAN"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>HANDLE, MOP</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_HANDLE"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>MATTING, FLOOR (TYPE-1, 32-FT)</entry>
+									<entry>2</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FLOORMAT_32FT"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>MOPHEAD, WET</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOPHEAD"/>
+									</entry>
+								</row>
+								<row>
+									<entry>N55C</entry>
+									<entry>MOPPING OUTFIT, FLOOR</entry>
+									<entry>1</entry>
+									<entry>
+										<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_BUCKET"/>
+									</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</para>
+			</proc>
+			<proc>
+				<title>Apply Power to Expeditionary TRICON Kitchen System (ETKS)</title>
+				<step1 id="O00009-10-5419-218-S0001">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Two 50-ft (15.2-m), 100-A power cables are provided as components of ETKS.</trim.para>
+						</note>
+						<para>Locate power distribution boxes (PDBs) 1 and 2 (<xref figid="O00009-10-5419-218-F0040"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0040">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>ETKS uses two 100-A power cables to supply power. One power cable is connected to PDB 1 and one power cable is connected to PDB 2. Both power cables should not be connected to same PDB.</trim.para>
+						</note>
+						<para>Locate one unused 100-A output power receptacle (circuit (CKT) 4 or CKT 7) (<xref figid="O00009-10-5419-218-F0039"/>) at PDB 1 or PDB 2 (<xref figid="O00009-10-5419-218-F0040"/>). Ensure associated circuit breaker (CB) is off (<xref tableid="O00009-10-5419-218-T0002"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0039">
+					<title>PDB Receptacles and CBs</title>
+					<graphic boardno="G06021800050"/>
+				</figure>
+				<table id="O00009-10-5419-218-T0002">
+					<title>PDB 100-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 4 (3&oslash; 4 100-A)</entry>
+								<entry>CB 4</entry>
+							</row>
+							<row>
+								<entry>Circuit 7 (3&oslash; 7 100-A)</entry>
+								<entry>CB 7</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Unscrew and remove dust cover from one receptacle <callout assocfig="O00009-10-5419-218-F0042" label="1"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0042">
+					<title>Power Receptacle Dust Covers</title>
+					<graphic boardno="G06021800051"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00009-10-5419-218-F0043" label="1"/> from male end of a 50-ft (15.2-m), 100-A power cable <callout assocfig="O00009-10-5419-218-F0043" label="2"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0043">
+					<title>Power Cable Dust Covers</title>
+					<graphic boardno="G06021800047"/>
+				</figure>
+				<step1>
+					<para>Connect 50-ft (15.2-m), 100-A power cable <callout assocfig="O00009-10-5419-218-F0044" label="3"/> to 100-A receptacle <callout assocfig="O00009-10-5419-218-F0044" label="1"/>. Do not set 100-A CB to ON position at this time.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0044">
+					<title>Connect Power Cable to Receptacle</title>
+					<graphic boardno="G06021800052"/>
+				</figure>
+				<step1>
+					<para>Connect receptacle and power cable dust covers <callout assocfig="O00009-10-5419-218-F0044" label="2"/> together.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Route 50-ft (15.2-m), 100-A power cable <callout assocfig="O00009-10-5419-218-F0045" label="5"/> from PDB <callout assocfig="O00009-10-5419-218-F0045" label="7"/> toward ETKS <callout assocfig="O00009-10-5419-218-F0045" label="2"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0045">
+					<title>ETKS Power Cable Routing</title>
+					<graphic boardno="G06021800139"/>
+				</figure>
+				<step1>
+					<para>Position second cable <callout assocfig="O00009-10-5419-218-F0045" label="3"/> at end of first cable <callout assocfig="O00009-10-5419-218-F0045" label="5"/>.</para>
+				</step1>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00009-10-5419-218-F0045" label="4"/> and dust cover <callout assocfig="O00009-10-5419-218-F0045" label="6"/> from two power cables.</para>
+				</step1>
+				<step1>
+					<para>Connect second 50-ft (15.2-m), 100-A power cable <callout assocfig="O00009-10-5419-218-F0045" label="3"/> to first power cable <callout assocfig="O00009-10-5419-218-F0045" label="5"/> and connect dust cover <callout assocfig="O00009-10-5419-218-F0045" label="6"/> to dust cover <callout assocfig="O00009-10-5419-218-F0045" label="4"/>.</para>
+				</step1>
+				<step1 id="O00009-10-5419-218-S0002">
+					<para>Place end of second power cable near ETKS power distribution panel assembly <callout assocfig="O00009-10-5419-218-F0045" label="1"/>, but do not connect power cable to ETKS at this time.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="O00009-10-5419-218-S0001" stepend="O00009-10-5419-218-S0002"/> for other 100-A ETKS power cable connection. Do not set 100-A CB to ON position at this time.</para>
+				</step1>
+				<step1>
+					<para>Perform ASSEMBLY AND PREPARATION FOR USE - SETUP "Establish Electrical Power Connection" IAW <extref docno="TM 10-5419-207-10"/> using power cables placed earlier as source for ETKS.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Power setup of Expeditionary Platoon Life Support Module (EPLSM) may vary from site to site. Correct CB can be identified by following power cables from component back to PDB. Failure to comply may result in power remaining at component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Verify that all CBs (<xref figid="O00009-10-5419-218-F0046"/>) are set to OFF position on ETKS power distribution panel assembly.</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0046">
+					<title>ETKS Power Distribution Panel Assembly</title>
+					<graphic boardno="G06021800140"/>
+				</figure>
+				<step1>
+					<para>Verify output power is available at PDB by observing three red phase indicator lights (A, B, and C) <callout assocfig="O00009-10-5419-218-F0047" label="1"/> are illuminated.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0047">
+					<title>PDB Phase Indicators</title>
+					<graphic boardno="G06021800053"/>
+				</figure>
+				<step1>
+					<para>Set two ETKS 100-A CBs (CB 4 or CB 7) (<xref figid="O00009-10-5419-218-F0048"/>) to ON position at PDBs.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0048">
+					<title>Set 100-A CBs</title>
+					<graphic boardno="G06021800050"/>
+				</figure>
+				<step1>
+					<para>Perform INITIAL ADJUSTMENTS, BEFORE USE, AND SELF TEST IAW <extref docno="TM 10-5419-207-10"/>.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Apply Power to Dining TEMPER Shelter</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 2 (<xref figid="O00009-10-5419-218-F0051"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0051">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Locate one unused 60-A output power receptacle (CKT 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00009-10-5419-218-F0086"/>) at PDB 2 (<xref figid="O00009-10-5419-218-F0051"/>). Ensure associated CB is off (<xref tableid="O00009-10-5419-218-T0007"/>).</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0086">
+					<title>60-A Receptacles and CBs</title>
+					<graphic boardno="G06021800045"/>
+				</figure>
+				<table id="O00009-10-5419-218-T0007">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Unscrew and remove dust cover from one 60-A receptacle <callout assocfig="O00009-10-5419-218-F0151" label="1"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0151">
+					<title>Receptacle Dust Covers</title>
+					<graphic boardno="G06021800046"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00009-10-5419-218-F0052" label="1"/> from male end of a 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0052" label="2"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0052">
+					<title>Power Cable Dust Covers</title>
+					<graphic boardno="G06021800047"/>
+				</figure>
+				<step1>
+					<para>Connect 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0053" label="1"/> to 60-A receptacle. Do not set 60-A CB to ON position at this time.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0053">
+					<title>Connect Power Cable to Receptacle</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Connect receptacle and power cable dust covers <callout assocfig="O00009-10-5419-218-F0053" label="2"/> together.</para>
+				</step1>
+				<step1>
+					<para>Route 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0054" label="1"/> from PDB <callout assocfig="O00009-10-5419-218-F0054" label="3"/> toward ETKS, under dining TEMPER shelter vestibule then around outside of dining TEMPER shelter toward dining TEMPER shelter distribution box <callout assocfig="O00009-10-5419-218-F0054" label="2"/>. Route end of power cable to dining TEMPER shelter distribution box, but do not connect power cable at this time.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0054">
+					<title>Dining TEMPER Shelter Power Cable</title>
+					<graphic boardno="G06021800141"/>
+				</figure>
+				<step1>
+					<para>Verify all dining TEMPER shelter distribution box CBs <callout assocfig="O00009-10-5419-218-F0055" label="1"/> are set to OFF position.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0055">
+					<title>Dining TEMPER Shelter Distribution Box CBs</title>
+					<graphic boardno="G06021800142"/>
+				</figure>
+				<step1>
+					<para>Use 100-ft (30.1-m), 60-A power cable to perform CONNECT PRIMARY POWER procedure IAW <extref docno="TM 10-8340-244-13&amp;P"/>. Do not apply power at this time.</para>
+				</step1>
+				<step1>
+					<para>Verify output power is available at PDB by observing three red phase indicator lights (A, B, and C) <callout assocfig="O00009-10-5419-218-F0056" label="1"/> are illuminated.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0056">
+					<title>PDB Phase Indicators</title>
+					<graphic boardno="G06021800053"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present during operation. All electrical safety precautions must be followed when operating or maintaining equipment. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of EPLSM may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Set dining TEMPER shelter 60-A CB (<xref figid="O00009-10-5419-218-F0057"/>) to ON position.</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0057">
+					<title>60-A CBs</title>
+					<graphic boardno="G06021800054"/>
+				</figure>
+				<step1>
+					<para>Perform APPLY POWER procedure IAW <extref docno="TM 10-8340-244-13&amp;P"/> and connect any dust covers. Dining TEMPER shelter is ready for use.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Apply Power to TRICON Refrigerated Container System (TRCS)</title>
+				<step1>
+					<para>Unpack TRCS IAW <xref wpid="O00005-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<para>Perform SERVICE UPON RECEIPT IAW <extref docno="TM 10-8145-224-13&amp;P"/> and stop before connecting to power source.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Power setup of EPLSM may vary from site to site. Correct CB can be identified by following power cables from component back to PDB. Failure to comply may result in power remaining at component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 2 (<xref figid="O00009-10-5419-218-F0058"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0058">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Locate one unused 60-A output power receptacle (CKT 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00009-10-5419-218-F0089"/>) at PDB 2 (<xref figid="O00009-10-5419-218-F0058"/>). Ensure associated CB is off (<xref tableid="O00009-10-5419-218-T0008"/>).</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0089">
+					<title>60-A Power Receptacles and CBs</title>
+					<graphic boardno="G06021800045"/>
+				</figure>
+				<table id="O00009-10-5419-218-T0008">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Unscrew and remove dust cover from one 60-A receptacle <callout assocfig="O00009-10-5419-218-F0060" label="1"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0060">
+					<title>Receptacle Dust Covers</title>
+					<graphic boardno="G06021800046"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove dust cover <callout assocfig="O00009-10-5419-218-F0061" label="1"/> from male end of a 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0061" label="2"/>.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0061">
+					<title>Power Cable Dust Covers</title>
+					<graphic boardno="G06021800047"/>
+				</figure>
+				<step1>
+					<para>Connect 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0062" label="1"/> to 60-A receptacle. Do not set 60-A CB to ON position at this time.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0062">
+					<title>Connect Power Cable to Receptacle</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Connect receptacle and power cable dust covers <callout assocfig="O00009-10-5419-218-F0062" label="2"/> together.</para>
+				</step1>
+				<step1>
+					<para>Route 100-ft (30.5-m), 60-A power cable <callout assocfig="O00009-10-5419-218-F0063" label="4"/> from PDB <callout assocfig="O00009-10-5419-218-F0063" label="5"/> toward TRCS <callout assocfig="O00009-10-5419-218-F0063" label="6"/> under ETKS wing section.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0063">
+					<title>TRCS Power Cable Routing</title>
+					<graphic boardno="G06021800925"/>
+				</figure>
+				<step1>
+					<para>Unscrew and remove 100-ft 60-A power cable dust cover <callout assocfig="O00009-10-5419-218-F0063" label="2"/> and TRCS power cable dust cover <callout assocfig="O00009-10-5419-218-F0063" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Connect 100-ft 60-A power cable <callout assocfig="O00009-10-5419-218-F0063" label="4"/> to TRCS power cable <callout assocfig="O00009-10-5419-218-F0063" label="1"/> and 100-ft dust cap <callout assocfig="O00009-10-5419-218-F0063" label="2"/> to TRCS dust plug <callout assocfig="O00009-10-5419-218-F0063" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Verify output power is available at PDB by observing three red phase indicator lights (A, B, and C) <callout assocfig="O00009-10-5419-218-F3064" label="1"/> are illuminated.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F3064">
+					<title>PDB Phase Indicators</title>
+					<graphic boardno="G06021800053"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Kitchen/Dining Subsystem may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Set TRCS 60-A CB (<xref figid="O00009-10-5419-218-F0657"/>) to ON position.</para>
+					</specpara>
+				</step1>
+				<figure id="O00009-10-5419-218-F0657">
+					<title>60-A CBs and Output Receptacles</title>
+					<graphic boardno="G06021800054"/>
+				</figure>
+				<step1>
+					<para>Continue SERVICE UPON RECEIPT IAW <extref docno="TM 10-8145-224-13&amp;P"/> until completion.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Set Up Dining Facility</title>
+				<step1>
+					<para>Set up floodlight IAW <xref wpid="O00019-10-5419-218"/>. Position floodlight as needed.</para>
+				</step1>
+				<step1>
+					<para>Perform ice maker initial adjustments IAW commercial ice maker manual.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-foot"/>
+							<trim.para>Folding tables and benches collapse if legs are not locked. Ensure leg locking collars are over folding table leg joints to lock them in place. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Set up eight tables inside dining TEMPER shelter as follows:</para>
+					</specpara>
+					<step2>
+						<para>Unfold folding legs <callout assocfig="O00009-10-5419-218-F0064" label="1"/> and slide locking collars <callout assocfig="O00009-10-5419-218-F0064" label="2"/> over legs.</para>
+					</step2>
+					<figure id="O00009-10-5419-218-F0064">
+						<title>Assemble Dining Table</title>
+						<graphic boardno="G06021801291"/>
+					</figure>
+					<step2>
+						<para>Position tables per dining TEMPER shelter layout (<xref figid="O00009-10-5419-218-F0065"/>).</para>
+					</step2>
+				</step1>
+				<figure id="O00009-10-5419-218-F0065">
+					<title>Kitchen/Dining Area Layout</title>
+					<graphic boardno="G06021800145"/>
+				</figure>
+				<step1 id="O00009-10-5419-218-S00070">
+					<para>Unfold bench legs <callout assocfig="O00009-10-5419-218-F0066" label="1"/> and slide locking collars <callout assocfig="O00009-10-5419-218-F0066" label="2"/> over legs.</para>
+				</step1>
+				<figure id="O00009-10-5419-218-F0066">
+					<title>Assemble Benches</title>
+					<graphic boardno="G06021801292"/>
+				</figure>
+				<step1>
+					<para>Repeat <xref stepstart="O00009-10-5419-218-S00070"/> for remaining 15 benches and position in dining area as shown in dining area layout (<xref figid="O00009-10-5419-218-F0066"/>).</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Ensure equipment is stowed away from high traffic dining areas to prevent trip hazards, but can be easily accessed for dining preparation and cleaning tasks.</trim.para>
+						</note>
+						<para>Position all remaining kitchen/dining ancillary equipment (trash cans and covers, mop with mophead, bucket with wringer, broom and dustpan, and floor mats) as shown in kitchen/dining area layout (<xref figid="O00009-10-5419-218-F0065"/>).</para>
+					</specpara>
+				</step1>
+			</proc>
+		</prepforuse>
+	</opertsk>
+</opusualwp>

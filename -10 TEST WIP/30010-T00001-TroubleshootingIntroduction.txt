@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsintrowp chngno="0" wpno="T00001-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING INTRODUCTION</title>
+	</wpidinfo>
+	<geninfo>
+		<title>GENERAL INFORMATION</title>
+		<para>This work package describes the operator testing and troubleshooting process used to perform troubleshooting on the Expeditionary Platoon Life Support Module (EPLSM) and includes information on the methods used to perform troubleshooting.</para>
+	</geninfo>
+	<para0>
+		<title>GENERAL</title>
+		<para>The troubleshooting procedures contained in Chapter 3 list the symptoms, malfunctions, and corrective actions required to return the EPLSM to normal operation. Perform the steps in the order they appear in the work packages.</para>
+		<para>DO NOT START THE TASK UNTIL: The task is understood. The personnel, materials, replacement parts, and/or testing equipment for the task are prepared.</para>
+		<para>All EPLSM fault conditions can be found in the troubleshooting index work package (<xref wpid="T00002-10-5419-218"/>). The reader will be directed to the appropriate work package to begin the troubleshooting process. The fault condition will be listed in the work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed. After each corrective action is completed, attempt to operate the equipment to see if the fault is corrected.</para>
+		<para>It is always wise to have and additional person when dealing with electrical systems.</para>
+	</para0>
+	<para0>
+		<title>TROUBLESHOOTING INDEX</title>
+		<para>The troubleshooting index is listed by subsystem in alphabetical order. Each symptom under the applicable subsystem will be listed in alphabetical order. Symptoms in the indicated work packages will also appear in alphabetical order.</para>
+		<para>The troubleshooting index lists common malfunctions that may occur during EPLSM inspection and operation. Find the malfunction to be addressed and go to the indicated troubleshooting work package. The troubleshooting index cannot list all malfunctions that may occur, all tests or inspections needed to find the fault, nor all actions required to correct the fault. If the existing malfunction is not listed, or cannot be corrected through this troubleshooting index, notify next higher level of maintenance.</para>
+	</para0>
+	<para0>
+		<title/>
+		<para>An example of the troubleshooting process is shown below. The symptom describes the problem being experienced. The malfunction is the cause of the symptom starting with the most likely cause or most easily remedied. Further malfunctions will describe alternate fault conditions. The corrective action shows the steps required to correct each malfunction.</para>
+	</para0>
+	<para0>
+		<title>SYMPTOM</title>
+		<para>No power to TRICON shelter.</para>
+	</para0>
+	<para0>
+		<title>MALFUNCTION</title>
+		<para>Power cable unplugged.</para>
+	</para0>
+	<para0>
+		<title>CORRECTIVE ACTION</title>
+		<para>STEP 1. Verify power cable is connected securely to power input receptacle.</para>
+		<para>STEP 2. Verify power cable is securely connected at source and source is energized.</para>
+		<para>STEP 3. Reset external power control circuit breaker by setting to OFF position, then back to ON position.</para>
+	</para0>
+</tsintrowp>

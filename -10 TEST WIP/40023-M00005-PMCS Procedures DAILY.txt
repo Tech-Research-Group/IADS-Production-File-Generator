@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmcswp chngno="0" wpno="M00005-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>DAILY-INTERVAL PREVENTIVE MAINTENANCE CHECKS AND SERVICES (PMCS)</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<pmcstable id="M00005-10-5419-218-T0001">
+		<title>Daily Interval PMCS Procedures</title>
+		<pmcs-intervals>
+			<interval/>
+		</pmcs-intervals>
+		<pmcs-entry>
+			<itemno>115</itemno>
+			<interval>Daily</interval>
+			<checked>Expeditionary TRICON Kitchen System</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform daily-interval, crew PMCS IAW <extref docno="TM 10-5419-207-10"/>.</para>
+					<eqpnotavail>
+						<trim.para></trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>116</itemno>
+			<interval>Daily</interval>
+			<checked>TRICON Refrigerated Container System</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform daily-interval, crew PMCS IAW <extref docno="TM 10-8145-224-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para></trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>117</itemno>
+			<interval>Daily</interval>
+			<checked>Tank, Fabric, Collapsible, Fuel, 1,000-Gal</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform daily-interval, crew PMCS for all fuel tanks IAW <extref docno="TM 10-5430-225-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>118</itemno>
+			<interval>Daily</interval>
+			<checked>Expeditionary TRICON Self Serve Laundry System</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform daily-interval, crew PMCS IAW <extref docno="TM 10-5419-215-10"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+	</pmcstable>
+	<mrplpart>
+		<title>Mandatory Replacement Parts</title>
+		<para>No replacement parts are required for these PMCS procedures.</para>
+	</mrplpart>
+</pmcswp>

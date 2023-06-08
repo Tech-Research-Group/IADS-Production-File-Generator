@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00030-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - LATRINE SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Toxicological Agents Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_TOXIC"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Latrine Subsystem temporary shutdown complete</condition>
+				<itemref>
+					<xref wpid="O00022-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Shut Down Expeditionary Latrine System (ELS) and Retrieve Loose Items</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Biological_Symbol"/>
+							<trim.para>ELS operations generate biohazardous materials. Personnel must wear proper personal protective equipment (apron, goggles, impermeable gloves) when handling waste from ELS. Failure to comply may result in serious illness or death to personnel. Seek immediate medical attention if contact with waste occurs.</trim.para>
+							<trim.para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</trim.para>
+						</warning>
+						<para>Perform LONG TERM SHUTDOWN for ELS IAW <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Retrieve and set aside garden hose and nozzle from ELS.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Disconnect Power Connection for ELS</title>
+				<step1 id="O00030-cable_disco">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of Expeditionary Platoon Life Support Module (EPLSM) may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Power setup of EPLSM may vary from site to site. Correct circuit breaker (CB) can be identified by following power cables from component back to power distribution box (PDB). Failure to comply may result in power remaining at component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Locate PDB 3 (<xref figid="O00030-10-5419-218-F0001"/>).</para>
+					</specpara>
+				</step1>
+				<figure id="O00030-10-5419-218-F0001">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800980"/>
+				</figure>
+				<step1>
+					<para>Set associated ELS 60-A CB (circuit (CKT) 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00030-10-5419-218-F0002"/>) to OFF position.</para>
+				</step1>
+				<figure id="O00030-10-5419-218-F0002">
+					<title>PDB 60-A CB and Output Receptacles</title>
+					<graphic boardno="G06021800045"/>
+				</figure>
+				<table id="O00030-10-5419-218-T0002">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>ELS 60-A power cable assembly is made up of multiple lengths of 60-A power cables connected together.</trim.para>
+						</note>
+						<para>Disconnect 60-A power cable <callout assocfig="O00030-10-5419-218-F0003" label="1"/> from 60-A output power receptacle at PDB.</para>
+					</specpara>
+				</step1>
+				<figure id="O00030-10-5419-218-F0003">
+					<title>60-A Power Cable Assembly</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Disconnect receptacle and power cable plug dust covers <callout assocfig="O00030-10-5419-218-F0003" label="2"/> from each other, and install dust covers on receptacles and power cables.</para>
+				</step1>
+				<step1>
+					<para>Carry capped end of 60-A power cable <callout assocfig="O00030-10-5419-218-F0003" label="1"/> back to next power cable connection.</para>
+				</step1>
+				<step1>
+					<para>Disconnect power cables from each other.</para>
+				</step1>
+				<step1>
+					<para>Install dust covers to power cables. Coil both 60-A power cables and set aside for packout.</para>
+				</step1>
+				<step1 id="O00030-cable_disco2">
+					<para>Walk end of third power cable back to ELS power distribution panel assembly. Do not disconnect power cable from ELS power distribution panel assembly at this time.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Stage Latrine Subsystem Items for Packout</title>
+				<step1>
+					<para>Perform ELS PREPARATION FOR MOVEMENT procedures IAW <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Some Latrine Subsystem components may be stored in TRICONs during periods of disuse or may not be present as they have been consumed during camp operation.</trim.para>
+							<trim.para>Components of End Item (COEI) List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+						</note>
+						<para>Locate items listed in <xref tableid="O00030-10-5419-218-T0001"/> in quantities specified, and stage at appropriate transportation TRICON for packout.</para>
+					</specpara>
+				</step1>
+				<table id="O00030-10-5419-218-T0001">
+					<title>Latrine Subsystem Component List</title>
+					<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50A</entry>
+								<entry>BROOM, UPRIGHT</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BROOM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COVER, CAN, TRASH AND GARBAGE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASHCAN_COVER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50A</entry>
+								<entry>DUSTPAN</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_DUSTPAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50A</entry>
+								<entry>HANDLE, MOP</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_HANDLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50A</entry>
+								<entry>MOPPING OUTFIT, FLOOR</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_MOP_BUCKET"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50A</entry>
+								<entry>WASTE RECEPTACLE (32-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASH_CAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (GARDEN)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_GARDEN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>NOZZLE, GARDEN HOSE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_NOZZLE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-2</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-3</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51A-4</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

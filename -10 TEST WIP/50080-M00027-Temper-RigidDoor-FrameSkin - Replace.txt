@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00027-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>FRAME, TENT, RIGID DOOR - PANEL, TENT<brk/>REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Stepladder, 6-ft</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_STEPLADDER"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Panel, Tent, Frame Skin </name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_RDOOR_FRAMESKIN"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<xref wpid="M00028-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<note>
+		<trim.para>Procedures to replace an exterior or interior door frame skin are not identical. Choose correct procedure based on location of defective panel.</trim.para>
+	</note>
+	<maintsk>
+		<replace>
+			<proc>
+				<title>Replace Tent Panel (Exterior Door Frame Skin)</title>
+				<step1>
+					<para>Remove and retain outer door skin <callout assocfig="M00027-10-5419-218-F0003" label="4"/> from door frame by peeling apart hook and loop tape.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0003">
+					<title>Remove Door Skin and Loosen Wind Lines</title>
+					<graphic boardno="G06021800849"/>
+				</figure>
+<?Pub _newpage?>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Work on ladder can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder while climbing. Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Wind lines snap into place quickly and can pose a trip hazard. Wind lines can become loose and injure nearby personnel. Personnel must stay away from wind lines during inflation. Failure to comply may result in serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Remove three cotter pins <callout assocfig="M00027-10-5419-218-F0003" label="1"/> from top of vestibule.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Wind lines will keep door frame and vestibule end from collapsing during maintenance. Wind lines can be removed and attached as needed at beginning and end of each step or one person can hold door frame upright during this procedure, if available.</trim.para>
+						</note>
+						<para>Rotate rope locks <callout assocfig="M00027-10-5419-218-F0003" label="3"/> to loosen wind lines <callout assocfig="M00027-10-5419-218-F0003" label="2"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Solar shade is secured to frame posts on two side vestibules of dining TEMPER shelter only. <xref figid="M00027-10-5419-218-F0003"/> shows an end vestibule without a solar shade installed.</trim.para>
+						</note>
+						<para>Remove solar shade from frame posts as needed.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Locate and untie four tie straps <callout assocfig="M00027-10-5419-218-F0006" label="1"/> securing frame skin to vestibule frame <callout assocfig="M00027-10-5419-218-F0006" label="2"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0006">
+					<title>Tie Strap Location Viewed from Inside Vestibule</title>
+					<graphic boardno="G06021800850"/>
+				</figure>
+				<step1>
+					<para>Remove two stakes from inner door frame.</para>
+				</step1>
+				<step1>
+					<para>Open vestibule hook and loop flap <callout assocfig="M00027-10-5419-218-F0004" label="2"/> on top left of door and remove grommet from left frame post <callout assocfig="M00027-10-5419-218-F0004" label="1"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0004">
+					<title>Frame Skin Flaps</title>
+					<graphic boardno="G06021800851"/>
+				</figure>
+				<step1>
+					<para>Open frame skin hook and loop flap <callout assocfig="M00027-10-5419-218-F0004" label="3"/> on top right of door and remove flap grommet from right frame post <callout assocfig="M00027-10-5419-218-F0004" label="4"/>.</para>
+				</step1>
+				<step1>
+					<para>Open hook and loop flaps <callout assocfig="M00027-10-5419-218-F0004" label="5"/> on both sides of vestibule.</para>
+				</step1>
+				<step1>
+					<para>Untie becket lacing connecting frame skin to vestibule as follows:</para>
+					<step2 id="M00027-10-5419-218-S0495">
+						<para>Untie knot <callout assocfig="M00027-10-5419-218-F0005" label="3"/> securing bottom two laces.</para>
+					</step2>
+					<figure id="M00027-10-5419-218-F0005">
+						<title>Becket Lacing</title>
+						<graphic boardno="G06021800852"/>
+					</figure>
+					<step2>
+						<para>Pull becket lacings from one another moving up side of vestibule and up to peak <callout assocfig="M00027-10-5419-218-F0005" label="1"/>.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S0496">
+						<para>Pull becket laces through grommets <callout assocfig="M00027-10-5419-218-F0005" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepstart="M00027-10-5419-218-S0495" stepend="M00027-10-5419-218-S0496"/> at other side of vestibule.</para>
+					</step2>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Frame skin flap is shown for reference only. Flap was previously removed from frame post.</trim.para>
+						</note>
+						<para>Remove frame skin (<xref figid="M00027-10-5419-218-F0007"/>) as follows:</para>
+					</specpara>
+					<figure id="M00027-10-5419-218-F0007">
+						<title>Right-hand Frame Skin and Vestibule Positioning</title>
+						<graphic boardno="G06021800853"/>
+					</figure>
+					<step2>
+						<para>Remove vestibule grommets from frame posts.</para>
+					</step2>
+					<step2>
+						<para>Remove and discard defective frame skin <callout assocfig="M00027-10-5419-218-F0008" label="3"/> from door by separating hook and loop tape <callout assocfig="M00027-10-5419-218-F0008" label="2"/> and lifting grommets <callout assocfig="M00027-10-5419-218-F0008" label="1"/> off frame posts.</para>
+					</step2>
+					<figure id="M00027-10-5419-218-F0008">
+						<title>Remove Frame Skin</title>
+						<graphic boardno="G06021800854"/>
+					</figure>
+					<step2>
+						<para>Reseat vestibule grommets (<xref figid="M00027-10-5419-218-F0007"/>) on frame post.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Unfold replacement frame skin <callout assocfig="M00027-10-5419-218-F0010" label="1"/> and align frame skin on ground to outer door <callout assocfig="M00027-10-5419-218-F0010" label="2"/> with green or tan side facing out of vestibule.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0010">
+					<title>Install Frame Skin</title>
+					<graphic boardno="G06021800856"/>
+				</figure>
+				<step1>
+					<para>Refer to <xref figid="M00027-10-5419-218-F0009"/>, and attach frame skin to center frame post as follows:</para>
+					<figure id="M00027-10-5419-218-F0009">
+						<title>Install Frame Skin</title>
+						<graphic boardno="G06021800855"/>
+					</figure>
+					<step2>
+						<para>Ensure vestibule grommet is secure on center frame post.</para>
+					</step2>
+					<step2>
+						<para>Install frame skin over vestibule grommets.</para>
+					</step2>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Wind lines must be attached to frame posts above frame skin and vestibule fabric. Hook and loop flaps are shown for reference only and will be secured later in this procedure. Hook and loop flaps should not be connected at this time.</trim.para>
+						</note>
+						<para>Use <xref figid="M00027-10-5419-218-F0009"/> to attach frame skin to left frame post as follows:</para>
+					</specpara>
+					<step2>
+						<para>Ensure wind line and cotter pin are removed.</para>
+					</step2>
+					<step2>
+						<para>Ensure vestibule grommet is secure on left frame post.</para>
+					</step2>
+					<step2>
+						<para>Install frame skin over vestibule grommet.</para>
+					</step2>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Wind lines must be attached to frame posts above frame skin and vestibule fabric. Hook and loop flaps are shown for reference only and will be secured later in this procedure. Hook and loop flaps should not be connected at this time.</trim.para>
+						</note>
+						<para>Use <xref figid="M00027-10-5419-218-F0009"/> to attach frame skin to right frame post as follows:</para>
+					</specpara>
+					<step2>
+						<para>Ensure wind line and cotter pin are removed.</para>
+					</step2>
+					<step2>
+						<para>Remove vestibule grommet from frame post.</para>
+					</step2>
+					<step2>
+						<para>Install frame skin grommet to frame post.</para>
+					</step2>
+					<step2>
+						<para>Install vestibule grommet over frame skin grommet.</para>
+					</step2>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Frame skin should be aligned before lacing skin to vestibule. This will ensure proper operation of door and prevent need to untie and reposition skin later.</trim.para>
+						</note>
+						<para>Align frame skin <callout assocfig="M00027-10-5419-218-F0008" label="3"/> to door frame and secure with hook and loop tape <callout assocfig="M00027-10-5419-218-F0008" label="2"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Ensure door opens and closes without interference from frame skin. Realign and secure door as needed.</para>
+				</step1>
+				<step1>
+					<para>Start at peak <callout assocfig="M00027-10-5419-218-F0011" label="1"/> and work down left side of vestibule to connect frame skin to TEMPER shelter vestibule using attached becket lacing as follows:
+						<figure id="M00027-10-5419-218-F0011">
+							<title>Becket Lacing</title>
+							<graphic boardno="G06021800857"/>
+						</figure>
+					</para>
+					<step2>
+						<para>Pull first TEMPER shelter vestibule becket lace <callout assocfig="M00027-10-5419-218-F0011" label="2"/> through first frame skin grommet <callout assocfig="M00027-10-5419-218-F0011" label="3"/>.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S000b">
+						<para>Pull second becket lace through second frame skin grommet.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S000c">
+						<para>Pull second becket lace through first becket lace and pull it tight toward bottom of row of grommets.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepstart="M00027-10-5419-218-S000b" stepend="M00027-10-5419-218-S000c"/> for each grommet until bottom two becket laces are reached.</para>
+					</step2>
+					<step2>
+						<para>Pull both becket laces through grommets and secure laces to each other with a knot <callout assocfig="M00027-10-5419-218-F0011" label="4"/>.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Start at peak and work down right side of vestibule to connect TEMPER shelter vestibule to frame skin using attached becket lacing as follows:</para>
+					<step2>
+						<para>Pull first frame skin becket lace <callout assocfig="M00027-10-5419-218-F0011" label="2"/> through first vestibule grommet <callout assocfig="M00027-10-5419-218-F0011" label="3"/>.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S000b2">
+						<para>Pull second becket lace through second vestibule grommet.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S000c2">
+						<para>Pull second becket lace through first becket lace and pull it tight toward bottom of row of grommets.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepstart="M00027-10-5419-218-S000b2" stepend="M00027-10-5419-218-S000c2"/> until bottom two becket laces are reached.</para>
+					</step2>
+					<step2>
+						<para>Pull both becket laces through grommets and secure laces to each other with a knot <callout assocfig="M00027-10-5419-218-F0011" label="4"/>.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Secure top hook and loop flaps <callout assocfig="M00027-10-5419-218-F0012" label="2"/> with grommets <callout assocfig="M00027-10-5419-218-F0012" label="1"/> over frame posts.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0012">
+					<title>Hook and Loop Flaps</title>
+					<graphic boardno="G06021800858"/>
+				</figure>
+				<step1>
+					<para>Secure side hook and loop flaps <callout assocfig="M00027-10-5419-218-F0012" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Locate and tie four tie straps <callout assocfig="M00027-10-5419-218-F0013" label="1"/> to secure frame skin to vestibule frame <callout assocfig="M00027-10-5419-218-F0013" label="2"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0013">
+					<title>Tie Strap Location Viewed from Inside Vestibule</title>
+					<graphic boardno="G06021800850"/>
+				</figure>
+				<step1>
+					<para>Install solar shade to frame posts as needed.</para>
+				</step1>
+				<step1>
+					<para>Install wind lines <callout assocfig="M00027-10-5419-218-F3003" label="2"/> to frame posts and secure with three cotter pins <callout assocfig="M00027-10-5419-218-F3003" label="1"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F3003">
+					<title>Secure Wind Lines</title>
+					<graphic boardno="G06021800849"/>
+				</figure>
+				<step1>
+					<para>Tighten wind lines <callout assocfig="M00027-10-5419-218-F3003" label="2"/> and rotate rope locks <callout assocfig="M00027-10-5419-218-F3003" label="3"/> to secure vestibule.</para>
+				</step1>
+				<step1>
+					<para>Position door skin <callout assocfig="M00027-10-5419-218-F3003" label="4"/> with window at top of door.</para>
+				</step1>
+				<step1>
+					<para>Align door skin <callout assocfig="M00027-10-5419-218-F0014" label="1"/> to door frame <callout assocfig="M00027-10-5419-218-F0014" label="2"/> and secure with hook and loop tape starting at top and working halfway down.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0014">
+					<title>Attach Door Skin</title>
+					<graphic boardno="G06021801390"/>
+				</figure>
+				<step1>
+					<para>Pass door latch strap <callout assocfig="M00027-10-5419-218-F0015" label="1"/> through opening <callout assocfig="M00027-10-5419-218-F0015" label="3"/> in door skin from inside to outside.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F0015">
+					<title>Door Latch Webbing and Window</title>
+					<graphic boardno="G06021801391"/>
+				</figure>
+				<step1>
+					<para>Continue to install door skin <callout assocfig="M00027-10-5419-218-F0014" label="1"/> using hook and loop tape to bottom of door frame <callout assocfig="M00027-10-5419-218-F0014" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Roll up door window <callout assocfig="M00027-10-5419-218-F0015" label="2"/> as desired.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Replace Tent Panel (Interior Door Frame Skin)</title>
+				<step1>
+					<para>Remove interior door frame and door assembly IAW <xref wpid="M00028-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<para>Locate and untie four tie straps <callout assocfig="M00027-10-5419-218-F1006" label="1"/> securing frame skin to vestibule frame <callout assocfig="M00027-10-5419-218-F1006" label="2"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1006">
+					<title>Tie Strap Location Viewed from Inside TEMPER Shelter</title>
+					<graphic boardno="G06021800850"/>
+				</figure>
+				<step1>
+					<para>Disconnect hook and loop tape securing insulated vestibule liner <callout assocfig="M00027-10-5419-218-F1007" label="2"/> to inner door interface <callout assocfig="M00027-10-5419-218-F1007" label="1"/> inside vestibule. Allow insulated vestibule liner to hang in center of vestibule.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1007">
+					<title>Insulated Vestibule Liner</title>
+					<graphic boardno="G06021800861"/>
+				</figure>
+				<step1>
+					<para>Disconnect hook and loop tape securing inner door interface <callout assocfig="M00027-10-5419-218-F1008" label="1"/> to frame skin <callout assocfig="M00027-10-5419-218-F1008" label="2"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1008">
+					<title>Frame Skin and Inner Door Interface</title>
+					<graphic boardno="G06021800013"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Inner door interface is installed between frame skin and vestibule fabric and connected to a vestibule adapter in main vestibule or main tent panel in dining TEMPER shelter side vestibules. Inner door interface does not need to be disconnected from adapter or main panel to perform this procedure.</trim.para>
+						</note>
+						<para>Pull inner door interface <callout assocfig="M00027-10-5419-218-F1009" label="1"/> free of frame skin and vestibule inside TEMPER shelter. Allow interface and adapter/panel to hang in front of frame skin.</para>
+					</specpara>
+				</step1>
+				<figure id="M00027-10-5419-218-F1009">
+					<title>Inner Door Interface Hanging</title>
+					<graphic boardno="G06021800863"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling"/>
+							<trim.para>Work on ladder can result in a fall of over 6 ft (1.8 m) that is hazardous to life. Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face ladder while climbing. Stepladder must be on level ground with a spotter supporting base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Remove three cotter pins <callout assocfig="M00027-10-5419-218-F1010" label="1"/> from frame posts outside of vestibule.</para>
+					</specpara>
+				</step1>
+				<figure id="M00027-10-5419-218-F1010">
+					<title>Vestibule Cotter Pins</title>
+					<graphic boardno="G06021800864"/>
+				</figure>
+				<step1>
+					<para>Push up on frame skin <callout assocfig="M00027-10-5419-218-F1011" label="3"/> and vestibule fabric <callout assocfig="M00027-10-5419-218-F1011" label="1"/> inside vestibule until skin and fabric are free of vestibule frame <callout assocfig="M00027-10-5419-218-F1011" label="2"/> to remove and discard defective frame skin.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1011">
+					<title>Remove Interior Frame Skin</title>
+					<graphic boardno="G06021800865"/>
+				</figure>
+				<step1>
+					<para>Unfold replacement frame skin and align frame skin to interior door with green or tan side facing out of TEMPER shelter.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>An assistant should be positioned outside of vestibule to guide frame posts through grommets of each layer of fabric and ensure all layers are secured. TEMPER shelter and vestibule hook and loop flaps may be temporarily unfolded for easier positioning of fabric layers.</trim.para>
+						</note>
+						<para>Install frame skin onto frame posts (<xref figid="M00027-10-5419-218-F1012"/>) as follows:</para>
+					</specpara>
+					<figure id="M00027-10-5419-218-F1012">
+						<title>Install Interior Frame Skin</title>
+						<graphic boardno="G06021800859"/>
+					</figure>
+					<step2 id="M00027-10-5419-218-S1006">
+						<para>Push up inside vestibule until all fabric is free of frame posts.</para>
+					</step2>
+					<step2>
+						<para>Install center grommet of frame skin on center frame post.</para>
+					</step2>
+					<step2>
+						<para>Align TEMPER shelter fabric and vestibule fabric on center frame post.</para>
+					</step2>
+					<step2 id="M00027-10-5419-218-S1007">
+						<para>Secure fabric with cotter pin <callout assocfig="M00027-10-5419-218-F1010" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepstart="M00027-10-5419-218-S1006" stepend="M00027-10-5419-218-S1007"/> at left and right frame post.</para>
+					</step2>
+					<step2>
+						<para>Remove cotter pins if hook and loop flaps were previously unfolded, fold hook and loop flaps with gromemts over frame posts, and secure fabric with cotter pins.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Fold left-hand frame skin flap <callout assocfig="M00027-10-5419-218-F1013" label="1"/> over vestibule frame <callout assocfig="M00027-10-5419-218-F1013" label="2"/> inside TEMPER shelter.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1013">
+					<title>Frame Skin Flap</title>
+					<graphic boardno="G06021800866"/>
+				</figure>
+				<step1>
+					<para>Align three cutouts on inner door interface with frame posts and install inner door interface between frame skin and vestibule/TEMPER shelter fabric until inner door interface hook and loop tape is visible inside vestibule (<xref figid="M00027-10-5419-218-F1014"/>).</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1014">
+					<title>Install Inner Door Interface</title>
+					<graphic boardno="G06021800860"/>
+				</figure>
+				<step1>
+					<para>Connect hook and loop tape to secure frame skin <callout assocfig="M00027-10-5419-218-F1015" label="2"/> to inside of inner door interface <callout assocfig="M00027-10-5419-218-F1015" label="1"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1015">
+					<title>Frame Skin and Inner Door Interface</title>
+					<graphic boardno="G06021800013"/>
+				</figure>
+				<step1>
+					<para>Align insulated vestibule liner <callout assocfig="M00027-10-5419-218-F1016" label="2"/> with frame skin and secure to outside of inner door interface <callout assocfig="M00027-10-5419-218-F1016" label="1"/> with hook and loop tape.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1016">
+					<title>Insulated Vestibule Liner and Inner Door Interface</title>
+					<graphic boardno="G06021800861"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Door should be aligned and installed prior to securing frame skin to vestibule frame. This will ensure proper operation of door and prevent having to remove stakes and reposition door later.</trim.para>
+						</note>
+						<para>Install interior door frame and door assembly IAW <xref wpid="M00028-10-5419-218"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Locate and tie four tie straps <callout assocfig="M00027-10-5419-218-F1017" label="1"/> to secure frame skin to vestibule frame <callout assocfig="M00027-10-5419-218-F1017" label="2"/>.</para>
+				</step1>
+				<figure id="M00027-10-5419-218-F1017">
+					<title>Tie Strap Location Viewed from Inside TEMPER Shelter</title>
+					<graphic boardno="G06021800850"/>
+				</figure>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmcswp chngno="0" wpno="M00003-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>DURING-INTERVAL PREVENTIVE MAINTENANCE CHECKS AND SERVICES (PMCS)</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Chemical Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_CHEMICAL"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Toxicological Agents Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_TOXIC"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 9-6115-753-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4520-266-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 55-8145-236-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00007-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00008-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00009-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00011-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00024-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00017-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00025-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00026-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00027-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00029-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00043-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00044-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00045-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00046-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00031-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00032-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00033-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00034-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00035-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00036-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00058-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00059-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00060-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00061-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00062-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00064-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00065-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00013-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00014-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00015-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00066-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00067-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00016-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00022-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00047-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00050-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00051-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00052-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00056-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00053-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00068-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00054-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00055-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00069-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<pmcstable id="M00003-10-5419-218-T0001">
+		<title>During Interval PMCS Procedures</title>
+		<pmcs-intervals>
+			<interval/>
+		</pmcs-intervals>
+		<warning>
+			<icon-set boardno="Electrical_Symbols"/>
+			<icon-set boardno="Hot_Area"/>
+			<icon-set boardno="Biological_Symbol"/>
+			<icon-set boardno="Fire"/>
+			<icon-set boardno="Chemical"/>
+			<trim.para>High voltage is present. Electrical cables and controls should not be handled with wet hands or while standing in water. All electrical safety precautions must be followed when operating equipment. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+			<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+			<trim.para>Interior and exterior areas of Expeditionary Platoon Life Support Module may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+			<trim.para>Metal components left in direct sunlight may become too hot to handle. Personnel should wear gloves when handling hot components to prevent burn injury. Run burnt area under cold water and seek immediate medical attention if injury occurs.</trim.para>
+			<trim.para>WASTE water is to be considered hazardous at all times and contact with WASTE water should be avoided. Full protection, including apron, gloves, and safety goggles, should be used when performing any type of activity that involves WASTE water. Failure to follow this warning could result in serious illness or death to personnel. Seek immediate medical attention if illness occurs.</trim.para>
+			<trim.para>Fuel is toxic and highly flammable. Fuel leaks and spills are a fire hazard. Do not allow smoking within 50 ft (15.24 m) of area. Avoid contact with skin, eyes, and clothes and do not breathe vapors. Wear personal protective equipment: impermeable gloves, apron, and goggles. Promptly correct any fuel leak. If it cannot be corrected safely while in operation, shut down and make corrections to stop leak. Failure to comply can result in death or serious injury to personnel. If injury or direct exposure to fuel occurs, seek immediate medical attention.</trim.para>
+		</warning>
+		<pmcs-entry>
+			<itemno>35</itemno>
+			<interval>During (After Each Meal)</interval>
+			<checked>Expeditionary TRICON Kitchen System (ETKS)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-5419-207-10"/>.</para>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>36</itemno>
+			<interval>During</interval>
+			<checked>Ice Making Machine, Cube</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Check ice maker for proper operation. Troubleshoot ice maker faults IAW <xref wpid="T00011-10-5419-218"/> if ice maker is inoperable.</para>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>37</itemno>
+			<interval>During</interval>
+			<checked>Connection Kit, Ice Maker</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect ice maker connection kit for leaks and damage. Replace leaking or damaged connection kit IAW <xref wpid="M00050-10-5419-218"/>.</para>
+				
+					<eqpnotavail>
+						<trim.para>Ice maker connection kit damaged or leaking.</trim.para>
+					</eqpnotavail>
+					</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>38</itemno>
+			<interval>During</interval>
+			<checked>Support Pole Assy, Dining TEMPER Shelter Distribution Box</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect all TEMPER shelter distribution box support pole assemblies for cracks, corrosion or other damage which would render pole inoperable. If support pole is damaged, replace IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect power cables for tight connections. If cables are not tightly secured, tighten cables on TEMPER shelter distribution box.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>39</itemno>
+			<interval>During</interval>
+			<checked>Tent, TEMPER, Type-37</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para></trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect 14-light set for damage and proper operation.</para>
+					<pmcsstep2>
+						<para>Notify maintainer to replace a single damaged light assembly.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace 14-light set IAW <xref wpid="M00024-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect Type-37 TEMPER shelter floor for cuts, tears, or other damage that would create environmental hazards (like water seepage, trip hazards, or animal intrusion). If damage is found, clear source of damage and install removable floor IAW <xref wpid="M00016-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>40</itemno>
+			<interval>During</interval>
+			<checked>Tent Liner, Insulated, Type-37</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect Type-37 TEMPER shelter insulated liner for rips, tears, mold, mildew, foreign material or other damage which would render insulated liner inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damaged inner door interface IAW <xref wpid="M00046-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Repair small rips and tears in fabric IAW <xref wpid="M00044-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all liner components IAW <xref wpid="M00043-10-5419-218"/> or notify maintainer to replace individual components as needed.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Clean liner IAW <xref wpid="M00045-10-5419-218"/> if mold or mildew is found.</para>
+					<eqpnotavail>
+						<trim.para>Excessive buildup of mold or mildew is present.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>41</itemno>
+			<interval>During</interval>
+			<checked>Frame, Tent, Rigid Door</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect all dining tent rigid doors, door panels, and frame panels for rips, tears, bends, cracks, corrosion or other damage which would render door or panel inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Damage to rigid door or door is inoperable.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair damaged rigid door fabric IAW <xref wpid="M00017-10-5419-218"/>, replace door panel IAW <xref wpid="M00026-10-5419-218"/>, or replace frame panel IAW <xref wpid="M00027-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer, if rigid door frame is damaged.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace inoperable rigid door IAW <xref wpid="M00025-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect door latch and escutcheon (foot) plate for damage, cracks, or corrosion that would render latch or plate inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damage or inoperable door latch IAW <xref wpid="M00029-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace damaged or inoperable foot plate.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>42</itemno>
+			<interval>During</interval>
+			<checked>Shade Assembly, Solar, Type-37</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect the solar shade for rips, tears, missing or damaged hardware, or other damage which would render solar shade inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair small rips and tears in fabric IAW <xref wpid="M00031-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace a broken pole section IAW <xref wpid="M00033-10-5419-218"/>, damaged five-pole assembly IAW <xref wpid="M00032-10-5419-218"/>, damaged mounting bracket IAW <xref wpid="M00034-10-5419-218"/>, damaged tent line IAW <xref wpid="M00035-10-5419-218"/>, damaged camouflage end net IAW <xref wpid="M00036-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all solar shade components IAW <xref wpid="M00047-10-5419-218"/> or notify maintainer to replace a damaged triple net panel or vestibule panel.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Ensure solar shade is aligned evenly over ETKS and Type-37 TEMPER shelter.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Tighten any wind lines or ratchet straps as needed.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>43</itemno>
+			<interval>During</interval>
+			<checked>Hose Assembly, Nonmetallic, Source Water, Kitchen</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect source water hose for damage (leaks, cracks, bends, tears, or bursts) or missing components which would render hose inoperable.
+						<randlist>
+							<item label="a.">Replace damaged hose IAW <xref wpid="M00022-10-5419-218"/>.</item>
+							<item label="b.">Notify maintainer to replace damaged or missing chain assembly, cap/plug, or retaining rings.</item>
+							<item label="c.">Notify maintainer to replace gasket if leaks are found at hose connection point.</item>
+						</randlist>
+					</para>
+					<eqpnotavail>
+						<trim.para>Item missing, leaking, or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>44</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 100-A, Kitchen</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 100-A power cables from ETKS to power distribution box (PDB) for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. Notify maintainer if cable is damaged, dust covers are missing, or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>45</itemno>
+			<interval>During </interval>
+			<checked>TRICON Refrigerated Container System (TRCS)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-8145-224-13&amp;P"/>.</para>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>46</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 60-A, Kitchen</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 60-A power cables from TRCS and dining TEMPER shelter to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. Notify maintainer if a cable is damaged, dust covers are missing, or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>47</itemno>
+			<interval>During</interval>
+			<checked>Floodlight Assembly</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect floodlight assemblies for proper operation, missing or damaged hardware, or other damage which would render item inoperable. If floodlight is not repairable, replace IAW <xref wpid="M00013-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damaged bulb IAW <xref wpid="M00015-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace damaged lighthead IAW <xref wpid="M00014-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace damaged tripod.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Check floodlight for proper operation.</para>
+					<pmcsstep2>
+						<para>Troubleshoot one inoperable lamp IAW <xref wpid="T00008-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Troubleshoot IAW <xref wpid="T00007-10-5419-218"/>, if both lamps are inoperable.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Troubleshoot IAW <xref wpid="T00009-10-5419-218"/>, if tripod is inoperable.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>48</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Special Purpose, Electrical, 15-A Extension</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect 100-ft cable assembly from floodlight to TEMPER shelter distribution box for cuts or obvious physical damage which would render item inoperable. If cable is damaged or internal wires are exposed, notify maintainer.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>49</itemno>
+			<interval>During</interval>
+			<checked>Generator Set, Diesel Engine</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS procedures for all generators IAW <extref docno="TM 9-6115-753-10"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>50</itemno>
+			<interval>During</interval>
+			<checked>Panel, Power Distribution</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Verify no circuit breakers are tripped or can't be reset.</para>
+					<eqpnotavail>
+						<trim.para>Any component is missing or damaged that would impair operations.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect power cables for secure connection, damage, cuts, missing hardware, corrosion.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect box housing for cracks, broken or missing hardware.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect electrical components for physical damage, missing hardware, excessive corrosion.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Replace damaged PDB panel IAW <xref wpid="M00052-10-5419-218"/>.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>51</itemno>
+			<interval>During</interval>
+			<checked>Tank, Fabric, Collapsible, Fuel, 1,000-Gal</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS for all fuel tanks IAW <extref docno="TM 10-5430-225-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>52</itemno>
+			<interval>During</interval>
+			<checked>Generator Spill Containment System</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for tears or punctures. Replace IAW <xref wpid="M00051-10-5419-218"/> if damaged.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>53</itemno>
+			<interval>During</interval>
+			<checked>Manifold, Intake</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for any damage (corrosion, cracks, leaks, rust.) which would render the intake manifold inoperable. If damage is found, replace IAW <xref wpid="M00054-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>54</itemno>
+			<interval>During</interval>
+			<checked>Tank and Pump Unit, Liquid Dispensing, Portable</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>55</itemno>
+			<interval>During</interval>
+			<checked>Coupling Assembly, Quick Disconnect, Fuel</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for any damage (leaks, corrosion, cracks rust) that would render coupling inoperable. Notify maintainer to replace gasket if leaking or replace fuel QD coupling assembly IAW <xref wpid="M00068-10-5419-218"/> if damaged.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, leaking, or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>56</itemno>
+			<interval>During</interval>
+			<checked>Tee, Hose</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for any damage (leaks, corrosion, cracks rust) that would render tee inoperable. Replace tee IAW <xref wpid="M00069-10-5419-218"/> if damaged.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, leaking, or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>57</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Special Purpose, Electrical, 15-A Extension</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all extensions cables for cuts, fraying, exposed, wiring, and other damage. If cable is damaged or internal wires are exposed, notify maintainer.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>58</itemno>
+			<interval>During</interval>
+			<checked>Hose Assembly, Nonmetallic, Fuel</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for any damage (leaks, cracks, bends, tears, or bursts) which would render the fuel hose assembly inoperable. If fuel hose assembly is damaged, replace IAW <xref wpid="M00053-10-5419-218"/>. Notify maintainer to replace gasket if fuel is leaking at connection point or chain assembly, cap/plug, or retaining ring are damaged or missing.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, leaking, or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>59</itemno>
+			<interval>During</interval>
+			<checked>Reducer, Quick Disconnect, Fuel</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for any damage (corrosion, cracks, leaks, rust.) which would render the reducer inoperable. If reducer is damaged, replace IAW <xref wpid="M00055-10-5419-218"/>. Notify maintainer to replace gasket if fuel is leaking at connection point.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, leaking, or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>60</itemno>
+			<interval>During</interval>
+			<checked>Stand Assembly, Distribution Nozzle</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect for structural damage, loose or broken hardware, corrosion and proper operation. If nozzle stand is damaged, replace IAW <xref wpid="M00056-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para>Structural damage, loose or broken hardware, or any other damage that would prevent proper operation.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>61</itemno>
+			<interval>During</interval>
+			<checked>Expeditionary TRICON Self Serve Laundry System (ETSSLS)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-5419-215-10"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>62</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 100-A, Laundry</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 100-A power cables from ETSSLS to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. Notify maintainer if cable is damaged, dust covers are missing, or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>63</itemno>
+			<interval>During</interval>
+			<checked>Expeditionary Shower System (ESS)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-5419-210-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>64</itemno>
+			<interval>During</interval>
+			<checked>Water Heater</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-4520-266-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>65</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 60-A, Shower</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 60-A power cables from ESS to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. Notify maintainer if a cable is damaged, dust covers are missing, or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>66</itemno>
+			<interval>During</interval>
+			<checked>Expeditionary Latrine System (ELS)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>67</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 60-A, Latrine</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 60-A power cables from ELS to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. Notify maintainer if cable is damaged, dust covers are missing, or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>68</itemno>
+			<interval>During</interval>
+			<checked>Tent, TEMPER, Type-31, Administration</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect 14-light set for damage and proper operation.</para>
+					<pmcsstep2>
+						<para>Notify maintainer to replace a single damaged light assembly.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace 14-light set IAW <xref wpid="M00024-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect administration TEMPER shelter floor for cuts, tears, or other damage that would create environmental hazards (like water seepage, trip hazards, or animal intrusion). If damage is found, clear source of damage and install removable floor IAW <xref wpid="M00016-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>69</itemno>
+			<interval>During</interval>
+			<checked>Tent Liner, Insulated, Type-31, Administration</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect the administration TEMPER shelter insulated liner for rips, tears, mold, mildew, foreign material or other damage which would render insulated liner inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damaged inner door interface IAW <xref wpid="M00046-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Repair small rips and tears in fabric IAW <xref wpid="M00044-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all liner components IAW <xref wpid="M00043-10-5419-218"/> or notify maintainer to replace individual components as needed.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Clean liner IAW <xref wpid="M00045-10-5419-218"/> if mold or mildew is found.</para>
+					<eqpnotavail>
+						<trim.para>Excessive buildup of mold or mildew is present.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>70</itemno>
+			<interval>During</interval>
+			<checked>Frame, Tent, Rigid Door, Administration</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect all administration tent rigid doors, door panels, and frame panels for rips, tears, bends, cracks, corrosion or other damage which would render door or panel inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Damage to rigid door or door is inoperable.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair damaged rigid door fabric IAW <xref wpid="M00017-10-5419-218"/>, replace door panel IAW <xref wpid="M00026-10-5419-218"/>, or replace frame panel IAW <xref wpid="M00027-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer, if rigid door frame is damaged.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace inoperable rigid door IAW <xref wpid="M00025-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect door latch and escutcheon (foot) plate for damage, cracks, or corrosion that would render latch or plate inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damage or inoperable door latch IAW <xref wpid="M00029-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace damaged or inoperable foot plate.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>71</itemno>
+			<interval>During</interval>
+			<checked>Floor, Tent, Removable, Administration (if installed)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect removable floor for rips, tears, mold, mildew, foreign material or other damage which would render flooring inoperable. Repair or replace IAW <xref wpid="M00016-10-5419-218"/> as needed.</para>
+					<eqpnotavail>
+						<trim.para>Damage to removable floor.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>72</itemno>
+			<interval>During</interval>
+			<checked>Tent Liner, Partition</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect partition for rips, tears, mold, mildew, foreign material or other damage which would render partition inoperable. Repair IAW <xref wpid="M00067-10-5419-218"/> or replace IAW <xref wpid="M00066-10-5419-218"/> as needed.</para>
+					<eqpnotavail>
+						<trim.para>Damage to partition.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Clean IAW <xref wpid="M00045-10-5419-218"/> if mold or mildew is found.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>73</itemno>
+			<interval>During</interval>
+			<checked>Support Pole Assembly, Administration TEMPER Shelter Distribution Box</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect administration TEMPER shelter distribution box support pole for cracks, corrosion or other damage which would render pole inoperable. If administration TEMPER shelter distribution box support assembly is damaged, replace IAW <extref docno="TM 10-8340-244-13&amp;P"/> and tightly re-secure power connections.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect power cables for tight connections. If cables are not tightly secured, tighten cables on to administration TEMPER shelter distribution box.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>74</itemno>
+			<interval>During</interval>
+			<checked>Bed, Bunk W Locker, Administration</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect for presence of items, or any damage which would render bunk bed system inoperable or unstable.</para>
+					<eqpnotavail>
+						<trim.para>Items missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace straight bed rail IAW <xref wpid="M00059-10-5419-218"/>, tapered bed rail IAW <xref wpid="M00060-10-5419-218"/>, stack adapter IAW <xref wpid="M00061-10-5419-218"/>, lock bar IAW <xref wpid="M00062-10-5419-218"/>, sleeping mat IAW <xref wpid="M00064-10-5419-218"/>, ring spacer IAW <xref wpid="M00064-10-5419-218"/>, or webbing strap IAW <xref wpid="M00065-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace bed ends or side organizers.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace entire bunk bed IAW <xref wpid="M00058-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect to verify that stack adapters are fully seated against the disks. Repair or replace IAW <xref wpid="M00061-10-5419-218"/> or notify maintainer to repair as needed.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect to verify that lock bars are fully seated on the studs.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>75</itemno>
+			<interval>During</interval>
+			<checked>Shade Assembly, Solar, Type-31, Administration</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect solar shade for rips, tears, missing or damaged hardware, or other damage which would render solar shade inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair small rips and tears in fabric IAW <xref wpid="M00031-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+							<para>Replace a broken pole section IAW <xref wpid="M00033-10-5419-218"/>, damaged five-pole assembly IAW <xref wpid="M00032-10-5419-218"/>, damaged mounting bracket IAW <xref wpid="M00034-10-5419-218"/>, damaged tent line IAW <xref wpid="M00035-10-5419-218"/>, damaged camouflage end net IAW <xref wpid="M00036-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all solar shade components IAW <xref wpid="M00047-10-5419-218"/> or notify maintainer to replace a damaged double net panel.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Ensure solar shade is aligned evenly over ETKS and administration TEMPER shelter.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Tighten any wind lines or ratchet straps as needed.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>76</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 60-A, Administration</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 60-A power cables from administration TEMPER shelter to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. If a cable is damaged, dust covers are missing, or internal wires are exposed, notify maintainer.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>77</itemno>
+			<interval>During</interval>
+			<checked>Tent, TEMPER, Type-31, Billeting</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Perform during-interval, crew PMCS IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect 14-light set for damage and proper operation.</para>
+					<pmcsstep2>
+						<para>Notify maintainer to replace a single damaged light assembly.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace 14-light set IAW <xref wpid="M00024-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect billeting TEMPER shelter floor for cuts, tears, or other damage that would create environmental hazards (like water seepage, trip hazards, or animal intrusion). If damage is found, clear source of damage and install removable floor IAW <xref wpid="M00016-10-5419-218"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>78</itemno>
+			<interval>During</interval>
+			<checked>Tent Liner, Insulated, Type-31, Billeting</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect the billeting TEMPER shelter insulated liner for rips, tears, mold, mildew, foreign material or other damage which would render insulated liner inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damaged inner door interface IAW <xref wpid="M00046-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Repair small rips in tears in fabric IAW <xref wpid="M00044-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all liner components IAW <xref wpid="M00043-10-5419-218"/> or notify maintainer to replace individual components as needed.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Clean liner IAW <xref wpid="M00045-10-5419-218"/> if mold or mildew is found.</para>
+					<eqpnotavail>
+						<trim.para>Excessive buildup of mold or mildew is present.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>79</itemno>
+			<interval>During</interval>
+			<checked>Frame, Tent, Rigid Door, Billeting</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect all billeting tent rigid doors, door panels, and frame panels for rips, tears, bends, cracks, corrosion or other damage which would render door or panel inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Damage to rigid door or door is inoperable.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair damaged rigid door fabric IAW <xref wpid="M00017-10-5419-218"/>, replace door panel IAW <xref wpid="M00026-10-5419-218"/>, or replace frame panel IAW <xref wpid="M00027-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer, if rigid door frame is damaged.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace inoperable rigid door IAW <xref wpid="M00025-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect door latch and escutcheon (foot) plate for damage, cracks, or corrosion that would render latch or plate inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Replace damage or inoperable door latch IAW <xref wpid="M00029-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace damaged or inoperable foot plate.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>80</itemno>
+			<interval>During</interval>
+			<checked>Floor, Tent, Removable, Billeting (if installed)</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect removable floor for rips, tears, mold, mildew, foreign material or other damage which would render flooring inoperable. Repair or replace IAW <xref wpid="M00016-10-5419-218"/> as needed.</para>
+					<eqpnotavail>
+						<trim.para>Damage to removable floor.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>81</itemno>
+			<interval>During</interval>
+			<checked>Support Pole Assembly, Billeting TEMPER Shelter Distribution Box</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect billeting TEMPER shelter distribution box support pole for cracks, corrosion or other damage which would render pole inoperable. If support pole is damaged, replace IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect power cables for tight connections. If cables are not tightly secured, tighten cables on billeting TEMPER shelter distribution box.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>82</itemno>
+			<interval>During</interval>
+			<checked>Bed, Bunk W Locker, Billeting</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect for presence of items, or any damage which would render bunk bed system inoperable or unstable. Repair or replace bunk beds IAW <xref wpid="M00058-10-5419-218"/> or notify maintainer to repair as needed.</para>
+					<eqpnotavail>
+						<trim.para>Items missing or damaged.</trim.para>
+					</eqpnotavail>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect to verify that stack adapters are fully seated against the disks. Repair or replace IAW <xref wpid="M00061-10-5419-218"/> or notify maintainer to repair as needed.</para>
+					<pmcsstep2>
+						<para>Replace straight bed rail IAW <xref wpid="M00059-10-5419-218"/>, tapered bed rail IAW <xref wpid="M00060-10-5419-218"/>, stack adapter IAW <xref wpid="M00061-10-5419-218"/>, lock bar IAW <xref wpid="M00062-10-5419-218"/>, sleeping mat IAW <xref wpid="M00064-10-5419-218"/>, ring spacer IAW <xref wpid="M00064-10-5419-218"/>, or webbing strap IAW <xref wpid="M00065-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Notify maintainer to replace bend ends or side organizers.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace entire bunk bed IAW <xref wpid="M00058-10-5419-218"/>.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Inspect that lock bars are fully seated on the studs.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>83</itemno>
+			<interval>During</interval>
+			<checked>Shade Assembly, Solar, Type-31, Billeting</checked>
+			<pmcsproc>
+				<pmcsstep1>
+					<para>Inspect solar shade for rips, tears, missing or damaged hardware, or other damage which would render solar shade inoperable.</para>
+					<eqpnotavail>
+						<trim.para>Item missing or damaged.</trim.para>
+					</eqpnotavail>
+					<pmcsstep2>
+						<para>Repair small rips and tears in fabric IAW <xref wpid="M00031-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+							<para>Replace a broken pole section IAW <xref wpid="M00033-10-5419-218"/>, damaged five-pole assembly IAW <xref wpid="M00032-10-5419-218"/>, damaged mounting bracket IAW <xref wpid="M00034-10-5419-218"/>, damaged tent line IAW <xref wpid="M00035-10-5419-218"/>, damaged camouflage end net IAW <xref wpid="M00036-10-5419-218"/>.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Replace all solar shade components IAW <xref wpid="M00047-10-5419-218"/> or notify maintainer to replace a damaged double net panel.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Ensure solar shade is aligned evenly over ETKS and billeting TEMPER shelter.</para>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Tighten any wind lines or ratchet straps as needed.</para>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>84</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Power, Electrical, 60-A, Billeting</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect all 60-A power cables from billeting TEMPER shelter to PDB for cuts, frays, exposed wiring, missing components, and other damage that would render cable inoperable. If a cable is damaged, dust covers are missing, or internal wires are exposed, notify maintainer.</para>
+					<eqpnotavail>
+						<trim.para>Item missing, damaged, or internal wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>85</itemno>
+			<interval>During</interval>
+			<checked>Floodlight Assembly</checked>
+			<pmcsproc>
+				<pmcsstep1>
+						<para>Inspect floodlight assemblies for proper operation, missing or damaged hardware, or other damage which would render item inoperable.</para>
+						<eqpnotavail>
+							<trim.para>Item missing or damaged.</trim.para>
+						</eqpnotavail>
+						<pmcsstep2>
+							<para>Replace damaged bulb IAW <xref wpid="M00015-10-5419-218"/>.</para>
+						</pmcsstep2>
+						<pmcsstep2>
+							<para>Replace damaged lighthead IAW <xref wpid="M00014-10-5419-218"/>.</para>
+						</pmcsstep2>
+						<pmcsstep2>
+							<para>Notify maintainer to replace damaged tripod.</para>
+						</pmcsstep2>
+				</pmcsstep1>
+				<pmcsstep1>
+					<para>Check floodlight for proper operation.</para>
+					<pmcsstep2>
+						<para>Troubleshoot IAW <xref wpid="T00008-10-5419-218"/>, if one lamp is inoperable.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Troubleshoot IAW <xref wpid="T00007-10-5419-218"/>, if both lamps are inoperable.</para>
+					</pmcsstep2>
+					<pmcsstep2>
+						<para>Troubleshoot IAW <xref wpid="T00009-10-5419-218"/>, if tripod is inoperable.</para>
+					</pmcsstep2>
+				</pmcsstep1>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>86</itemno>
+			<interval>During</interval>
+			<checked>Cable Assembly, Special Purpose, Electrical, 15-A Extension</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Inspect 100-ft cable assembly from floodlight to TEMPER shelter distribution box for cuts or obvious physical damage which would render item inoperable. Notify maintainer if cable is damaged or internal wires are exposed.</para>
+					<eqpnotavail>
+						<trim.para>Any item is missing, damaged, or wires are exposed.</trim.para>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+		<pmcs-entry>
+			<itemno>87</itemno>
+			<interval>During</interval>
+			<checked>Container, Freight, Utility</checked>
+			<pmcsproc>
+				<pmcspara>
+					<para>Perform during-interval, crew PMCS for all TRICONs IAW <extref docno="TM 55-8145-236-13&amp;P"/>.</para>
+					<eqpnotavail>
+						<trim.para/>
+					</eqpnotavail>
+				</pmcspara>
+			</pmcsproc>
+		</pmcs-entry>
+	</pmcstable>
+	<mrplpart>
+		<title>Mandatory Replacement Parts</title>
+		<para>No replacement parts are required for these PMCS procedures.</para>
+	</mrplpart>
+</pmcswp>

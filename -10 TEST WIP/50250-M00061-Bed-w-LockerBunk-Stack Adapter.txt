@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00061-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>BED, BUNK W LOCKER - BRACKET, MOUNTING, STACK ADAPTER <brk/> REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Bracket, Mounting (Stack Adapter) </name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_BUNKBED_STACKADAPTER"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Bunk bed with locker assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00018-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<replace>
+			<proc>
+				<title/>
+				<step1>
+					<para>Remove and retain two hook and loop straps <callout assocfig="M00061-10-5419-218-F0025" label="1"/> securing top bunk <callout assocfig="M00061-10-5419-218-F0025" label="2"/> to bottom bunk <callout assocfig="M00061-10-5419-218-F0025" label="6"/>.</para>
+				</step1>
+				<figure id="M00061-10-5419-218-F0025">
+					<title>Replace Stack Adapter</title>
+					<graphic boardno="G06021800659"/>
+				</figure>
+				<step1>
+					<para>Lift top bunk <callout assocfig="M00061-10-5419-218-F0025" label="2"/> off bottom bunk <callout assocfig="M00061-10-5419-218-F0025" label="6"/> with an assistant.</para>
+				</step1>
+				<step1>
+					<para>Remove and discard defective stack adapter <callout assocfig="M00061-10-5419-218-F0025" label="5"/> from top bunk frame leg <callout assocfig="M00061-10-5419-218-F0025" label="4"/>.</para>
+				</step1>
+				<step1>
+					<para>Install replacement stack adapter <callout assocfig="M00061-10-5419-218-F0025" label="5"/> to top bunk frame leg <callout assocfig="M00061-10-5419-218-F0025" label="4"/>.</para>
+				</step1>
+				<step1>
+					<para>Place top bunk <callout assocfig="M00061-10-5419-218-F0025" label="2"/> onto bottom bunk <callout assocfig="M00061-10-5419-218-F0025" label="6"/> with an assistant.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Falling_Parts"/>
+							<trim.para>Stack adapters must be seated properly in ring spacers and straps secured to prevent bed from collapsing. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<para>Ensure stack adapters <callout assocfig="M00061-10-5419-218-F0025" label="5"/> are firmly seated in ring spacers <callout assocfig="M00061-10-5419-218-F0025" label="3"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Install two retained hook and loop straps <callout assocfig="M00061-10-5419-218-F0025" label="1"/> to secure top bunk <callout assocfig="M00061-10-5419-218-F0025" label="2"/> to bottom bunk <callout assocfig="M00061-10-5419-218-F0025" label="6"/>.</para>
+				</step1>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

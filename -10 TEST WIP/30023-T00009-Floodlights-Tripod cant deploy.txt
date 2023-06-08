@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tswp chngno="0" wpno="T00009-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING PROCEDURES <brk/> FLOODLIGHTS - TRIPOD CANNOT BE DEPLOYED</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<intro>
+		<para0>
+			<title>Introduction</title>
+			<para>Each fault condition will be listed in this work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed.</para>
+			<para>Operation of affected component should be attempted after each corrective action is performed before moving on to next corrective action. This will help determine if fault has been corrected or if more corrective action is required.</para>
+		</para0>
+	</intro>
+	<tsproc>
+		<faultproc>
+			<title/>
+			<symptom>Tripod cannot be deployed.</symptom>
+			<malfunc label="malfunction">Faulty tripod.</malfunc>
+			<action>
+				<para>Send to next level of maintenance as authorized by MAC.</para>
+			</action>
+		</faultproc>
+	</tsproc>
+</tswp>

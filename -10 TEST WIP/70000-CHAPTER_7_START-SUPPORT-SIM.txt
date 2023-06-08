@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sim chap-toc="no" chngno="0" revno="0" tocentry="1">
+	<titlepg comment="Chapter 6 Support Information" maintlvl="operator">
+		<?Pub Dtl?>
+		<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM)</name>
+	</titlepg>

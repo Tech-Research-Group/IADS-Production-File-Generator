@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warnsum>
+	<para>This warning summary contains general safety warnings and hazardous materials warnings that must be understood and applied during operation and maintenance of the Expeditionary Platoon Life Support Module (EPLSM). Failure to observe these precautions could result in serious injury or death to personnel. Also included are explanations of safety and hazardous materials icons used within this Technical Manual (TM).</para>
+	<first_aid>
+		<title>First Aid</title>
+		<para>For First Aid treatment, refer to <extref docno="TC 4-02.1"/>.</para>
+	</first_aid>
+	<safety>
+		<title>Explanation of Safety Warning Icons</title>
+		<sfty-icons>
+			<symbol boardno="Ear_Protection_Symbol"/>
+			<sftydesc>
+				<title>EAR PROTECTION</title>
+				<text>Headphones over ears show that noise level will harm ears.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Electrical_Symbols"/>
+			<sftydesc>
+				<title>ELECTRICAL</title>
+				<text>Electrical wire to arm with electricity symbol running through human body shows that shock hazard is present.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Falling"/>
+			<sftydesc>
+				<title>FALLING</title>
+				<text>Human figure in motion shows that falling from equipment presents a danger to life or limb.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Falling_Parts"/>
+			<sftydesc>
+				<title>FALLING PARTS</title>
+				<text>Arrow bouncing off human shoulder and head shows that falling parts present a danger to life or limb.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Flying_Particles_wShield"/>
+			<sftydesc>
+				<title>FLYING PARTICLES</title>
+				<text>Arrows bouncing off face shield show that particles flying through the air will harm face.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Heavy_Object"/>
+			<sftydesc>
+				<title>HEAVY OBJECT</title>
+				<text>Human figure stooping over heavy object shows physical injury potential from improper lifting technique.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Heavy_Parts-above"/>
+			<sftydesc>
+				<title>HEAVY PARTS</title>
+				<text>Heavy object on human figure shows that heavy parts present a danger to life or limb.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Heavy_Parts-foot"/>
+			<sftydesc>
+				<title>HEAVY PARTS</title>
+				<text>Foot with heavy object on top shows that heavy parts can crush and harm.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Heavy_Parts-hand"/>
+			<sftydesc>
+				<title>HEAVY PARTS</title>
+				<text>Hand with heavy object on top shows that heavy parts can crush and harm.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Heavy_Parts-wall"/>
+			<sftydesc>
+				<title>HEAVY PARTS</title>
+				<text>Heavy object pinning human figure against wall shows that heavy, moving parts present a danger to life or limb.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Moving_Parts-fingers"/>
+			<sftydesc>
+				<title>MOVING PARTS</title>
+				<text>Hand with fingers caught between gears shows that the moving parts of the equipment present a danger to life or limb.</text>
+			</sftydesc>
+		</sfty-icons>
+		<sfty-icons>
+			<symbol boardno="Sharp_Object-in_hand"/>
+			<sftydesc>
+				<title>SHARP OBJECT</title>
+				<text>Pointed object in hand shows that a sharp object presents a danger to limb.</text>
+			</sftydesc>
+		</sfty-icons>
+	</safety>
+	<?Pub _newpage?>
+	<warninfo>
+		<title>General Safety Warnings Descriptions</title>
+		<warning>
+			<icon-set boardno="Fire"/>
+			<trim.para>All doors and doorways must remain unblocked, both inside and outside, during operation of system to allow for egress during an emergency. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Electrical_Symbols"/>
+			<trim.para>High voltage is present during operation. All electrical safety precautions must be followed when operating or maintaining equipment. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+			<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+			<trim.para>Interior and exterior areas of EPLSM may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Electrical_Symbols"/>
+			<trim.para>Generators, power distribution boxes (PDBs), and Expeditionary TRICON System containers must all be grounded to ensure safety of personnel during operation. Operating EPLSM components while ungrounded or improperly grounded may expose personnel to risk of shock resulting in serious injury or death. Seek immediate medical attention if injury occurs.</trim.para>
+			<trim.para>Source power must be off prior to connecting or removing power cables to any EPLSM equipment.</trim.para>
+			<trim.para>Power setup of EPLSM may vary from site to site. When handling circuit breakers (CBs) on PDBs, correct CB can be identified by following power cables from component back to PDB. Failure to observe this warning may result in power remaining at component or being applied to wrong component. This can lead to serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Heavy_Object"/>
+			<trim.para>Some items covered in this manual require multiple personnel to lift or move. Appropriate number of personnel must be used when moving large, bulky, or heavy items. Attempting to lift these items with fewer than recommended personnel may cause serious injury. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Heavy_Object"/>
+			<icon-set boardno="Heavy_Parts-wall"/>
+			<icon-set boardno="Heavy_Parts-above"/>
+			<icon-set boardno="Ear_Protection_Symbol"/>
+			<trim.para>Some items covered in this manual are extremely heavy and require material handling equipment (MHE), or other suitable lifting device, to lift or move. These items should not be attempted to be moved by hand. Personnel must not stand between MHE and item or below item while it is being moved. Serious injury or death to personnel may result in safety precautions are not observed. Seek immediate medical attention if injury occurs.</trim.para>
+			<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Hot_Area"/>
+			<trim.para>Lightheads get extremely hot during operation. Handles should be used to rotate floodlight and flammable material kept at a safe distance. Floodlights must cool for 10-15 minutes before handling. Failure to comply can result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Hot_Area"/>
+			<trim.para>Metal components left in direct sunlight may become too hot to handle. Personnel should wear gloves when handling hot components to prevent burn injury. Run burnt area under cold water and seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Falling"/>
+			<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+		<warning>
+			<icon-set boardno="Falling"/>
+			<trim.para>Setup, packout, and some maintenance require climbing and working at elevated levels. Work on ladder or on top of shelter can result in a fall over 6 ft (1.8 m). Personnel must always maintain a three-point (two hands and a foot, or two feet and a hand) contact on steps, position body near middle of step, and face shelter while climbing. A spotter should support base while ladder is occupied. Failure to observe safety precautions may result in injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+		</warning>
+	</warninfo>
+	<hazmat>
+		<title>EXPLANATION OF HAZARDOUS MATERIAL ICONS</title>
+		<haz-icons>
+			<symbol boardno="Biological_Symbol"/>
+			<hazdesc>
+				<title>BIOLOGICAL</title>
+				<text>Abstract symbol bug shows that a material may contain bacteria or viruses that present a danger to life or health.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Chemical"/>
+			<hazdesc>
+				<title>CHEMICAL</title>
+				<text>Drops of liquid on hand shows that the material will cause burns or irritation to human skin or tissue.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Explosion"/>
+			<hazdesc>
+				<title>EXPLOSION</title>
+				<text>Rapidly expanding symbol shows that the material may explode if subjected to high temperatures, sources of ignition, or high pressure.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Eye_Protection"/>
+			<hazdesc>
+				<title>EYE PROTECTION</title>
+				<text>Person with goggles shows that the material will injure the eyes.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Fire"/>
+			<hazdesc>
+				<title>FIRE</title>
+				<text>Flame shows that a material may ignite and cause burns.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Poison"/>
+			<hazdesc>
+				<title>POISON</title>
+				<text>Skull and crossbones shows that a material is poisonous or is a danger to life.</text>
+			</hazdesc>
+		</haz-icons>
+		<haz-icons>
+			<symbol boardno="Vapor"/>
+			<hazdesc>
+				<title>VAPOR</title>
+				<text>Human figure in a cloud shows that material vapors present a danger to life or health.</text>
+			</hazdesc>
+		</haz-icons>
+		<title>GENERAL HAZARDOUS MATERIALS DESCRIPTIONS</title>
+		<hazard>
+			<hazid>Wastewater</hazid>
+			<symbol boardno="Biological_Symbol"/>
+			<para>Wastewater is to be considered hazardous at all times and contact with wastewater should be avoided. Full protection, including apron, gloves, and safety goggles, should be used when performing any type of activity that involves wastewater. Failure to follow this warning could result in serious illness or death to personnel. Seek immediate medical attention if illness occurs.</para>
+			<para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</para>
+		</hazard>
+	</hazmat>
+</warnsum>

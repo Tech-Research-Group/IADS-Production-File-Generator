@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<production chngdate="22 APRIL 2022" chnglevel="0" date="22 APRIL 2022" pin="">
+	<paper.manual maintitl="EPLSM" maintlvls="10" multivolume="no" pubno="TM 10-5419-218-10" revno="0" rpstl="no">
+		<paper.frnt>
+			<frntcover>
+				<tmtitle>
+					<tmno>TM 10-5419-218-10</tmno>
+					<prtitle>
+						<sysnomen>
+							<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM) (GREEN)</name>
+							<modelno>P/N 9-2-0279-1</modelno>
+							<nsn>
+								<fsc>5419</fsc>
+								<niin>01-624-4930</niin>
+							</nsn>
+						</sysnomen>
+						<sysnomen>
+							<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM) (TAN)</name>
+							<modelno>P/N 9-2-0279-2</modelno>
+							<nsn>
+								<fsc>5419</fsc>
+								<niin>01-624-4927</niin>
+							</nsn>
+						</sysnomen>
+					</prtitle>
+				</tmtitle>
+				<graphic boardno="I06021800001"/>
+				<notices>
+					<dist>
+						<a.statement/>
+					</dist>
+				</notices>
+				<servnomen>HEADQUARTERS, DEPARTMENT OF THE ARMY</servnomen>
+				<date>4 NOVEMBER 2022</date>
+			</frntcover>

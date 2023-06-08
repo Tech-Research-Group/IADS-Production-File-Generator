@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00024-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - POWER GENERATION AND FUEL DISTRIBUTION SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Tool Kit, General Mechanic's</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+				</itemref>
+			</tools-setup-item>
+			<tools-setup-item>
+				<name>Truck, Lift, Fork</name>
+				<itemref>
+					<xref wpid="S00003-10-5419-218"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Absorbent Material, Oil and Water</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_ABSORBENT_SHEETS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Chemical Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_CHEMICAL"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Protector, Hearing</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EAR_PLUGS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>Licensed MHE Operator</name>
+				<mos/>
+			</persnreq-setup-item>
+			<persnreq-setup-item>
+				<name>Additional Personnel</name>
+				<mos/>
+				<qty>6</qty>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="DA PAM 40-501"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 9-6115-753-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Power Generation and Fuel Distribution Subsystem temporary shutdown complete</condition>
+				<itemref>
+					<xref wpid="O00022-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title/>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Explosion"/>
+							<icon-set boardno="Eye_Protection"/>
+							<icon-set boardno="Fire"/>
+							<icon-set boardno="Poison"/>
+							<icon-set boardno="Vapor"/>
+							<icon-set boardno="Electrical_Symbols"/>
+							<trim.para>Fuel is toxic and highly flammable. Fuel leaks and spills are a fire hazard. Do not allow smoking within 50 ft (15.24 m) of area.  Promptly correct any fuel leak. If it cannot be corrected safely while in operation, shut down and make corrections to stop leak. Failure to comply can result in death or serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Avoid contact with skin, eyes, and clothes and do not breathe vapors. Wear personal protective equipment: impermeable gloves, apron, and goggles. Failure to comply can result in death or serious injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>High voltage is present during operation. All electrical safety precautions must be followed when operating or maintaining equipment. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Ensure equipment is moved away from high traffic areas to prevent trip hazards.</trim.para>
+						</note>
+						<para>Lift 10-ft (3.1-m) fuel hose <callout assocfig="O00024-10-5419-218-F0001" label="2"/> with manifold <callout assocfig="O00024-10-5419-218-F0001" label="1"/> on the end and drain into fuel tank.</para>
+					</specpara>
+				</step1>
+				<figure id="O00024-10-5419-218-F0001">
+					<title>Drain Fuel Hose</title>
+					<graphic boardno="G06021801077"/>
+				</figure>
+				<step1>
+					<para>Close ball valve <callout assocfig="O00024-10-5419-218-F0001" label="4"/>.</para>
+				</step1>
+				<step1>
+					<para>Open ball valve <callout assocfig="O00024-10-5419-218-F0001" label="6"/> on fuel tank fill port.</para>
+				</step1>
+				<step1>
+					<para>Lift 10-ft (3.1-m) fuel hose <callout assocfig="O00024-10-5419-218-F0001" label="5"/> and drain into fuel tank.</para>
+				</step1>
+				<step1>
+					<para>Close ball valve <callout assocfig="O00024-10-5419-218-F0001" label="6"/>.</para>
+				</step1>
+				<step1>
+					<para>Open circuit breaker (CB) cover <callout assocfig="O00024-10-5419-218-F0002" label="1"/> and set CB 1 20-A ground-fault circuit interrupter (GFCI) <callout assocfig="O00024-10-5419-218-F0002" label="2"/> to OFF position. Close cover.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0002">
+					<title>CB 1</title>
+					<graphic boardno="G06021800297"/>
+				</figure>
+				<step1>
+					<para>Disconnect extension cord <callout assocfig="O00024-10-5419-218-F0003" label="6"/> from Fuel Distribution System (FDS) power cable <callout assocfig="O00024-10-5419-218-F0003" label="8"/>.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0003">
+					<title>Ball Valve, Drip Pan, and Fill Port Hose</title>
+					<graphic boardno="G06021801078"/>
+				</figure>
+				<step1>
+					<para>Disconnect power cables from power distribution box (PDB), coil and set aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Disconnect 10-ft (3.1-m) M X F fuel hose <callout assocfig="O00024-10-5419-218-F0003" label="11"/> from fuel tank fill port <callout assocfig="O00024-10-5419-218-F0003" label="12"/> and set aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Disconnect 1-1/2-in X 25-ft (3.8-cm X 7.6-m) M X M suction hose <callout assocfig="O00024-10-5419-218-F0003" label="9"/> from FDS and from fuel tee <callout assocfig="O00024-10-5419-218-F0003" label="10"/>. Connect quick disconnect (QD) caps/plugs as necessary. Set aside for packout inside FDS.</para>
+				</step1>
+				<step1>
+					<para>Disconnect fuel manifold <callout assocfig="O00024-10-5419-218-F0003" label="1"/> from 2-in (5-cm) fuel hose <callout assocfig="O00024-10-5419-218-F0003" label="3"/> and ancillary fuel hose <callout assocfig="O00024-10-5419-218-F0003" label="2"/>. Set manifold aside for packout with fuel tank.</para>
+				</step1>
+				<step1>
+					<para>Disconnect 2-in (5-cm) fuel hose <callout assocfig="O00024-10-5419-218-F0003" label="3"/> from fuel tee <callout assocfig="O00024-10-5419-218-F0003" label="10"/>. Connect D cap as neccessary. Set fuel hose aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Disconnect fuel tee <callout assocfig="O00024-10-5419-218-F0003" label="10"/> from discharge port on fuel tank.</para>
+				</step1>
+				<step1>
+					<para>Retrieve drip pan <callout assocfig="O00024-10-5419-218-F0003" label="5"/> under fuel nozzle <callout assocfig="O00024-10-5419-218-F0003" label="4"/>, as necessary. Dispose IAW unit SOP.</para>
+				</step1>
+				<step1>
+					<para>Retrieve fuel nozzle from nozzle stand assembly.</para>
+				</step1>
+				<step1>
+					<para>Take down nozzle stand inside FDS spill containment system and set aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Retrieve two empty fuel cans <callout assocfig="O00024-10-5419-218-F0003" label="7"/> and flexible spouts from fuel distribution area and set aside for packout.</para>
+				</step1>
+				<step1>
+					<para>Remove locking pin <callout assocfig="O00024-10-5419-218-F0005" label="5"/> from fuel nozzle locking plate <callout assocfig="O00024-10-5419-218-F0005" label="3"/>, pivot locking plate, and place fuel nozzle onto housing. Close locking plate and secure with locking pin.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0005">
+					<title>Disconnect Fuel Nozzle</title>
+					<graphic boardno="G06021800300"/>
+				</figure>
+				<step1>
+					<para>Hand-tighten hose reel brake wheel <callout assocfig="O00024-10-5419-218-F0005" label="1"/> until hose reel <callout assocfig="O00024-10-5419-218-F0005" label="6"/> is secure.</para>
+				</step1>
+				<step1>
+					<para>Perform FDS PREPARATION FOR MOVEMENT IAW TM <extref docno="10-4930-369-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Perform Fuel Tank Assembly PREPARATION FOR MOVEMENT IAW <extref docno="TM 10-5430-225-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Ensure following CBs (<xref figid="O00024-10-5419-218-F0015"/>) on each PDB are set to OFF:</para>
+					<step2>
+						<para>200-A CB 'MAIN'</para>
+					</step2>
+					<step2>
+						<para>20-A GFCI 'CB 1'</para>
+					</step2>
+					<step2>
+						<para>60-A 'CB 2'</para>
+					</step2>
+					<step2>
+						<para>60-A 'CB 3'</para>
+					</step2>
+					<step2>
+						<para>100-A 'CB 4'</para>
+					</step2>
+					<step2>
+						<para>60-A 'CB 5'</para>
+					</step2>
+					<step2>
+						<para>60-A 'CB 6'</para>
+					</step2>
+					<step2>
+						<para>100-A 'CB 7'</para>
+					</step2>
+				</step1>
+				<figure id="O00024-10-5419-218-F0015">
+					<title>PDB CBs</title>
+					<graphic boardno="G06021800458"/>
+				</figure>
+				<step1>
+					<para>Perform PREPARATION FOR MOVEMENT IAW <extref docno="TM 9-6115-753-10"/> for each generator.</para>
+				</step1>
+				<step1 id="O00024-10-5419-218-S0001">
+					<para>Remove 200-A power cables <callout assocfig="O00024-10-5419-218-F0016" label="2"/> from generator boot <callout assocfig="O00024-10-5419-218-F0016" label="1"/>.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0016">
+					<title>Remove Pigtail Cables from Generator Boot</title>
+					<graphic boardno="G06021800459"/>
+				</figure>
+				<step1>
+					<para>Remove 200-A power cables <callout assocfig="O00024-10-5419-218-F0010" label="1"/> from PDB <callout assocfig="O00024-10-5419-218-F0010" label="2"/>.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0010">
+					<title>Remove 200-A Power Cables</title>
+					<graphic boardno="G06021800460"/>
+				</figure>
+				<step1 id="O00024-10-5419-218-S0002">
+					<para>Coil cables <callout assocfig="O00024-10-5419-218-F0010" label="3"/> around PDB and set aside for packing.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="O00024-10-5419-218-S0002" stepstart="O00024-10-5419-218-S0001"/> for remaining generators and PDB.</para>
+				</step1>
+				<step1 id="PowerManiException-1">
+					<specpara>
+						<warning>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Explosion"/>
+							<icon-set boardno="Eye_Protection"/>
+							<icon-set boardno="Fire"/>
+							<icon-set boardno="Poison"/>
+							<icon-set boardno="Vapor"/>
+							<icon-set boardno="Electrical_Symbols"/>
+							<trim.para>Fuel is toxic and highly flammable. Fuel leaks and spills are a fire hazard. Do not allow smoking within 50 ft (15.24 m) of area. Avoid contact with skin, eyes, and clothes and do not breathe vapors. Wear PPE: impermeable gloves, apron, and goggles. Promptly correct any fuel leak. If it cannot be corrected safely while in operation, shut down and make corrections to stop leak. Failure to comply can result in death or serious injury to personnel. If injury or direct exposure to fuel occurs, seek immediate medical attention.</trim.para>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Skip <xref stepstart="PowerManiException-1" stepend="PowerManiException-2"/> when working on generator 3, as they have already been performed earlier in this Work Package.</trim.para>
+						</note>
+						<para>Open ball valve <callout assocfig="O00024-10-5419-218-F0011" label="4"/>, lift fuel hose <callout assocfig="O00024-10-5419-218-F0011" label="3"/> at manifold assembly <callout assocfig="O00024-10-5419-218-F0011" label="1"/> to drain any residual fuel into fuel tank. Close ball valve <callout assocfig="O00024-10-5419-218-F0011" label="4"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="O00024-10-5419-218-F0011">
+					<title>Disconnect Fuel Hoses and Fittings</title>
+					<graphic boardno="G06021800001"/>
+				</figure>
+				<step1>
+					<para>Disconnect generator auxiliary fuel hoses <callout assocfig="O00024-10-5419-218-F0011" label="2"/> from fuel manifold <callout assocfig="O00024-10-5419-218-F0011" label="1"/>.</para>
+				</step1>
+				<step1 id="PowerManiException-2">
+					<para>Install caps on fuel manifold <callout assocfig="O00024-10-5419-218-F0011" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Disconnect generator auxiliary fuel hoses as follows:</para>
+					<step2 id="O00024-10-5419-218-S0003">
+						<para>Disconnect auxiliary fuel hose from generator IAW <extref docno="TM 9-6115-753-10"/> and tightly coil hose for packout.</para>
+					</step2>
+					<step2>
+						<para>Open generator right access door <callout assocfig="O00024-10-5419-218-F0099" label="1"/>.</para>
+					</step2>
+					<figure id="O00024-10-5419-218-F0099">
+						<title>Stow Auxiliary Fuel Hose from Storage Compartment</title>
+						<graphic boardno="G06021801187"/>
+					</figure>
+					<step2>
+						<para>Open generator storage box <callout assocfig="O00024-10-5419-218-F0099" label="2"/> and stow auxiliary fuel hose.</para>
+					</step2>
+					<step2>
+						<para>Close generator storage box <callout assocfig="O00024-10-5419-218-F0099" label="2"/>.</para>
+					</step2>
+					<step2 id="O00024-10-5419-218-S0004">
+						<para>Close and secure generator access door <callout assocfig="O00024-10-5419-218-F0099" label="1"/>.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepstart="O00024-10-5419-218-S0003" stepend="O00024-10-5419-218-S0004"/> for remaining generators.</para>
+				</step1>
+				<step1>
+					<para>Disconnect fuel manifold <callout assocfig="O00024-10-5419-218-F0014" label="1"/> from reducer <callout assocfig="O00024-10-5419-218-F0014" label="2"/>.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F0014">
+					<title>Disconnect Fuel Manifold</title>
+					<graphic boardno="G06021800464"/>
+				</figure>
+				<step1>
+					<para>Disconnect reducer <callout assocfig="O00024-10-5419-218-F1015" label="2"/> from fuel hose <callout assocfig="O00024-10-5419-218-F1015" label="1"/> and install any QD caps/plugs.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F1015">
+					<title>Disconnect Reducer</title>
+					<graphic boardno="G06021800465"/>
+				</figure>
+				<step1>
+					<para>Disconnect fuel hoses <callout assocfig="O00024-10-5419-218-F1016" label="2"/> from output ball valve <callout assocfig="O00024-10-5419-218-F1016" label="3"/> and input ball valve <callout assocfig="O00024-10-5419-218-F1016" label="1"/>.</para>
+				</step1>
+				<figure id="O00024-10-5419-218-F1016">
+					<title>Disconnect Fuel Hoses from Fuel Tank Ball Valves</title>
+					<graphic boardno="G06021800466"/>
+				</figure>
+				<step1>
+					<para>Install any QD caps/plugs and set fuel hose aside for pack out.</para>
+				</step1>
+				<step1>
+					<para>Drain fuel tank and perform PREPARATION FOR STORAGE OR SHIPPING IAW <extref docno="TM 10-5430-225-13&amp;P"/> to pack fuel tank and  fuel tank spill containment system.</para>
+				</step1>
+				<step1 id="O00024-10-5419-218-S0006">
+					<para>Disconnect angle brackets on generator spill containment system.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Parts-hand"/>
+							<icon-set boardno="Heavy_Parts-wall"/>
+							<icon-set boardno="Heavy_Parts-above"/>
+							<icon-set boardno="Ear_Protection_Symbol"/>
+							<trim.para>Generator weighs over 3,600 lb (1,650 kg) dry. Use material handling equipment (MHE) and follow safety precautions when moving heavy items. These items should not be attempted to be moved by hand. Personnel must not stand between MHE and generator or below generator while it is being moved. Failure to comply can result in death or serious injury to personnel.  Seek immediate mmedical attention if injury occurs.</trim.para>
+							<trim.para>Hearing can be permanently damaged if personnel are exposed to constant high noise levels of 85 dB or greater. Wear approved hearing protection devices when operating or working within 61 ft (19 m) of MHE when engine is running. Personnel exposed to high noise levels shall participate in a hearing conservation program in accordance with <extref docno="DA PAM 40-501"/>. Hearing loss occurs gradually but becomes permanent over time.</trim.para>
+						</warning>
+						<para>Remove generator from generator spill containment system using MHE and place out of way.</para>
+					</specpara>
+				</step1>
+				<step1 id="O00024-10-5419-218-S0007">
+					<para>Fold generator spill containment system and set aside for pack out.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="O00024-10-5419-218-S0007" stepstart="O00024-10-5419-218-S0006"/> for remaining generators.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Heavy_Object"/>
+							<trim.para>Some Power Generation and Fuel Distribution Subsystem components are heavy. Fuel tank weighs 126 lb (57 kg) empty and is a four-person lift. PDB weighs 185 lb (83 kg) and is a six-person lift. Follow safety precautions when moving heavy items. Failure to comply can result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>Some Power Generation and Fuel Distribution Subsystem components may be stored in TRICONs during periods of disuse or may not be present as they have been consumed during Expeditionary Platoon Life Support Module operation.</trim.para>
+						</note>
+						<para>Locate items listed in <xref tableid="O00024-10-5419-218-T1001"/> in quantities specified and stage at appropriate transportation TRICON for packout.</para>
+					</specpara>
+				</step1>
+				<table id="O00024-10-5419-218-T1001">
+					<title>Power Generation and Fuel Distribution Subsystem Component List</title>
+					<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>NAME</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50C</entry>
+								<entry>ABSORBENT MATERIAL, OIL AND WATER (SILICA, 44-LB)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_ABSORBENT_SILICA"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>COUPLING ASSEMBLY, TUBE (2-IN, F X F, ALUMINUM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_COUPLING_2IN_FXF_AL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>TEE, HOSE (2-IN, M X M X M)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TEE_2IN_MXMXM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>CLAMP, ELECTRICAL</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_CLAMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>GENERATOR SET, DIESEL ENGINE (AMMPS, 60-KW)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GENERATOR_AMMPS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (FUEL, 2-IN X 10-FT, M X F)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_FUEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>MANIFOLD, INTAKE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_MANIFOLD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>REDUCER, QUICK DISCONNECT (2-IN F X 1-1/2-IN F, ALUMINUM, FUEL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_FUEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>ROD, GROUND</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_ROD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL (FUEL TANK, 1,000-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BERM_FUELTANK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL (GENERATOR)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BERM_GENERATOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>TANK, FABRIC, COLLAPSIBLE (FUEL, 1,000-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_TANK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>WIRE, ELECTRICAL (GROUND, #6 AWG, 100-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_WIRE"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL (15-A EXTENSION, 50-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_15A50FT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>CAN, MILITARY (FUEL, PLASTIC, 5-GALLON)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_CAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>CLAMP, ELECTRICAL</entry>
+								<entry>8</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_CLAMP"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>GENERATOR SET, DIESEL ENGINE (AMMPS, 60-KW)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GENERATOR_AMMPS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (FUEL, 2-IN X 10-FT, M X F)</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_FUEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>MANIFOLD, INTAKE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_MANIFOLD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>PANEL, POWER DISTRIBUTION (200-A)</entry>
+								<entry>3</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_LEXBOX_PDB"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>REDUCER, QUICK DISCONNECT (2-IN F X 1-1/2-IN F, ALUMINUM, FUEL)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_REDUCER_FUEL"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>ROD, GROUND</entry>
+								<entry>5</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_ROD"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL (FUEL DISTRIBUTION SYSTEM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BERM_FDS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL (FUEL TANK, 1,000-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BERM_FUELTANK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL (GENERATOR)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_BERM_GENERATOR"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>SPOUT, CAN, FLEXIBLE</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_SPOUT"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>STAND ASSEMBLY, DISTRIBUTION NOZZLE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_NOZZLE_STAND"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>TANK AND PUMP UNIT, LIQUID DISPENSING, PORTABLE (FUEL DISTRIBUTION SYSTEM)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FDS"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>TANK, FABRIC, COLLAPSIBLE (FUEL, 1,000-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_FUEL_TANK"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>WIRE, ELECTRICAL (GROUND, #6 AWG, 100-FT)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GROUND_WIRE"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

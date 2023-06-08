@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tswp chngno="0" wpno="T00011-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING PROCEDURES <brk/> KITCHEN/DINING SUBSYSTEM - ICE MAKER DOES NOT START</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Tool Kit, General Mechanic's</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Absorbent Material, Oil and Water</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_ABSORBENT_SHEETS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00049-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00050-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<intro>
+		<para0>
+			<title>Introduction</title>
+			<para>Each fault condition will be listed in this work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed.</para>
+			<para>Operation of affected component should be attempted after each corrective action is performed before moving on to next corrective action. This will help determine if fault has been corrected or if more corrective action is required.</para>
+		</para0>
+	</intro>
+	<tsproc>
+		<faultproc>
+			<title/>
+			<symptom>Ice maker does not start.</symptom>
+			<malfunc label="malfunction">Bin is full of ice.</malfunc>
+			<action>
+				<step1>
+					<para>Open bin door <callout assocfig="T00011-Bin_Control_Switch2" label="1"/>.</para>
+				</step1>
+				<figure id="T00011-Bin_Control_Switch2">
+					<title>Bin Door</title>
+					<graphic boardno="G06021801109"/>
+				</figure>
+				<step1>
+					<para>Verify ice bin is not full of ice.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "Expeditionary TRICON Kitchen System (ETKS) convenience outlet not supplying power."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Continue normal operation or remove ice from bin to produce more.</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Expeditionary TRICON Kitchen System (ETKS) convenience outlet not supplying power.</malfunc>
+			<action>
+				<step1>
+					<para>Connect a known good device to ETKS convenience outlet <callout assocfig="T00011-Ice_Maker_Cable" label="2"/>. Device should operate as expected.</para>
+					<figure id="T00011-Ice_Maker_Cable">
+						<title>ETKS Convenience Outlet and Ice Maker Power Cable</title>
+						<graphic boardno="G06021801110"/>
+					</figure>
+					<step2>
+						<para>PASS: Proceed to malfunction "Power cable unplugged."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Troubleshoot ETKS convenience outlet IAW <extref docno="TM 10-5419-207-10"/>.</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Power cable unplugged.</malfunc>
+			<action>
+				<step1>
+					<para>Check ice maker power cable <callout assocfig="T00011-Ice_Maker_Cable" label="1"/> for proper connection to ETKS convenience outlet <callout assocfig="T00011-Ice_Maker_Cable" label="2"/>.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "Control switch set to OFF or SERVICE position."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Connect power cable <callout assocfig="T00011-Ice_Maker_Cable" label="1"/> to ETKS convenience outlet <callout assocfig="T00011-Ice_Maker_Cable" label="2"/>.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Control switch set to OFF or SERVICE position."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Control switch set to OFF or SERVICE position.</malfunc>
+			<action>
+				<step1>
+					<para>Pull top of louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/> forward and lift off when magnet catches are free of ice maker.</para>
+				</step1>
+				<figure id="T00011-Ice_Maker_Louver">
+					<title>Ice Maker Louver</title>
+					<graphic boardno="G06021801111"/>
+				</figure>
+				<step1>
+					<para>Set control switch <callout assocfig="T00011-Ice_Maker_Control_Switch" label="1"/> to ICE position.</para>
+				</step1>
+				<figure id="T00011-Ice_Maker_Control_Switch">
+					<title>Control Switch</title>
+					<graphic boardno="G06021801112"/>
+				</figure>
+				<step1>
+					<para>Ensure filter is securely installed in louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Install louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/> to ice maker.</para>
+				</step1>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Ice level control arm stuck."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Ice level control arm stuck.</malfunc>
+			<action>
+				<step1>
+					<para>Open bin door <callout assocfig="T00011-Bin_Control_Switch" label="1"/>.</para>
+				</step1>
+				<figure id="T00011-Bin_Control_Switch">
+					<title>Ice Level Control Arm</title>
+					<graphic boardno="G06021801113"/>
+				</figure>
+				<step1>
+					<para>Locate ice level control arm <callout assocfig="T00011-Bin_Control_Switch" label="2"/> behind water tank.</para>
+				</step1>
+				<step1>
+					<para>Press ice level control arm <callout assocfig="T00011-Bin_Control_Switch" label="2"/> to move arm. Arm should move freely.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "Water supply valve closed."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed as follows:</para>
+						<step3>
+							<para>Pull top of louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/> forward and lift off when magnet catches are free of ice maker.</para>
+						</step3>
+						<step3>
+							<para>Set control switch <callout assocfig="T00011-Ice_Maker_Control_Switch" label="1"/> to OFF position.</para>
+						</step3>
+						<step3>
+							<para>Wait 30 minutes or until ice bin is defrosted.</para>
+						</step3>
+						<step3>
+							<para>Press ice level control arm <callout assocfig="T00011-Bin_Control_Switch" label="2"/> to move arm. Arm should move freely.</para>
+							<step4>
+								<para>PASS: Proceed to <xref stepstart="T00011-10-5419-218-S0001"/>.</para>
+							</step4>
+							<step4>
+								<para>FAIL: Replace ice maker IAW <xref wpid="M00049-10-5419-218"/>.</para>
+							</step4>
+						</step3>
+						<step3 id="T00011-10-5419-218-S0001">
+							<para>Set control switch <callout assocfig="T00011-Ice_Maker_Control_Switch" label="1"/> to ICE position.</para>
+						</step3>
+						<step3>
+							<para>Ensure filter is securely installed in louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/>.</para>
+						</step3>
+						<step3>
+							<para>Install louver <callout assocfig="T00011-Ice_Maker_Louver" label="1"/> to ice maker.</para>
+						</step3>
+					</step2>
+				</step1>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Water supply valve closed."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Water supply valve closed.</malfunc>
+			<action>
+				<step1>
+					<para>Open ball valve <callout assocfig="T00011-IM_BALL_VALVE" label="1"/>.</para>
+				</step1>
+				<figure id="T00011-IM_BALL_VALVE">
+					<title>Ice Maker Ball Valve</title>
+					<graphic boardno="G06021801114"/>
+				</figure>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Damaged, kinked, or blocked connection kit."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Damaged, kinked, or blocked connection kit.</malfunc>
+			<action>
+				<step1>
+					<para>Inspect supply hose <callout assocfig="T00011-IM_BALL_VALVE" label="2"/> from ice maker to ETKS sink for kinks and blockage or damage that would render hose inoperable. No damage should be found.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "Water supply unavailable."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed as follows:</para>
+						<step3>
+							<para>Remove kinks and blockages as required.</para>
+						</step3>
+						<step3>
+							<para>Replace damaged or blocked hose IAW <xref wpid="M00050-10-5419-218"/>.</para>
+						</step3>
+					</step2>
+				</step1>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Water supply unavailable."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Water supply unavailable.</malfunc>
+			<action>
+				<step1>
+					<para>Close ball valve <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="1"/>.</para>
+				</step1>
+				<figure id="T00011-IM_SUPPLY_CONNECTION">
+					<title>Ice Maker Connection</title>
+					<graphic boardno="G06021801115"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>A small amount of residual water will remain in hose and ice maker after ball valve is closed. This water will drain from ice maker and hose once coupling is disconnected. Placing a pan or other container under coupling is advised.</trim.para>
+						</note>
+						<para>Place drain pan under disconnection point.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Disconnect hose coupling <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="2"/> from ice maker adapter <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Open ball valve <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="1"/> briefly to verify source water is available.</para>
+					<step2>
+						<para>PASS: Proceed as follows:</para>
+						<step3>
+							<para>Connect hose coupling <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="2"/> to ice maker adapter <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="3"/>.</para>
+						</step3>
+						<step3>
+							<para>Open ball valve <callout assocfig="T00011-IM_SUPPLY_CONNECTION" label="1"/>.</para>
+						</step3>
+						<step3>
+							<para>Proceed to malfunction "Clogged inlet water valve."</para>
+						</step3>
+					</step2>
+					<step2>
+						<para>FAIL: Troubleshoot ETKS water supply and/or sanitation sink issues IAW <extref docno="TM 10-5419-207-10"/>.</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Clogged inlet water valve.</malfunc>
+			<action>
+				<step1>
+					<para>Pull top of louver forward and lift off when magnet catches are free of ice maker.</para>
+				</step1>
+				<step1>
+					<para>Set control switch to OFF position.</para>
+				</step1>
+				<step1>
+					<para>Remove 10 screws <callout assocfig="T00011-IM_REAR_PANEL" label="1"/> securing rear panel <callout assocfig="T00011-IM_REAR_PANEL" label="2"/>. Retain screws and rear panel.</para>
+				</step1>
+				<figure id="T00011-IM_REAR_PANEL">
+					<title>Ice Maker Rear Panel</title>
+					<graphic boardno="G06021801337"/>
+				</figure>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Needle nose pliers may be useful to remove mesh filter.</trim.para>
+						</note>
+						<para>Remove mesh filter from water inlet valve <callout assocfig="T00011-IM_INLET_VALVE" label="1"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="T00011-IM_INLET_VALVE">
+					<title>Water Inlet Valve</title>
+					<graphic boardno="G06021801117"/>
+				</figure>
+				<step1>
+					<para>Clean mesh filter and inlet valve orifice of any debris.</para>
+				</step1>
+				<step1>
+					<para>Install mesh filter to water inlet valve <callout assocfig="T00011-IM_INLET_VALVE" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Install rear panel <callout assocfig="T00011-IM_REAR_PANEL" label="2"/> and secure with 10 retained screws <callout assocfig="T00011-IM_REAR_PANEL" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Set control switch <callout assocfig="T00011-Ice_Maker_Control_Switch2" label="1"/> to ICE position.</para>
+				</step1>
+				<figure id="T00011-Ice_Maker_Control_Switch2">
+					<title>Control Switch</title>
+					<graphic boardno="G06021801112"/>
+				</figure>
+				<step1>
+					<para>Ensure filter is securely installed in louver <callout assocfig="T00011-Ice_Maker_Louver2" label="1"/>.</para>
+				</step1>
+				<figure id="T00011-Ice_Maker_Louver2">
+					<title>Ice Maker Louver</title>
+					<graphic boardno="G06021801111"/>
+				</figure>
+				<step1>
+					<para>Install louver <callout assocfig="T00011-Ice_Maker_Louver2" label="1"/> to ice maker.</para>
+				</step1>
+				<step1>
+					<para>Check ice maker for proper operation IAW <xref wpid="O00020-10-5419-218"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Replace ice maker IAW <xref wpid="M00049-10-5419-218"/>.</para>
+					</step2>
+				</step1>
+			</action>
+		</faultproc>
+	</tsproc>
+</tswp>

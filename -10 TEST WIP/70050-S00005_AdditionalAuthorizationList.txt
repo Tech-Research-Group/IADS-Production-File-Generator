@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aalwp chngno="0" wpno="S00003-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>ADDITIONAL AUTHORIZATION LIST (AAL)</title>
+	</wpidinfo>
+	<intro>
+		<para0>
+			<title>ADDITIONAL AUTHORIZATION LIST (AAL) <brk/> INTRODUCTION</title>
+			<subpara1>
+				<title>Scope</title>
+				<para>This work package lists additional items you are authorized for the support of the Expeditionary Platoon Life Support Module (EPLSM).</para>
+			</subpara1>
+			<subpara1>
+				<title>General</title>
+				<para>This list identifies items that do not have to accompany the EPLSM and that do not have to be turned in with it. These items are all authorized to you by CTA, MTOE, TDA, or JTA.</para>
+			</subpara1>
+			<subpara1>
+				<title>Explanation of Columns in the AAL</title>
+				<para>Column (1) National Stock Number (NSN). Identifies the stock number of the item to be used for requisitioning purposes.</para>
+				<para>Column (2) Description, Part Number/(CAGEC). Identifies the Federal item name (in all capital letters) followed by a minimum description when needed. The last line below the description is the part number and the Commercial and Government Entity Code (CAGEC) (in parentheses).</para>
+				<para>Column (3) Usable On Code. When applicable, gives you a code if the item you need is not the same for different models of equipment. These codes are identified below:
+					<table frame="none" colsep="0" rowsep="0">
+						<tgroup cols="2">
+							<colspec colname="col1" colwidth="0.5in"/>
+							<colspec colname="col2" colwidth="5.5in"/>
+							<thead>
+								<row>
+									<entry>
+										<emphasis emph="uline">Code</emphasis>
+									</entry>
+									<entry>
+										<emphasis emph="uline">Used on</emphasis>
+									</entry>
+								</row>
+							</thead>
+							<tbody>
+								<row>
+									<entry>JAV</entry>
+									<entry>Green EPLSM</entry>
+								</row>
+								<row>
+									<entry>JAW</entry>
+									<entry>Tan EPLSM</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</para>
+				<para>Column (4) U/I. Unit of Issue (U/I) indicates the physical measurement or count of the item as issued per the National Stock Number shown in column (1).</para>
+				<para>Column (5) Qty Recm. Indicates the quantity recommended.</para>
+			</subpara1>
+		</para0>
+	</intro>
+	<aal>
+		<title>Additional Authorization List (AAL)</title>
+		<aal-entry id="AAL_CWE_GRN">
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-580-6932</niin>
+			</nsn>
+			<dcpno>
+				<name>COLD WEATHER EQUIPMENT (GREEN)</name>
+				<partno>9-2-0046-1</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</aal-entry>
+		<aal-entry id="AAL_CWE_TAN">
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-581-2258</niin>
+			</nsn>
+			<dcpno>
+				<name>COLD WEATHER EQUIPMENT (TAN)</name>
+				<partno>9-2-0046-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</aal-entry>
+		<aal-entry id="AAL_LAG_SCREW">
+			<nsn>
+				<fsc>5305</fsc>
+				<niin>00-406-5178</niin>
+			</nsn>
+			<dcpno>
+				<name>SCREW, LAG; 3/8 X 2 INCH, STEEL</name>
+				<partno>230083</partno>
+				<cageno>2S125</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>HD</ui>
+			<qty>2</qty>
+		</aal-entry>
+		<aal-entry id="AAL_ATLAS">
+			<nsn>
+				<fsc>3930</fsc>
+				<niin>01-417-2886</niin>
+			</nsn>
+			<dcpno>
+				<name>TRUCK, LIFT, FORK</name>
+				<partno>10,000M</partno>
+				<cageno>1YHH8</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</aal-entry>
+		<aal-entry id="AAL_FLAT_WASHER">
+			<nsn>
+				<fsc>5310</fsc>
+				<niin>01-259-0296</niin>
+			</nsn>
+			<dcpno>
+				<name>WASHER, FLAT; 3/8-INCH SCREW, GENERAL PURPOSE, STEEL</name>
+				<partno>MS51412-6</partno>
+				<cageno>96906</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>200</qty>
+		</aal-entry>
+	</aal>
+</aalwp>

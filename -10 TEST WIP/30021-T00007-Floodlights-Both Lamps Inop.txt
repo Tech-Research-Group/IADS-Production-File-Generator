@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tswp chngno="0" wpno="T00007-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING PROCEDURES <brk/> FLOODLIGHTS - BOTH LAMPS INOPERABLE</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<xref wpid="M00014-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<intro>
+		<para0>
+			<title>Introduction</title>
+			<para>Each fault condition will be listed in this work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed.</para>
+			<para>Operation of affected component should be attempted after each corrective action is performed before moving on to next corrective action. This will help determine if fault has been corrected or if more corrective action is required.</para>
+		</para0>
+	</intro>
+	<tsproc>
+		<faultproc>
+			<title/>
+			<symptom>Both lamps inoperable.</symptom>
+			<malfunc label="malfunction">Floodlight OFF.</malfunc>
+			<action>
+				<step1>
+					<para>Locate pushbuttons <callout assocfig="T00007-toggle_switches" label="1"/> on rear of lighthead.</para>
+				</step1>
+				<figure id="T00007-toggle_switches">
+					<title>Floodlight Pushbuttons</title>
+					<graphic boardno="G06021801164"/>
+				</figure>
+				<step1>
+					<para>Press pushbuttons <callout assocfig="T00007-toggle_switches" label="1"/> to turn on floodlights. Lamp should illuminate.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Extension cord damaged or disconnected."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Extension cord damaged or disconnected.</malfunc>
+			<action>
+				<step1>
+				<specpara>
+				<warning>
+					<icon-set boardno="Falling"/>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+					</warning>
+					<para>Inspect floodlight power cord <callout assocfig="T00007-power_ext_cords" label="1"/> for damage and proper connection to extension cord <callout assocfig="T00007-power_ext_cords" label="2"/>. No damage and proper connection should be found.</para></specpara>
+					<figure id="T00007-power_ext_cords">
+						<title>Floodlight Power Cord and Extension Cord</title>
+						<graphic boardno="G06021801165"/>
+					</figure>
+					<step2>
+						<para>PASS: Proceed to malfunction "Faulty lighthead."</para>
+					</step2>
+					<step2>
+						<para>FAIL (extension cord disconnected): Proceed to <xref stepstart="T00007-Cord_Unplugged"/>.</para>
+					</step2>
+					<step2>
+						<para>FAIL (extension cord damaged): Send to next level of maintenance as authorized by MAC.</para>
+					</step2>
+					<step2>
+						<para>FAIL (floodlight power cable damaged): Replace lighthead IAW <xref wpid="M00014-10-5419-218"/>.</para>
+					</step2>
+					
+				</step1>
+				<step1 id="T00007-Cord_Unplugged">
+					<para>Connect floodlight power cord <callout assocfig="T00007-power_ext_cords" label="1"/> to extension cord <callout assocfig="T00007-power_ext_cords" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Press pushbuttons <callout assocfig="T00007-toggle_switches" label="1"/> on rear of lighthead to turn on floodlights. Lamp should illuminate.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Faulty lighthead."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Faulty lighthead.</malfunc>
+			<action>
+				<step1>
+					<para>Disconnect floodlight power cord <callout assocfig="T00007-power_ext_cords" label="1"/> from extension cord <callout assocfig="T00007-power_ext_cords" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Connect a known good device to extension cord and check for proper operation.</para>
+					<step2>
+						<para>PASS: Replace lighthead IAW <xref wpid="M00014-10-5419-218"/>.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Disconnect device, connect floodlight power cable to extension cord, and proceed to malfunction "20-A circuit breaker (CB) tripped or OFF."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">20-A circuit breaker (CB) tripped or OFF.</malfunc>
+			<action>
+				<note>
+					<trim.para>Extension cord may be connected to TEMPER shelter distribution box or power distribution box (PDB).</trim.para>
+				</note>
+				<step1>
+					<para>Identify TEMPER shelter distribution box or PDB controlling floodlight.</para>
+				</step1>
+				<step1>
+					<para>Proceed as follows:</para>
+					<step2>
+						<para>TEMPER shelter distribution box:</para>
+						<step3>
+							<para>Observe position of CB <callout assocfig="T00007-TEMPER_CB" label="1"/> and proceed as follows:
+								<figure id="T00007-TEMPER_CB">
+									<title>TEMPER Shelter Distribution Box CB</title>
+									<graphic boardno="G06021801167"/>
+								</figure>
+							</para>
+							<step4>
+								<para>In (ON): Proceed to malfunction "Ground-fault circuit interrupter (GFCI) receptacle tripped."</para>
+							</step4>
+							<step4>
+								<para>Out (OFF): Push CB in to set to ON position.</para>
+							</step4>
+						</step3>
+						<step3>
+							<para>Press pushbuttons <callout assocfig="T00007-toggle_switches_2" label="1"/> on rear of lighthead to turn on floodlights. Lamp should illuminate.
+								<figure id="T00007-toggle_switches_2">
+									<title>Floodlight Pushbuttons</title>
+									<graphic boardno="G06021801164"/>
+								</figure>
+							</para>
+							<step4>
+								<para>PASS: Return to normal operation.</para>
+							</step4>
+							<step4>
+								<para>FAIL: Proceed to malfunction "GFCI receptacle tripped."</para>
+							</step4>
+						</step3>
+					</step2>
+					<step2>
+						<para>PDB:</para>
+						<step3>
+							<para>Lift cover <callout assocfig="T00007-PDB_CB" label="2"/> to access CB.
+								<figure id="T00007-PDB_CB">
+									<title>PDB CB</title>
+									<graphic boardno="G06021801168"/>
+								</figure>
+							</para>
+						</step3>
+						<step3>
+							<para>Observe position of CB 1 <callout assocfig="T00007-PDB_CB" label="1"/> and proceed as follows:</para>
+							<step4>
+								<para>ON: Proceed to malfunction "GFCI receptacle tripped."</para>
+							</step4>
+							<step4>
+								<para>OFF: Set CB 1 <callout assocfig="T00007-PDB_CB" label="1"/> to ON position.</para>
+							</step4>
+							<step4>
+								<para>Tripped: Set CB 1 <callout assocfig="T00007-PDB_CB" label="1"/> to OFF position, then back to ON position.</para>
+							</step4>
+						</step3>
+						<step3>
+							<para>Lower cover <callout assocfig="T00007-PDB_CB" label="2"/>.</para>
+						</step3>
+						<step3>
+							<para>Press pushbuttons <callout assocfig="T00007-toggle_switches_2" label="1"/> on rear of lighthead to turn on floodlights. Lamp should illuminate.</para>
+							<step4>
+								<para>PASS: Return to normal operation.</para>
+							</step4>
+							<step4>
+								<para>FAIL: Proceed to malfunction "GFCI receptacle tripped."</para>
+							</step4>
+						</step3>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">GFCI receptacle tripped.</malfunc>
+			<action>
+				<step1>
+					<para>Locate GFCI receptacle controlling floodlight.</para>
+				</step1>
+				<step1>
+					<para>Lift cover <callout assocfig="T00007-GFCI" label="2"/> to access GFCI.</para>
+				</step1>
+				<figure id="T00007-GFCI">
+					<title>GFCI Receptacle</title>
+					<graphic boardno="G06021801169"/>
+				</figure>
+				<step1>
+					<para>Press RESET button <callout assocfig="T00007-GFCI" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Lower cover <callout assocfig="T00007-GFCI" label="2"/>.</para>
+				</step1>
+				<step1>
+					<para>Press pushbuttons <callout assocfig="T00007-toggle_switches_3" label="1"/> on rear of lighthead to turn on floodlights. Lamp should illuminate.</para>
+					<figure id="T00007-toggle_switches_3">
+						<title>Floodlight Pushbuttons</title>
+						<graphic boardno="G06021801164"/>
+					</figure>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "No power from receptacle or faulty extension cord."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">No power from receptacle or faulty extension cord.</malfunc>
+			<action>
+				<para>Send to next level of maintenance as authorized by MAC.</para>
+			</action>
+		</faultproc>
+	</tsproc>
+</tswp>

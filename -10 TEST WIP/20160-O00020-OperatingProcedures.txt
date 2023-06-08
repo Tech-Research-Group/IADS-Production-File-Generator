@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00020-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> OPERATING PROCEDURES - STARTUP</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Toxicological Agents Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_TOXIC"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 9-6115-753-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4120-453-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4520-266-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-237-12&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Expeditionary Platoon Life Support Module assembled and prepared for use</condition>
+				<itemref>
+					<xref wpid="O00003-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<oper>
+			<proc>
+				<title>Latrine Subsystem</title>
+				<step1>
+					<para>Operate Expeditionary Latrine System (ELS) <callout assocfig="O00020-10-5419-218-F0001" label="1"/> IAW <extref docno="TM 10-5419-209-13&amp;P"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0001">
+					<title>Latrine Subsystem</title>
+					<graphic boardno="G06021800201"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Biological_Symbol"/>
+							<trim.para>ELS operations generate biohazardous materials. Personnel must wear proper personal protective equipment (PPE) (apron, goggles, impermeable gloves) when handling waste from ELS. Failure to comply may result in serious illness or death to personnel. Seek immediate medical attention if contact with waste occurs.</trim.para>
+							<trim.para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</trim.para>
+						</warning>
+						<para>Empty ELS WASTE water bag <callout assocfig="O00020-10-5419-218-F0001" label="2"/> and fill SOURCE water bag <callout assocfig="O00020-10-5419-218-F0001" label="3"/> IAW <extref docno="TM 10-5430-237-12&amp;P"/>.</para>
+					</specpara>
+				</step1>
+			</proc>
+			<proc>
+				<title>Laundry Subsystem</title>
+				<step1>
+					<para>Operate Expeditionary TRICON Self Serve Laundry System (ETSSLS) <callout assocfig="O00020-10-5419-218-F0002" label="1"/> IAW <extref docno="TM 10-5419-215-10"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0002">
+					<title>Laundry Subsystem</title>
+					<graphic boardno="G06021800202"/>
+				</figure>
+				<step1>
+					<para>Empty ETSSLS WASTE water bag <callout assocfig="O00020-10-5419-218-F0002" label="2"/> and fill SOURCE water bag <callout assocfig="O00020-10-5419-218-F0002" label="3"/> IAW <extref docno="TM 10-5430-237-12&amp;P"/>.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Shower Subsystem</title>
+				<step1>
+					<para>Operate Expeditionary Shower System (ESS) <callout assocfig="O00020-10-5419-218-F0003" label="1"/> IAW <extref docno="TM 10-5419-210-13&amp;P"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0003">
+					<title>Shower Subsystem</title>
+					<graphic boardno="G06021800920"/>
+				</figure>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Biological_Symbol"/>
+							<trim.para>ESS operations generate biohazardous materials. Personnel must wear proper PPE (apron, goggles, impermeable gloves) when handling waste from ESS. Failure to comply may result in serious illness or death to personnel. Seek immediate medical attention if contact with waste occurs.</trim.para>
+							<trim.para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</trim.para>
+						</warning>
+						<para>Empty ESS WASTE water bag <callout assocfig="O00020-10-5419-218-F0003" label="2"/> and fill SOURCE water bag <callout assocfig="O00020-10-5419-218-F0003" label="3"/> IAW <extref docno="TM 10-5430-237-12&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Operate water heater <callout assocfig="O00020-10-5419-218-F0003" label="4"/> IAW <extref docno="TM 10-4520-266-13&amp;P"/>.</para>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Kitchen/Dining Subsystem</title>
+				<step1>
+					<para>Operate Expeditionary TRICON Kitchen System (ETKS) <callout assocfig="O00020-10-5419-218-F0004" label="8"/> IAW <extref docno="TM 10-5419-207-10"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0004">
+					<title>Kitchen/Dining Subsystem</title>
+					<graphic boardno="G06021800204"/>
+				</figure>
+				<step1>
+					<para>Empty ETKS WASTE water bag <callout assocfig="O00020-10-5419-218-F0004" label="7"/> and fill SOURCE water bag <callout assocfig="O00020-10-5419-218-F0004" label="6"/> IAW <extref docno="TM 10-5430-237-12&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate TRICON Refrigerated Container System <callout assocfig="O00020-10-5419-218-F0004" label="1"/> IAW <extref docno="TM 10-8145-224-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate dining TEMPER shelter <callout assocfig="O00020-10-5419-218-F0004" label="2"/> IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate environmental control unit (ECU) <callout assocfig="O00020-10-5419-218-F0004" label="3"/> IAW <extref docno="TM 10-4120-453-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate floodlight <callout assocfig="O00020-10-5419-218-F0004" label="5"/> by pressing pushbutton <callout assocfig="O00020-10-5419-218-F0004" label="4"/> to turn lightheads on and off.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Ice maker normally operates without interruption. This procedure is only necessary if ice maker was turned off for maintenance or as a result of operation during extreme hot or cold weather.</trim.para>
+						</note>
+						<para>Operate ice maker as follows:</para>
+					</specpara>
+					<step2>
+						<para>Pull top of louver <callout assocfig="O00020-F0002" label="2"/> forward and lift off when magnet catches are free of ice maker.</para>
+					</step2>
+					<figure id="O00020-F0002">
+						<title>Ice Maker Louver</title>
+						<graphic boardno="G06021800908"/>
+					</figure>
+					<step2>
+						<para>Set control switch <callout assocfig="O00020-F0003" label="1"/> to ICE position.</para>
+					</step2>
+					<figure id="O00020-F0003">
+						<title>Control Switch</title>
+						<graphic boardno="G06021800910"/>
+					</figure>
+					<step2>
+						<para>Ensure filter <callout assocfig="O00020-F0002" label="1"/> is securely installed in louver <callout assocfig="O00020-F0002" label="2"/>.</para>
+					</step2>
+					<step2>
+						<para>Install louver <callout assocfig="O00020-F0002" label="2"/> to ice maker.</para>
+					</step2>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Power Generation and Fuel Distribution Subsystem</title>
+				<step1>
+					<para>Operate Fuel Distribution System (FDS) <callout assocfig="O00020-10-5419-218-F0006" label="3"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0006">
+					<title>Power Generation and Fuel Distribution Subsystem</title>
+					<graphic boardno="G06021800921"/>
+				</figure>
+				<step1>
+					<para>Operate generators <callout assocfig="O00020-10-5419-218-F0006" label="2"/> IAW <extref docno="TM 9-6115-753-10"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Explosion"/>
+							<icon-set boardno="Eye_Protection"/>
+							<icon-set boardno="Fire"/>
+							<icon-set boardno="Poison"/>
+							<icon-set boardno="Vapor"/>
+							<icon-set boardno="Electrical_Symbols"/>
+							<trim.para>Fuel is toxic and highly flammable. Fuel leaks and spills are a fire hazard. Do not allow smoking within 50 ft (15.24 m) of area. Avoid contact with skin, eyes, and clothes and do not breathe vapors. Wear PPE: impermeable gloves, apron, and goggles. Promptly correct any fuel leak. If it cannot be corrected safely while in operation, shut down and make corrections to stop leak. Failure to comply can result in death or serious injury to personnel. If injury or direct exposure to fuel occurs, seek immediate medical attention.</trim.para>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<para>Fill and discharge fuel from fuel tanks <callout assocfig="O00020-10-5419-218-F0006" label="1"/> IAW <extref docno="TM 10-5430-225-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>Billeting Subsystem</title>
+				<step1>
+					<para>Operate billeting TEMPER shelters <callout assocfig="O00020-10-5419-218-F0007" label="1"/> IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0007">
+					<title>Billeting Subsystem</title>
+					<graphic boardno="G06021800476"/>
+				</figure>
+				<step1>
+					<para>Operate ECUs <callout assocfig="O00020-10-5419-218-F0007" label="2"/> IAW <extref docno="TM 10-4120-453-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate floodlight <callout assocfig="O00020-10-5419-218-F0007" label="4"/> by pressing pushbutton <callout assocfig="O00020-10-5419-218-F0007" label="3"/> to turn lightheads on and off.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Administration Subsystem</title>
+				<step1>
+					<para>Operate administration TEMPER shelter <callout assocfig="O00020-10-5419-218-F0008" label="1"/> IAW <extref docno="TM 10-8340-244-13&amp;P"/>.</para>
+				</step1>
+				<figure id="O00020-10-5419-218-F0008">
+					<title>Administration Subsystem</title>
+					<graphic boardno="G06021800477"/>
+				</figure>
+				<step1>
+					<para>Operate ECU <callout assocfig="O00020-10-5419-218-F0008" label="4"/> IAW <extref docno="TM 10-4120-453-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Operate floodlight <callout assocfig="O00020-10-5419-218-F0008" label="3"/> by pressing pushbutton <callout assocfig="O00020-10-5419-218-F0008" label="2"/> to turn lightheads on and off.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Transportation/Storage Subsystem</title>
+				<para>There are no operating procedures for Transportation/Storage Subsystem.</para>
+			</proc>
+		</oper>
+	</opertsk>
+</opusualwp>

@@ -1,0 +1,4694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coeibiiwp chngno="0" wpno="S00002-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>COMPONENTS OF END ITEM (COEI) AND BASIC ISSUE ITEMS (BII) LISTS</title>
+	</wpidinfo>
+	<intro frame="no">
+		<para0>
+			<title>COMPONENTS OF END ITEM (COEI) AND BASIC ISSUE ITEMS (BII) LISTS <brk/> INTRODUCTION</title>
+			<subpara1>
+				<title>Scope</title>
+				<para>This work package lists COEI and BII for the Expeditionary Platoon Life Support Module (EPLSM) to help you inventory items for safe and efficient operation of the equipment.</para>
+			</subpara1>
+			<subpara1>
+				<title>General</title>
+				<para>The COEI and BII information is divided into the following lists:</para>
+				<para>Components of End Item (COEI). This list is for information purposes only and is not authority to requisition replacements. These items are part of the EPLSM. As part of the end item, these items must be with the end item whenever it is issued or transferred between property accounts. Items of COEI are removed and separately packaged for transportation or shipment only when necessary. Illustrations are furnished to help you find and identify the items.</para>
+				<para>Basic Issue Items (BII). These essential items are required to place the EPLSM in operation, operate it, and to do emergency repairs. Although shipped separately packaged, BII must be with the EPLSM during operation and when it is transferred between property accounts. Listing these items is your authority to request/requisition them for replacement based on authorization of the end item by the Table of Organization and Equipment/Modified Table of Organization and Equipment (TOE/MTOE). Illustrations are furnished to help you find and identify the items.</para>
+			</subpara1>
+			<subpara1>
+				<title>Explanation of Columns in the COEI List and BII List</title>
+				<para>Column (1) Item Number. Gives you the reference number of the item listed.</para>
+				<para>Column (2) National Stock Number (NSN) and Illustration. Identifies the stock number of the item to be used for requisitioning purposes and provides an illustration of the item.</para>
+				<para>Column (3) Description, Part Number/(CAGEC). Identifies the Federal item name (in all capital letters) followed by a minimum description when needed. The stowage location of COEI and BII is also included in this column. The last line below the description is the CAGEC (Commercial and Government Entity Code) (in parentheses) and the part number.</para>
+				<para>Column (4) Usable On Code. When applicable, gives you a code if the item you need is not the same for different models of equipment. These codes are identified below:
+					<deflist>
+						<term.def>
+							<term>
+								<emphasis emph="bold">
+									<emphasis emph="uline">Code</emphasis>
+								</emphasis>
+							</term>
+							<def>
+								<para>
+									<emphasis emph="bold">
+										<emphasis emph="uline">Used on</emphasis>
+									</emphasis>
+								</para>
+							</def>
+						</term.def>
+						<term.def>
+							<term>JAV</term>
+							<def>
+								<para>Green EPLSM</para>
+							</def>
+						</term.def>
+						<term.def>
+							<term>JAW</term>
+							<def>
+								<para>Tan EPLSM</para>
+							</def>
+						</term.def>
+					</deflist>
+				</para>
+				<para>Column (5) U/I. Unit of Issue (U/I) indicates the physical measurement or count of the item as issued per the National Stock Number shown in column (2).</para>
+				<para>Column (6) Qty Rqr. Indicates the quantity required.</para>
+			</subpara1>
+		</para0>
+	</intro>
+	<?Pub _newpage ?>
+	<coei-opt id="coeitab">
+		<title>Components of End Item List.</title>
+		<coei-opt-entry>
+			<itemno id="COEI_ABSORBENT_SILICA">1</itemno>
+			<nsn>
+				<fsc>7930</fsc>
+				<niin>00-269-1272</niin>
+			</nsn>
+			<graphic boardno="I06021800233"/>
+			<dcpno>
+				<name>ABSORBENT MATERIAL, OIL AND WATER</name>
+				<desc>SILICA, 44-LB</desc>
+				<partno>NGT-269-1272</partno>
+				<cageno>1D6V1</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>CO</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TEY_58IN">2</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>01-648-0980</niin>
+			</nsn>
+			<graphic boardno="I06021800004"/>
+			<dcpno>
+				<name>ADAPTER, GROUND ROD</name>
+				<desc>TE-Y 5/8-INCH</desc>
+				<partno>220701</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SAND_BAG">3</itemno>
+			<nsn>
+				<fsc>8105</fsc>
+				<niin>00-935-7101</niin>
+			</nsn>
+			<graphic boardno="I06021800003"/>
+			<dcpno>
+				<name>BAG, SAND</name>
+				<desc>GREEN</desc>
+				<partno>A-A52140A-1</partno>
+				<cageno>58536</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>HD</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SAND_BAG2">3</itemno>
+			<nsn>
+				<fsc>8105</fsc>
+				<niin>01-331-3704</niin>
+			</nsn>
+			<graphic boardno="I06021800003"/>
+			<dcpno>
+				<name>BAG, SAND</name>
+				<desc>TAN</desc>
+				<partno>A-A-52140A-2</partno>
+				<cageno>58536</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>HD</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BARBER_KIT">4</itemno>
+			<nsn>
+				<fsc>3590</fsc>
+				<niin>00-058-1837</niin>
+			</nsn>
+			<graphic boardno="I06021800211"/>
+			<dcpno>
+				<name>BARBER KIT</name>
+				<desc/>
+				<partno>99005</partno>
+				<cageno>0T1Y7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SHORING_BEAM">5</itemno>
+			<nsn>
+				<fsc>9540</fsc>
+				<niin>01-491-3804</niin>
+			</nsn>
+			<graphic boardno="I06021800005"/>
+			<dcpno>
+				<name>BEAM, DECKING, SHORING</name>
+				<desc/>
+				<partno>FE 8066-067-078</partno>
+				<cageno>0KHZ6</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>35</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BENCH">6</itemno>
+			<nsn>
+				<fsc>7110</fsc>
+				<niin>01-686-5315</niin>
+			</nsn>
+			<graphic boardno="I06021800006"/>
+			<dcpno>
+				<name>BENCH, UTILITY</name>
+				<desc/>
+				<partno>P1572FBF-S</partno>
+				<cageno>0C561</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>20</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SAWBLADE_MULTI">7</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>01-657-3921</niin>
+			</nsn>
+			<graphic boardno="I06021800007"/>
+			<dcpno>
+				<name>BLADE, RECIPROCATING SAW</name>
+				<desc>1/2-IN SHANK, 8-12 TEETH/INCH</desc>
+				<partno>48-00-5093</partno>
+				<cageno>40817</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PG</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SAWBLADE_METAL">8</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>00-275-1204</niin>
+			</nsn>
+			<graphic boardno="I06021800008"/>
+			<dcpno>
+				<name>BLADE, RECIPROCATING SAW</name>
+				<desc>1/2-IN SHANK, METAL, 18 TEETH/INCH</desc>
+				<partno>5130-00-275-1204</partno>
+				<cageno>80244</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PG</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SAWBLADE_WOOD">9</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>00-275-1203</niin>
+			</nsn>
+			<graphic boardno="I06021800008"/>
+			<dcpno>
+				<name>BLADE, RECIPROCATING SAW</name>
+				<desc>1/2-IN SHANK, WOOD, 10 TEETH/INCH</desc>
+				<partno>5130-00-275-1203</partno>
+				<cageno>80244</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PG</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BROOM">10</itemno>
+			<nsn>
+				<fsc>7920</fsc>
+				<niin>00-291-8305</niin>
+			</nsn>
+			<graphic boardno="I06021800009"/>
+			<dcpno>
+				<name>BROOM, UPRIGHT</name>
+				<desc/>
+				<partno>70308</partno>
+				<cageno>17699</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>7</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BUNK_BED">11</itemno>
+			<nsn>
+				<fsc>7105</fsc>
+				<niin>01-552-2705</niin>
+			</nsn>
+			<graphic boardno="I06021800010"/>
+			<dcpno>
+				<name>BUNK, BED W LOCKER</name>
+				<desc/>
+				<partno>19793MBF</partno>
+				<cageno>3K5G1</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>47</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_100A50FT">12</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-220-5587</niin>
+			</nsn>
+			<graphic boardno="I06021800089"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, POWER, ELECTRICAL</name>
+				<desc>100-A, 50-FT</desc>
+				<partno>M29184/2</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_60A100FT">13</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-220-5588</niin>
+			</nsn>
+			<graphic boardno="I06021800011"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, POWER, ELECTRICAL</name>
+				<desc>60-A, 100-FT</desc>
+				<partno>M29184/3-02</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>13</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_60A50FT">14</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>00-255-8313</niin>
+			</nsn>
+			<graphic boardno="I06021800011"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, POWER, ELECTRICAL</name>
+				<desc>60-A, 50-FT</desc>
+				<partno>M29184/3-01</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_POWERTEE">15</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-657-2804</niin>
+			</nsn>
+			<graphic boardno="I06021800012"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, POWER, ELECTRICAL, BRANCHED</name>
+				<desc>POWER TEE</desc>
+				<partno>9-1-0584-2</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_15A100FT">16</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-648-2341</niin>
+			</nsn>
+			<graphic boardno="I06021800014"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL</name>
+				<desc>15-A EXTENSION, 100-FT</desc>
+				<partno>9-2-0181-3</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CABLE_15A50FT">17</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-633-0039</niin>
+			</nsn>
+			<graphic boardno="I06021800013"/>
+			<dcpno>
+				<name>CABLE ASSEMBLY, SPECIAL PURPOSE, ELECTRICAL</name>
+				<desc>15-A EXTENSION, 50-FT</desc>
+				<partno>2884</partno>
+				<cageno>07909</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FUEL_CAN">18</itemno>
+			<nsn>
+				<fsc>7240</fsc>
+				<niin>01-337-5269</niin>
+			</nsn>
+			<graphic boardno="I06021800015"/>
+			<dcpno>
+				<name>CAN, MILITARY</name>
+				<desc>FUEL, PLASTIC, 5-GALLON, GREEN</desc>
+				<partno>05482P</partno>
+				<cageno>36976</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FUEL_CAN2">18</itemno>
+			<nsn>
+				<fsc>7240</fsc>
+				<niin>01-337-5268</niin>
+			</nsn>
+			<graphic boardno="I06021800015"/>
+			<dcpno>
+				<name>CAN, MILITARY</name>
+				<desc>FUEL, PLASTIC, 5-GALLON, TAN</desc>
+				<partno>RIA150374-1</partno>
+				<cageno>19204</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FOLDING_CHAIR">19</itemno>
+			<nsn>
+				<fsc>7105</fsc>
+				<niin>00-269-8463</niin>
+			</nsn>
+			<graphic boardno="I06021800017"/>
+			<dcpno>
+				<name>CHAIR, FOLDING</name>
+				<desc/>
+				<partno>SCD539471</partno>
+				<cageno>80063</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>28</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_AIR_CHUCK">20</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-700-1412</niin>
+			</nsn>
+			<graphic boardno="I06021800018"/>
+			<dcpno>
+				<name>CHUCK, AIR, INFLATING</name>
+				<desc/>
+				<partno>9-2-2157</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GROUND_CLAMP">21</itemno>
+			<nsn>
+				<fsc>5999</fsc>
+				<niin>01-583-1634</niin>
+			</nsn>
+			<graphic boardno="I06021800019"/>
+			<dcpno>
+				<name>CLAMP, ELECTRICAL</name>
+				<desc/>
+				<partno>7491K74</partno>
+				<cageno>3A054</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>12</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COMPRESSOR">22</itemno>
+			<nsn>
+				<fsc>4310</fsc>
+				<niin>01-647-9763</niin>
+			</nsn>
+			<graphic boardno="I06021800020"/>
+			<dcpno>
+				<name>COMPRESSOR, RECIPROCATING</name>
+				<desc/>
+				<partno>L70-17C125P17</partno>
+				<cageno>0TZS1</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CONNECTION_ICEMAKER">23</itemno>
+			<nsn>
+				<fsc>4110</fsc>
+				<niin>01-657-1647</niin>
+			</nsn>
+			<graphic boardno="I06021800021"/>
+			<dcpno>
+				<name>CONNECTION KIT, ICE MAKER</name>
+				<desc/>
+				<partno>9-2-0096-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRICON">24</itemno>
+			<nsn>
+				<fsc>8150</fsc>
+				<niin>01-579-3761</niin>
+			</nsn>
+			<graphic boardno="I06021800022"/>
+			<dcpno>
+				<name>CONTAINER, FREIGHT, UTILITY</name>
+				<desc>GREEN</desc>
+				<partno>5-13-9766-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>9</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRICON2">24</itemno>
+			<nsn>
+				<fsc>8150</fsc>
+				<niin>01-592-9850</niin>
+			</nsn>
+			<graphic boardno="I06021800022"/>
+			<dcpno>
+				<name>CONTAINER, FREIGHT, UTILITY</name>
+				<desc>TAN</desc>
+				<partno>5-13-9766-4</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>9</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_15IN_FXF">25</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-5277</niin>
+			</nsn>
+			<graphic boardno="I06021800024"/>
+			<dcpno>
+				<name>COUPLING ASSEMBLY, QUICK DISCONNECT</name>
+				<desc>1-1/2-IN, F X F, BRASS</desc>
+				<partno>9-1-1402-4-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_15IN_MXM">26</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-4667</niin>
+			</nsn>
+			<graphic boardno="I06021800025"/>
+			<dcpno>
+				<name>COUPLING ASSEMBLY, QUICK DISCONNECT</name>
+				<desc>1-1/2-IN, M X M, BRASS</desc>
+				<partno>9-1-1402-3-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_2IN_FXF">27</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-4722</niin>
+			</nsn>
+			<graphic boardno="I06021800024"/>
+			<dcpno>
+				<name>COUPLING ASSEMBLY, QUICK DISCONNECT</name>
+				<desc>2-IN, F X F, BRASS</desc>
+				<partno>9-1-1402-2-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_2IN_MXM">28</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-5251</niin>
+			</nsn>
+			<graphic boardno="I06021800025"/>
+			<dcpno>
+				<name>COUPLING ASSEMBLY, QUICK DISCONNECT</name>
+				<desc>2-IN, M X M, BRASS</desc>
+				<partno>9-1-1402-1-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_2IN_FXF_AL">29</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-700-3582</niin>
+			</nsn>
+			<graphic boardno="I06021800024"/>
+			<dcpno>
+				<name>COUPLING ASSEMBLY, TUBE</name>
+				<desc>2-IN, F X F, ALUMINUM</desc>
+				<partno>9-1-1402-2-AL</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_38QD_NPT">30</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-347-0828</niin>
+			</nsn>
+			<graphic boardno="I06021800026"/>
+			<dcpno>
+				<name>COUPLING HALF, QUICK DISCONNECT</name>
+				<desc>3/8-IN QD X 3/8-IN NPT</desc>
+				<partno>4200</partno>
+				<cageno>73992</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_COUPLING_AIR_ADAPTER">31</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-677-5422</niin>
+			</nsn>
+			<graphic boardno="I06021800225"/>
+			<dcpno>
+				<name>COUPLING HALF, QUICK DISCONNECT</name>
+				<desc>AIR ADAPTER, 1-1/2-INCH QD TO 3/8-INCH HOSE</desc>
+				<partno>9-2-3700</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TES_1IN">32</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800223"/>
+			<dcpno>
+				<name>COUPLING, ROD, ROCK DRILL</name>
+				<desc>TE-S 1-INCH</desc>
+				<partno>3493181</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TES_2IN">33</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800221"/>
+			<dcpno>
+				<name>COUPLING, ROD, ROCK DRILL</name>
+				<desc>TE-S 2-INCH</desc>
+				<partno>3502114</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TES_58IN">34</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800027"/>
+			<dcpno>
+				<name>COUPLING, ROD, ROCK DRILL</name>
+				<desc>TE-S 5/8-INCH</desc>
+				<partno>312056</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TEY_1IN">35</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800222"/>
+			<dcpno>
+				<name>COUPLING, ROD, ROCK DRILL</name>
+				<desc>TE-Y 1-INCH</desc>
+				<partno>3502116</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRASHCAN_COVER">36</itemno>
+			<nsn>
+				<fsc>7240</fsc>
+				<niin>01-701-6571</niin>
+			</nsn>
+			<graphic boardno="I06021800028"/>
+			<dcpno>
+				<name>COVER, CAN, TRASH AND GARBAGE</name>
+				<desc/>
+				<partno>3201GY</partno>
+				<cageno>1NPG8</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_DICE">37</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-599-7021</niin>
+			</nsn>
+			<graphic boardno="I06021800029"/>
+			<dcpno>
+				<name>DICE, GAMING</name>
+				<desc/>
+				<partno>BICYCLE DICE</partno>
+				<cageno>61448</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PG</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FRISBEE">38</itemno>
+			<nsn>
+				<fsc>7810</fsc>
+				<niin>01-468-6954</niin>
+			</nsn>
+			<graphic boardno="I06021800030"/>
+			<dcpno>
+				<name>DISCUS CIRCLE</name>
+				<desc/>
+				<partno>MSDIS140Y</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_CONV_OUTLET">39</itemno>
+			<nsn>
+				<fsc>6150</fsc>
+				<niin>01-470-1916</niin>
+			</nsn>
+			<graphic boardno="I06021800031"/>
+			<dcpno>
+				<name>DISTRIBUTING SYSTEM, ELECTRICAL</name>
+				<desc>TEMPER CONVENIENCE OUTLET ASSEMBLY, 3 DROP</desc>
+				<partno>TMPBOX-40033</partno>
+				<cageno>1FR69</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>22</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_PDB">40</itemno>
+			<nsn>
+				<fsc>6110</fsc>
+				<niin>01-251-0402</niin>
+			</nsn>
+			<graphic boardno="I06021800032"/>
+			<dcpno>
+				<name>DISTRIBUTION BOX</name>
+				<desc>TEMPER, TYPE-3, 120-VAC</desc>
+				<partno>1-6-6041-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>6</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_DRILL_114X36">41</itemno>
+			<nsn>
+				<fsc>5133</fsc>
+				<niin>01-647-9425</niin>
+			</nsn>
+			<graphic boardno="I06021800033"/>
+			<dcpno>
+				<name>DRILL, MASONRY, POWER HAMMER</name>
+				<desc>1-1/4-IN X 36-IN</desc>
+				<partno>293027</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_DRILL_58X22">42</itemno>
+			<nsn>
+				<fsc>5133</fsc>
+				<niin>01-647-9426</niin>
+			</nsn>
+			<graphic boardno="I06021800033"/>
+			<dcpno>
+				<name>DRILL, MASONRY, POWER HAMMER</name>
+				<desc>5/8-IN X 22-IN</desc>
+				<partno>206514</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_55GAL_DRUM">43</itemno>
+			<nsn>
+				<fsc>8110</fsc>
+				<niin>00-292-9783</niin>
+			</nsn>
+			<graphic boardno="I06021800034"/>
+			<dcpno>
+				<name>DRUM, SHIPPING AND STORAGE</name>
+				<desc>STEEL, 55-GALLON</desc>
+				<partno>8110MFG9783</partno>
+				<cageno>53JG6</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_DUSTPAN">44</itemno>
+			<nsn>
+				<fsc>7290</fsc>
+				<niin>00-616-0109</niin>
+			</nsn>
+			<graphic boardno="I06021800035"/>
+			<dcpno>
+				<name>DUSTPAN</name>
+				<desc/>
+				<partno>7290-00-616-0109</partno>
+				<cageno>83421</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>7</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ECU">45</itemno>
+			<nsn>
+				<fsc>4120</fsc>
+				<niin>01-617-1273</niin>
+			</nsn>
+			<graphic boardno="I06021800036"/>
+			<dcpno>
+				<name>ENVIRONMENTAL CONTROL SYSTEM</name>
+				<desc>GREEN</desc>
+				<partno>603-H015262-001</partno>
+				<cageno>0WJE1</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>7</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ECU2">45</itemno>
+			<nsn>
+				<fsc>4120</fsc>
+				<niin>01-617-1282</niin>
+			</nsn>
+			<graphic boardno="I06021800036"/>
+			<dcpno>
+				<name>ENVIRONMENTAL CONTROL SYSTEM</name>
+				<desc>TAN</desc>
+				<partno>603-H015262-002</partno>
+				<cageno>0WJE1</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>7</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ELS">46</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-539-7178</niin>
+			</nsn>
+			<graphic boardno="I06021800037"/>
+			<dcpno>
+				<name>EXPEDITIONARY LATRINE SYSTEM</name>
+				<desc>GREEN</desc>
+				<partno>9-2-0171-1</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ELS2">46</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-539-7179</niin>
+			</nsn>
+			<graphic boardno="I06021800037"/>
+			<dcpno>
+				<name>EXPEDITIONARY LATRINE SYSTEM</name>
+				<desc>TAN</desc>
+				<partno>9-2-0171-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ESS">47</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-539-7182</niin>
+			</nsn>
+			<graphic boardno="I06021800037"/>
+			<dcpno>
+				<name>EXPEDITIONARY SHOWER SYSTEM</name>
+				<desc>GREEN</desc>
+				<partno>9-2-0170-1</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ESS2">47</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-539-7183</niin>
+			</nsn>
+			<graphic boardno="I06021800037"/>
+			<dcpno>
+				<name>EXPEDITIONARY SHOWER SYSTEM</name>
+				<desc>TAN</desc>
+				<partno>9-2-0170-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ETKS">48</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-571-4107</niin>
+			</nsn>
+			<graphic boardno="I06021800212"/>
+			<dcpno>
+				<name>EXPEDITIONARY TRICON KITCHEN SYSTEM</name>
+				<desc>GREEN</desc>
+				<partno>9-2-0094-1</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ETKS2">48</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-571-4108</niin>
+			</nsn>
+			<graphic boardno="I06021800212"/>
+			<dcpno>
+				<name>EXPEDITIONARY TRICON KITCHEN SYSTEM</name>
+				<desc>TAN</desc>
+				<partno>9-2-0094-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ETSSLS">49</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-681-0875</niin>
+			</nsn>
+			<graphic boardno="I06021800213"/>
+			<dcpno>
+				<name>EXPEDITIONARY TRICON SELF SERVE LAUNDRY SYSTEM</name>
+				<desc>GREEN</desc>
+				<partno>9-2-0356-1</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ETSSLS2">49</itemno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-681-0948</niin>
+			</nsn>
+			<graphic boardno="I06021800213"/>
+			<dcpno>
+				<name>EXPEDITIONARY TRICON SELF SERVE LAUNDRY SYSTEM</name>
+				<desc>TAN</desc>
+				<partno>9-2-0356-2</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FIRST_AID_KIT">50</itemno>
+			<nsn>
+				<fsc>6545</fsc>
+				<niin>00-656-1094</niin>
+			</nsn>
+			<graphic boardno="I06021800039"/>
+			<dcpno>
+				<name>FIRST AID KIT, UTILITY</name>
+				<desc/>
+				<partno>2114011</partno>
+				<cageno>0FTT5</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_MARKING_FLAGS">51</itemno>
+			<nsn>
+				<fsc>3740</fsc>
+				<niin>01-454-1982</niin>
+			</nsn>
+			<graphic boardno="I06021800040"/>
+			<dcpno>
+				<name>FLAG, STAKE, MARKING</name>
+				<desc/>
+				<partno>101066</partno>
+				<cageno>3ZEL7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PG</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FLOODLIGHT">52</itemno>
+			<nsn>
+				<fsc>6230</fsc>
+				<niin>01-648-3254</niin>
+			</nsn>
+			<graphic boardno="I06021800041"/>
+			<dcpno>
+				<name>FLOODLIGHT ASSEMBLY</name>
+				<desc>TRIPOD MOUNTED, 1000-W</desc>
+				<partno>PUL-1000Q-TC</partno>
+				<cageno>4QN88</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TENTFLOOR_32FT">53</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-648-0119</niin>
+			</nsn>
+			<graphic boardno="I06021800042"/>
+			<dcpno>
+				<name>FLOOR, TENT</name>
+				<desc>REMOVABLE, 32-FT</desc>
+				<partno>V00-010-383</partno>
+				<cageno>7JYX1</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_RIGID_DOOR">54</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-648-0885</niin>
+			</nsn>
+			<graphic boardno="I06021800043"/>
+			<dcpno>
+				<name>FRAME, TENT</name>
+				<desc>RIGID DOOR, GREEN</desc>
+				<partno>69RD004-TEMP03OD</partno>
+				<cageno>92878</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>16</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_RIGID_DOOR2">54</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-648-0880</niin>
+			</nsn>
+			<graphic boardno="I06021800043"/>
+			<dcpno>
+				<name>FRAME, TENT</name>
+				<desc>RIGID DOOR, TAN</desc>
+				<partno>69RD004-TEMP03TN</partno>
+				<cageno>7JYX1</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>16</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TIRE_GAGE">55</itemno>
+			<nsn>
+				<fsc>4910</fsc>
+				<niin>01-699-9835</niin>
+			</nsn>
+			<graphic boardno="I06021800044"/>
+			<dcpno>
+				<name>GAGE, TIRE PRESSURE, SELF-CONTAINED</name>
+				<desc>PENCIL STYLE, 10 - 75 PSI</desc>
+				<partno>S-920</partno>
+				<cageno>94894</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_CRIBBAGE">56</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-700-9371</niin>
+			</nsn>
+			<graphic boardno="I06021800047"/>
+			<dcpno>
+				<name>GAME, CHANCE</name>
+				<desc>CRIBBAGE</desc>
+				<partno>1244335</partno>
+				<cageno>0FZP5</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_DOMINOES">57</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>00-179-0029</niin>
+			</nsn>
+			<graphic boardno="I06021800048"/>
+			<dcpno>
+				<name>GAME, CHANCE</name>
+				<desc>DOMINOES</desc>
+				<partno>240XXXX</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_MONOPOLY">58</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>00-944-9697</niin>
+			</nsn>
+			<graphic boardno="I06021800049"/>
+			<dcpno>
+				<name>GAME, CHANCE</name>
+				<desc>MONOPOLY</desc>
+				<partno>4034XXXX</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_RISK">59</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-468-6113</niin>
+			</nsn>
+			<graphic boardno="I06021800209"/>
+			<dcpno>
+				<name>GAME, CHANCE</name>
+				<desc>RISK</desc>
+				<partno>4037XXXX</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_TRIVIA">60</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-700-9370</niin>
+			</nsn>
+			<graphic boardno="I06021800210"/>
+			<dcpno>
+				<name>GAME, KNOWLEDGE</name>
+				<desc>TRIVIAL PURSUIT</desc>
+				<partno>C1940</partno>
+				<cageno>84771</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_SCRABBLE">61</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-468-6585</niin>
+			</nsn>
+			<graphic boardno="I06021800052"/>
+			<dcpno>
+				<name>GAME, SCRABBLE</name>
+				<desc/>
+				<partno>4044XXXX</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_CHECKERS">62</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>00-271-1792</niin>
+			</nsn>
+			<graphic boardno="I06021800053"/>
+			<dcpno>
+				<name>GAME, STRATEGY</name>
+				<desc>BACKGAMMON/CHESS/CHECKERS</desc>
+				<partno>1238228</partno>
+				<cageno>0FZP5</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>SE</ui>
+			<qty>4</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_UNO">63</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-468-6114</niin>
+			</nsn>
+			<graphic boardno="I06021800054"/>
+			<dcpno>
+				<name>GAME, UNO, DELUXE</name>
+				<desc/>
+				<partno>Y5206</partno>
+				<cageno>67CS2</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GAME_YAHTZEE">64</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-468-6115</niin>
+			</nsn>
+			<graphic boardno="I06021800055"/>
+			<dcpno>
+				<name>GAME, WORD SKILL</name>
+				<desc>YAHTZEE</desc>
+				<partno>4024XXXX</partno>
+				<cageno>1HQN7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GENERATOR_AMMPS">65</itemno>
+			<nsn>
+				<fsc>6115</fsc>
+				<niin>01-561-7788</niin>
+			</nsn>
+			<graphic boardno="I06021800226"/>
+			<dcpno>
+				<name>GENERATOR SET, DIESEL ENGINE</name>
+				<desc>AMMPS, 60-KW</desc>
+				<partno>MEP-1070</partno>
+				<cageno>30554</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GLOVES_RADIOACTIVE">66</itemno>
+			<nsn>
+				<fsc>8415</fsc>
+				<niin>00-782-2809</niin>
+			</nsn>
+			<graphic boardno="I06021800056"/>
+			<dcpno>
+				<name>GLOVE INSERTS, RADIOACTIVE CONTAMINANTS PROTECTIVE</name>
+				<desc/>
+				<partno>MIL-G-82241</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>PR</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_AIR_GUN">67</itemno>
+			<nsn>
+				<fsc>4940</fsc>
+				<niin>01-659-0834</niin>
+			</nsn>
+			<graphic boardno="I06021800057"/>
+			<dcpno>
+				<name>GUN, AIR BLOW</name>
+				<desc/>
+				<partno>9-2-2156</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TE1000">68</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>01-648-1370</niin>
+			</nsn>
+			<graphic boardno="I06021800058"/>
+			<dcpno>
+				<name>HAMMER, ELECTRIC, PORTABLE</name>
+				<desc>TE 1000</desc>
+				<partno>3523418</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILTI_TE70">69</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>01-648-1369</niin>
+			</nsn>
+			<graphic boardno="I06021800059"/>
+			<dcpno>
+				<name>HAMMER, ELECTRIC, PORTABLE</name>
+				<desc>TE 70</desc>
+				<partno>3514171</partno>
+				<cageno>11239</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SLEDGEHAMMER">70</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>00-900-6098</niin>
+			</nsn>
+			<graphic boardno="I06021800060"/>
+			<dcpno>
+				<name>HAMMER, HAND</name>
+				<desc/>
+				<partno>1362570</partno>
+				<cageno>75Q65</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>6</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_MOP_HANDLE">71</itemno>
+			<nsn>
+				<fsc>7920</fsc>
+				<niin>00-267-1218</niin>
+			</nsn>
+			<graphic boardno="I06021800061"/>
+			<dcpno>
+				<name>HANDLE, MOP</name>
+				<desc/>
+				<partno>7920-00-267-1218</partno>
+				<cageno>83421</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_WH400">72</itemno>
+			<nsn>
+				<fsc>4520</fsc>
+				<niin>01-566-6669</niin>
+			</nsn>
+			<graphic boardno="I06021800062"/>
+			<dcpno>
+				<name>HEATER, WATER 400,000 BTU (WH-400)</name>
+				<desc/>
+				<partno>111244</partno>
+				<cageno>51419</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_AIR_50FT">73</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-1730</niin>
+			</nsn>
+			<graphic boardno="I06021800063"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>AIR, 50-FT</desc>
+				<partno>H018388</partno>
+				<cageno>92878</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_AIR_TEE">74</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-1732</niin>
+			</nsn>
+			<graphic boardno="I06021800064"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>AIR, TEE, 15-FT</desc>
+				<partno>V00-010-390</partno>
+				<cageno>92878</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_FUEL">75</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>00-893-4339</niin>
+			</nsn>
+			<graphic boardno="I06021800065"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>FUEL, 2-IN X 10-FT, M X F</desc>
+				<partno>M370B061A0100A</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_GARDEN">76</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>00-729-5334</niin>
+			</nsn>
+			<graphic boardno="I06021800066"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>GARDEN</desc>
+				<partno>AA59270B3B</partno>
+				<cageno>58536</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_112IN_25FT_FXF">77</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-2526</niin>
+			</nsn>
+			<graphic boardno="I06021800067"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>SOURCE WATER, 1-1/2-IN X 25-FT, F X F</desc>
+				<partno>9-1-0781-95</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_112IN_25FT_MXF">78</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-2517</niin>
+			</nsn>
+			<graphic boardno="I06021800068"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>SOURCE WATER, 1-1/2-IN X 25-FT, M X F</desc>
+				<partno>9-1-0781-37</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_1IN_25FT_FXF">79</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-657-3743</niin>
+			</nsn>
+			<graphic boardno="I06021800067"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>SOURCE WATER, 1-IN X 25-FT, F X F</desc>
+				<partno>9-1-0781-85</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_2IN_25FT_FXF">80</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-4106</niin>
+			</nsn>
+			<graphic boardno="I06021800067"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>WASTEWATER, 2-IN X 25-FT, F X F</desc>
+				<partno>9-1-0782-75</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_2IN_25FT_MXF">81</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-648-4364</niin>
+			</nsn>
+			<graphic boardno="I06021800068"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>WASTEWATER, 2-IN X 25-FT, M X F</desc>
+				<partno>9-1-0782-15</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_2IN_5FT_MXF">82</itemno>
+			<nsn>
+				<fsc>4720</fsc>
+				<niin>01-657-4509</niin>
+			</nsn>
+			<graphic boardno="I06021800068"/>
+			<dcpno>
+				<name>HOSE ASSEMBLY, NONMETALLIC</name>
+				<desc>WASTEWATER, 2-IN X 5-FT, M X F</desc>
+				<partno>9-1-0782-11</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_ICEMAKER">83</itemno>
+			<nsn>
+				<fsc>4110</fsc>
+				<niin>01-578-5900</niin>
+			</nsn>
+			<graphic boardno="I06021800069"/>
+			<dcpno>
+				<name>ICE MAKING MACHINE, CUBE</name>
+				<desc/>
+				<partno>KM-301BAJ</partno>
+				<cageno>0AAU8</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HILIFT_JACK">84</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>01-518-1587</niin>
+			</nsn>
+			<graphic boardno="I06021800070"/>
+			<dcpno>
+				<name>JACK, SCISSORS, HAND</name>
+				<desc/>
+				<partno>HL-485</partno>
+				<cageno>57662</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_LIGHTSET_14FIX">85</itemno>
+			<nsn>
+				<fsc>6210</fsc>
+				<niin>01-664-2036</niin>
+			</nsn>
+			<graphic boardno="I06021800214"/>
+			<dcpno>
+				<name>LIGHT SET, GENERAL ILLUMINATION</name>
+				<desc>14-FIXTURE</desc>
+				<partno>TL110177-1</partno>
+				<cageno>5Z8E6</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>6</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BRACE_LUMBER">86</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800071"/>
+			<dcpno>
+				<name>LUMBER, SOFTWOOD, BOARD</name>
+				<desc/>
+				<partno>9-1-0771-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>15</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FUEL_MANIFOLD">87</itemno>
+			<nsn>
+				<fsc>2815</fsc>
+				<niin>01-657-1355</niin>
+			</nsn>
+			<graphic boardno="I06021800072"/>
+			<dcpno>
+				<name>MANIFOLD, INTAKE</name>
+				<desc/>
+				<partno>9-1-0194-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FLOORMAT_32FT">88</itemno>
+			<nsn>
+				<fsc>7220</fsc>
+				<niin>01-469-3424</niin>
+			</nsn>
+			<graphic boardno="I06021800073"/>
+			<dcpno>
+				<name>MATTING, FLOOR</name>
+				<desc>TYPE-1, 32-FT</desc>
+				<partno>9-1-0189-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>7</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_MOPHEAD">89</itemno>
+			<nsn>
+				<fsc>7920</fsc>
+				<niin>00-141-5550</niin>
+			</nsn>
+			<graphic boardno="I06021800074"/>
+			<dcpno>
+				<name>MOPHEAD, WET</name>
+				<desc/>
+				<partno>7920001415550</partno>
+				<cageno>83421</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_MOP_BUCKET">90</itemno>
+			<nsn>
+				<fsc>7920</fsc>
+				<niin>01-682-2752</niin>
+			</nsn>
+			<graphic boardno="I06021800075"/>
+			<dcpno>
+				<name>MOPPING OUTFIT, FLOOR</name>
+				<desc/>
+				<partno>226-312YW</partno>
+				<cageno>1NPG8</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_HOSE_NOZZLE">91</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>00-595-1103</niin>
+			</nsn>
+			<graphic boardno="I06021800076"/>
+			<dcpno>
+				<name>NOZZLE, GARDEN HOSE</name>
+				<desc/>
+				<partno>FSS-5100-243B</partno>
+				<cageno>04024</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_LEXBOX_PDB">92</itemno>
+			<nsn>
+				<fsc>6110</fsc>
+				<niin>01-554-7406</niin>
+			</nsn>
+			<graphic boardno="I06021800077"/>
+			<dcpno>
+				<name>PANEL, POWER DISTRIBUTION</name>
+				<desc>200-A</desc>
+				<partno>DB200MP-PQ66S3</partno>
+				<cageno>00Y95</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_BUNKBED">93</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>BUNK BED CONTINGENCY SPARES</desc>
+				<partno>9-1-1395-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_FLOODLIGHT">94</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>FLOODLIGHT CONTINGENCY SPARES</desc>
+				<partno>9-1-1391-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_RIGIDDOOR">95</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>RIGID DOOR CONTINGENCY SPARES, GREEN</desc>
+				<partno>9-2-0316-3</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_RIGIDDOOR2">95</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>RIGID DOOR CONTINGENCY SPARES, TAN</desc>
+				<partno>9-2-0316-4</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_SOLARSHADE">96</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>SOLAR SHADE CONTINGENCY SPARES, GREEN</desc>
+				<partno>9-2-0315-3</partno>
+				<cageno>81337</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_SOLARSHADE2">96</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT</name>
+				<desc>SOLAR SHADE CONTINGENCY SPARES, TAN</desc>
+				<partno>9-2-0315-4</partno>
+				<cageno>81337</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_AIRCON">97</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, AIR CONDINTIONER</name>
+				<desc>ECU CONTINGENCY SPARES</desc>
+				<partno>9-2-0128-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_GENERATOR">98</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, ELECTRIC GENERATOR</name>
+				<desc>GENERATOR CONTINGENCY SPARES</desc>
+				<partno>9-2-0278-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_LATRINE">99</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, LAVATORY</name>
+				<desc>ETS LATRINE CONTINGENCY SPARES</desc>
+				<partno>9-1-1393-2</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_ETS">100</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, PORTABLE SHELTER</name>
+				<desc>EXPEDITIONARY TRICON SYSTEM CONTINGENCY SPARES</desc>
+				<partno>9-1-1372-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_TEMPER">101</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, PORTABLE SHELTER</name>
+				<desc>TEMPER AS CONTINGENCY SPARES</desc>
+				<partno>9-1-1374-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_SHOWER">102</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, TRAILER MOUNTED BATH UNIT</name>
+				<desc>ETS SHOWER CONTINGENCY SPARES</desc>
+				<partno>9-1-1399-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_KITCHEN">103</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, TRAILER MOUNTED FIELD KITCHEN</name>
+				<desc>ETS KITCHEN CONTINGENCY SPARES</desc>
+				<partno>9-1-1397-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PK_LAUNDRY">104</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800215"/>
+			<dcpno>
+				<name>PARTS KIT, TRAILER MOUNTED LAUNDRY UNIT</name>
+				<desc>ETS SELF SERVICE LAUNDRY CONTINGENCY SPARES</desc>
+				<partno>9-2-0369</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>KT</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CARDS_PINOCHLE">105</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-701-1233</niin>
+			</nsn>
+			<graphic boardno="I06021800078"/>
+			<dcpno>
+				<name>PLAYING CARDS, PINOCHLE</name>
+				<desc/>
+				<partno>1000931</partno>
+				<cageno>61448</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>BX</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_CARDS_STANDARD">106</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-055-8587</niin>
+			</nsn>
+			<graphic boardno="I06021800079"/>
+			<dcpno>
+				<name>PLAYING CARDS, STANDARD</name>
+				<desc/>
+				<partno>1000906</partno>
+				<cageno>61448</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>DZ</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_POKER_CHIPS">107</itemno>
+			<nsn>
+				<fsc>7820</fsc>
+				<niin>01-700-6547</niin>
+			</nsn>
+			<graphic boardno="I06021800045"/>
+			<dcpno>
+				<name>POKER CHIPS</name>
+				<desc/>
+				<partno>1006305</partno>
+				<cageno>61448</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>10</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_RAKE">108</itemno>
+			<nsn>
+				<fsc>3750</fsc>
+				<niin>00-171-7182</niin>
+			</nsn>
+			<graphic boardno="I06021800080"/>
+			<dcpno>
+				<name>RAKE, GARDEN</name>
+				<desc/>
+				<partno>A-A-2846 TY1CLA</partno>
+				<cageno>80244</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_REDUCER_FUEL">109</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-5601</niin>
+			</nsn>
+			<graphic boardno="I06021800081"/>
+			<dcpno>
+				<name>REDUCER, QUICK DISCONNECT</name>
+				<desc>2-IN F X 1-1/2-IN F, ALUMINUM, FUEL</desc>
+				<partno>9-1-1402-11-AL</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_REDUCER_2F_112M">110</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-5606</niin>
+			</nsn>
+			<graphic boardno="I06021800082"/>
+			<dcpno>
+				<name>REDUCER, QUICK DISCONNECT</name>
+				<desc>2-IN F X 1-1/2-IN M, BRASS, SOURCE WATER</desc>
+				<partno>9-1-1402-8-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_REDUCER_2M_112F">111</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-657-5614</niin>
+			</nsn>
+			<graphic boardno="I06021800083"/>
+			<dcpno>
+				<name>REDUCER, QUICK DISCONNECT</name>
+				<desc>2-IN M X 1-1/2-IN F, BRASS, SOURCE WATER</desc>
+				<partno>9-1-1402-7-B</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_REDUCER_AIR_COMPRESSOR">112</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-659-0835</niin>
+			</nsn>
+			<graphic boardno="I06021800084"/>
+			<dcpno>
+				<name>REDUCER, QUICK DISCONNECT</name>
+				<desc>AIR COMPRESSOR</desc>
+				<partno>9-2-2155</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_STAKE_REMOVER">113</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>01-648-5689</niin>
+			</nsn>
+			<graphic boardno="I06021800085"/>
+			<dcpno>
+				<name>REMOVER, STAKE</name>
+				<desc/>
+				<partno>V00-010-392</partno>
+				<cageno>92878</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_DRUM_REPAIR">114</itemno>
+			<nsn>
+				<fsc>8110</fsc>
+				<niin>00-856-6246</niin>
+			</nsn>
+			<graphic boardno="I06021800086"/>
+			<dcpno>
+				<name>REPAIR KIT, COLLAPSIBLE DRUM</name>
+				<desc/>
+				<partno>M52255-2</partno>
+				<cageno>81349</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GROUND_ROD">115</itemno>
+			<nsn>
+				<fsc>5975</fsc>
+				<niin>00-878-3791</niin>
+			</nsn>
+			<graphic boardno="I06021800087"/>
+			<dcpno>
+				<name>ROD, GROUND</name>
+				<desc/>
+				<partno>AA55804-3B 9FT</partno>
+				<cageno>58536</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>9</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_RECIPROCATING_SAW">116</itemno>
+			<nsn>
+				<fsc>5130</fsc>
+				<niin>00-720-0654</niin>
+			</nsn>
+			<graphic boardno="I06021800088"/>
+			<dcpno>
+				<name>SAW, RECIPROCATING, PORTABLE, ELECTRIC</name>
+				<desc/>
+				<partno>5130-00-720-0654</partno>
+				<cageno>80224</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SSHADE_T31">117</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-649-2240</niin>
+			</nsn>
+			<graphic boardno="I06021800090"/>
+			<dcpno>
+				<name>SHADE ASSEMBLY, SOLAR</name>
+				<desc>TYPE-31, ADMINISTRATION/BILLETING, GREEN</desc>
+				<partno>4188</partno>
+				<cageno>1X5J9</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SSHADE_T312">117</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-649-2252</niin>
+			</nsn>
+			<graphic boardno="I06021800090"/>
+			<dcpno>
+				<name>SHADE ASSEMBLY, SOLAR</name>
+				<desc>TYPE-31, ADMINISTRATION/BILLETING, TAN</desc>
+				<partno>4146</partno>
+				<cageno>1X5J9</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SSHADE_T37">118</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-649-2218</niin>
+			</nsn>
+			<graphic boardno="I06021800091"/>
+			<dcpno>
+				<name>SHADE ASSEMBLY, SOLAR</name>
+				<desc>TYPE-37, KITCHEN, GREEN</desc>
+				<partno>4189</partno>
+				<cageno>1X5J9</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SSHADE_T372">118</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-649-2249</niin>
+			</nsn>
+			<graphic boardno="I06021800091"/>
+			<dcpno>
+				<name>SHADE ASSEMBLY, SOLAR</name>
+				<desc>TYPE-37, KITCHEN, TAN</desc>
+				<partno>4151</partno>
+				<cageno>1X5J9</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRICON_SHELF">119</itemno>
+			<nsn>
+				<fsc>8145</fsc>
+				<niin>01-503-4404</niin>
+			</nsn>
+			<graphic boardno="I06021800023"/>
+			<dcpno>
+				<name>SHELF, SHIPPING AND STORAGE</name>
+				<desc/>
+				<partno>1041A</partno>
+				<cageno>09PD1</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRUNKLOCKER_PELICAN">120</itemno>
+			<nsn>
+				<fsc>8145</fsc>
+				<niin>01-502-9424</niin>
+			</nsn>
+			<graphic boardno="I06021800216"/>
+			<dcpno>
+				<name>SHIPPING AND STORAGE CONTAINER, MISCELLANEOUS EQUIPMENT</name>
+				<desc>14 INCH X 33 INCH X 17 INCH</desc>
+				<partno>472-FTLK-1-137</partno>
+				<cageno>65442</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>6</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRCS">121</itemno>
+			<nsn>
+				<fsc>8145</fsc>
+				<niin>01-598-4828</niin>
+			</nsn>
+			<graphic boardno="I06021800176"/>
+			<dcpno>
+				<name>SHIPPING AND STORAGE CONTAINER, REFRIGERATED</name>
+				<desc>TRICON REFRIGERATED CONTAINER SYSTEM</desc>
+				<partno>TRCS-T1-2</partno>
+				<cageno>0A0B7</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SHOVEL">122</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>00-293-3336</niin>
+			</nsn>
+			<graphic boardno="I06021800177"/>
+			<dcpno>
+				<name>SHOVEL, HAND</name>
+				<desc/>
+				<partno>5120-00-293-3336</partno>
+				<cageno>80244</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PALLET_GENERATOR">123</itemno>
+			<nsn>
+				<fsc>3990</fsc>
+				<niin>01-700-3427</niin>
+			</nsn>
+			<graphic boardno="I06021800217"/>
+			<dcpno>
+				<name>SKID, PLATFORM</name>
+				<desc>GENERATOR</desc>
+				<partno>9-2-0301-1</partno>
+				<cageno>81338</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PALLET_PACKOUT">124</itemno>
+			<nsn>
+				<fsc>3990</fsc>
+				<niin>01-657-3564</niin>
+			</nsn>
+			<graphic boardno="I06021800178"/>
+			<dcpno>
+				<name>SKID, PLATFORM</name>
+				<desc>PACKOUT</desc>
+				<partno>9-2-0100-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>14</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_SLIDE_HAMMER">125</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>01-013-1676</niin>
+			</nsn>
+			<graphic boardno="I06021800179"/>
+			<dcpno>
+				<name>SLIDE HAMMER, GROUND ROD</name>
+				<desc/>
+				<partno>5120010131676</partno>
+				<cageno>65003</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BERM_FDS">126</itemno>
+			<nsn>
+				<fsc>4235</fsc>
+				<niin>01-657-2967</niin>
+			</nsn>
+			<graphic boardno="I06021800180"/>
+			<dcpno>
+				<name>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL</name>
+				<desc>FUEL DISTRIBUTION SYSTEM</desc>
+				<partno>9-2-0148-3</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BERM_FUELTANK">127</itemno>
+			<nsn>
+				<fsc>4235</fsc>
+				<niin>01-621-3872</niin>
+			</nsn>
+			<graphic boardno="I06021800184"/>
+			<dcpno>
+				<name>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL</name>
+				<desc>FUEL TANK, 1,000-GAL</desc>
+				<partno>9-2-0148-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_BERM_GENERATOR">128</itemno>
+			<nsn>
+				<fsc>4235</fsc>
+				<niin>01-657-6406</niin>
+			</nsn>
+			<graphic boardno="I06021800180"/>
+			<dcpno>
+				<name>SPILL CLEAN-UP KIT, HAZARDOUS MATERIAL</name>
+				<desc>GENERATOR</desc>
+				<partno>9-2-0148-2</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FUEL_SPOUT">129</itemno>
+			<nsn>
+				<fsc>7240</fsc>
+				<niin>00-177-6154</niin>
+			</nsn>
+			<graphic boardno="I06021800218"/>
+			<dcpno>
+				<name>SPOUT, CAN, FLEXIBLE</name>
+				<desc/>
+				<partno>11677020</partno>
+				<cageno>19207</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_NOZZLE_STAND">130</itemno>
+			<nsn>
+				<fsc>4930</fsc>
+				<niin>01-120-7426</niin>
+			</nsn>
+			<graphic boardno="I06021800182"/>
+			<dcpno>
+				<name>STAND ASSEMBLY, DISTRIBUTION NOZZLE</name>
+				<desc/>
+				<partno>13225E9140</partno>
+				<cageno>97403</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_STEPLADDER">131</itemno>
+			<nsn>
+				<fsc>5440</fsc>
+				<niin>01-415-1238</niin>
+			</nsn>
+			<graphic boardno="I06021800183"/>
+			<dcpno>
+				<name>STEPLADDER</name>
+				<desc>6-FT, FIBERGLASS, 250 POUND HEAVY DUTY RATING</desc>
+				<partno>A14.5,TY1</partno>
+				<cageno>80204</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PDB_SUPPORT_POLE">132</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-601-1914</niin>
+			</nsn>
+			<graphic boardno="I06021800185"/>
+			<dcpno>
+				<name>SUPPORT POLE ASSY</name>
+				<desc/>
+				<partno>9-2-0233</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>6</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FOLDING_TABLE">133</itemno>
+			<nsn>
+				<fsc>7110</fsc>
+				<niin>01-415-6895</niin>
+			</nsn>
+			<graphic boardno="I06021800186"/>
+			<dcpno>
+				<name>TABLE, FOLDING LEGS</name>
+				<desc/>
+				<partno>A3072WL</partno>
+				<cageno>0C561</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>12</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FDS">134</itemno>
+			<nsn>
+				<fsc>4930</fsc>
+				<niin>01-614-3654</niin>
+			</nsn>
+			<graphic boardno="I06021800187"/>
+			<dcpno>
+				<name>TANK AND PUMP UNIT, LIQUID DISPENSING, PORTABLE</name>
+				<desc>FUEL DISTRIBUTION SYSTEM</desc>
+				<partno>VC-PORTABLE-50E</partno>
+				<cageno>13573</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_FUEL_TANK">135</itemno>
+			<nsn>
+				<fsc>5430</fsc>
+				<niin>01-621-3870</niin>
+			</nsn>
+			<graphic boardno="I06021800188"/>
+			<dcpno>
+				<name>TANK, FABRIC, COLLAPSIBLE</name>
+				<desc>FUEL, 1,000-GAL</desc>
+				<partno>9-2-0147</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TAPE_ANTISEIZING">136</itemno>
+			<nsn>
+				<fsc>8030</fsc>
+				<niin>00-889-3535</niin>
+			</nsn>
+			<graphic boardno="I06021800189"/>
+			<dcpno>
+				<name>TAPE, ANTISEIZING</name>
+				<desc/>
+				<partno>11072502</partno>
+				<cageno>18876</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TAPE_FLAGGING">137</itemno>
+			<nsn>
+				<fsc>9905</fsc>
+				<niin>01-458-2059</niin>
+			</nsn>
+			<graphic boardno="I06021800190"/>
+			<dcpno>
+				<name>TAPE, FLAGGING</name>
+				<desc>FLUORESCENT PINK, 50-YARD ROLL</desc>
+				<partno>NFES 2401</partno>
+				<cageno>04024</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>BX</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TAPE_MEASURING">138</itemno>
+			<nsn>
+				<fsc>5210</fsc>
+				<niin>01-469-3423</niin>
+			</nsn>
+			<graphic boardno="I06021800191"/>
+			<dcpno>
+				<name>TAPE, MEASURING</name>
+				<desc>300-FT, OPEN REEL, FIBERGLASS</desc>
+				<partno>4YP87</partno>
+				<cageno>25795</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEE_2IN_MXMXM">139</itemno>
+			<nsn>
+				<fsc>4730</fsc>
+				<niin>01-701-7188</niin>
+			</nsn>
+			<graphic boardno="I06021800219"/>
+			<dcpno>
+				<name>TEE, HOSE</name>
+				<desc>2-IN, M X M X M, FUEL</desc>
+				<partno>9-1-1398-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>4</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_T31">140</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-559-3852</niin>
+			</nsn>
+			<graphic boardno="I06021800192"/>
+			<dcpno>
+				<name>TENT</name>
+				<desc>TEMPER AIR-SUPPORTED, TYPE-31, 32-FT, GREEN</desc>
+				<partno>V00-010-022</partno>
+				<cageno>92878</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_T312">140</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-558-4701</niin>
+			</nsn>
+			<graphic boardno="I06021800192"/>
+			<dcpno>
+				<name>TENT</name>
+				<desc>TEMPER AIR-SUPPORTED, TYPE-31, 32-FT, TAN</desc>
+				<partno>V00-010-023</partno>
+				<cageno>92878</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_T37">141</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-558-8701</niin>
+			</nsn>
+			<graphic boardno="I06021800193"/>
+			<dcpno>
+				<name>TENT</name>
+				<desc>TEMPER AIR-SUPPORTED, TYPE-37, 32-FT, GREEN</desc>
+				<partno>V00-010-034</partno>
+				<cageno>92878</cageno>
+				<uoc>JAV</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TEMPER_T372">141</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-558-4702</niin>
+			</nsn>
+			<graphic boardno="I06021800193"/>
+			<dcpno>
+				<name>TENT</name>
+				<desc>TEMPER AIR-SUPPORTED, TYPE-37, 32-FT, TAN</desc>
+				<partno>V00-010-035</partno>
+				<cageno>92878</cageno>
+				<uoc>JAW</uoc>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_VESTIBULE_COMPLEXING">142</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-648-1126</niin>
+			</nsn>
+			<graphic boardno="I06021800194"/>
+			<dcpno>
+				<name>TENT COMPONENT KIT</name>
+				<desc>VESTIBULE COMPLEXING</desc>
+				<partno>V00-010-020</partno>
+				<cageno>92878</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_INNER_DOOR_INTERFACE">143</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-701-8279</niin>
+			</nsn>
+			<graphic boardno="I06021800195"/>
+			<dcpno>
+				<name>TENT LINER</name>
+				<desc>INNER DOOR INTERFACE</desc>
+				<partno>9-2-0336</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_INSULATED_LINER_T31">144</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-659-2880</niin>
+			</nsn>
+			<graphic boardno="I06021800196"/>
+			<dcpno>
+				<name>TENT LINER</name>
+				<desc>INSULATED, TYPE-31</desc>
+				<partno>CMCEWLAB32-T31</partno>
+				<cageno>80515</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>5</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_INSULATED_LINER_T37">145</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-659-2883</niin>
+			</nsn>
+			<graphic boardno="I06021800198"/>
+			<dcpno>
+				<name>TENT LINER</name>
+				<desc>INSULATED, TYPE-37</desc>
+				<partno>CMCEWLAB32-T37</partno>
+				<cageno>80515</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PARTITION_LINER">146</itemno>
+			<nsn>
+				<fsc>8340</fsc>
+				<niin>01-648-0933</niin>
+			</nsn>
+			<graphic boardno="I06021800197"/>
+			<dcpno>
+				<name>TENT LINER</name>
+				<desc>PARTITION</desc>
+				<partno>V00-010-126</partno>
+				<cageno>92878</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_STRAP_PACKOUT">147</itemno>
+			<nsn>
+				<fsc>3990</fsc>
+				<niin>01-204-3009</niin>
+			</nsn>
+			<graphic boardno="I06021800199"/>
+			<dcpno>
+				<name>TIE DOWN, CARGO, VEHICLE</name>
+				<desc/>
+				<partno>MIL-PRF-71224-1</partno>
+				<cageno>0KHZ6</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>79</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GMTK">148</itemno>
+			<nsn>
+				<fsc>5180</fsc>
+				<niin>01-483-0249</niin>
+			</nsn>
+			<graphic boardno="I06021800200"/>
+			<dcpno>
+				<name>TOOL KIT, GENERAL MECHANIC'S</name>
+				<desc/>
+				<partno>T-GMTK2018</partno>
+				<cageno>55719</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>SE</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRUNKLOCKER_T1">149</itemno>
+			<nsn>
+				<fsc>8460</fsc>
+				<niin>01-471-1024</niin>
+			</nsn>
+			<graphic boardno="I06021800201"/>
+			<dcpno>
+				<name>TRUNK, LOCKER</name>
+				<desc>TYPE-1, 24-1/2 INCH X 20-1/2 INCH X 12-3/4 INCH</desc>
+				<partno>A-A-59490,TY1CL1</partno>
+				<cageno>58536</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRUNKLOCKER_T2">150</itemno>
+			<nsn>
+				<fsc>8460</fsc>
+				<niin>01-471-1035</niin>
+			</nsn>
+			<graphic boardno="I06021800202"/>
+			<dcpno>
+				<name>TRUNK, LOCKER</name>
+				<desc>TYPE-2, 36-1/2 INCH X 18-1/2 INCH X 20-1/2 INCH</desc>
+				<partno>A-A-59490,TY2CL1</partno>
+				<cageno>58536</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_VALVE_BALL_112IN">151</itemno>
+			<nsn>
+				<fsc>4820</fsc>
+				<niin>01-657-0309</niin>
+			</nsn>
+			<graphic boardno="I06021800203"/>
+			<dcpno>
+				<name>VALVE, BALL</name>
+				<desc>1-1/2-IN, M X F, SOURCE WATER</desc>
+				<partno>9-1-1403-2</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_VALVE_BALL_1IN">152</itemno>
+			<nsn>
+				<fsc>4820</fsc>
+				<niin>01-657-0290</niin>
+			</nsn>
+			<graphic boardno="I06021800203"/>
+			<dcpno>
+				<name>VALVE, BALL</name>
+				<desc>1-IN, M X F, SOURCE WATER</desc>
+				<partno>9-1-1403-3</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>3</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_VALVE_BALL_2IN">153</itemno>
+			<nsn>
+				<fsc>4820</fsc>
+				<niin>01-657-0302</niin>
+			</nsn>
+			<graphic boardno="I06021800203"/>
+			<dcpno>
+				<name>VALVE, BALL</name>
+				<desc>2-IN, M X F, WASTEWATER</desc>
+				<partno>9-1-1403-1</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_VALVE_CHECK_112IN">154</itemno>
+			<nsn>
+				<fsc>4820</fsc>
+				<niin>01-657-4692</niin>
+			</nsn>
+			<graphic boardno="I06021800204"/>
+			<dcpno>
+				<name>VALVE, CHECK</name>
+				<desc>1-1/2-IN, M X F</desc>
+				<partno>9-1-1403-5</partno>
+				<cageno>81337</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_TRASH_CAN">155</itemno>
+			<nsn>
+				<fsc>7240</fsc>
+				<niin>00-819-7735</niin>
+			</nsn>
+			<graphic boardno="I06021800016"/>
+			<dcpno>
+				<name>WASTE RECEPTACLE</name>
+				<desc>32-GALLON</desc>
+				<partno>8632-92GRA</partno>
+				<cageno>1JGE4</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>8</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_GROUND_WIRE">156</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800205"/>
+			<dcpno>
+				<name>WIRE, ELECTRICAL</name>
+				<desc>GROUND, #6 AWG, 100-FT</desc>
+				<partno>10665890</partno>
+				<cageno>07909</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>SL</ui>
+			<qty>2</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PIPE_WRENCH_10IN">157</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>00-277-1477</niin>
+			</nsn>
+			<graphic boardno="I06021800206"/>
+			<dcpno>
+				<name>WRENCH, PIPE</name>
+				<desc>1-1/2-IN JAW, 10-IN LENGTH, ALUMINUM</desc>
+				<partno>5120-00-277-1477</partno>
+				<cageno>80244</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PIPE_WRENCH_18IN">158</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>01-336-5476</niin>
+			</nsn>
+			<graphic boardno="I06021800206"/>
+			<dcpno>
+				<name>WRENCH, PIPE</name>
+				<desc>2-1/2-IN JAW, 18-IN LENGTH, ALUMINUM</desc>
+				<partno>31100</partno>
+				<cageno>50893</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<coei-opt-entry>
+			<itemno id="COEI_PIPE_WRENCH_24IN">159</itemno>
+			<nsn>
+				<fsc>5120</fsc>
+				<niin>01-357-4759</niin>
+			</nsn>
+			<graphic boardno="I06021800206"/>
+			<dcpno>
+				<name>WRENCH, PIPE</name>
+				<desc>3-IN JAW, 24-IN LENGTH, ALUMINUM</desc>
+				<partno>31030</partno>
+				<cageno>50893</cageno>
+				<uoc/>
+			</dcpno>
+			<ui>EA</ui>
+			<qty>1</qty>
+		</coei-opt-entry>
+		<on-board-spares-opt>
+			<title>On-Board Spares</title>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_DRIP_PAN">160</itemno>
+				<nsn>
+					<fsc>7930</fsc>
+					<niin>01-316-6008</niin>
+				</nsn>
+				<graphic boardno="I06021800224"/>
+				<dcpno>
+					<name>ABSORBENT MATERIAL, OIL AND WATER</name>
+					<desc>DRIP PAN; PART OF GENERATOR SPARES</desc>
+					<partno>2410PP</partno>
+					<cageno>1JA49</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>BX</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_ABSORBENT_SHEETS">161</itemno>
+				<nsn>
+					<fsc>7930</fsc>
+					<niin>01-448-8636</niin>
+				</nsn>
+				<graphic boardno="I06021800243"/>
+				<dcpno>
+					<name>ABSORBENT MATERIAL, OIL AND WATER</name>
+					<desc>SHEETS; PART OF GENERATOR SPARES</desc>
+					<partno>MAT231</partno>
+					<cageno>1JA49</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>BX</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_LIGHTSTRAP_32FT">162</itemno>
+				<nsn>
+					<fsc>4030</fsc>
+					<niin>01-644-9205</niin>
+				</nsn>
+				<graphic boardno="I06021800093"/>
+				<dcpno>
+					<name>ANCHOR, GUY</name>
+					<desc>LIGHTS, 32-FT; PART OF TEMPER SPARES</desc>
+					<partno>VA001-05-0290</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_BAG">163</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800094"/>
+				<dcpno>
+					<name>BAG, SUPPORT, CAMOUFLAGE NET</name>
+					<desc>PART OF SOLAR SHADE SPARES</desc>
+					<partno>6025-1</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_STRAIGHT_RAIL">164</itemno>
+				<nsn>
+					<fsc>7105</fsc>
+					<niin>01-606-0478</niin>
+				</nsn>
+				<graphic boardno="I06021800095"/>
+				<dcpno>
+					<name>BED RAIL, STRAIGHT</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19843M</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_BELT">165</itemno>
+				<nsn>
+					<fsc>3030</fsc>
+					<niin>01-558-9229</niin>
+				</nsn>
+				<graphic boardno="I06021800096"/>
+				<dcpno>
+					<name>BELT, V</name>
+					<desc>PART OF GENERATOR SPARES</desc>
+					<partno>3289941</partno>
+					<cageno>0B8S3</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>3</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_TAPERED_RAIL">166</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-642-0545</niin>
+				</nsn>
+				<graphic boardno="I06021800097"/>
+				<dcpno>
+					<name>BRACKET, MOUNTING</name>
+					<desc>BED RAIL, TAPERED; PART OF BUNK BED SPARES</desc>
+					<partno>19844M</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>8</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_BRACKET">167</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-652-0921</niin>
+				</nsn>
+				<graphic boardno="I06021800099"/>
+				<dcpno>
+					<name>BRACKET, MOUNTING</name>
+					<desc>PART OF SOLAR SHADE SPARES</desc>
+					<partno>40-0146</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>10</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_STACKADAPTER">168</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-642-0559</niin>
+				</nsn>
+				<graphic boardno="I06021800098"/>
+				<dcpno>
+					<name>BRACKET, MOUNTING</name>
+					<desc>STACK ADAPTER; PART OF BUNK BED SPARES</desc>
+					<partno>19801CM</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>SE</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_CIRCUITCARD">169</itemno>
+				<nsn>
+					<fsc>5998</fsc>
+					<niin>01-649-2825</niin>
+				</nsn>
+				<graphic boardno="I06021800101"/>
+				<dcpno>
+					<name>CIRCUIT CARD ASSEMBLY</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>3002191-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_CLAMP_SAE10">170</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>00-877-6298</niin>
+				</nsn>
+				<graphic boardno="I06021800100"/>
+				<dcpno>
+					<name>CLAMP, HOSE</name>
+					<desc>SAE #10; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>AA52506F10</partno>
+					<cageno>58536</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_CLAMP_SAE28">171</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>00-277-2550</niin>
+				</nsn>
+				<graphic boardno="I06021800100"/>
+				<dcpno>
+					<name>CLAMP, HOSE</name>
+					<desc>SAE #28; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>A-A-52506-F-28</partno>
+					<cageno>58536</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_CLAMP_SAE8">172</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>01-556-4367</niin>
+				</nsn>
+				<graphic boardno="I06021800100"/>
+				<dcpno>
+					<name>CLAMP, HOSE</name>
+					<desc>SAE #8; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>AA52506-F-08</partno>
+					<cageno>58536</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>PG</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_CONTACTOR_K4">173</itemno>
+				<nsn>
+					<fsc>6110</fsc>
+					<niin>01-541-6006</niin>
+				</nsn>
+				<graphic boardno="I06021800102"/>
+				<dcpno>
+					<name>CONTACTOR, MAGNETIC</name>
+					<desc>K4, HEATERS; PART OF ECU SPARES</desc>
+					<partno>3004103-001S</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_CONTACTOR">174</itemno>
+				<nsn>
+					<fsc>6110</fsc>
+					<niin>01-648-9858</niin>
+				</nsn>
+				<graphic boardno="I06021800227"/>
+				<dcpno>
+					<name>CONTACTOR, MAGNETIC</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>3003254-002</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_RDOOR_DOORSKIN">175</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-4064</niin>
+				</nsn>
+				<graphic boardno="I06021800103"/>
+				<dcpno>
+					<name>DOOR, TENT</name>
+					<desc>DOOR SKIN, GREEN; PART OF RIGID DOOR SPARES</desc>
+					<partno>69RD004-300OD</partno>
+					<cageno>0WJE1</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_RDOOR_DOORSKIN2">175</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3703</niin>
+				</nsn>
+				<graphic boardno="I06021800103"/>
+				<dcpno>
+					<name>DOOR, TENT</name>
+					<desc>DOOR SKIN, TAN; PART OF RIGID DOOR SPARES</desc>
+					<partno>69RD004-300TN</partno>
+					<cageno>0WJE1</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_FILTER_FUELWATER">176</itemno>
+				<nsn>
+					<fsc>2910</fsc>
+					<niin>01-595-6561</niin>
+				</nsn>
+				<graphic boardno="I06021800106"/>
+				<dcpno>
+					<name>FILTER ELEMENT, FLUID</name>
+					<desc>FUEL/WATER SEPARATOR; PART OF GENERATOR SPARES</desc>
+					<partno>R25T</partno>
+					<cageno>55752</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>6</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_FILTER_OIL">177</itemno>
+				<nsn>
+					<fsc>4330</fsc>
+					<niin>01-492-6796</niin>
+				</nsn>
+				<graphic boardno="I06021800107"/>
+				<dcpno>
+					<name>FILTER ELEMENT, FLUID</name>
+					<desc>OIL; PART OF GENERATOR SPARES</desc>
+					<partno>3937736</partno>
+					<cageno>15434</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>12</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_FILTER_FUEL">178</itemno>
+				<nsn>
+					<fsc>2910</fsc>
+					<niin>01-572-5690</niin>
+				</nsn>
+				<graphic boardno="I06021800105"/>
+				<dcpno>
+					<name>FILTER, FLUID</name>
+					<desc>FUEL; PART OF GENERATOR SPARES</desc>
+					<partno>FF5612</partno>
+					<cageno>1DL99</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>6</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_FILTER_PAD">179</itemno>
+				<nsn>
+					<fsc>4130</fsc>
+					<niin>01-559-5331</niin>
+				</nsn>
+				<graphic boardno="I06021800109"/>
+				<dcpno>
+					<name>FILTERING PAD, AIR COOLER</name>
+					<desc>PART OF GENERATOR SPARES</desc>
+					<partno>AF25960</partno>
+					<cageno>33457</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>6</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_ENDNET">180</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6641</niin>
+				</nsn>
+				<graphic boardno="I06021800110"/>
+				<dcpno>
+					<name>FLY, TENT</name>
+					<desc>END NET, GREEN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6045</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_ENDNET2">180</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6653</niin>
+				</nsn>
+				<graphic boardno="I06021800110"/>
+				<dcpno>
+					<name>FLY, TENT</name>
+					<desc>END NET, TAN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6029</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_WING">181</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6661</niin>
+				</nsn>
+				<graphic boardno="I06021800111"/>
+				<dcpno>
+					<name>FLY, TENT</name>
+					<desc>WING, GREEN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6049</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_WING2">181</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6656</niin>
+				</nsn>
+				<graphic boardno="I06021800111"/>
+				<dcpno>
+					<name>FLY, TENT</name>
+					<desc>WING, TAN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6028</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_AIRBEAM">182</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-575-5528</niin>
+				</nsn>
+				<graphic boardno="I06021800112"/>
+				<dcpno>
+					<name>FRAME SECTION, TENT</name>
+					<desc>AIRBEAM; PART OF TEMPER SPARES</desc>
+					<partno>A001-02-0028</partno>
+					<cageno>81337</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_PRESSURE_GAGE">183</itemno>
+				<nsn>
+					<fsc>6685</fsc>
+					<niin>01-644-9218</niin>
+				</nsn>
+				<graphic boardno="I06021800114"/>
+				<dcpno>
+					<name>GAGE, PRESSURE, DIAL INDICATING</name>
+					<desc>PART OF TEMPER SPARES</desc>
+					<partno>A001-05-0258</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_FOOT">184</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-642-0539</niin>
+				</nsn>
+				<graphic boardno="I06021800116"/>
+				<dcpno>
+					<name>GLIDE, FURNITURE</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19846MRB</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>8</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_KITCHEN_HEATING_ELEMENT">185</itemno>
+				<nsn>
+					<fsc>4520</fsc>
+					<niin>01-644-9645</niin>
+				</nsn>
+				<graphic boardno="I06021800118"/>
+				<dcpno>
+					<name>HEATER, FLUID, ELECTRIC</name>
+					<desc>PART OF KITCHEN SPARES</desc>
+					<partno>EX770</partno>
+					<cageno>02HV8</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>3</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_WATER_HEATER">186</itemno>
+				<nsn>
+					<fsc>4520</fsc>
+					<niin>01-641-6064</niin>
+				</nsn>
+				<graphic boardno="I06021800119"/>
+				<dcpno>
+					<name>HEATER, WATER, ELECTRIC</name>
+					<desc>PART OF TRICON SYSTEM SPARES</desc>
+					<partno>EX180T2TS</partno>
+					<cageno>02HV8</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_HEATING_ELEMENT">187</itemno>
+				<nsn>
+					<fsc>4520</fsc>
+					<niin>01-643-7617</niin>
+				</nsn>
+				<graphic boardno="I06021800117"/>
+				<dcpno>
+					<name>HEATING ELEMENT, ELECTRICAL, NONIMMERSION TYPE</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>3001522-009</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>3</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LATRINE_RINSERING">188</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800144"/>
+				<dcpno>
+					<name>HOSE ASSEMBLY, NONMETALLIC</name>
+					<desc>RINSE RING; PART OF LATRINE SPARES</desc>
+					<partno>72102</partno>
+					<cageno>62247</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_LAMP">189</itemno>
+				<nsn>
+					<fsc>6240</fsc>
+					<niin>01-700-8245</niin>
+				</nsn>
+				<graphic boardno="I06021800122"/>
+				<dcpno>
+					<name>LAMP, FLUORESCENT</name>
+					<desc>T5, 4-FOOT; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>46706</partno>
+					<cageno>09818</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>5</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_FLOODLIGHT_LAMP">190</itemno>
+				<nsn>
+					<fsc>6240</fsc>
+					<niin>01-649-6937</niin>
+				</nsn>
+				<graphic boardno="I06021800228"/>
+				<dcpno>
+					<name>LAMP, INCANDESCENT</name>
+					<desc>PART OF FLOODLIGHT SPARES</desc>
+					<partno>DKL-QH</partno>
+					<cageno>4QN88</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>6</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_RDOOR_LATCH">191</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-657-1680</niin>
+				</nsn>
+				<graphic boardno="I06021800123"/>
+				<dcpno>
+					<name>LATCH ASSEMBLY, DOOR</name>
+					<desc>PART OF RIGID DOOR SPARES</desc>
+					<partno>69RD004-140</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_FLOODLIGHT_LIGHTHEAD">192</itemno>
+				<nsn>
+					<fsc>6220</fsc>
+					<niin>01-649-4907</niin>
+				</nsn>
+				<graphic boardno="I06021800124"/>
+				<dcpno>
+					<name>LIGHTHEAD</name>
+					<desc>PART OF FLOODLIGHT SPARES</desc>
+					<partno>04803302</partno>
+					<cageno>550C1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>AY</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_ROPE_LG">193</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3127</niin>
+				</nsn>
+				<graphic boardno="I06021800125"/>
+				<dcpno>
+					<name>LINE, TENT</name>
+					<desc>LARGE; PART OF SOLAR SHADE SPARES</desc>
+					<partno>C40-0142</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>10</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_ROPE_SM">194</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3131</niin>
+				</nsn>
+				<graphic boardno="I06021800229"/>
+				<dcpno>
+					<name>LINE, TENT</name>
+					<desc>SMALL; PART OF SOLAR SHADE SPARES</desc>
+					<partno>C40-0144</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>10</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_LOCKBAR">195</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-642-7303</niin>
+				</nsn>
+				<graphic boardno="I06021800126"/>
+				<dcpno>
+					<name>LOCK BAR</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19843SB</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_MANIFOLD">196</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>01-573-2382</niin>
+				</nsn>
+				<graphic boardno="I06021800127"/>
+				<dcpno>
+					<name>MANIFOLD, AIR LINE</name>
+					<desc>PART OF TEMPER SPARES</desc>
+					<partno>VA001-02-0268</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_MANIFOLD">197</itemno>
+				<nsn>
+					<fsc>2815</fsc>
+					<niin>01-657-1355</niin>
+				</nsn>
+				<graphic boardno="I06021800128"/>
+				<dcpno>
+					<name>MANIFOLD, INTAKE</name>
+					<desc>PART OF GENERATOR SPARES</desc>
+					<partno>9-1-0194-1</partno>
+					<cageno>81337</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_MAT">198</itemno>
+				<nsn>
+					<fsc>7210</fsc>
+					<niin>01-643-6088</niin>
+				</nsn>
+				<graphic boardno="I06021800129"/>
+				<dcpno>
+					<name>MAT, SLEEPING</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19823XLM</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_MENDER_12IN">199</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800121"/>
+				<dcpno>
+					<name>MENDER, HOSE</name>
+					<desc>1/2-INCH, BARBED, BRASS; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>32096</partno>
+					<cageno>47KJ5</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_MENDER_1IN">200</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>01-700-2814</niin>
+				</nsn>
+				<graphic boardno="I06021800121"/>
+				<dcpno>
+					<name>MENDER, HOSE</name>
+					<desc>1-INCH, BARBED, ALUMINUM; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>A-A-52403-12</partno>
+					<cageno>58536</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_MENDER_34IN">201</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>00-063-3913</niin>
+				</nsn>
+				<graphic boardno="I06021800121"/>
+				<dcpno>
+					<name>MENDER, HOSE</name>
+					<desc>3/4-INCH, BARBED, BRASS; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>AA2921M2B</partno>
+					<cageno>58536</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_RDOOR_FRAMESKIN">202</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3691</niin>
+				</nsn>
+				<graphic boardno="I06021800131"/>
+				<dcpno>
+					<name>PANEL, TENT</name>
+					<desc>FRAME SKIN, GREEN; PART OF RIGID DOOR SPARES</desc>
+					<partno>69RD004-410OD</partno>
+					<cageno>0WJE1</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_RDOOR_FRAMESKIN2">202</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3783</niin>
+				</nsn>
+				<graphic boardno="I06021800131"/>
+				<dcpno>
+					<name>PANEL, TENT</name>
+					<desc>FRAME SKIN, TAN; PART OF RIGID DOOR SPARES</desc>
+					<partno>69RD004-410TN</partno>
+					<cageno>0WJE1</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_TENTPOLE">203</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3500</niin>
+				</nsn>
+				<graphic boardno="I06021800133"/>
+				<dcpno>
+					<name>POLE, TENT</name>
+					<desc>PART OF SOLAR SHADE SPARES</desc>
+					<partno>C40-0145</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>5</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_POLESLEEVE">204</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6730</niin>
+				</nsn>
+				<graphic boardno="I06021800134"/>
+				<dcpno>
+					<name>POLE, TENT</name>
+					<desc>POLE SLEEVE, GREEN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6050</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_POLESLEEVE2">204</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-651-6736</niin>
+				</nsn>
+				<graphic boardno="I06021800134"/>
+				<dcpno>
+					<name>POLE, TENT</name>
+					<desc>POLE SLEEVE, TAN; PART OF SOLAR SHADE SPARES</desc>
+					<partno>6026</partno>
+					<cageno>1X5J9</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_POLESECT_FERRULE">205</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3143</niin>
+				</nsn>
+				<graphic boardno="I06021800135"/>
+				<dcpno>
+					<name>POLE, TENT</name>
+					<desc>SECTION WITH FERRULE; PART OF SOLAR SHADE SPARES</desc>
+					<partno>C40-0147</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_POLESECT">206</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-659-3148</niin>
+				</nsn>
+				<graphic boardno="I06021800136"/>
+				<dcpno>
+					<name>POLE, TENT</name>
+					<desc>SECTION WITHOUT FERRULE; PART OF SOLAR SHADE SPARES</desc>
+					<partno>C40-0148</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_POWER_SUPPLY">207</itemno>
+				<nsn>
+					<fsc>6130</fsc>
+					<niin>01-648-9795</niin>
+				</nsn>
+				<graphic boardno="I06021800137"/>
+				<dcpno>
+					<name>POWER SUPPLY</name>
+					<desc>220 PRIMARY TO 24 VDC; PART OF ECU SPARES</desc>
+					<partno>3002114-002-SV</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_KITCHEN_WASTE_PUMP">208</itemno>
+				<nsn>
+					<fsc>4320</fsc>
+					<niin>01-657-1670</niin>
+				</nsn>
+				<graphic boardno="I06021800139"/>
+				<dcpno>
+					<name>PUMP UNIT, CENTRIFUGAL</name>
+					<desc>WASTEWATER; PART OF KITCHEN SPARES</desc>
+					<partno>M53</partno>
+					<cageno>3Y232</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_KITCHEN_SOURCE_PUMP">209</itemno>
+				<nsn>
+					<fsc>4320</fsc>
+					<niin>01-486-3601</niin>
+				</nsn>
+				<graphic boardno="I06021800140"/>
+				<dcpno>
+					<name>PUMP, RECIPROCATING</name>
+					<desc>POTABLE WATER; PART OF KITCHEN SPARES</desc>
+					<partno>2088-594-154</partno>
+					<cageno>09BX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_RELAY_COMPEN">210</itemno>
+				<nsn>
+					<fsc>5945</fsc>
+					<niin>01-649-2633</niin>
+				</nsn>
+				<graphic boardno="I06021800141"/>
+				<dcpno>
+					<name>RELAY, ELECTROMAGNETIC</name>
+					<desc>COMPRESSOR ENABLE; PART OF ECU SPARES</desc>
+					<partno>3003422-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_REPAIRKIT">211</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-575-0037</niin>
+				</nsn>
+				<graphic boardno="I06021800142"/>
+				<dcpno>
+					<name>REPAIR KIT, TENTAGE</name>
+					<desc>AS COVER, GREEN; PART OF TEMPER SPARES</desc>
+					<partno>00-010-401</partno>
+					<cageno>81337</cageno>
+					<uoc>JAV</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_REPAIRKIT2">211</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-575-0056</niin>
+				</nsn>
+				<graphic boardno="I06021800142"/>
+				<dcpno>
+					<name>REPAIR KIT, TENTAGE</name>
+					<desc>AS COVER, TAN; PART OF TEMPER SPARES</desc>
+					<partno>A001-02-0271</partno>
+					<cageno>81337</cageno>
+					<uoc>JAW</uoc>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SHOWER_RESTRICTOR">212</itemno>
+				<nsn>
+					<fsc>4730</fsc>
+					<niin>01-642-5707</niin>
+				</nsn>
+				<graphic boardno="I06021800143"/>
+				<dcpno>
+					<name>RESTRICTOR, FLUID FLOW</name>
+					<desc>PART OF SHOWER SPARES</desc>
+					<partno>9-2-2112</partno>
+					<cageno>81337</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>12</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SHOWER_SWRHEAD">213</itemno>
+				<nsn>
+					<fsc>4510</fsc>
+					<niin>01-641-7233</niin>
+				</nsn>
+				<graphic boardno="I06021800145"/>
+				<dcpno>
+					<name>SHOWER HEAD</name>
+					<desc>PART OF SHOWER SPARES</desc>
+					<partno>15013</partno>
+					<cageno>5FNU7</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_SPACER">214</itemno>
+				<nsn>
+					<fsc>5365</fsc>
+					<niin>01-642-0552</niin>
+				</nsn>
+				<graphic boardno="I06021800147"/>
+				<dcpno>
+					<name>SPACER, RING</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19841M</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>8</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STAKE_18IN">215</itemno>
+				<nsn>
+					<fsc>4030</fsc>
+					<niin>01-644-9197</niin>
+				</nsn>
+				<graphic boardno="I06021800148"/>
+				<dcpno>
+					<name>STAKE, GUY</name>
+					<desc>5/8 IN X 18 IN, RED; PART OF TEMPER SPARES</desc>
+					<partno>VA001-05-0292</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>8</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STAKE_36IN">216</itemno>
+				<nsn>
+					<fsc>8340</fsc>
+					<niin>01-599-5370</niin>
+				</nsn>
+				<graphic boardno="I06021800149"/>
+				<dcpno>
+					<name>STAKE, HOLD-DOWN TENT</name>
+					<desc>1 IN X 36 IN, BLACK; PART OF TEMPER SPARES</desc>
+					<partno>V00-010-281</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LAUNDRY_STRAINER">217</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800220"/>
+				<dcpno>
+					<name>STRAINER ELEMENT, SEDIMENT</name>
+					<desc>1-INCH, 120 MESH; PART OF LAUNDRY SPARES</desc>
+					<partno>44085K6</partno>
+					<cageno>39428</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STRAP_BOTTOMRATCHET">218</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-644-5026</niin>
+				</nsn>
+				<graphic boardno="I06021800150"/>
+				<dcpno>
+					<name>STRAP, LINE SUPPORTING</name>
+					<desc>BOTTOM RATCHET ASSEMBLY; PART OF TEMPER SPARES</desc>
+					<partno>V00-010-815</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STRAP_PEAK">219</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-644-9206</niin>
+				</nsn>
+				<graphic boardno="I06021800151"/>
+				<dcpno>
+					<name>STRAP, LINE SUPPORTING</name>
+					<desc>PEAK STRAP; PART OF TEMPER SPARES</desc>
+					<partno>V00-010-921</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STRAP_TOPRATCHET">220</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-648-8256</niin>
+				</nsn>
+				<graphic boardno="I06021800152"/>
+				<dcpno>
+					<name>STRAP, LINE SUPPORTING</name>
+					<desc>TOP RATCHET ASSEMBLY; PART OF TEMPER SPARES</desc>
+					<partno>V00-010-816</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_STRAP_FIXED">221</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-573-6353</niin>
+				</nsn>
+				<graphic boardno="I06021800153"/>
+				<dcpno>
+					<name>STRAP, RETAINING</name>
+					<desc>FIXED ASSEMBLY; PART OF TEMPER SPARES</desc>
+					<partno>V00-010-814</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_ZIPTIES">222</itemno>
+				<nsn>
+					<fsc>5975</fsc>
+					<niin>00-985-6630</niin>
+				</nsn>
+				<graphic boardno="I06021800154"/>
+				<dcpno>
+					<name>STRAP, TIE DOWN, ELECTRICAL COMPONENTS</name>
+					<desc>PART OF TEMPER SPARES</desc>
+					<partno>MS3367-3-0</partno>
+					<cageno>0U583</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>HD</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_LIGHTSTRAP_21FT">223</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-650-3723</niin>
+				</nsn>
+				<graphic boardno="I06021800156"/>
+				<dcpno>
+					<name>STRAP, WEBBING</name>
+					<desc>LIGHTS, 21-FT; PART OF TEMPER SPARES</desc>
+					<partno>LT200142</partno>
+					<cageno>06967</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_BUNKBED_STRAP">224</itemno>
+				<nsn>
+					<fsc>5340</fsc>
+					<niin>01-642-0536</niin>
+				</nsn>
+				<graphic boardno="I06021800155"/>
+				<dcpno>
+					<name>STRAP, WEBBING</name>
+					<desc>PART OF BUNK BED SPARES</desc>
+					<partno>19806</partno>
+					<cageno>3K5G1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SSHADE_STRAP_INSTALLAION">225</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800157"/>
+				<dcpno>
+					<name>STRAP, WEBBING</name>
+					<desc>PART OF SOLAR SHADE SPARES</desc>
+					<partno>30-0058</partno>
+					<cageno>1X5J9</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SWITCH_ELECTRONIC">226</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-542-1952</niin>
+				</nsn>
+				<graphic boardno="I06021800158"/>
+				<dcpno>
+					<name>SWITCH, ELECTRONIC</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>491-00015</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LAUNDRY_PRESSURE_SWITCH">227</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-617-3768</niin>
+				</nsn>
+				<graphic boardno="I06021800230"/>
+				<dcpno>
+					<name>SWITCH, PRESSURE</name>
+					<desc>LOW WATER CUT OUT; PART OF LAUNDRY SPARES</desc>
+					<partno>9013FSG2J21M4</partno>
+					<cageno>56365</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SWITCH_S11">228</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-643-6229</niin>
+				</nsn>
+				<graphic boardno="I06021800237"/>
+				<dcpno>
+					<name>SWITCH, PRESSURE</name>
+					<desc>S11, LOW PRESSURE; PART OF ECU SPARES</desc>
+					<partno>3003248-001</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SWITCH_S5">229</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-643-6250</niin>
+				</nsn>
+				<graphic boardno="I06021800231"/>
+				<dcpno>
+					<name>SWITCH, PRESSURE</name>
+					<desc>S5, HIGH PRESSURE; PART OF ECU SPARES</desc>
+					<partno>3003247-001</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SWITCH_S6">230</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-643-6175</niin>
+				</nsn>
+				<graphic boardno="I06021800232"/>
+				<dcpno>
+					<name>SWITCH, PRESSURE</name>
+					<desc>S6, LOW PRESSURE; PART OF ECU SPARES</desc>
+					<partno>20PS40-95</partno>
+					<cageno>82647</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SWITCH_S7">231</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-643-6898</niin>
+				</nsn>
+				<graphic boardno="I06021800232"/>
+				<dcpno>
+					<name>SWITCH, PRESSURE</name>
+					<desc>S7, FAN CYCLE; PART OF ECU SPARES</desc>
+					<partno>3003249-001</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LATRINE_SWITCH_PUSH">232</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800240"/>
+				<dcpno>
+					<name>SWITCH, PUSH</name>
+					<desc>PART OF LATRINE SPARES</desc>
+					<partno>89184</partno>
+					<cageno>62247</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_ROTARY_SWITCH">233</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-648-9877</niin>
+				</nsn>
+				<graphic boardno="I06021800161"/>
+				<dcpno>
+					<name>SWITCH, ROTARY</name>
+					<desc>MAIN MODULE; PART OF ECU SPARES</desc>
+					<partno>3002200-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_THERMOSTAT_72C">234</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-648-9981</niin>
+				</nsn>
+				<graphic boardno="I06021800162"/>
+				<dcpno>
+					<name>SWITCH, THERMOSTATIC</name>
+					<desc>72C, HEATER; PART OF ECU SPARES</desc>
+					<partno>3003396-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_THERMOSTAT_82C">235</itemno>
+				<nsn>
+					<fsc>5930</fsc>
+					<niin>01-648-9797</niin>
+				</nsn>
+				<graphic boardno="I06021800162"/>
+				<dcpno>
+					<name>SWITCH, THERMOSTATIC</name>
+					<desc>82C, HEATER; PART OF ECU SPARES</desc>
+					<partno>3003397-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_THERMOSTAT_SLAVE">236</itemno>
+				<nsn>
+					<fsc>6930</fsc>
+					<niin>01-541-5411</niin>
+				</nsn>
+				<graphic boardno="I06021800165"/>
+				<dcpno>
+					<name>THERMOSTAT, SLAVE</name>
+					<desc>A350; PART OF ECU SPARES</desc>
+					<partno>3001469-001</partno>
+					<cageno>92878</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LATRINE_TIMER_12V">237</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800167"/>
+				<dcpno>
+					<name>TIMER, INTERVAL</name>
+					<desc>12-VDC; PART OF LATRINE SPARES</desc>
+					<partno>72027-3</partno>
+					<cageno>62247</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LATRINE_TIMER_24V">238</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800244"/>
+				<dcpno>
+					<name>TIMER, INTERVAL</name>
+					<desc>24-VDC; PART OF LATRINE SPARES</desc>
+					<partno>72027</partno>
+					<cageno>62247</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_GENERATOR_PAPERTOWEL">239</itemno>
+				<nsn>
+					<fsc>7920</fsc>
+					<niin>01-448-7052</niin>
+				</nsn>
+				<graphic boardno="I06021800168"/>
+				<dcpno>
+					<name>TOWEL, PAPER</name>
+					<desc>PART OF GENERATOR SPARES</desc>
+					<partno>7920014487052</partno>
+					<cageno>83421</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>BX</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_TRANSFORMER">240</itemno>
+				<nsn>
+					<fsc>5950</fsc>
+					<niin>01-643-5511</niin>
+				</nsn>
+				<graphic boardno="I06021800241"/>
+				<dcpno>
+					<name>TRANSFORMER, POWER</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>3003256-001</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_TUBING_12IN">241</itemno>
+				<nsn>
+					<fsc>4720</fsc>
+					<niin>01-269-1565</niin>
+				</nsn>
+				<graphic boardno="I06021800170"/>
+				<dcpno>
+					<name>TUBING, NONMETALLIC</name>
+					<desc>1/2-INCH ID; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>MHN050</partno>
+					<cageno>06034</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>FT</ui>
+				<qty>5</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_TUBING_1IN">242</itemno>
+				<nsn>
+					<fsc>4720</fsc>
+					<niin>01-245-3663</niin>
+				</nsn>
+				<graphic boardno="I06021800170"/>
+				<dcpno>
+					<name>TUBING, NONMETALLIC</name>
+					<desc>1-INCH ID; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>1020005-100</partno>
+					<cageno>06034</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>FT</ui>
+				<qty>5</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TRICON_TUBING_34IN">243</itemno>
+				<nsn>
+					<fsc>4720</fsc>
+					<niin>01-022-8241</niin>
+				</nsn>
+				<graphic boardno="I06021800170"/>
+				<dcpno>
+					<name>TUBING, NONMETALLIC</name>
+					<desc>3/4-INCH ID; PART OF TRICON SYSTEM SPARES</desc>
+					<partno>1020117</partno>
+					<cageno>06034</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>FT</ui>
+				<qty>5</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_TXV">244</itemno>
+				<nsn>
+					<fsc>4820</fsc>
+					<niin>01-649-3589</niin>
+				</nsn>
+				<graphic boardno="I06021800171"/>
+				<dcpno>
+					<name>VALVE, EXPANSION</name>
+					<desc>PART OF ECU SPARES</desc>
+					<partno>54088</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_DISCHARGE_VALVE">245</itemno>
+				<nsn>
+					<fsc>4820</fsc>
+					<niin>01-643-8148</niin>
+				</nsn>
+				<graphic boardno="I06021800172"/>
+				<dcpno>
+					<name>VALVE, PURGE</name>
+					<desc>DISCHARGE; PART OF ECU SPARES</desc>
+					<partno>1005228</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>2</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_ECU_SUCTION_VALVE">246</itemno>
+				<nsn>
+					<fsc>4820</fsc>
+					<niin>01-643-8863</niin>
+				</nsn>
+				<graphic boardno="I06021800172"/>
+				<dcpno>
+					<name>VALVE, PURGE</name>
+					<desc>SUCTION; PART OF ECU SPARES</desc>
+					<partno>1005227</partno>
+					<cageno>0WJE1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>6</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_TEMPER_PRESSURE_VALVE">247</itemno>
+				<nsn>
+					<fsc>4820</fsc>
+					<niin>01-573-2391</niin>
+				</nsn>
+				<graphic boardno="I06021800173"/>
+				<dcpno>
+					<name>VALVE, REGULATING, FLUID PRESSURE</name>
+					<desc>PART OF TEMPER SPARES</desc>
+					<partno>VA001-05-0214-S</partno>
+					<cageno>7JYX1</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_LATRINE_SOLENOID">248</itemno>
+				<nsn>
+					<fsc/>
+					<niin/>
+				</nsn>
+				<graphic boardno="I06021800242"/>
+				<dcpno>
+					<name>VALVE, SOLENOID</name>
+					<desc>24-VDC; PART OF LATRINE SPARES</desc>
+					<partno>72025</partno>
+					<cageno>62247</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>4</qty>
+			</coei-opt-entry>
+			<coei-opt-entry>
+				<itemno id="OBS_SHOWER_VALVE">249</itemno>
+				<nsn>
+					<fsc>4510</fsc>
+					<niin>01-641-5940</niin>
+				</nsn>
+				<graphic boardno="I06021800174"/>
+				<dcpno>
+					<name>VALVE, WATER MIXING</name>
+					<desc>PART OF SHOWER SPARES</desc>
+					<partno>S-86-1-IPS</partno>
+					<cageno>02977</cageno>
+					<uoc/>
+				</dcpno>
+				<ui>EA</ui>
+				<qty>1</qty>
+			</coei-opt-entry>
+		</on-board-spares-opt>
+	</coei-opt>
+	<bii-opt>
+		<title>Basic Issue Items (BII)</title>
+		<bii-opt-entry>
+			<itemno id="S00002-10-5419-218-BII-1">1</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800175"/>
+			<dcpno>
+				<name>MANUAL, TECHNICAL</name>
+				<desc>OPERATOR'S MANUAL</desc>
+				<partno>TM 10-5419-218-10</partno>
+				<cageno/>
+				<uoc/>
+			</dcpno>
+			<ui>BK</ui>
+			<qty>1</qty>
+		</bii-opt-entry>
+		<bii-opt-entry>
+			<itemno id="S00002-10-5419-218-BII-2">2</itemno>
+			<nsn>
+				<fsc/>
+				<niin/>
+			</nsn>
+			<graphic boardno="I06021800175"/>
+			<dcpno>
+				<name>MANUAL, TECHNICAL</name>
+				<desc>FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST</desc>
+				<partno>TM 10-5419-218-23&amp;P</partno>
+				<cageno/>
+				<uoc/>
+			</dcpno>
+			<ui>BK</ui>
+			<qty>1</qty>
+		</bii-opt-entry>
+	</bii-opt>
+</coeibiiwp>

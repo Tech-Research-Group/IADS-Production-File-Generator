@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00032-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - SHOWER SUBSYSTEM</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Apron, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_APRON"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Toxicological Agents Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_TOXIC"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>2 People</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<xref wpid="O00033-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00002-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>ESS long term shutdown</condition>
+				<itemref>
+					<extref docno="TM 10-5419-210-13&amp;P"/>
+				</itemref>
+			</eqpconds-setup-item>
+			<eqpconds-setup-item>
+				<condition>Water heater preparation for movement</condition>
+				<itemref>
+					<extref docno="TM 10-4520-266-13&amp;P"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Disconnect Expeditionary Shower System (ESS) Power</title>
+				<step1 id="O00032-10-5419-218-S0451">
+					<specpara>
+						<warning>
+							<icon-set boardno="Electrical_Symbols"/>
+							<icon-set boardno="Slick_Floor"/>
+							<icon-set boardno="Falling"/>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+							<trim.para>Interior and exterior areas of ESS may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+						</warning>
+						<note>
+							<trim.para>One 50-ft (15.2-m), 60-A power cable is a component of each ESS.</trim.para>
+						</note>
+						<para>Locate power distribution box (PDB) 3.</para>
+					</specpara>
+				</step1>
+				<figure id="O00032-10-5419-218-F0001">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Trace power cable from ESS to 60-A output power receptacle (circuit (CKT) 2, CKT 3, CKT 5, or CKT 6) (<xref figid="O00032-10-5419-218-T0003"/>) at PDB 3 (<xref figid="O00032-10-5419-218-F0001"/>). Set associated ESS 60-A circuit breaker (CB) (<xref figid="O00032-10-5419-218-F0001"/>) to OFF position.</para>
+				</step1>
+				<figure id="O00032-10-5419-218-F0002">
+					<title>PDB 60-A CBs and Output Receptacles</title>
+					<graphic boardno="G06021800307"/>
+				</figure>
+				<table id="O00032-10-5419-218-T0003">
+					<title>PDB 60-A Receptacles and CBs</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>OUTPUT RECEPTACLE</entry>
+								<entry>CB</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Circuit 2 (3&oslash; 2 60-A)</entry>
+								<entry>CB 2</entry>
+							</row>
+							<row>
+								<entry>Circuit 3 (3&oslash; 3 60-A)</entry>
+								<entry>CB 3</entry>
+							</row>
+							<row>
+								<entry>Circuit 5 (3&oslash; 5 60-A)</entry>
+								<entry>CB 5</entry>
+							</row>
+							<row>
+								<entry>Circuit 6 (3&oslash; 6 60-A)</entry>
+								<entry>CB 6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<step1>
+					<para>Disconnect receptacle and power cable dust covers <callout assocfig="O00032-10-5419-218-F0003" label="2"/>.</para>
+				</step1>
+				<figure id="O00032-10-5419-218-F0003">
+					<title>Disconnect Power Cable</title>
+					<graphic boardno="G06021800048"/>
+				</figure>
+				<step1>
+					<para>Disconnect 60-A power cable <callout assocfig="O00032-10-5419-218-F0003" label="1"/> from 60-A receptacle at PDB.</para>
+				</step1>
+				<step1>
+					<para>Connect dust covers to receptacle and power cable.</para>
+				</step1>
+				<step1>
+					<para>Follow power cable from PDB (<xref figid="O00032-10-5419-218-F0001"/>) towards ESS <callout assocfig="O00032-10-5419-218-F0004" label="1"/> and disconnect any connected power cable dust covers <callout assocfig="O00032-10-5419-218-F0003" label="2"/> from one another.</para>
+				</step1>
+				<figure id="O00032-10-5419-218-F0004">
+					<title>ESS Power Cable Routing</title>
+					<graphic boardno="G06021800091"/>
+				</figure>
+				<step1>
+					<para>Disconnect any connected power cable <callout assocfig="O00032-10-5419-218-F0004" label="3"/> leading to ESS power cable <callout assocfig="O00032-10-5419-218-F0004" label="2"/>.</para>
+				</step1>
+				<step1 id="O00032-10-5419-218-S0452">
+					<para>Install dust covers <callout assocfig="O00032-10-5419-218-F0003" label="2"/> to each power cable.</para>
+				</step1>
+				<step1>
+					<para>Tightly coil all power cables for inventory and packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Pack ESS</title>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Biological_Symbol"/>
+							<trim.para>Wastewater generated during ESS operation may contain biohazardous materials. Personal protective equipment (apron, goggles, and protective gloves) must be worn during maintenance. Failure to comply can result in death or serious illness to personnel. Seek immediate medical attention if contact with wastewater occurs.</trim.para>
+							<trim.para>Potable water hoses or fittings should not be handled directly after handling wastewater hoses or fittings. Wastewater items may contain bacteria or viruses that present a danger to life or health if not properly sanitized. Seek immediate medical attention if illness occurs.</trim.para>
+						</warning>
+						<para>Perform ESS PREPARATION FOR MOVEMENT procedures IAW <extref docno="TM 10-5419-210-13&amp;P"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Cap and coil any remaining hoses for inventory and packout.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>Stage Shower Subsystem Items for Packout</title>
+				<step1>
+					<para>Prepare floodlights for movement IAW <xref wpid="O00033-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Some Shower Subsystem components may be stored in TRICONs during periods of disuse or may not be present as they have been consumed during operation.</trim.para>
+							<trim.para>COEI List (<xref wpid="S00002-10-5419-218"/>) can be utilized to identify items required.</trim.para>
+						</note>
+						<para>Locate items listed in <xref tableid="O00032-10-5419-218-T0005"/> in quantities specified, and stage at appropriate transportation TRICON for packout.</para>
+					</specpara>
+				</step1>
+				<table id="O00032-10-5419-218-T0005">
+					<title>Shower Subsystem Components</title>
+					<tgroup cols="4">
+						<colspec colname="col1" colwidth="0.75in"/>
+						<colspec colname="col2" colwidth="3.5in"/>
+						<colspec colname="col3" colwidth="0.75in"/>
+						<colspec colname="col4" colwidth="2.0in"/>
+						<thead>
+							<row>
+								<entry>TRICON</entry>
+								<entry>NOMENCLATURE</entry>
+								<entry>QTY</entry>
+								<entry>COEI REFERENCE</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>50C</entry>
+								<entry>COVER, CAN, TRASH AND GARBAGE</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASHCAN_COVER"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>DRUM, SHIPPING AND STORAGE (STEEL, 55-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_55GAL_DRUM"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HEATER, WATER 400,000 BTU (WH-400)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_WH400"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (SOURCE WATER, 1-1/2-IN X 25-FT, F X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_112IN_25FT_FXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>HOSE ASSEMBLY, NONMETALLIC (SOURCE WATER, 1-IN X 25-FT, F X F)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_HOSE_1IN_25FT_FXF"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>WASTE RECEPTACLE (32-GAL)</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_TRASH_CAN"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55C</entry>
+								<entry>CABLE ASSEMBLY, POWER, ELECTRICAL (60-A, 50-FT)</entry>
+								<entry>2</entry>
+								<entry>
+									<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_CABLE_60A50FT"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>

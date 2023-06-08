@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tswp chngno="0" wpno="T00010-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>TROUBLESHOOTING PROCEDURES <brk/> POWER GENERATION AND FUEL DISTRIBUTION SUBSYSTEM - NO FUEL FROM FUEL DISTRIBUTION SYSTEM (FDS)</title>
+	</wpidinfo>
+	<initial_setup>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Absorbent Material, Oil and Water</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_ABSORBENT_SHEETS"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="T00017-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<intro>
+		<para0>
+			<title>Introduction</title>
+			<para>Each fault condition will be listed in this work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed.</para>
+			<para>Operation of affected component should be attempted after each corrective action is performed before moving on to next corrective action. This will help determine if fault has been corrected or if more corrective action is required.</para>
+		</para0>
+	</intro>
+	<tsproc>
+		<faultproc>
+			<title/>
+			<symptom>No fuel from Fuel Distribution System (FDS).</symptom>
+			<malfunc label="malfunction">Fuel tank empty.</malfunc>
+			<action>
+				<step1>
+					<para>Verify fuel tank <callout assocfig="T00010-10-5419-218-F0002" label="6"/> has fuel.</para>
+					<figure id="T00010-10-5419-218-F0002">
+						<title>Fuel Tank and Connections</title>
+						<graphic boardno="G06021800010"/>
+					</figure>
+					<step2>
+						<para>PASS: Proceed to malfunction "Fuel lines disconnected."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to <xref stepstart="T00010-fuel_empty"/>.</para>
+					</step2>
+				</step1>
+				<step1 id="T00010-fuel_empty">
+					<para>Add fuel to fuel tank <callout assocfig="T00010-10-5419-218-F0002" label="6"/> IAW <extref docno="TM 10-5430-225-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Fuel lines disconnected."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Fuel lines disconnected.</malfunc>
+			<action>
+				<step1>
+					<para>Verify fuel hose <callout assocfig="T00010-10-5419-218-F0002" label="5"/> is securely connected to reducer <callout assocfig="T00010-10-5419-218-F0002" label="4"/> and reducer is securely connected to ball valve <callout assocfig="T00010-10-5419-218-F0002" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Verify fuel hose <callout assocfig="T00010-10-5419-218-F0002" label="1"/> is securely connected to ball valve <callout assocfig="T00010-10-5419-218-F0002" label="3"/> and tee<callout assocfig="T00010-10-5419-218-F0002" label="7"/>.</para>
+				</step1>
+				<step1>
+					<para>Verify reducer <callout assocfig="T00010-10-5419-218-F0002" label="8"/> is securely connected to tee <callout assocfig="T00010-10-5419-218-F0002" label="7"/> and ball valve <callout assocfig="T00010-10-5419-218-F0002" label="9"/>.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "Ball valve closed."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to <xref stepstart="T00010-hose_disco"/>.</para>
+					</step2>
+				</step1>
+				<step1 id="T00010-hose_disco">
+					<para>Connect fuel hoses and fittings IAW <xref figid="T00010-10-5419-218-F0002"/>.</para>
+				</step1>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "Ball valve closed."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">Ball valve closed.</malfunc>
+			<action>
+				<step1>
+					<para>Verify inline ball valve <callout assocfig="T00010-10-5419-218-F0002" label="3"/> and fuel tank ball valve <callout assocfig="T00010-10-5419-218-F0002" label="9"/> are in open position.</para>
+					<step2>
+						<para>PASS: Proceed to malfunction "No power at power distribution box (PDB)."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Open ball valve(s) and proceed to <xref stepstart="T00010-valve_closed"/>.</para>
+					</step2>
+				</step1>
+				<step1 id="T00010-valve_closed">
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "No power at power distribution box (PDB)."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">No power at power distribution box (PDB).</malfunc>
+			<action>
+				<warning>
+					<icon-set boardno="Electrical_Symbols"/>
+					<icon-set boardno="Slick_Floor"/>
+					<icon-set boardno="Falling"/>
+					<trim.para>Power setup of Expeditionary Platoon Life Support Module (EPLSM) may vary from site to site. Correct circuit breaker (CB) can be identified by following power cables from component back to PDB. Failure to comply may result in power remaining at component. This can lead to serious injury or death of personnel. Seek immediate medical attention if injury occurs.</trim.para>
+					<trim.para>All jewelry must be removed before starting work. Metal objects, such as rings or tools, can cause short circuits when contacting live circuits. A direct short can cause instant heating of metal resulting in severe burns. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+					<trim.para>Interior and exterior areas of EPLSM may be a wet environment. Electrical cables and controls should not be handled with wet hands or while standing in water. Failure to comply may result in serious injury or death to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+					<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+				</warning>
+				<note>
+					<trim.para>This corrective action will determine if fault is local to FDS or part of a larger issue. If larger issue is found, user will be directed to appropriate troubleshooting procedure.</trim.para>
+				</note>
+				<step1>
+					<para>Identify PDB (<xref figid="T40001-PDB_ID"/>) supplying power to FDS.</para>
+				</step1>
+				<figure id="T40001-PDB_ID">
+					<title>Power Generation and Fuel Distribution Subsystem Connections</title>
+					<graphic boardno="G06021800235"/>
+				</figure>
+				<step1>
+					<para>Check for proper operation of Expeditionary Latrine System IAW <extref docno="TM 10-5419-209-13&amp;P"/>, administration TEMPER shelter IAW <extref docno="TM 10-8340-244-13&amp;P"/>, Expeditionary Shower System IAW <extref docno="TM 10-5419-210-13&amp;P"/>, and Expeditionary TRICON Self Serve Laundry System IAW <extref docno="TM 10-5419-215-10"/> connected to same PDB.</para>
+					<step2>
+						<para>PASS (any check): Proceed to malfunction "FDS extension cord disconnected."</para>
+					</step2>
+					<step2>
+						<para>FAIL: Troubleshoot symptom "No power to all systems at one PDB" IAW <xref wpid="T00017-10-5419-218"/>.</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">FDS extension cord disconnected.</malfunc>
+			<action>
+				<step1>
+					<para>Check extension cord is connected to a ground-fault circuit interrupter (GFCI) outlet <callout assocfig="T00010-10-5419-218-F0003" label="4"/> on PDB.</para>
+				</step1>
+				<figure id="T00010-10-5419-218-F0003">
+					<title>FDS Power Connection</title>
+					<graphic boardno="G06021801172"/>
+				</figure>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "20-A CB tripped or OFF."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">20-A CB tripped or OFF.</malfunc>
+			<action>
+				<step1>
+					<para>Loosen knob screws and lift up cover <callout assocfig="T00010-10-5419-218-F0003" label="2"/> on PDB.</para>
+				</step1>
+				<step1>
+					<para>Reset CB <callout assocfig="T00010-10-5419-218-F0003" label="1"/> by setting to OFF position, then back to ON position.</para>
+				</step1>
+				<step1>
+					<para>Lower cover and secure with knob screws.</para>
+				</step1>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "GFCI CB tripped."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">GFCI CB tripped.</malfunc>
+			<action>
+				<step1>
+					<para>Press RESET button <callout assocfig="T00010-10-5419-218-F0003" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Send to next level of maintenance as authorized by MAC if CB immediately trips.</para>
+				</step1>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Proceed to malfunction "FDS malfunction."</para>
+					</step2>
+				</step1>
+			</action>
+			<malfunc label="malfunction">FDS malfunction.</malfunc>
+			<action>
+				<step1>
+					<para>Troubleshoot FDS IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+				</step1>
+				<step1>
+					<para>Attempt to operate FDS <callout assocfig="T00010-10-5419-218-F0002" label="2"/> IAW <extref docno="TM 10-4930-369-13&amp;P"/>.</para>
+					<step2>
+						<para>PASS: Return to normal operation.</para>
+					</step2>
+					<step2>
+						<para>FAIL: Send to next level of maintenance as authorized by MAC.</para>
+					</step2>
+				</step1>
+			</action>
+		</faultproc>
+	</tsproc>
+</tswp>

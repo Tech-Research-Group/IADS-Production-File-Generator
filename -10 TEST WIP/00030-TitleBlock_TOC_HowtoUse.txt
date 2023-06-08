@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<titleblk>
+	<servnomen>HEADQUARTERS, DEPARTMENT OF THE ARMY</servnomen>
+	<city>WASHINGTON</city>
+	<state>DC</state>
+	<date>4 NOVEMBER 2022</date>
+	<prtitle>
+		<sysnomen>
+			<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM) (GREEN)</name>
+			<modelno>P/N 9-2-0279-1</modelno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-624-4930</niin>
+			</nsn>
+		</sysnomen>
+		<sysnomen>
+			<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM) (TAN)</name>
+			<modelno>P/N 9-2-0279-2</modelno>
+			<nsn>
+				<fsc>5419</fsc>
+				<niin>01-624-4927</niin>
+			</nsn>
+		</sysnomen>
+	</prtitle>
+	<reporting>
+		<title>REPORTING ERRORS AND RECOMMENDING IMPROVEMENTS</title>
+		<para/>
+		<reporting.para service="army">You can help improve this publication. If you find any errors, or if you would like to recommend any improvements to the procedures in this publication, please let us know. The preferred method is to submit your <extref docno="DA Form 2028" posttext=" (Recommended Changes to Publications and Blank Forms)"/> through the Internet on the TACOM Unique Logistics Support Applications (TULSA) Web site. The Internet address is <internet>
+				<homepage protocol="https" uri="tulsa.tacom.army.mil"/>
+			</internet>. Access to all applications requires CAC authentication, and you must complete the Access Request form the first time you use it. The <extref docno="DA Form 2028"/> is located under the TULSA Applications on the left-hand navigation bar. Fill out the form and click on SUBMIT. Using this form on the TULSA Web site will enable us to respond more quickly to your comments and to better manage the <extref docno="DA Form 2028"/> program. You may also mail, e-mail, or fax your comments or <extref docno="DA Form 2028"/> directly to the U.S. Army Tank-Automotive and Armaments Command. The postal mail address is <proponent>
+				<name>U.S. Army Tank-Automotive and Armaments Command, ATTN: AMTA-LCL-IMP/TECH PUBS, MS 727,</name>
+				<address>
+					<street>6501 E. 11 Mile Road,</street>
+					<city>Detroit Arsenal,</city>
+					<state>MI </state>
+					<zip>48397-5000</zip>
+				</address>
+			</proponent>. The e-mail address is <internet>
+				<email address="usarmy.detroit.tacom.mbx.ilsc-tech-pubs@mail.mil"/>
+			</internet>. The fax number is <phone type="dsn" receive="fax">786-1856</phone> or <phone type="coml" receive="fax">(586) 282-1856</phone>. A reply will be furnished to you.</reporting.para>
+		<para/>
+	</reporting>
+	<notices>
+		<dist>
+			<a.statement/>
+		</dist>
+	</notices>
+</titleblk>
+<contents/>
+<howtouse>
+	<title/>
+	<para0>
+		<title>HOW TO OBTAIN TECHNICAL MANUALS</title>
+		<para>When a new system is introduced to the Army inventory, it is the responsibility of the receiving units to notify and inform the Unit Publications Clerk that a Technical Manual (TM) is available for the new system. Throughout the life cycle of the new system, the Publications Proponent will also provide updates and changes to the TM.</para>
+		<para>To receive new TMs or change packages to fielded TMs, provide the Unit Publications Clerk the full TM number, title, date of publication, and number of copies required. The Unit Publications Clerk will justify the request through the Unit Publications Officer. When the request is approved, <extref docno="DA Form 12"/> is used to order the series of TMs from the Army Publishing Directorate (APD).</para>
+		<subpara1>
+			<title>Instructions for Unit Publications Clerk</title>
+			<para>Obtain <extref docno="DA Form 12"/> and request a publications account from the APD Website at <internet>
+					<homepage protocol="https" uri="armypubs.army.mil"/>
+				</internet>. Once on the website, click on the "ORDER PUBS/FORMS" tab. From the drop-down menu, select "Ordering Portal." An Ordering Portal user guide can be found on this page.</para>
+			<para>Complete information for obtaining Army publications can be found in <extref docno="DA PAM 25-40" posttext=", Army Publishing Procedures"/>.</para>
+		</subpara1>
+	</para0>
+	<para0>
+		<title>ORGANIZATION OF THIS MANUAL</title>
+		<para>This TM has been organized using the WP concept. Each chapter contains a series of WPs rather than sections and paragraphs. Each WP is designed to stand alone as a complete information module. Each WP is numbered using a four-digit number beginning with WP 0001. WPs are numbered sequentially throughout the TM (e.g., WP 0001, WP 0002, etc.).</para>
+		<para>The WP number is located at the top right of each page. It is also located at the bottom of the page with the WP page number included (0001-1 would be page 1 of the General Information WP). Each WP starts on a right-hand page. This is done so a single WP can be removed from the paper TM if needed for a task. Blank pages are inserted as needed to ensure an even number of pages for each WP. Blank pages are assigned a number, but it does not appear in the TM. For example, if page 0001-10 of a WP is blank, page 0001-9 will have the number 0001-9/blank; or if page 0001-1 of a WP is blank, page 0001-2 will have the number 0001-blank/2.</para>
+		<para>Multiple work packages may be required to complete a maintenance action. References are used to avoid repeating information. Referenced work packages can be found in each WP's Initial Setup information.</para>
+		<para>Each task within a maintenance or troubleshooting WP contains step-by-step procedures and will end with the words END OF TASK, and each WP ends with the statement END OF WORK PACKAGE.</para>
+		<subpara1>
+			<title>WARNINGs, CAUTIONs, and NOTEs</title>
+			<para>Warning, caution, and note headings, chapter titles, and paragraph headings are printed in bold type. Warning icons may be included below the warning heading. Multiple warning, caution, or note paragraphs, if necessary, will appear below one warning, caution, or note heading. Prior to starting a WP, all warnings included in the WP should be reviewed, understood, and followed. Review the materials/parts in the initial setup of the WP for any hazardous materials used during maintenance of the equipment. Then refer to the detailed warnings for hazardous materials in the Warning Summary. Make sure to read all warnings within referenced WP that are required to complete tasks.</para>
+			<para>
+				<term.def>
+					<term>WARNING</term>
+					<def>
+						<para>Warning identifies a clear danger for injury or death to the person operating equipment or performing maintenance if essential procedures are not observed. First aid information is included in the event of injury. A warning is also used when there is danger to personnel and equipment simultaneously.</para>
+					</def>
+				</term.def>
+				<term.def>
+					<term>CAUTION</term>
+					<def>
+						<para>Caution identifies a clear risk of damage to, or destruction of, the equipment if the procedure is not followed correctly.</para>
+					</def>
+				</term.def>
+				<term.def>
+					<term>NOTE</term>
+					<def>
+						<para>Note is used to highlight essential information, conditions, or statements or convey important instructional data to the user.</para>
+					</def>
+				</term.def>
+			</para>
+		</subpara1>
+	</para0>
+	<para0>
+		<title>TM CONTENTS</title>
+		<subpara1>
+			<title>FRONT MATTER</title>
+			<para>Front matter consists of Front Cover, Warning Summary, List of Effective Pages, Title Block, Table of Contents, and How to Use this Manual pages.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 1 - GENERAL INFORMATION, EQUIPMENT DESCRIPTION, AND THEORY OF OPERATION</title>
+			<para>Chapter 1 contains introductory information on the Expeditionary Platoon Life Support Module (EPLSM) and its associated equipment, as well as equipment description and data and theory of operation.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 2 - OPERATOR INSTRUCTIONS</title>
+			<para>Chapter 2 contains preparation for use information, operating information for usual and unusual conditions, and controls and indicators.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 3 - TROUBLESHOOTING PROCEDURES</title>
+			<para>Chapter 3 contains the troubleshooting introduction, troubleshooting index, and individual troubleshooting procedure work packages.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 4 - PREVENTIVE MAINTENANCE CHECKS AND SERVICES (PMCS) MAINTENANCE INSTRUCTIONS</title>
+			<para>Chapter 4 provides operator-level PMCS procedures.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 5 - OPERATOR MAINTENANCE INSTRUCTIONS</title>
+			<para>Chapter 5 provides operator-level maintenance procedures including general and specific EPLSM item maintenance.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 6 - DESTRUCTION OF EQUIPMENT TO PREVENT ENEMY USE</title>
+			<para>Chapter 6 contains introductory and specific procedures for destruction of equipment to prevent enemy use.</para>
+		</subpara1>
+		<subpara1>
+			<title>CHAPTER 7 - SUPPORTING INFORMATION</title>
+			<para>Chapter 7 contains References, Components of End Item (COEI) and Basic Issue Items (BII) Lists, Additional Authorization List (AAL), Expendable and Durable Items List, Mandatory Replacement Parts List, and Critical Safety Items List.</para>
+		</subpara1>
+		<subpara1>
+			<title>REAR MATTER</title>
+			<para>Rear matter consists of alphabetical index, sample <extref docno="DA Form 2028"/>, blank <extref docno="DA Form 2028"/>, authentication page, metric conversion chart, and back cover.</para>
+		</subpara1>
+	</para0>
+	<para0>
+		<title>FINDING INFORMATION</title>
+		<para>The table of contents permits the reader to find information in the manual quickly. The reader should start here first when looking for a specific topic. The table of contents sequentially lists the topics, figures, and tables contained within each chapter and the work package sequence number where it can be found.</para>
+		<para>Alternatively, the index, located in the back of the TM, lists work package titles alphabetically with the work package sequence number where it can be found.</para>
+	</para0>
+	<para0>
+		<title>INITIAL SETUP INFORMATION</title>
+		<para>Initial setup information can be found at the beginning of every procedural work package. Initial setup information applies to all tasks found in that work package.</para>
+		<subpara1>
+			<title>Tools</title>
+			<para>Lists all tools supplied or authorized for use with the EPLSM required to perform task. Items are referenced to the Components of End Item List WP (<xref wpid="S00002-10-5419-218"/>) or AAL WP (<xref wpid="S00003-10-5419-218"/>).</para>
+		</subpara1>
+		<subpara1>
+			<title>Materials</title>
+			<para>Lists all expendable items, repair parts, and support materials required to perform task. Materials are referenced to the applicable Expendable and Durable Items List WP (<xref wpid="S00004-10-5419-218"/>) or AAL (<xref wpid="S00003-10-5419-218"/>). Repair parts are referenced to the COEI/BII lists (<xref wpid="S00002-10-5419-218"/>).</para>
+		</subpara1>
+		<subpara1>
+			<title>Personnel Required</title>
+			<para>Lists the type of personnel required by MOS and designation. Quantity of MOS-specific personnel are given if more than one is required (e.g. Culinary Specialist 92G or Culinary Specialist 92G (2)). One skilled person may be identified with additional helpers that do not require a specific skill set. If the task does not require any specific skills, the number of people required will be identified with no MOS designation.</para>
+		</subpara1>
+		<subpara1>
+			<title>References</title>
+			<para>Lists other work packages, TMs, foldouts, and other sources that are required to complete a task. These references should be gathered prior to beginning the task. References listed in the Equipment Condition are not repeated here.</para>
+		</subpara1>
+		<subpara1>
+			<title>Equipment Condition</title>
+			<para>Lists any special state or condition the equipment must be placed before the task can be performed. Items are listed in the order required to perform and include reference to the appropriate source for setting up the condition.</para>
+		</subpara1>
+	</para0>
+	<para0>
+		<title>HOW TO FIX AN EQUIPMENT MALFUNCTION</title>
+		<para>Fault conditions can be found in the troubleshooting index work package (<xref wpid="T00002-10-5419-218"/>). The reader will be directed to the appropriate work package to begin the troubleshooting process. The fault condition will be listed in the work package as a symptom with one or more possible malfunctions. Each malfunction will have one or more corrective actions to be performed. The corrective action may reference to another work package in the TM to proceed. Additional information on how to use the troubleshooting index is available in the Troubleshooting Introduction WP (<xref wpid="T00001-10-5419-218"/>).</para>
+		<subpara1>
+			<title>Preparing for a Task</title>
+			<para>Be sure the entire maintenance procedure is understood before beginning any maintenance task. Ensure that all reference materials, parts, and tools are handy. Read all steps before beginning.</para>
+		</subpara1>
+		<subpara1>
+			<title>Performing the Task</title>
+			<para>Pay attention to all WARNINGs, CAUTIONs, and NOTEs. Use the List of Abbreviations/Acronyms (<xref wpid="G00001-10-5419-218"/>) if the special abbreviations or unusual terms used in this manual are not understood. After each corrective action is completed, attempt to operate the equipment to determine if the fault is corrected.</para>
+		</subpara1>
+	</para0>
+	<para0>
+		<title>OTHER INFORMATION</title>
+		<para>References to equipment Data and Description Plates are printed as they appear on the equipment whenever possible.</para>
+		<para>Instrument readings or measurements are given as calibrated on the equipment. For common measurements, the US unit value is given with a metric conversion following in parentheses (e.g. 1 in (2.54 cm)). If the equipment is calibrated in metric units, the metric value will appear first. A metric conversion chart can be found inside the back cover of this TM.</para>
+	</para0>
+</howtouse>
+</paper.frnt>

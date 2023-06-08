@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maintwp chngno="0" wpno="M00014-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>FLOODLIGHT ASSEMBLY - LIGHTHEAD <brk/> REPLACE</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Tool Kit, General Mechanic's</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_GMTK"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Lighthead</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="OBS_FLOODLIGHT_LIGHTHEAD"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Glove Inserts, Radioactive Contaminants Protective</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_RADIOACTIVE"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Operating under usual conditions</condition>
+				<itemref>
+					<xref wpid="O00020-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<maintsk>
+		<replace>
+			<proc>
+				<title/>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Hot_Area"/>
+							<icon-set boardno="Electrical_Symbols"/>
+							<trim.para>Lightheads get hot enough to melt or ignite items. Floodlights should not be operated in enclosed space or near combustible items. Handles should be used to rotate floodlight. Floodlights must cool for 10-15 minutes before handling. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>High voltage is present. Power cables should not be connected or disconnected while power is applied to equipment. All electrical safety precautions must be followed when performing maintenance. Failure to comply may result in death or serious injury to personnel. Seek immediate medical attention if exposed to electricity.</trim.para>
+						</warning>
+						<para>Press pushbuttons <callout assocfig="M00014-10-5419-218-F0006" label="1"/> on rear of lighthead to turn off floodlights.</para>
+					</specpara>
+				</step1>
+				<figure id="M00014-10-5419-218-F0006">
+					<title>Floodlight Pushbutton</title>
+					<graphic boardno="G06021800320"/>
+				</figure>
+				<step1>
+				<specpara>
+					<warning>
+						<icon-set boardno="Falling"/>
+							<trim.para>Cable, hose, and other equipment layout should be accomplished to minimize risk of trip hazards to personnel during operation. Failure to comply may result in injury to personnel. Seek immediate medical attention if injury occurs.</trim.para>
+					</warning>
+					<para>Disconnect floodlight power cable <callout assocfig="M00014-10-5419-218-F0007" label="1"/> from extension cord <callout assocfig="M00014-10-5419-218-F0007" label="2"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="M00014-10-5419-218-F0007">
+					<title>Disconnect Floodlight</title>
+					<graphic boardno="G06021800104"/>
+				</figure>
+				<step1>
+					<para>Remove and retain one bolt <callout assocfig="M00014-10-5419-218-F0008" label="1"/> securing lighthead to tripod <callout assocfig="M00014-10-5419-218-F0008" label="3"/> while supporting lighthead assembly <callout assocfig="M00014-10-5419-218-F0008" label="2"/>.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0008">
+					<title>Remove Lighthead</title>
+					<graphic boardno="G06021800641"/>
+				</figure>
+				<step1>
+					<para>Remove and discard defective lighthead assembly from tripod IAW unit SOP.</para>
+				</step1>
+				<step1>
+					<para>Unpack replacement lighthead components (<xref figid="M00014-10-5419-218-F0009"/>) and set on a suitable work area.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0009">
+					<title>Lighthead Components</title>
+					<graphic boardno="G06021800642"/>
+				</figure>
+				<step1>
+					<para>Install incandescent lamp to fixture as follows:</para>
+					<step2 id="M00014-10-5419-218-S0001">
+						<para>Loosen screw <callout assocfig="M00014-10-5419-218-F0010" label="1"/> securing light cage.</para>
+					</step2>
+					<figure id="M00014-10-5419-218-F0010">
+						<title>Light Fixture</title>
+						<graphic boardno="G06021801374"/>
+					</figure>
+					<step2>
+						<specpara>
+							<caution>
+								<trim.para>Replacement halogen light bulbs must be handled while wearing protective gloves. Oils from skin or any dirt, dust, or lint can cause hot spots and lead to breakage or premature incandescent lamp failure. Failure to comply can result in equipment damage.</trim.para>
+							</caution>
+							<para>Align one end of incandescent lamp <callout assocfig="M00014-10-5419-218-F0011" label="2"/> and insert into one spring-loaded socket <callout assocfig="M00014-10-5419-218-F0011" label="1"/>.</para>
+						</specpara>
+					</step2>
+					<figure id="M00014-10-5419-218-F0011">
+						<title>Insert Incandescent Lamp</title>
+						<graphic boardno="G06021801335"/>
+					</figure>
+					<step2>
+						<para>Apply slight pressure and insert other end of incandescent lamp <callout assocfig="M00014-10-5419-218-F0011" label="2"/> into other socket <callout assocfig="M00014-10-5419-218-F0011" label="1"/>.</para>
+					</step2>
+					<step2 id="M00014-10-5419-218-S0002">
+						<para>Close light cage <callout assocfig="M00014-10-5419-218-F0011" label="3"/> and secure with screw <callout assocfig="M00014-10-5419-218-F0010" label="1"/>.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepend="M00014-10-5419-218-S0002" stepstart="M00014-10-5419-218-S0001"/> to install incandescent lamp <callout assocfig="M00014-10-5419-218-F0011" label="2"/> to remaining fixture.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Install power cable bracket <callout assocfig="M00014-10-5419-218-F0012" label="1"/> through crossbar slot <callout assocfig="M00014-10-5419-218-F0012" label="3"/> and secure with bolt and locknut <callout assocfig="M00014-10-5419-218-F0012" label="2"/>.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0012">
+					<title>Install Power Cord Bracket</title>
+					<graphic boardno="G06021800638"/>
+				</figure>
+				<step1 id="M00014-10-5419-218-S0003">
+					<specpara>
+						<note>
+							<trim.para>Floodlight may be easier to assemble when it is laying down.</trim.para>
+						</note>
+						<para>Place bolt <callout assocfig="M00014-10-5419-218-F0013" label="3"/> through one bolt hole <callout assocfig="M00014-10-5419-218-F0013" label="7"/> on crossbar <callout assocfig="M00014-10-5419-218-F0013" label="4"/>.</para>
+					</specpara>
+				</step1>
+				<figure id="M00014-10-5419-218-F0013">
+					<title>Attach Light Cage To Crossbar</title>
+					<graphic boardno="G06021800639"/>
+				</figure>
+				<step1>
+					<para>Install one nylon washer <callout assocfig="M00014-10-5419-218-F0013" label="9"/>, one metal washer <callout assocfig="M00014-10-5419-218-F0013" label="10"/>, and one curved bracket <callout assocfig="M00014-10-5419-218-F0013" label="8"/> to bolt <callout assocfig="M00014-10-5419-218-F0013" label="3"/>.</para>
+				</step1>
+				<step1>
+					<para>Position light cage <callout assocfig="M00014-10-5419-218-F0013" label="5"/> away from power cord so yoke <callout assocfig="M00014-10-5419-218-F0013" label="2"/> is aligned with crossbar <callout assocfig="M00014-10-5419-218-F0013" label="4"/>.</para>
+				</step1>
+				<step1 id="M00014-10-5419-218-S0004">
+					<para>Install bolt <callout assocfig="M00014-10-5419-218-F0013" label="3"/> through yoke hole <callout assocfig="M00014-10-5419-218-F0013" label="1"/> and loosely secure bolt with locknut <callout assocfig="M00014-10-5419-218-F0013" label="6"/>.</para>
+				</step1>
+				<step1>
+					<para>Repeat <xref stepend="M00014-10-5419-218-S0004" stepstart="M00014-10-5419-218-S0003"/> to install remaining fixture.</para>
+				</step1>
+				<step1>
+					<para>Tighten all bolts and locknuts to secure lighthead assembly.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>Shallow end of post must be positioned toward rear of lighthead.</trim.para>
+						</note>
+						<para>Assemble both light handles as follows:</para>
+					</specpara>
+					<step2 id="M00014-10-5419-218-S0005">
+						<para>Align flat side of posts <callout assocfig="M00014-10-5419-218-F0014" label="2"/> and inside of handle <callout assocfig="M00014-10-5419-218-F0014" label="1"/> toward lighthead <callout assocfig="M00014-10-5419-218-F0014" label="3"/>.</para>
+					</step2>
+					<figure id="M00014-10-5419-218-F0014">
+						<title>Install Floodlight Handle</title>
+						<graphic boardno="G06021800640"/>
+					</figure>
+					<step2 id="M00014-10-5419-218-S0006">
+						<para>Install one screw <callout assocfig="M00014-10-5419-218-F0014" label="4"/> through smooth end of handle, through post, and into fixture. Loosely secure handle to fixture.</para>
+					</step2>
+					<step2 id="M00014-10-5419-218-S0007">
+						<para>Repeat <xref stepstart="M00014-10-5419-218-S0006"/> to secure second post and tighten both screws <callout assocfig="M00014-10-5419-218-F0014" label="4"/>.</para>
+					</step2>
+					<step2>
+						<para>Repeat <xref stepend="M00014-10-5419-218-S0007" stepstart="M00014-10-5419-218-S0005"/> to install handle on remaining fixture.</para>
+					</step2>
+				</step1>
+				<step1>
+					<para>Position lighthead assembly <callout assocfig="M00014-10-5419-218-F0015" label="2"/> on tripod <callout assocfig="M00014-10-5419-218-F0015" label="3"/> aligning hole in center of crossbar with hole in tripod base.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0015">
+					<title>Floodlight Attachment to Base</title>
+					<graphic boardno="G06021800641"/>
+				</figure>
+				<step1>
+					<para>Secure lighthead assembly <callout assocfig="M00014-10-5419-218-F0015" label="2"/> to tripod <callout assocfig="M00014-10-5419-218-F0015" label="3"/> with one screw <callout assocfig="M00014-10-5419-218-F0015" label="1"/>.</para>
+				</step1>
+				<step1>
+					<para>Connect floodlight power cable <callout assocfig="M00014-10-5419-218-F0016" label="1"/> to extension cord <callout assocfig="M00014-10-5419-218-F0016" label="2"/>.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0016">
+					<title>Connect Floodlight</title>
+					<graphic boardno="G06021800104"/>
+				</figure>
+				<step1>
+					<para>Press pushbuttons <callout assocfig="M00014-10-5419-218-F0017" label="1"/> on rear of lighthead to turn on floodlights.</para>
+				</step1>
+				<figure id="M00014-10-5419-218-F0017">
+					<title>Floodlight Pushbuttons</title>
+					<graphic boardno="G06021800320"/>
+				</figure>
+			</proc>
+		</replace>
+	</maintsk>
+</maintwp>

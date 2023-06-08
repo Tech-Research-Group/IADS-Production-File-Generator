@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csi.wp chngno="0" wpno="S00006-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>CRITICAL SAFETY ITEMS</title>
+	</wpidinfo>
+	
+	<csi>
+		<intro>
+			<para0>
+				<title>Introduction</title>
+				<para>There are no critical safety items for the Expeditionary Platoon Life Support Module (EPLSM).</para>
+			</para0>
+		</intro>
+	</csi>
+</csi.wp>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<refwp wpno="S00001-10-5419-218" chngno="0">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>REFERENCES</title>
+	</wpidinfo>
+	<scope>
+		<title/>
+		<para>This work package lists all field manuals, forms, technical manuals, and miscellaneous publications referenced in this technical manual.</para>
+	</scope>
+	<publist>
+		<title>ARMY REGULATIONS</title>
+		<pubident>
+			<name>
+				<extref docno="AR 700-138"/>
+			</name>
+			<title>ARMY LOGISTICS READINESS AND SUSTAINABILITY</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>COMMON TABLE OF ALLOWANCES</title>
+		<pubident>
+			<name>
+				<extref docno="CTA 8-100"/>
+			</name>
+			<title>ARMY MEDICAL DEPARTMENT EXPENDABLE/DURABLE ITEMS</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="CTA 50-909"/>
+			</name>
+			<title>FIELD AND GARRISON FURNISHINGS AND EQUIPMENT</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="CTA 50-970"/>
+			</name>
+			<title>EXPENDABLE/DURABLE ITEMS (EXCEPT MEDICAL, CLASS V, REPAIR PARTS, AND HERALDIC ITEMS)</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>DEPARTMENT OF THE ARMY PAMPHLETS</title>
+		<pubident>
+			<name>
+				<extref docno="DA PAM 25-40"/>
+			</name>
+			<title>ARMY PUBLISHING PROGRAM PROCEDURES</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DA PAM 40-501"/>
+			</name>
+			<title>ARMY HEARING PROGRAM</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DA PAM 738-751"/>
+			</name>
+			<title>FUNCTIONAL USERS MANUAL FOR THE ARMY MAINTENANCE MANAGEMENT SYSTEM- AVIATION</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DA PAM 750-8"/>
+			</name>
+			<title>THE ARMY MAINTENANCE MANAGEMENT SYSTEM (TAMMS) USERS MANUAL</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>FORMS</title>
+		<pubident>
+			<name>
+				<extref docno="DA Form 12"/>
+			</name>
+			<title>REQUEST FOR ESTABLISHMENT OF A PUBLICATIONS ACCOUNT</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DA Form 2028"/>
+			</name>
+			<title>RECOMMENDED CHANGES TO PUBLICATIONS AND BLANK FORMS</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DA Form 2404"/>
+			</name>
+			<title>EQUIPMENT INSPECTION AND MAINTENANCE WORKSHEET</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="DD Form 1750"/>
+			</name>
+			<title>PACKING LIST</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="SF 368"/>
+			</name>
+			<title>PRODUCT QUALITY DEFICIENCY REPORT (PQDR)</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>TECHNICAL BULLETINS</title>
+		<pubident>
+			<name>
+				<extref docno="TB MED 530"/>
+			</name>
+			<title>TRI-SERVICE FOOD CODE</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>TECHNICAL MANUALS</title>
+		<pubident>
+			<name>
+				<extref docno="TM 4-42.21"/>
+			</name>
+			<title>GENERAL FABRIC REPAIR</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 5-1080-250-12&amp;P"/>
+			</name>
+			<title>OPERATOR`S AND UNIT MAINTENANCE MANUAL (INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST) FOR ULTRALIGHTWEIGHT CAMOUFLAGE NET SYSTEMS (ULCANS) WOODLAND R/S AN/USQ-150 (NSN 1080-01-457-2956) (EIC: N/A) WOODLAND R/T AN/USQ-160 (1080-01-475-0697) (EIC: N/A) DESERT R/S AN/USQ-159 (1080-01-475-0696) (EIC: N/A) DESERT R/T AN/USQ-158 (1080-01-475-0694) (EIC: N/A) (REPRINTED W/BASIC INCL C1)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 9-6115-753-10"/>
+			</name>
+			<title>OPERATOR'S MANUAL FOR GENERATOR SET, SKID MOUNTED 60KW ADVANCED MEDIUM MOBILE POWER SOURCES (AMMPS) MEP-1070 50/60 HZ (NSN: 6115-01-561-7788) (EIC: N/A) MEP-1071 400 HZ (NSN: 6115-01-561-7895) (EIC: N/A)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-4120-453-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR ENVIRONMENTAL CONTROL UNIT (ECU) 60K BTU/HR (NSN 4120-01-617-1273) (GREEN) P/N 2003841-P1 (NSN 4120-01-617-1282) (TAN) P/N 2003841-P2</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-4520-266-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR HEATER, WATER, 400,000 BTU (WH-400)(NSN 4520-01-566-6669)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR TANK UNIT, FUEL DISPENSING, TRAILER MOUNTING: FUEL DISTRIBUTION SYSTEM (FDS)(NSN 4930 01 614 3654) P/N 9-1-1365</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-207-10"/>
+			</name>
+			<title>OPERATOR’S MANUAL FOR EXPEDITIONARY TRICON KITCHEN SYSTEM (ETKS) (NSN: 5419-01-571-4107) (Green) (NSN: 5419-01-571-4108) (Tan)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR EXPEDITIONARY LATRINE SYSTEM (ELS) NSN: 5419-01-539-7178 (GREEN) NSN: 5419-01-539-7179 (TAN)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR EXPEDITIONARY SHOWER SYSTEM (ESS) (NSN: 5419-01-539-7182) (GREEN) (NSN: 5419-01-539-7183) (TAN)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-213-13&amp;P"/>
+			</name>
+			<title>TECHNICAL MANUAL OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR COLD WEATHER EQUIPMENT (CWE) FORCE PROVIDER EXPEDITIONARY (FPE) (GREEN) (NSN 5419-01-580-6932) (EIC 255) (TAN) (NSN 5419-01-581-2258) (EIC 255)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-215-10"/>
+			</name>
+			<title>OPERATOR'S MANUAL FOR EXPEDITIONARY TRICON SELF SERVE LAUNDRY SYSTEM (ETSSLS)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5419-218-10"/>
+			</name>
+			<title>OPERATOR'S MANUAL FOR EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR TANK ASSEMBLY, FABRIC, COLLAPSIBLE (NSN 5430-01-622-3616) P/N 9-2-0275 TANK, COLLAPSIBLE, FABRIC, FUEL, 1000 GALLONS (NSN 5430-01-621-3870) P/N 9-2-0147 SPILL CONTAINMENT SYSTEM, GROUND CLOTH (NSN 5430-01-621-3872) P/N 9-2-0148-1</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-5430-237-12&amp;P"/>
+			</name>
+			<title>OPERATOR`S AND UNIT MAINTENANCE MANUAL (INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST) FOR TANK, FABRIC, COLLAPSIBLE; AIR COLUMN SUPPORTED, OPEN TOP WATER STORAGE, 3000 GALLONS MODEL 90074 (EIC = ZFV)/MODEL 91039/MODEL WT2009 (EIC: ZIZ) (NSN 5430-01-359-4774), (5430-01-318- 9434), (5430-01-170-6984); TANK, FABRIC, COLLAPSIBLE, SELF-SUPPORTING, SEALED TOP, WATER STORAGE, 3000 GALLONS MODEL GTA-Z60TPW/MODEL 3-K- W-O-A/Z (5430-01-469-8744) (5430-01-470-7380)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR TRICON REFRIGERATED CONTAINER SYSTEM (TRCS) TYPE I (NSN 8145-01-598-4828) TYPE III (NSN 8145-01-598-4829)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 10-8340-244-13&amp;P"/>
+			</name>
+			<title>OPERATOR AND FIELD MAINTENANCE MANUAL INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST FOR TENT, EXTENDABLE, MODULAR, PERSONNEL (TEMPER), AIR- SUPPORTED TYPE XXXI (NSN: 8340-01-588-4701) (TAN) TYPE XL (8340-01558-8705) (TAN) (8340-01559-3852) (GREEN) (8340-01-588-8704) (GREEN) TYPE XXXII (8340-01-559-3853) (TAN) TYPE XLI (8340-01-558-8707) (TAN) (8340-01-559-3851) (GREEN) (8340-01558-8706) (GREEN) TYPE XXXIII (8340-01-559-3854) (TAN) TYPE XLII ( 8340-01-558-8709) (TAN) (8340-01-559-3856) (GREEN) (8340-01-558-8708) (GREEN) TYPE XXXIV (8340-01-558-4699) (TAN) TYPE XLIII (8340-01-558-8711) (TAN) (98340-01-558-8698) (GREEN) (8340-01-558-8710) (GREEN) TYPE XXXV (8340-01-559-3859) (TAN) TYPE XLIV (8340-01-558-8712) (TAN) (8340-01-559-3855)(GREEN) (8340-01-558-9813) (GREEN) TYPE XXXVI (8340-01-558-8699) (TAN) TYPE XLV (8340-01-558-8694) (TAN) (9340-01-559-3858) (GREEN) (8340-01-558-6=8695) (GREEN) TYPE XXXVII (8340-01-558-4702) (TAN) TYPE XLVI(8340-01-558-8693) (TAN) (8340-01-558-8701) (GREEN) (8340-01-558-9818) (GREEN) TYPE XXXVIII (8340-01-558-4703) (TAN) TYPE XLVII (8340-01-558-8696) (TAN) (8340-01-558-8703) (GREEN) (8340-01-558-8697) (GREEN) TYPE XXXIX (8340-01-558-4704) (TAN) (8340-01-558-8702) (GREEN)</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 55-8145-236-13&amp;P"/>
+			</name>
+			<title>OPERATOR, UNIT, AND DIRECT SUPPORT MAINTENANCE (INCLUDING REPAIR PARTS AND SPECIAL TOOLS LIST) TRIPLE (TRICON) CONTAINER TYPES 1 AND 2 (NSN: 8145-01-527-2878(TYPE 1) AND NSN: 8145-01-527-2875(TYPE 2))</title>
+		</pubident>
+		<pubident>
+			<name>
+				<extref docno="TM 750-244-3"/>
+			</name>
+			<title>PROCEDURES FOR DESTRUCTION OF EQUIPMENT TO PREVENT ENEMY USE</title>
+		</pubident>
+	</publist>
+	<publist>
+		<title>TRAINING CIRCULARS</title>
+		<pubident>
+			<name>
+				<extref docno="TC 4-02.1"/>
+			</name>
+			<title>FIRST AID</title>
+		</pubident>
+	</publist>
+</refwp>

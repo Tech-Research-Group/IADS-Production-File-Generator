@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opunuwp chngno="0" wpno="O00049-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER UNUSUAL CONDITIONS</title>
+	</wpidinfo>
+	<initial_setup>
+		<tools>
+			<tools-setup-item>
+				<name>Shovel, Hand</name>
+				<itemref>
+					<xref wpid="S00002-10-5419-218" tableid="coeitab" itemid="COEI_SHOVEL"/>
+				</itemref>
+			</tools-setup-item>
+		</tools>
+		<mtrlpart>
+			<mtrlpart-setup-item>
+				<name>Corrosion Preventive Compound</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_CORROSION_PREVENTION"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Epoxy Primer Coating Kit</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_EPOXY"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Gloves, Disposable</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GLOVES_DISP_SM"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Goggles, Industrial</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_GOGGLES"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Isopropyl Alcohol</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_ISOPROPYL"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Lubricating Oil, Utility</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_LUBRICATING_OIL"/>
+				</itemref>
+			</mtrlpart-setup-item>
+			<mtrlpart-setup-item>
+				<name>Rag, Wiping</name>
+				<itemref>
+					<xref wpid="S00004-10-5419-218" itemid="EDIL_WIPING_RAG"/>
+				</itemref>
+			</mtrlpart-setup-item>
+		</mtrlpart>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 9-6115-753-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4120-453-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4520-266-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-4930-369-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-207-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-209-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-210-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5419-215-10"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-225-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-5430-237-12&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<extref docno="TM 10-8145-224-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00022-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00057-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="M00047-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="S00003-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+	</initial_setup>
+	<opunutsk>
+		<unusualenv>
+			<proc>
+				<geninfo>
+					<title>GENERAL INFORMATION</title>
+					<para>This work package contains instructions for safely operating the Expeditionary Platoon Life Support Module (EPLSM) under unusual conditions. While it is not possible to anticipate all unusual conditions the EPLSM will be exposed to, the following information should be utilized when adverse weather is encountered.</para>
+				</geninfo>
+				<para>Refer to ancillary EPLSM equipment TMs for unusual condition guidance as follows:
+					<randlist>
+						<item>AMMPS Generator: <extref docno="TM 9-6115-753-10"/></item>
+						<item>Environmental Control Unit: <extref docno="TM 10-4120-453-13&amp;P"/></item>
+						<item>Expeditionary Latrine System: <extref docno="TM 10-5419-209-13&amp;P"/></item>
+						<item>Expeditionary Shower System: <extref docno="TM 10-5419-210-13&amp;P"/></item>
+						<item>Expeditionary TRICON Kitchen System: <extref docno="TM 10-5419-207-10"/></item>
+						<item>Expeditionary TRICON Self Serve Laundry System: <extref docno="TM 10-5419-215-10"/></item>
+						<item>Fuel Distribution System: <extref docno="TM 10-4930-369-13&amp;P"/></item>
+						<item>Fuel Tank: <extref docno="TM 10-5430-225-13&amp;P"/></item>
+						<item>SOURCE and WASTE Water Bags: <extref docno="TM 10-5430-237-12&amp;P"/></item>
+						<item>TRICON Refrigerated Container System: <extref docno="TM 10-8145-224-13&amp;P"/></item>
+						<item>Water Heater: <extref docno="TM 10-4520-266-13&amp;P"/></item>
+					</randlist>
+				</para>
+			</proc>
+			<proc>
+				<title>OPERATION IN EXTREME COLD</title>
+				<step1>
+					<para>Use care when handling cables in extreme cold weather. Extreme cold weather can cause insulation material on electrical wire to crack, causing short circuits. Other materials can also become hard, brittle, and easily damaged.</para>
+				</step1>
+				<step1>
+					<para>Remove ice and snow to prevent build up on roof of containers or any expanded roof sections, as well as solar shades if deployed.</para>
+				</step1>
+				<step1>
+					<para>Remove solar shades when heavy snow is expected IAW <xref wpid="M00057-10-5419-218"/> and <xref wpid="M00047-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<para>Drain water systems IAW <xref wpid="O00022-10-5419-218"/> daily when temperatures are expected to reach freezing temperatures (32 &deg;F; 0 &deg;C) or install Cold Weather Equipment (CWE). CWE is available as an additional authorized item (<xref wpid="S00003-10-5419-218"/>) and should be requested separately as an add-on capability.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>OPERATION IN EXTREME HEAT</title>
+				<step1>
+					<para>Ensure solar shades are set up IAW <xref wpid="M00057-10-5419-218"/> and <xref wpid="M00047-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<para>Use of ingress/egress doors should be kept to a minimum.</para>
+				</step1>
+				<step1>
+					<para>Water system does not cool. Minimum water temperature will be at or slightly below water temperature at source.</para>
+				</step1>
+				<step1>
+					<para>Ice production volume will be lower if water temperature of 90 &deg;F (32 &deg;C) exists. Ice maker will produce 290 lb (131.5 kg) per day when water temperature is 50 &deg;F (10 &deg;C), but will only produce 212 lb (96 kg) per day when water temperature is 70 &deg;F (21 &deg;C).</para>
+				</step1>
+				<step1>
+					<specpara>
+						<caution>
+							<trim.para>Maximum operating capacity of ice makers is water temperature of 90 &deg;F (32 &deg;C). Exceeding this capacity may cause damage to equipment.</trim.para>
+						</caution>
+						<para>Turn off ice makers IAW <xref wpid="O00022-10-5419-218"/> when water temperature is expected to be above 90 &deg;F (32 &deg;C) for extended time.</para>
+					</specpara>
+				</step1>
+			</proc>
+			<proc>
+				<title>OPERATION IN SANDY OR DUSTY LOCATIONS</title>
+				<step1>
+					<para>Siting: It is recommended that shelters be positioned such that entrance door does not face heavy vehicular traffic areas, runways, or predominant wind direction (if known) for particular region. This will minimize dust infiltration when entering and exiting shelters.</para>
+				</step1>
+				<step1>
+					<para>Initial Setup: Ensure all expandable wall and floor seals are serviceable and all latches are secured.</para>
+				</step1>
+				<step1>
+					<para>Operators should use daily preventive maintenance measures to clean sand or dust in order to prevent buildup that could affect operations.</para>
+				</step1>
+				<step1>
+					<para>Ensure all doors remain closed while not in use to prevent excessive buildup of sand or dust.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>OPERATION IN HIGH WIND</title>
+				<step1>
+					<para>Keep all loose objects secured or stowed.</para>
+				</step1>
+				<step1>
+					<para>Inspect security of solar shades and vestibule covers. Remove solar shades IAW <xref wpid="M00057-10-5419-218"/> and <xref wpid="M00047-10-5419-218"/> when forecasted winds exceed 50 mph (80 kph).</para>
+				</step1>
+				<step1>
+					<para>Ensure cargo doors are secured with lanyards hooked to D-rings on expandable shelters.</para>
+				</step1>
+			</proc>
+			<proc>
+				<title>OPERATION IN SNOWY OR MUDDY CONDITIONS</title>
+				<para>Check EPLSM subsystem installation to ensure components are deployed on firm foundations.</para>
+			</proc>
+			<?Pub _newpage?>
+			<proc>
+				<title>OPERATION IN SALT WATER AREAS</title>
+				<step1>
+					<para>Remove all rust and corrosion immediately.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Vapor"/>
+							<icon-set boardno="Eye_Protection"/>
+							<trim.para>Corrosion prevention compound, primer, and lubricating oil are chemicals that can cause irritation after contacting skin or eyes. Personnel must wear protective eyewear and gloves when handling chemicals. Failure to comply can result in serious injury to personnel. Personnel should flush eyes with water thoroughly, then seek immediate medical attention if exposed to chemicals.</trim.para>
+							<trim.para>Chemicals shall only be used in a well-ventilated area to prevent overexposure to vapors. Symptoms of overexposure include shortness of breath, drowsiness, headaches, confusion, decreased coordination, visual disturbances and vomiting, and are reversible if exposure is stopped. Victim must be moved to fresh air and kept at rest in a position comfortable for breathing. Seek immediate medical attention if any symptoms of overexposure develop.</trim.para>
+						</warning>
+						<para>Coat exposed metal surfaces with corrosion prevention compound material and apply primer coating or lubricating oil as required.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<specpara>
+						<warning>
+							<icon-set boardno="Chemical"/>
+							<icon-set boardno="Fire"/>
+							<icon-set boardno="Vapor"/>
+							<icon-set boardno="Eye_Protection"/>
+							<trim.para>Isopropyl alcohol can cause irritation after contacting skin or eyes. Personnel must wear protective eyewear and gloves when handling chemicals. Personnel should flush eyes with water or rinse and clean affected area thoroughly. Seek immediate medical attention if exposed to isopropyl alcohol.</trim.para>
+							<trim.para>Isopropyl alcohol is a highly flammable liquid and vapor and must be kept clear of heat, sparks, open flames, and hot surfaces. Failure to comply may result in serious injury or death to personnel. Flames can be extinguished with sand, dry chemical, or alcohol-resistant foam. Seek immediate medical attention if injury occurs.</trim.para>
+							<trim.para>Chemicals shall only be used in a well-ventilated area to prevent overexposure to vapors. Symptoms of overexposure include shortness of breath, drowsiness, headaches, confusion, decreased coordination, visual disturbances and vomiting, and are reversible if exposure is stopped. Victim must be moved to fresh air and kept at rest in a position comfortable for breathing. Seek immediate medical attention if any symptoms of overexposure develop.</trim.para>
+						</warning>
+						<para>Clean any corrosion on weather seals with isopropyl alcohol.</para>
+					</specpara>
+				</step1>
+			</proc>
+			<proc>
+				<title>OPERATION IN RAINY AREAS</title>
+				<para>Dig trenches around EPLSM components to collect and drain water away from shelter entrances.</para>
+			</proc>
+			<proc>
+				<title>OPERATION IN HIGH ALTITUDES</title>
+				<note>
+					<trim.para>Generators may suffer engine performance and output power degradation at altitudes above 7,500 ft (2,286 m).</trim.para>
+				</note>
+				<step1>
+					<para>Verify all devices being powered by generator do not collectively exceed derated generator output level.</para>
+				</step1>
+				<step1>
+					<para>Consult recipes for extended cooking times at high altitudes.</para>
+				</step1>
+			</proc>
+		</unusualenv>
+	</opunutsk>
+</opunuwp>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opusualwp chngno="0" wpno="O00023-10-5419-218">
+	<wpidinfo>
+		<maintlvl level="operator"/>
+		<title>OPERATION UNDER USUAL CONDITIONS <brk/> PREPARATION FOR MOVEMENT - EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM)</title>
+	</wpidinfo>
+	<initial_setup>
+		<persnreq>
+			<persnreq-setup-item>
+				<name>1 Person</name>
+				<mos/>
+			</persnreq-setup-item>
+		</persnreq>
+		<ref>
+			<ref-setup-item>
+				<extref docno="TM 55-8145-236-13&amp;P"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00027-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00029-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00028-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00030-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00032-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00031-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00024-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00033-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00039-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00040-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00043-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00044-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00045-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00047-10-5419-218"/>
+			</ref-setup-item>
+			<ref-setup-item>
+				<xref wpid="O00048-10-5419-218"/>
+			</ref-setup-item>
+		</ref>
+		<eqpconds>
+			<eqpconds-setup-item>
+				<condition>Temporary shutdown complete</condition>
+				<itemref>
+					<xref wpid="O00022-10-5419-218"/>
+				</itemref>
+			</eqpconds-setup-item>
+		</eqpconds>
+	</initial_setup>
+	<opertsk>
+		<prepmove>
+			<proc>
+				<title>Introduction</title>
+				<para>Preparing each subsystem in the Expeditionary Platoon Life Support Module (EPLSM) for movement is performed in one or more work packages. This work package serves as a reference guide for packing the subsystems of the EPLSM. The order listed in this WP maximizes the ability of material handling equipment (MHE) to move heavy items and minimizes MHE interaction with personnel disassembling each subsystem. Packout order can be modified based on mission requirement and multiple subsystems may be packed at the same time if enough personnel are available.</para>
+			</proc>
+			<proc>
+				<title/>
+				<para>Transportation/Storage Subsystem should be packed last in all configurations to allow for support items to be used as required during disassembly of each subsystem. After that, the priority of the remaining subsystems are left to the discretion of the unit commander. When modifying packout order, ensure all personnel are properly briefed and follow documented safety measures. Allow all items to dry as much as possible before folding and storing. Ensure all equipment and components are cleaned of dirt or debris and thoroughly dry before packing.</para>
+			</proc>
+			<proc>
+				<title>Pack EPLSM</title>
+				<step1>
+					<para>Perform preparation for movement for all subsystems listed in <xref tableid="O00023-10-5419-218-T0001"/>.</para>
+				</step1>
+				<table id="O00023-10-5419-218-T0001">
+					<title>EPLSM Preparation for Movement</title>
+					<tgroup cols="2">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<thead>
+							<row>
+								<entry>Subsystem</entry>
+								<entry>WP Reference</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>Kitchen/Dining Subsystem</entry>
+								<entry>
+									<xref wpid="O00027-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Billeting Subsystem</entry>
+								<entry>
+									<xref wpid="O00029-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Administration Subsystem</entry>
+								<entry>
+									<xref wpid="O00028-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Latrine Subsystem</entry>
+								<entry>
+									<xref wpid="O00030-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Shower Subsystem</entry>
+								<entry>
+									<xref wpid="O00032-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Laundry Subsystem</entry>
+								<entry>
+									<xref wpid="O00031-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Power Generation and Fuel Distribution Subsystem</entry>
+								<entry>
+									<xref wpid="O00024-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>Floodlights</entry>
+								<entry>
+									<xref wpid="O00033-10-5419-218"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<?Pub _newpage?>
+				<step1>
+					<para>Perform generator preparation for movement for each generator IAW <xref wpid="O00024-10-5419-218"/>.</para>
+				</step1>
+				<step1>
+					<specpara>
+						<note>
+							<trim.para>TRICON Refrigerated Container System (TRCS) is designated TRICON N55B.</trim.para>
+						</note>
+						<para>Prepare TRCS for movement IAW <xref wpid="O00043-10-5419-218"/>.</para>
+					</specpara>
+				</step1>
+				<step1>
+					<para>Perform preparation for movement for all transportation/storage TRICONs listed in <xref tableid="O00023-10-5419-218-T0002"/>.</para>
+				</step1>
+				<table id="O00023-10-5419-218-T0002">
+					<title>TRICON Preparation for Movement</title>
+					<tgroup cols="3">
+						<colspec colname="col1"/>
+						<colspec colname="col2"/>
+						<colspec colname="col3"/>
+						<thead>
+							<row>
+								<entry>TRICON Designation</entry>
+								<entry>QTY</entry>
+								<entry>WP Reference</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>N51A</entry>
+								<entry>4</entry>
+								<entry>
+									<xref wpid="O00039-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N51B</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="O00040-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N55C</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="O00044-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>N57A</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="O00045-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>57D</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="O00047-10-5419-218"/>
+								</entry>
+							</row>
+							<row>
+								<entry>50C</entry>
+								<entry>1</entry>
+								<entry>
+									<xref wpid="O00048-10-5419-218"/>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</proc>
+			<proc>
+				<title>Care and Storage</title>
+				<para>Store EPLSM in a dry area or a designated supply facility. If stored outside in humid conditions, check quarterly for dampness inside the EPLSM.</para>
+			</proc>
+			<proc>
+				<title>Special Preparation</title>
+				<para>No special preparation is required for shipment of the EPLSM other than making sure the TRICON drain plugs are open for air or rail transport to prevent a vacuum. Ensure each system has been prepared for storage and shipment IAW the appropriate technical manual. Ensure the correct MHE is available and in good condition. Ensure all TRICON doors are shut and latched securely prior to shipment. If required, couple the TRICON containers IAW <extref docno="TM 55-8145-236-13&amp;P"/>.</para>
+			</proc>
+		</prepmove>
+	</opertsk>
+</opusualwp>
