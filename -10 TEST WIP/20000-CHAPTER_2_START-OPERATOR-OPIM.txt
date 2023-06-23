@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<opim chap-toc="no" chngno="0" revno="0" tocentry="1">
-	<titlepg comment="Chapter 2 Operating Instructions" maintlvl="operator">
-		<name>EXPEDITIONARY PLATOON LIFE SUPPORT MODULE (EPLSM)</name>
-	</titlepg>
