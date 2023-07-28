@@ -1,5 +1,5 @@
 """WORK PACKAGE CONVERTER"""
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 import tkinter.font as tkfont
 from tkinter.scrolledtext import ScrolledText
 import datetime
@@ -7,6 +7,7 @@ import os
 import re
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import BOTH, BOTTOM, END, FALSE, LEFT, RIGHT, TOP, TRUE, WORD, X, YES
+
 
 def get_date():
     """Gets the current publication date in proper TM format."""
@@ -49,7 +50,7 @@ def get_wp_code(filename) -> str:
 
 def open_wip_dir() -> None:
     """Opens TM WIP folder and creates a production.xml file an IADS project."""
-    attributes = []
+    # attributes: list[str] = []
     XML_VERSION = '<?xml version="1.0" encoding="UTF-8"?>'
     DOCTYPE_OPEN = '<!DOCTYPE production PUBLIC "-//USA-DOD//DTD -1/2D TM Assembly REV D 7.0 20220130//EN" "../dtd/40051D_7_0.dtd" ['
     DOCTYPE_CLOSE = ']>'
@@ -71,76 +72,55 @@ def open_wip_dir() -> None:
     pim_entities = ''
     rear_entity = ''
     production_xml = f'{XML_VERSION}\n{DOCTYPE_OPEN}\n'
-    _c = 1
-    _o = 1
-    _u = 1
+    _c = 0
+    _o = 0
+    _u = 0
 
     if filenames := filedialog.askopenfilenames():
         for path in filenames:
             filename = os.path.basename(path)
             
-            # if "FrontMatter".lower() in filename.lower() or "Front_Matter".lower() in filename.lower() or "Front Matter".lower() in filename.lower() or "FrontCover".lower() in filename.lower() or "Front_Cover".lower() in filename.lower() or "Front Cover".lower() in filename.lower():
-            #     with open(path, 'r', encoding='utf-8') as _f:
-            #         for line in _f:
-            #             line = line.lstrip("\t")
-            #             if line.startswith("<tmno>"):
-            #                 tmno = line[6:-8]
-            #                 attributes.append(tmno)
-            #                 maintlvls = re.findall(r"\d+$", tmno)
-            #                 if maintlvls == [] or maintlvls == None:
-            #                     maintlvls = re.findall(r"\d+\&amp;[pP]", tmno)
-            #                     maintlvls = re.findall(r"\d+", maintlvls[0])
-            #                 attributes.append(maintlvls[0])
-            #             if line.startswith("<name>"):
-            #                 name = line[6:-8]
-            #                 attributes.append(name)
-            #                 break
-            #             if "RPSTL" in line or "Repair".lower() in filename.lower() and "Parts".lower() in filename.lower():
-            #                 attributes.append("yes")
-            #             else:
-            #                 attributes.append("no")
-            #         _f.close()
-            if "Front".lower() in filename.lower() and "Cover".lower() in filename.lower():
+            if "entitydeclaration" in filename.lower():
+                continue
+            elif "front cover" in filename.lower() or "title page" in filename.lower():
                 tag = "frntcover"
                 paper_frnt_tag += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "Warning".lower() in filename.lower() or "Summary".lower() in filename.lower():
+
+                with open(path, 'r', encoding='utf-8') as _f:
+                    for line in _f:
+                        if "<name>" in line:
+                            system_name = line.lstrip('\t')[6:-8]
+                            # system_name = line.lstrip('(')[0]
+                            # system_abbr = system_name[1][:-2]
+                    _f.close()
+            elif "warning" in filename.lower() or "summary" in filename.lower():
                 tag = "warnsum"
                 paper_frnt_tag += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "LOEP".lower() in filename.lower() or "Effective".lower() in filename.lower():
+            elif "loep" in filename.lower() or "effective" in filename.lower():
                 tag = "loep"
                 paper_frnt_tag += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "TitleBlock_TOC_HowToUse".lower() in filename.lower():
+            elif "titleblock_toc_howtouse" in filename.lower():
                 tag = "tb_toc_htu"
                 paper_frnt_tag += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            # elif "TitleBlock".lower() in filename.lower() or "Title_Block".lower() in filename.lower() or "TitleBlk".lower() in filename.lower():
-            #     tag = "titleblk"
-            #     paper_frnt_tag += f'&{tag}; '
-            #     production_xml += f'\t{get_entity_data(tag, filename)}'
-            # elif "TOC".lower() in filename.lower() or "TableOfContents".lower() in filename.lower() or "Table_Of_Contents".lower() in filename.lower():
-            #     tag = "toc"
-            #     paper_frnt_tag += f'&{tag}; '
-            #     production_xml += f'\t{get_entity_data(tag, filename)}'
-            # TODO Fix this TOC issue
-            # else:
-            #     production_xml += "\t\t\t<contents>\n\t\t\t\t<title/>\n\t\t\t\t<col.title/>\nt\t\t\t\t<col.title/>\n\t\t\t\t<contententry>\n\t\t\t\t\t<title/>\n\t\t\t\t</contententry>\n\t\t\t</contents>\n"
-            elif "HowToUse".lower() in filename.lower() or "How_To_Use".lower() in filename.lower():
+            elif "howtouse" in filename.lower() or "how_to_use" in filename.lower():
                 tag = "howtouse"
                 paper_frnt_tag += f'&{tag};\n\t'
                 production_xml += f'\t{get_entity_data(tag, filename)}'
+                
             # GENERAL INFORMATION, EQUIPMENT DESCRIPTION, and THEORY OF OPERATIONS
-            elif "GenInfo".lower() in filename.lower() or "GeneralInfo".lower() in filename.lower() or "Gen_Info".lower() in filename.lower() or "General_Info".lower() in filename.lower() and "Chap".lower() not in filename.lower() and "START".lower() not in filename.lower():
+            elif "general info" in filename.lower() or "geninfo" in filename.lower() or "generalinfo" in filename.lower() or "gen_info" in filename.lower() or "general_info" in filename.lower() and "chap" not in filename.lower() and "start" not in filename.lower() and "end" not in filename.lower():
                 tag = "ginfowp"
                 gim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "EqpDesc".lower() in filename.lower() or "Equipment Description".lower() in filename.lower() or "Equipment_Desc".lower() in filename.lower() or "General_Info".lower() in filename.lower():
+            elif "equipment" in filename.lower() and "description" in filename.lower():
                 tag = "descwp"
                 gim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "TheoryOps".lower() in filename.lower() or "TheoryOfOp".lower() in filename.lower() or "ThryOps".lower() in filename.lower() or "General_Info".lower() in filename.lower() or "ThryOps".lower() in filename.lower() or "Theory".lower() in filename.lower():
+            elif "theoryops" in filename.lower() or "theoryofop" in filename.lower() or "thryops" in filename.lower() or "theory" in filename.lower():
                 tag = "thrywp"
                 gim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
@@ -155,7 +135,7 @@ def open_wip_dir() -> None:
                     tag = f"ctrlindwp{_c}"
                     opim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-O00" in filename and "unusual" not in filename.lower():
+            elif "O00" in filename and "unusual" not in filename.lower():
                 if usual_entities == "":
                     tag = "opusualwp"
                     usual_entities += f'&{tag}; '
@@ -164,7 +144,7 @@ def open_wip_dir() -> None:
                     tag = f"opusualwp{_o}"
                     usual_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-O00" in filename and "unusual" in filename.lower():
+            elif "O00" in filename and "unusual" in filename.lower():
                 if unusual_entities == "":
                     tag = "opunuwp"
                     unusual_entities += f'&{tag}; '
@@ -181,159 +161,150 @@ def open_wip_dir() -> None:
                 production_xml += f'\t{get_entity_data(tag, filename)}'
 
             # TROUBLESHOOTING
-            elif ("TS" in filename or "Troubleshooting" in filename) and "Intro" in filename:
+            elif ("TS" in filename or "troubleshooting" in filename.lower()) and "intro" in filename.lower():
                 tag = "tsintrowp"
-                new_tag = ""
                 with open(path, "r", encoding="utf-8") as _f:
                     for line in _f:
                         line = line.lstrip("\t")
-                        if line.startswith("<maintlvl level=") and "operator" in line:
-                            new_tag = f'o{tag}'
-                            tim_entities += f'&{new_tag}; '
-                        elif line.startswith("<maintlvl level=") and "maintainer" in line:
-                            new_tag = f'm{tag}'
-                            mtim_entities += f'&{new_tag}; '
-                        break
+                        if "<maintlvl level=" in line and "operator" in line:
+                            print(line)
+                            tag = f'{tag}-oper'
+                            tim_entities += f'&{tag}; '
+                        elif "<maintlvl level=" in line and "maintainer" in line:
+                            print(line)
+                            tag = f'{tag}-main'
+                            mtim_entities += f'&{tag}; '
                     _f.close()
-                production_xml += f'\t{get_entity_data(new_tag, filename)}'
-            elif ("TS" in filename or "Troubleshooting" in filename) and "Index" in filename:
+                production_xml += f'\t{get_entity_data(tag, filename)}'
+            elif ("TS" in filename or "troubleshooting" in filename.lower()) and "index" in filename.lower():
                 tag = "tsindexwp"
-                new_tag = ""
                 with open(path, "r", encoding="utf-8") as _f:
                     for line in _f:
                         line = line.lstrip("\t")
-                        if line.startswith("<maintlvl level=") and "operator" in line:
-                            new_tag = f'o{tag}'
-                            tim_entities += f'&{new_tag}; '
-                        elif line.startswith("<maintlvl level=") and "maintainer" in line:
-                            new_tag = f'm{tag}'
-                            mtim_entities += f'&{new_tag}; '
-                        break
+                        if "<maintlvl level" in line and "operator" in line:
+                            tag = f'{tag}-oper'
+                            tim_entities += f'&{tag}; '
+                        elif "<maintlvl level" in line and "maintainer" in line:
+                            tag = f'{tag}-main'
+                            mtim_entities += f'&{tag}; '
                     _f.close()
-                production_xml += f'\t{get_entity_data(new_tag, filename)}'
-            elif "-T000" in filename and "intro" not in filename.lower() and "index" not in filename.lower() and "start" not in filename.lower() and "chap" not in filename.lower():
+                production_xml += f'\t{get_entity_data(tag, filename)}'
+            elif "T000" in filename and "intro" not in filename.lower() and "index" not in filename.lower() and "start" not in filename.lower() and "end" not in filename.lower() and "chap" not in filename.lower():
                 tag = get_wp_code(filename)
                 tim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-T001" in filename and "intro" not in filename.lower() and "index" not in filename.lower() and "start" not in filename.lower() and "chap" not in filename.lower():
+            elif "T001" in filename and "intro" not in filename.lower() and "index" not in filename.lower() and "start" not in filename.lower() and "end" not in filename.lower() and "chap" not in filename.lower():
                 tag = get_wp_code(filename)
                 mtim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
 
             # PREVENTIVE MAINTENANCE CHECKS AND SERVICES (PMCS)
-            elif "-M00" in filename and "PMCS" in filename and "Intro" in filename:
+            elif "M00" in filename and "PMCS" in filename and "intro" in filename.lower():
                 tag = "pmcsintrowp"
                 with open(path, "r", encoding="utf-8") as _f:
                     for line in _f:
                         line = line.lstrip("\t")
-                        if line.startswith("<maintlvl level=") and "operator" in line:
-                            mim_entities += f'&o{tag}; '
-                        elif line.startswith("<maintlvl level=") and "maintainer" in line:
-                            mim2_entities += f'&m{tag}; '
-                        break
-                    _f.close()
-                production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-M00" in filename and "PMCS" in filename and "Daily".lower() in filename.lower() or "Weekly".lower() in filename.lower() or "Monthly".lower() in filename.lower() or "Quarterly".lower() in filename.lower() or "Semi-annually".lower() in filename.lower() or "Annually".lower() in filename.lower() or "Before".lower() in filename.lower() or "During".lower() in filename.lower() or "After".lower() in filename.lower():
-                tag = get_wp_code(filename)
-                with open(path, "r", encoding="utf-8") as _f:
-                    for line in _f:
-                        line = line.lstrip("\t")
-                        if line.startswith("<maintlvl level=") and "operator" in line:
+                        if "<maintlvl level" in line and "operator" in line:
+                            tag = f'{tag}-oper'
                             mim_entities += f'&{tag}; '
-                        elif line.startswith("<maintlvl level=") and "maintainer" in line:
+                        elif "<maintlvl level" in line and "maintainer" in line:
+                            tag = f'{tag}-main'
                             mim2_entities += f'&{tag}; '
-                        break
                     _f.close()
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            
-            # MAINTENANCE PROCEDURES
-            elif "-M00" in filename and "PMCS" not in filename:
+            elif "M000" in filename and "PMCS" in filename and "daily" in filename.lower() or "weekly" in filename.lower() or "monthly" in filename.lower() or "quarterly" in filename.lower() or "semi-annually" in filename.lower() or "annually" in filename.lower() or "before" in filename.lower() or "during" in filename.lower() or "after" in filename.lower():
                 tag = get_wp_code(filename)
-                with open(path, "r", encoding="utf-8") as _f:
-                    for line in _f:
-                        line = line.lstrip("\t")
-                        if line.startswith("<maintlvl level=") and "operator" in line:
-                            omim_entities += f'&{tag}; '
-                        elif line.startswith("<maintlvl level=") and "maintainer" in line:
-                            mmim_entities += f'&{tag}; '
-                        break
-                    _f.close()
+                mim_entities += f'&{tag}; '
+                production_xml += f'\t{get_entity_data(tag, filename)}'
+            elif ("M001" in filename or "M002" in filename) and "PMCS" in filename and "daily" in filename.lower() or "weekly" in filename.lower() or "monthly" in filename.lower() or "quarterly" in filename.lower() or "semi-annually" in filename.lower() or "annually" in filename.lower() or "before" in filename.lower() or "during" in filename.lower() or "after" in filename.lower():
+                tag = get_wp_code(filename)
+                mim2_entities += f'&{tag}; '
+                production_xml += f'\t{get_entity_data(tag, filename)}'
+
+            # MAINTENANCE PROCEDURES
+            elif "M000" in filename and "PMCS" not in filename:
+                tag = get_wp_code(filename)
+                omim_entities += f'&{tag}; '
+                production_xml += f'\t{get_entity_data(tag, filename)}'
+            elif ("M001" in filename or "M002" in filename) and "PMCS" not in filename:
+                tag = get_wp_code(filename)
+                mmim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
 
             # DESTRUCTION OF EQUIPMENT TO PREVENT ENEMY USE
-            elif "-D00" in filename and "Intro" in filename and "Destruct" in filename:
+            elif "D00" in filename and "intro" in filename.lower() and "destruct" in filename.lower():
                 tag = "destruct-introwp"
                 dim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-D00" in filename and "Intro" not in filename.lower():
+            elif "D00" in filename and "Intro" not in filename.lower():
                 tag = get_wp_code(filename)
                 dim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
 
             # REPAIR PARTS AND SPECIAL TOOLS LIST (RPSTL)
-            elif "rpstl" in filename.lower() or "partsinfo" in filename.lower() and "intro" in filename.lower():
+            elif "rpstl" in filename.lower() and "intro" in filename.lower() and "start" not in filename.lower() and "end" not in filename.lower():
                 tag = "introwp"
                 pim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-R00" in filename and "intro" not in filename.lower() and "nsn" not in filename.lower() and "pn" not in filename.lower() and "bulk" not in filename.lower() and "partnumber" not in filename.lower() and "index" not in filename.lower():
+            elif "R00" in filename and "intro" not in filename.lower() and "nsn" not in filename.lower() and "pn" not in filename.lower() and "bulk" not in filename.lower() and "partnumber" not in filename.lower() and "index" not in filename.lower() and "start" not in filename.lower() and "end" not in filename.lower():
                 tag = get_wp_code(filename)
                 pim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-R00" in filename and "Bulk" in filename and "Item" in filename:
+            elif "R00" in filename and "bulk" in filename.lower() and "item" in filename.lower():
                 tag = "bulk_itemswp"
                 pim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-R00" in filename and "NSN" in filename and "Index" in filename:
+            elif "R00" in filename and "NSN" in filename and "index" in filename.lower():
                 tag = "nsnindxwp"
                 pim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-R00" in filename and "PN" in filename or "Part" in filename and "Index" in filename:
+            elif "R00" in filename and "PN" in filename or "part" in filename.lower() and "index" in filename.lower():
                 tag = "pnindxwp"
                 pim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
 
             # SUPPORTING INFORMATION
-            elif "-S00" in filename and "Reference" in filename:
+            elif "S00" in filename and "reference" in filename.lower():
                 tag = "refwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "macintro" in filename.lower() or "mac_intro" in filename.lower() or "mac`" in filename.lower():
+            elif "S00" in filename and "mac" in filename.lower() and "intro" in filename.lower():
                 tag = "macintrowp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "MAC" in filename:
+            elif "S00" in filename and "mac" in filename.lower() and "intro" not in filename.lower():
                 tag = "macwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "COEI" in filename or "BII" in filename :
+            elif "S00" in filename and "COEI" in filename or "BII" in filename:
                 tag = "coeibiiwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "Expendable" in filename or "Durable" in filename or "EDIL" in filename:
+            elif "S00" in filename and "expendable" in filename.lower() or "durable" in filename.lower() or "EDIL" in filename:
                 tag = "explistwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "AAL" in filename or "Additional" in filename and "Authorization" in filename:
+            elif "S00" in filename and "AAL" in filename or "additional" in filename.lower() and "authorization" in filename.lower():
                 tag = "aalwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "TIL" in filename or "Tool" in filename and "Identification" in filename:
+            elif "S00" in filename and "TIL" in filename or "tool" in filename.lower() and "identification" in filename.lower():
                 tag = "tilwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "MRP" in filename or "Mandatory" in filename and "Replacement" in filename:
+            elif "S00" in filename and "MRP" in filename or "mandatory" in filename.lower() and "replacement" in filename.lower():
                 tag = "mrplwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "CSI" in filename or "Critical" in filename and "Safety" in filename:
+            elif "S00" in filename and "CSI" in filename or "critical" in filename.lower() and "safety" in filename.lower():
                 tag = "csi.wp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "support" in filename.lower() and "item" in filename.lower():
+            elif "S00" in filename and "support" in filename.lower() and "item" in filename.lower():
                 tag = "supitemwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
-            elif "-S00" in filename and "additional" in filename.lower() and "supporting" in filename.lower():
+            elif "S00" in filename and "additional" in filename.lower() and "supporting" in filename.lower():
                 tag = "genwp"
                 sim_entities += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
@@ -344,60 +315,84 @@ def open_wip_dir() -> None:
                 rear_entity += f'&{tag}; '
                 production_xml += f'\t{get_entity_data(tag, filename)}'
                 break
-
+    
+    print("ENTITIES IN WIP FOLDER")
     # Concatenate XML file by tags/sections
     # paper_manual_tag = f'<paper.manual maintitl="{attributes[2]}" maintlvls="{attributes[1]}" revno="0" rpstl="{attributes[3]}" pubno="{attributes[0]}">'
     paper_manual_tag = '<paper.manual maintitl="" maintlvls="" revno="0" rpstl="" pubno="">'
     production_xml += f'{DOCTYPE_CLOSE}\n{production_tag}\n\t{paper_manual_tag}\n\t\t{paper_frnt_tag}\n\t\t</paper.frnt>\n'
-    production_xml += '\t\t<gim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>General Information</name>\n\t\t\t</titlepg>\n'
+    print(paper_frnt_tag)
+    production_xml += f'\t\t<gim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
     production_xml += f'\t\t\t{gim_entities}\n\t\t</gim>\n'
+    print(gim_entities)
     if opim_entities != '':
-        production_xml += '\t\t<opim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Operator Instructions</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t<opim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
         production_xml += f'\t\t\t{opim_entities}{usual_entities}{unusual_entities}\n\t\t</opim>\n'
+        print(f'{opim_entities} {usual_entities} {unusual_entities}')
     if tsim_entities != '':
-        production_xml += '\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Troubleshooting Master Index</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{tsim_entities}\n\t\t</tim>\n'
+        production_xml += f'\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<masterindexcategory>\n\t\t\t\t{tsim_entities}\n\t\t\t</masterindexcategory>\n\t\t</tim>\n'
+        print(tsim_entities)
     if tim_entities != '':
-        production_xml += '\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Operator Troubleshooting</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{tim_entities}\n\t\t</tim>\n'
+        production_xml += f'\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<troublecategory>\n\t\t\t\t{tim_entities}\n\t\t\t</troublecategory>\n\t\t</tim>\n'
+        print(tim_entities)
     if mtim_entities != '':
-        production_xml += '\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Maintainer Troubleshooting</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{mtim_entities}\n\t\t</tim>\n'
+        production_xml += f'\t\t<tim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="maintainer">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<troublecategory>\n\t\t\t\t{mtim_entities}\n\t\t\t</troublecategory>\n\t\t</tim>\n'
+        print(mtim_entities)
     if mim_entities != '':
-        production_xml += '\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Operator PMCS</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{mim_entities}\n\t\t</mim>\n'
+        production_xml += f'\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<pmcscategory>\n\t\t\t\t{mim_entities}\n\t\t\t</pmcscategory>\n\t\t</mim>\n'
+        print(mim_entities)
     if mim2_entities != '':
-        production_xml += '\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Maintainer PMCS</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{mim2_entities}\n\t\t</mim>\n'
+        production_xml += f'\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="maintainer">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<pmcscategory>\n\t\t\t\t{mim2_entities}\n\t\t\t</pmcscategory>\n\t\t</mim>\n'
+        print(mim2_entities)
     if omim_entities != '':
-        production_xml += '\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Operator Maintenance</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{omim_entities}\n\t\t</mim>\n'
+        production_xml += f'\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<maintenancecategory>\n\t\t\t\t{omim_entities}\n\t\t\t</maintenancecategory>\n\t\t</mim>\n'
+        print(omim_entities)
     if mmim_entities != '':
-        production_xml += '\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Maintainer Maintenance</name>\n\t\t\t</titlepg>\n'
-        production_xml += f'\t\t\t{mmim_entities}\n\t\t</mim>\n'
+        production_xml += f'\t\t<mim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="maintainer">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t\t<maintenancecategory>\n\t\t\t\t{mmim_entities}\n\t\t\t</maintenancecategory>\n\t\t</mim>\n'
+        print(mmim_entities)
     if dim_entities != '':
-        production_xml += '\t\t<dim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Destruction of Equipment</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t<dim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
         production_xml += f'\t\t\t{dim_entities}\n\t\t</dim>\n'
+        print(dim_entities)
     if pim_entities != '':
-        production_xml += '\t\t<pim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Repair Parts and Special Tools List</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t<pim chngno="0" dmwr-inclus="none" revno="0" chap-toc="no">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
         production_xml += f'\t\t\t{pim_entities}\n\t\t</pim>\n'
+        print(pim_entities)
     if sim_entities != '':
-        production_xml += '\t\t<sim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>Supporting Information</name>\n\t\t\t</titlepg>\n'
+        production_xml += f'\t\t<sim revno="0" chngno="0">\n\t\t\t<titlepg maintlvl="operator">\n\t\t\t\t<name>{system_name}</name>\n\t\t\t</titlepg>\n'
         production_xml += f'\t\t\t{sim_entities}\n\t\t</sim>\n'
+        print(sim_entities)
     
     if rear_entity != '':
         production_xml += f'\t\t{rear_entity}\n'
+        print(rear_entity)
     production_xml += '\t</paper.manual>\n</production>'
     textbox.insert(END, production_xml)
-    textbox.configure(state="normal")
-    textbox.update()
+    save_btn.configure(state="normal")
 
 
 def get_entity_data(tag, filename) -> str:
     """Creates an ENTITY tag with proper name and path and appends it to the entity list."""
-    path = filename
-    entity = [tag, path]
+    entity = [tag, filename]
     return f'<!ENTITY {entity[0]} SYSTEM "./{entity[1]}">\n'
+
+
+def save_file():
+    """Saves the file to the user's desktop."""
+    filepath = filedialog.asksaveasfilename(initialdir = "/",
+        title="Save file", filetypes = (("xml files", "*.xml"),
+        ("all files","*.*")))
+    with open(filepath, 'w', encoding='utf-8') as file:
+        file.write(textbox.get(1.0, END))
+    filename = os.path.basename(filepath)
+    messagebox.showinfo("File Saved", f'The file {filename} has been saved to {filepath}.')
 
 
 root = ttk.Window("IADS PRODUCTION FILE GENERATOR", "darkly")
@@ -415,7 +410,7 @@ wip_btn = ttk.Button(frame_top, text="WIP FOLDER", command=open_wip_dir,
 wip_btn.pack(side=LEFT, fill=BOTH, expand=TRUE, padx=10, pady=(10, 0))
 
 save_btn = ttk.Button(frame_top, text="SAVE FILE", bootstyle="success",
-                      state="disabled")
+                      state="disabled", command=save_file)
 save_btn.pack(side=RIGHT, fill=BOTH, expand=TRUE, padx=10, pady=(10, 0))
 
 style = ttk.Style()
